@@ -61,14 +61,13 @@ and dont interfere with other modded files
 3. Import the project into the IDEA via the pom.xml as a new project (File/Open/..) which will then be used to automatically build the project.
 
 ### Background/Mod philosophy
-Should be on the mod page
+Should be on the [Mod Page](https://steamcommunity.com/sharedfiles/filedetails/?id=2952980917)
 
 ### How to contribute
 If you know your way around git. Then create a branch and open a pull request with the desired changes.
 Otherwise let me know via Steam via comment.
-LinkWhenItGoesLive
 
-### Exhaustive list of featured default syncretic cultures
+### [Exhaustive list of featured default syncretic cultures] (#CultureList)
 | Syncretic Culture | Base Cultures | Optional Cultures |
 | ----------------- | ------------- | ----------------- |
 | Modern French | [french, occitan] | [wallonian, breton] |
