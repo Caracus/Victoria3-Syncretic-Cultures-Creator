@@ -71,41 +71,30 @@ LinkWhenItGoesLive
 ### Exhaustive list of featured default syncretic cultures
 | Syncretic Culture | Base Cultures | Optional Cultures | Mutually Exclusive With |
 | ----------------- | ------------- | ----------------- | ----------------------- |
-| French: (modern_french)  | [french, occitan]  | [wallonian, breton]  | []  |
-| Chinese: (chinese)  | [min, han, yue, manchu, hakka]  | []  | []  |
-| Italian: (italian)  | [south_italian, maltese, north_italian]  | [corsican]  | []  |
-| Rus: (rus)  | [ukrainian, russian, byelorussian]  | []  | []  |
-| Yugoslavian: (yugoslavian)  | [serb, slovene, croat, bulgarian, bosniak]  | []  | []  |
-| West Slavic: (west_slavic_culture)  | [sorb, slovak, polish, czech]  | []  | []  |
-| Arabian: (arabian)  | [mashriqi, maghrebi, somali, yemenite, sudanese, bedouin, misri, berber]  | []  | []  |
-| Netherlandic: (netherlandic)  | [dutch, boer, flemish]  | [wallonian]  | []  |
-| Anglophone: (anglosphere)  | [yankee, anglo_canadian, australian, british, scottish, dixie, welsh]  | [afro_american, afro_caribbean]  | [modern_british, us_american, canadian]  |
-| British: (modern_british)  | [british, scottish]  | [irish, welsh]  | [anglosphere]  |
-| US American: (us_american)  | [yankee, dixie]  | [afro_american, cajun]  | [anglosphere]  |
-| Canadian: (canadian)  | [anglo_canadian, franco_canadian]  | []  | [anglosphere]  |
-| Iberic: (iberic)  | [spanish, catalan, brazilian, north_andean, platinean, caribeno, central_american, south_andean, portuguese, basque, mexican, galician]  | [afro_caribeno, afro_brazilian]  | [porto_brazilian, modern_portuguese, latino, hispanic, modern_spanish, iberian]  |
-| Hispanic: (hispanic)  | [spanish, north_andean, platinean, caribeno, central_american, south_andean, mexican]  | [catalan, afro_caribeno, basque, galician]  | [iberic, latino, modern_spanish, iberian]  |
-| Latino: (latino)  | [north_andean, platinean, caribeno, central_american, south_andean, mexican]  | [afro_caribeno]  | [hispanic]  |
-| Iberian: (iberian)  | [spanish, catalan, portuguese, basque, galician]  | []  | [porto_brazilian, modern_portuguese, iberic, hispanic, modern_spanish]  |
-| Modern Spanish: (modern_spanish)  | [spanish, catalan]  | [basque, galician]  | [iberic, hispanic, iberian]  |
-| Porto-Brazilian: (porto_brazilian)  | [brazilian, portuguese, galician]  | [afro_brazilian]  | [modern_portuguese, iberic, iberian]  |
-| Modern Portuguese: (modern_portuguese)  | [portuguese, galician]  | []  | [porto_brazilian, iberic, iberian]  |
-| Modern Japanese: (modern_japanese)  | [ainu, japanese]  | [korean]  | []  |
-| Scandinavian: (scandinavian)  | [swedish, icelandic, danish, norwegian]  | [finnish, sami]  | [finnic, germanic]  |
-| Finnic: (finnic_culture)  | [finnish, ugrian, estonian, sami]  | []  | [scandinavian, baltic]  |
-| Baltic: (baltic)  | [estonian, lithuanian, latvian]  | []  | [finnic]  |
-| Turkic: (turkic_culture)  | [yakut, turkish, kirgiz, tatar, hazara, azerbaijani, uzbek, tuvan, uighur, turkmen, kazak]  | []  | []  |
-| German: (german)  | [south_german, north_german]  | [ashkenazi, swiss]  | []  |
-| Germanic: (germanic)  | [dutch, swedish, icelandic, danish, south_german, boer, north_german, swiss, flemish, norwegian]  | [ashkenazi, british]  | [scandinavian]  |
-| Israeli: (israeli)  | [sephardic, ashkenazi]  | []  | []  |
-Done
-
-Process finished with exit code 0
-
-Done
-
-Process finished with exit code 0
-
-
-Process finished with exit code 0
-
+| French | [french, occitan] | [wallonian, breton] | [] |
+| Chinese | [min, han, yue, manchu, hakka] | [] | [] |
+| Italian | [south_italian, maltese, north_italian] | [corsican] | [] |
+| Rus | [ukrainian, russian, byelorussian] | [] | [] |
+| Yugoslavian | [serb, slovene, croat, bulgarian, bosniak] | [] | [] |
+| West Slavic | [sorb, slovak, polish, czech] | [] | [] |
+| Arabian | [mashriqi, maghrebi, somali, yemenite, sudanese, bedouin, misri, berber] | [] | [] |
+| Netherlandic | [dutch, boer, flemish] | [wallonian] | [] |
+| Anglophone | [yankee, anglo_canadian, australian, british, scottish, dixie, welsh] | [afro_american, afro_caribbean] | [modern_british, us_american, canadian] |
+| British | [british, scottish] | [irish, welsh] | [anglosphere] |
+| US American | [yankee, dixie] | [afro_american, cajun] | [anglosphere] |
+| Canadian | [anglo_canadian, franco_canadian] | [] | [anglosphere] |
+| Iberic | [spanish, catalan, brazilian, north_andean, platinean, caribeno, central_american, south_andean, portuguese, basque, mexican, galician] | [afro_caribeno, afro_brazilian] | [porto_brazilian, modern_portuguese, latino, hispanic, modern_spanish, iberian] |
+| Hispanic | [spanish, north_andean, platinean, caribeno, central_american, south_andean, mexican] | [catalan, afro_caribeno, basque, galician] | [iberic, latino, modern_spanish, iberian] |
+| Latino | [north_andean, platinean, caribeno, central_american, south_andean, mexican] | [afro_caribeno] | [hispanic] |
+| Iberian | [spanish, catalan, portuguese, basque, galician] | [] | [porto_brazilian, modern_portuguese, iberic, hispanic, modern_spanish] |
+| Modern Spanish | [spanish, catalan] | [basque, galician] | [iberic, hispanic, iberian] |
+| Porto-Brazilian | [brazilian, portuguese, galician] | [afro_brazilian] | [modern_portuguese, iberic, iberian] |
+| Modern Portuguese | [portuguese, galician] | [] | [porto_brazilian, iberic, iberian] |
+| Modern Japanese | [ainu, japanese] | [korean] | [] |
+| Scandinavian | [swedish, icelandic, danish, norwegian] | [finnish, sami] | [finnic, germanic] |
+| Finnic | [finnish, ugrian, estonian, sami] | [] | [scandinavian, baltic] |
+| Baltic | [estonian, lithuanian, latvian] | [] | [finnic] |
+| Turkic | [yakut, turkish, kirgiz, tatar, hazara, azerbaijani, uzbek, tuvan, uighur, turkmen, kazak] | [] | [] |
+| German | [south_german, north_german] | [ashkenazi, swiss] | [] |
+| Germanic | [dutch, swedish, icelandic, danish, south_german, boer, north_german, swiss, flemish, norwegian] | [ashkenazi, british] | [scandinavian] |
+| Israeli | [sephardic, ashkenazi] | [] | [] |
