@@ -1,0 +1,75 @@
+je_standardize_<syncretic_culture_name> = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	is_shown_when_inactive = {
+<shown_to_cultures>
+        OR = {
+            has_variable = standardize_<syncretic_culture_name>_decision_var
+            NOT = {has_variable = has_picked_a_syncretic_culture_var}
+        }
+	}
+
+	possible = {
+		has_technology_researched = pan-nationalism
+<possible_for_cultures>
+		custom_tooltip = {
+			text = standardize_<syncretic_culture_name>_decision_var_custom_tooltip
+			has_variable = standardize_<syncretic_culture_name>_decision_var
+		}
+	}
+
+	immediate = {
+		set_variable = {
+			name = standardization_<syncretic_culture_name>_var
+			value = 0
+		}
+		# adds primary to country and new homelands
+		trigger_event = { id = standardize_<syncretic_culture_name>.1 }
+	}
+
+	on_yearly_pulse = {
+		random_events = {
+			1 = standardize_<syncretic_culture_name>.2
+		}
+		effect = {
+			change_variable = {
+				name = standardization_<syncretic_culture_name>_var
+				add = 1
+			}
+			if = {
+				limit = {
+					var:standardization_<syncretic_culture_name>_var = 30
+				}
+				# option to remove primary cultures and homelands
+				trigger_event = { id = standardize_<syncretic_culture_name>.3 }
+			}
+			if = {
+				limit = {
+					var:standardization_<syncretic_culture_name>_var = 50
+				}
+				# option to remove primary cultures and homelands
+				trigger_event = { id = standardize_<syncretic_culture_name>.3 }
+			}
+		}
+	}
+
+	complete = {
+		var:standardization_<syncretic_culture_name>_var = 100
+	}
+
+	current_value = {
+		value = root.var:standardization_<syncretic_culture_name>_var
+	}
+
+	goal_add_value = {
+		add = 100
+	}
+
+	progressbar = yes
+
+	on_complete = {
+		remove_variable = standardization_<syncretic_culture_name>_var
+	}
+
+	weight = 100
+}

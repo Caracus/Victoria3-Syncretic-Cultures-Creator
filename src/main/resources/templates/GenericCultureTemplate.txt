@@ -1,0 +1,16 @@
+<syncretic_culture_name>={
+	color= <color>
+	religion = <religion>
+	traits = { <traits> }
+
+	obsessions = {
+		<obsessions>
+	}
+
+<name_lists>
+
+	graphics = <graphics>
+	ethnicities = {
+		1 = <ethnicity>
+	}
+}

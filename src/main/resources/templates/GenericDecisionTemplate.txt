@@ -1,0 +1,26 @@
+standardize_<syncretic_culture_name>_decision = {
+	is_shown = {
+<shown_to_cultures>
+		NOT = {has_variable = has_picked_a_syncretic_culture_var}
+	}
+
+	possible = {
+<possible_for_cultures>
+<exclusive_with_cultures_block>
+<exclude_this_decision_block>
+		is_player = yes
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = standardize_<syncretic_culture_name>_decision_var_custom_tooltip
+			set_variable = standardize_<syncretic_culture_name>_decision_var
+			set_variable = has_picked_a_syncretic_culture_var
+		}
+<optional_addon_cultures_block>
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}

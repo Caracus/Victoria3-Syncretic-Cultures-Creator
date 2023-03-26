@@ -1,0 +1,139 @@
+change_pop_value = {
+	value = 0.0
+	if = { limit = { is_slave }   	                 add = 0.00  }
+	else_if = { limit = { is_pop_type = peasants }   add = 0.01  }
+	else_if = { limit = { is_pop_type = farmers }    add = 0.015 }
+	else_if = { limit = { is_pop_type = clergymen }  add = 0.015 }
+	else_if = { limit = { is_pop_type = laborers }   add = 0.025 }
+	else_if = { limit = { is_pop_type = machinists } add = 0.035 }
+	else_if = { limit = { is_pop_type = soldiers }   add = 0.05  }
+	else_if = { limit = { is_pop_type = clerks }     add = 0.06  }
+	else_if = { limit = { is_pop_type = aristocrats} add = 0.08  }
+	else_if = { limit = { is_pop_type = officers }   add = 0.1   }
+	else_if = { limit = { is_pop_type = shopkeepers} add = 0.1   }
+	else_if = { limit = { is_pop_type = capitalists} add = 0.1   }
+	else_if = { limit = { is_pop_type = bureaucrats} add = 0.12  }
+	else_if = { limit = { is_pop_type = engineers }  add = 0.15  }
+	else_if = { limit = { is_pop_type = academics }  add = 0.20  }
+
+	if = {
+		limit = { literacy_rate <= 0.4 }
+		multiply = 0.5
+	} else_if = {
+		limit = { literacy_rate <= 0.6 }
+		multiply = 0.75
+	} else_if = {
+		limit = { literacy_rate > 0.6 }
+		multiply = 1.25
+	}
+
+	if = {
+		limit = {
+			owner = {
+				has_technology_researched = radio
+			}
+		}
+		add = 1.3
+	}
+
+	if = {
+		limit = {
+			owner = {
+				has_technology_researched = film
+			}
+		}
+		multiply = 1.2
+	}
+
+	if = {
+		limit = {
+			owner = {
+				has_technology_researched = mass_propaganda
+			}
+		}
+		multiply = 1.5
+	}
+
+    if = {
+        limit = {
+            pop_is_discriminated = yes
+        }
+        multiply = 0.05
+    }
+
+
+
+	# all possible modifiers would result in a 2.925 multiplier of the original base value of the table for pop type x
+
+	min = 0.0
+	max = 1.0
+}
+
+# base values are intended to be much higher in order to simulate a bigger reliance on home media and exchange, also the general willingsness to adapt
+# should also help to combat further pop fragmentation by making them faster the new main accepted culture to assimilate into
+change_pop_value_non_homeland = {
+	value = 0.0
+	     if = { limit = { is_slave }                 add = 0.0  }
+	else_if = { limit = { is_pop_type = peasants }   add = 0.1  }
+	else_if = { limit = { is_pop_type = farmers }    add = 0.2  }
+	else_if = { limit = { is_pop_type = clergymen }  add = 0.2  }
+	else_if = { limit = { is_pop_type = laborers }   add = 0.3  }
+	else_if = { limit = { is_pop_type = soldiers }   add = 0.3  }
+	else_if = { limit = { is_pop_type = clerks }     add = 0.3  }
+	else_if = { limit = { is_pop_type = machinists } add = 0.3  }
+	else_if = { limit = { is_pop_type = officers }   add = 0.3  }
+	else_if = { limit = { is_pop_type = aristocrats} add = 0.3  }
+	else_if = { limit = { is_pop_type = shopkeepers} add = 0.4  }
+	else_if = { limit = { is_pop_type = capitalists} add = 0.5  }
+	else_if = { limit = { is_pop_type = bureaucrats} add = 0.5  }
+	else_if = { limit = { is_pop_type = engineers }  add = 0.5  }
+	else_if = { limit = { is_pop_type = academics }  add = 0.5  }
+
+	if = {
+		limit = { literacy_rate <= 0.4 }
+		multiply = 0.5
+	} else_if = {
+		limit = { literacy_rate <= 0.6 }
+		multiply = 0.75
+	} else_if = {
+		limit = { literacy_rate > 0.6 }
+		multiply = 1.25
+	}
+
+	if = {
+		limit = {
+			owner = {
+				has_technology_researched = radio
+			}
+		}
+		add = 1.3
+	}
+
+	if = {
+		limit = {
+			owner = {
+				has_technology_researched = film
+			}
+		}
+		multiply = 1.2
+	}
+
+	if = {
+		limit = {
+			owner = {
+				has_technology_researched = mass_propaganda
+			}
+		}
+		multiply = 1.5
+	}
+
+    if = {
+        limit = {
+            pop_is_discriminated = yes
+        }
+        multiply = 0.05
+    }
+
+	min = 0.0
+	max = 1.0
+}

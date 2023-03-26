@@ -1,0 +1,283 @@
+namespace = standardize_<syncretic_culture_name>
+
+# Mark states with new homeland
+standardize_<syncretic_culture_name>.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = standardize_<syncretic_culture_name>.1.t
+
+	flavor = standardize_<syncretic_culture_name>.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	duration = 1
+
+	trigger = {
+		# triggered by standardization JE
+	}
+
+	option = {
+		name = standardize_<syncretic_culture_name>.1.a
+		default_option = yes
+
+		add_primary_culture = cu:<syncretic_culture_name>
+
+		every_state_region = {
+			limit = {
+				any_scope_state = {
+					owner = ROOT
+					NOT = {
+						cu:<syncretic_culture_name> =  {
+							has_homeland = PREV
+						}
+					}
+					OR = {
+<base_cultures_homeland_check_block>
+<optional_cultures_homeland_check_block>
+					}
+				}
+			}
+			add_homeland = <syncretic_culture_name>
+		}
+	}
+}
+
+standardize_<syncretic_culture_name>.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = standardize_<syncretic_culture_name>.2.t
+
+	flavor = standardize_<syncretic_culture_name>.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	trigger = {
+		# triggered by standardization JE pulses
+	}
+
+	hidden = yes
+	immediate = {
+		# check for newcomer states
+		if = {
+			limit = {
+				any_state_region = {
+					any_scope_state = {
+						owner = ROOT
+						NOT = {
+							cu:<syncretic_culture_name> =  {
+								has_homeland = PREV
+							}
+						}
+						OR = {
+<base_cultures_homeland_check_block>
+<optional_cultures_homeland_check_block>
+						}
+					}
+				}
+			}
+			# trigger homeland expansion event
+			trigger_event = { id = standardize_<syncretic_culture_name>.4 }
+		}
+
+		# trigger actual pop change event with delay to account for eventual new homelands
+		trigger_event = { id = standardize_<syncretic_culture_name>.5 days = 45}
+	}
+}
+
+standardize_<syncretic_culture_name>.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = standardize_<syncretic_culture_name>.3.t
+
+	flavor = standardize_<syncretic_culture_name>.3.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	duration = 1
+
+	trigger = {
+		# triggered by standardization JE end
+	}
+
+	option = {
+		name = standardize_<syncretic_culture_name>.3.a
+		default_option = no
+
+<remove_primary_base_cultures_block>
+<remove_primary_addon_cultures_block>
+	}
+
+	option = {
+		name = standardize_<syncretic_culture_name>.3.b
+		default_option = no
+
+	}
+
+	option = {
+		name = standardize_<syncretic_culture_name>.3.c
+		default_option = yes
+
+<remove_primary_base_cultures_block>
+<remove_primary_addon_cultures_block>
+
+		every_state_region = {
+			limit = {
+				any_scope_state = {
+					owner = ROOT
+					cu:<syncretic_culture_name> =  {
+						has_homeland = PREV
+					}
+					OR = {
+<base_cultures_homeland_check_block>
+<optional_cultures_homeland_check_block>
+					}
+				}
+			}
+<remove_base_cultures_homelands_block>
+<remove_addon_cultures_homelands_block>
+		}
+	}
+}
+
+# Add newly added states that fit the criteria to homelands
+standardize_<syncretic_culture_name>.4 = {
+	type = country_event
+	placement = ROOT
+
+	title = standardize_<syncretic_culture_name>.4.t
+
+	flavor = standardize_<syncretic_culture_name>.4.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	duration = 1
+
+	trigger = {
+		# triggered by standardization JE
+	}
+
+	option = {
+		name = standardize_<syncretic_culture_name>.4.a
+		default_option = yes
+
+		every_state_region = {
+			limit = {
+				any_scope_state = {
+					owner = ROOT
+					NOT = {
+						cu:<syncretic_culture_name> =  {
+							has_homeland = PREV
+						}
+					}
+					OR = {
+<base_cultures_homeland_check_block>
+<optional_cultures_homeland_check_block>
+					}
+				}
+			}
+			add_homeland = <syncretic_culture_name>
+		}
+	}
+}
+
+standardize_<syncretic_culture_name>.5 = {
+	type = country_event
+	placement = ROOT
+
+	title = standardize_<syncretic_culture_name>.5.t
+
+	flavor = standardize_<syncretic_culture_name>.5.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	trigger = {
+		# triggered by standardization .2
+	}
+
+	hidden = yes
+	immediate = {
+
+		every_state = {
+			# apply pop changes to old primary cultures living in newly marked homelands
+			if = {
+				limit = {
+					cu:<syncretic_culture_name> = {
+						has_homeland = PREV
+					}
+					owner = ROOT
+				}
+				every_scope_pop = {
+					limit = {
+						OR = {
+<base_culture_pop_check_block>
+<addon_culture_pop_check_block>
+						}
+					}
+					change_pop_culture = {
+						target = cu:<syncretic_culture_name>
+						value = change_pop_value
+					}
+				}
+			}
+
+			# apply pop changes to old primary cultures that have moved around within your country
+			if = {
+					limit = {
+						NOT = {
+							cu:<syncretic_culture_name> = {
+								has_homeland = PREV
+							}
+						}
+						owner = ROOT
+					}
+					every_scope_pop = {
+						limit = {
+							OR = {
+<base_culture_pop_check_block>
+<addon_culture_pop_check_block>
+							}
+
+						}
+						change_pop_culture = {
+							target = cu:<syncretic_culture_name>
+							value = change_pop_value_non_homeland
+						}
+					}
+			}
+		}
+
+	}
+}

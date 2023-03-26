@@ -1,0 +1,40 @@
+namespace = standardize_<syncretic_culture_name>_addon_<addon_culture_name>
+
+# Offer additional culture
+standardize_<syncretic_culture_name>_addon_<addon_culture_name>.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = standardize_<syncretic_culture_name>_addon_<addon_culture_name>.1.t
+
+	flavor = standardize_<syncretic_culture_name>_addon_<addon_culture_name>.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+    duration = 1
+
+	trigger = {
+		# triggered by base decision JE
+	}
+
+	option = {
+		name = standardize_<syncretic_culture_name>_addon_<addon_culture_name>.1.a
+		default_option = no
+
+		custom_tooltip = {
+			text = standardize_<syncretic_culture_name>_addon_<addon_culture_name>_var_custom_tooltip
+			set_variable = standardize_<syncretic_culture_name>_addon_<addon_culture_name>_var
+		}
+	}
+
+	option = {
+		name = standardize_<syncretic_culture_name>_addon_<addon_culture_name>.1.b
+		default_option = yes
+	}
+}
