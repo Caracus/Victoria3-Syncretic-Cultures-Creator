@@ -20,9 +20,9 @@ fun createSteamTableFromCulturesConfiguration(syncreticCultureList: List<Syncret
 }
 
 fun createGitHubTableFromCulturesConfiguration(syncreticCultureList: List<SyncreticCulture>) {
-    println("| Syncretic Culture | Base Cultures | Optional Cultures | Mutually Exclusive With |")
-    println("| ----------------- | ------------- | ----------------- | ----------------------- |")
+    println("| Syncretic Culture | Base Cultures | Optional Cultures |")
+    println("| ----------------- | ------------- | ----------------- |")
     syncreticCultureList.forEach {
-        println("| ${it.localization} | ${it.baseCultures} | ${it.optionalCultures} | ${it.mutuallyExclusiveWith} |")
+        println("| ${it.localization} | ${it.baseCultures} | ${it.optionalCultures} |")
     }
 }

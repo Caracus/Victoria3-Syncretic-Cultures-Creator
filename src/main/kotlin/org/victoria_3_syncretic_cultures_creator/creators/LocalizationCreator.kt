@@ -17,13 +17,12 @@ fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
                 syncreticCultures.forEach {
                         val cultureNameKey = it.syncreticCultureName
                         val cultureNameLocalization = it.localization
-
                         text += format(0," ${cultureNameKey}:0 \"${cultureNameLocalization}\"" ,1)
                         text += format(0," standardize_${cultureNameKey}_decision_var_custom_tooltip:0 \"Has made the decision to unite the $cultureNameLocalization cultures\"" ,1)
                         text += format(0," standardize_${cultureNameKey}_decision_not_var_custom_tooltip:0 \"Has not yet made the decision to develop the $cultureNameLocalization culture\"" ,1)
                         text += format(0," standardize_${cultureNameKey}_decision:0 \"Develop the ${cultureNameLocalization} culture\"" ,1)
                         text += format(0," standardize_${cultureNameKey}_decision_desc:0 \"Prepare plans to eventually manifest this culture.\"" ,1)
-                        text += format(0," je_standardize_${cultureNameKey}:0 \"Standardize ${cultureNameLocalization}\"" ,1)
+                        text += format(0," je_standardize_${cultureNameKey}:0 \"Develop ${cultureNameLocalization}\"" ,1)
                         text += format(0," je_standardize_${cultureNameKey}_reason:0 \"With every new generation and every annual graduation of fresh minds from our schools our newly hatched syncretic culture will venture into the world. After 30 years we shall be reviewing the new status quo!\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.1.t:0 \"Emerging $cultureNameLocalization Culture\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.1.f:0 \"By geographically uniting the many different cultures with each other it is now time to enter the next chapter that continues the integration of our people with each other. Be it orthography, festivities, customs or other good things that make us special, by sharing the beneficial and standardizing that which slows us down we can only multiply the great things we already have. And so, one sweet day, our people will look past the regional differences of old and first and foremost consider themselves as ${cultureNameLocalization}.\"" ,1)

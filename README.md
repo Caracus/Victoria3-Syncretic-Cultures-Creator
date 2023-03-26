@@ -69,32 +69,32 @@ Otherwise let me know via Steam via comment.
 LinkWhenItGoesLive
 
 ### Exhaustive list of featured default syncretic cultures
-| Syncretic Culture | Base Cultures | Optional Cultures | Mutually Exclusive With |
-| ----------------- | ------------- | ----------------- | ----------------------- |
-| French | [french, occitan] | [wallonian, breton] | [] |
-| Chinese | [min, han, yue, manchu, hakka] | [] | [] |
-| Italian | [south_italian, maltese, north_italian] | [corsican] | [] |
-| Rus | [ukrainian, russian, byelorussian] | [] | [] |
-| Yugoslavian | [serb, slovene, croat, bulgarian, bosniak] | [] | [] |
-| West Slavic | [sorb, slovak, polish, czech] | [] | [] |
-| Arabian | [mashriqi, maghrebi, somali, yemenite, sudanese, bedouin, misri, berber] | [] | [] |
-| Netherlandic | [dutch, boer, flemish] | [wallonian] | [] |
-| Anglophone | [yankee, anglo_canadian, australian, british, scottish, dixie, welsh] | [afro_american, afro_caribbean] | [modern_british, us_american, canadian] |
-| British | [british, scottish] | [irish, welsh] | [anglosphere] |
-| US American | [yankee, dixie] | [afro_american, cajun] | [anglosphere] |
-| Canadian | [anglo_canadian, franco_canadian] | [] | [anglosphere] |
-| Iberic | [spanish, catalan, brazilian, north_andean, platinean, caribeno, central_american, south_andean, portuguese, basque, mexican, galician] | [afro_caribeno, afro_brazilian] | [porto_brazilian, modern_portuguese, latino, hispanic, modern_spanish, iberian] |
-| Hispanic | [spanish, north_andean, platinean, caribeno, central_american, south_andean, mexican] | [catalan, afro_caribeno, basque, galician] | [iberic, latino, modern_spanish, iberian] |
-| Latino | [north_andean, platinean, caribeno, central_american, south_andean, mexican] | [afro_caribeno] | [hispanic] |
-| Iberian | [spanish, catalan, portuguese, basque, galician] | [] | [porto_brazilian, modern_portuguese, iberic, hispanic, modern_spanish] |
-| Modern Spanish | [spanish, catalan] | [basque, galician] | [iberic, hispanic, iberian] |
-| Porto-Brazilian | [brazilian, portuguese, galician] | [afro_brazilian] | [modern_portuguese, iberic, iberian] |
-| Modern Portuguese | [portuguese, galician] | [] | [porto_brazilian, iberic, iberian] |
-| Modern Japanese | [ainu, japanese] | [korean] | [] |
-| Scandinavian | [swedish, icelandic, danish, norwegian] | [finnish, sami] | [finnic, germanic] |
-| Finnic | [finnish, ugrian, estonian, sami] | [] | [scandinavian, baltic] |
-| Baltic | [estonian, lithuanian, latvian] | [] | [finnic] |
-| Turkic | [yakut, turkish, kirgiz, tatar, hazara, azerbaijani, uzbek, tuvan, uighur, turkmen, kazak] | [] | [] |
-| German | [south_german, north_german] | [ashkenazi, swiss] | [] |
-| Germanic | [dutch, swedish, icelandic, danish, south_german, boer, north_german, swiss, flemish, norwegian] | [ashkenazi, british] | [scandinavian] |
-| Israeli | [sephardic, ashkenazi] | [] | [] |
+| Syncretic Culture | Base Cultures | Optional Cultures |
+| ----------------- | ------------- | ----------------- |
+| Modern French | [french, occitan] | [wallonian, breton] |
+| Chinese | [min, han, yue, manchu, hakka] | [] |
+| Italian | [south_italian, maltese, north_italian] | [corsican] |
+| Rus | [ukrainian, russian, byelorussian] | [] |
+| Yugoslavian | [serb, slovene, croat, bulgarian, bosniak] | [] |
+| West Slavic | [sorb, slovak, polish, czech] | [] |
+| Arabian | [mashriqi, maghrebi, somali, yemenite, sudanese, bedouin, misri, berber] | [] |
+| Netherlandic | [dutch, boer, flemish] | [wallonian] |
+| Anglophone | [yankee, anglo_canadian, australian, british, scottish, dixie, welsh] | [afro_american, afro_caribbean] |
+| British | [british, scottish] | [irish, welsh] |
+| US American | [yankee, dixie] | [afro_american, cajun] |
+| Canadian | [anglo_canadian, franco_canadian] | [] |
+| Iberic | [spanish, catalan, brazilian, north_andean, platinean, caribeno, central_american, south_andean, portuguese, basque, mexican, galician] | [afro_caribeno, afro_brazilian] |
+| Hispanic | [spanish, north_andean, platinean, caribeno, central_american, south_andean, mexican] | [catalan, afro_caribeno, basque, galician] |
+| Latino | [north_andean, platinean, caribeno, central_american, south_andean, mexican] | [afro_caribeno] |
+| Iberian | [spanish, catalan, portuguese, basque, galician] | [] |
+| Modern Spanish | [spanish, catalan] | [basque, galician] |
+| Porto-Brazilian | [brazilian, portuguese, galician] | [afro_brazilian] |
+| Modern Portuguese | [portuguese, galician] | [] |
+| Modern Japanese | [ainu, japanese] | [korean] |
+| Scandinavian | [swedish, icelandic, danish, norwegian] | [finnish, sami] |
+| Finnic | [finnish, ugrian, estonian, sami] | [] |
+| Baltic | [estonian, lithuanian, latvian] | [] |
+| Turkic | [yakut, turkish, kirgiz, tatar, hazara, azerbaijani, uzbek, tuvan, uighur, turkmen, kazak] | [] |
+| German | [south_german, north_german] | [ashkenazi, slovene, swiss, czech] |
+| Germanic | [dutch, swedish, icelandic, danish, south_german, boer, north_german, swiss, flemish, norwegian] | [ashkenazi, british] |
+| Israeli | [sephardic, ashkenazi] | [] |

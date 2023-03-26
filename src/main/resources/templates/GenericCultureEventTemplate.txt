@@ -71,6 +71,16 @@ standardize_<syncretic_culture_name>.2 = {
 
 	hidden = yes
 	immediate = {
+        # check and re-add syncretic primary culture on this yearly check, because forming countries changes the primary cultures, which could lead to no cultures at all with event 5 causing a crash
+        if = {
+            limit = {
+                NOT = {
+                    country_has_primary_culture = cu:<syncretic_culture_name>
+                }
+            }
+            add_primary_culture = cu:<syncretic_culture_name>
+        }
+
 		# check for newcomer states
 		if = {
 			limit = {
