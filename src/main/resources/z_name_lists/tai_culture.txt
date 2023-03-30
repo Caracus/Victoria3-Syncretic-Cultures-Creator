@@ -1,0 +1,147 @@
+	male_common_first_names={
+		Chao Chulalongkorn Charoon
+		Kashemsri
+		Isariyalongkorn
+		Mongkut Mahidol
+		Nangklao Naritsaranuwatiwong Nuam
+		Phya Plaek Prajadhipok Piyararangsit
+		Rangsit
+		Sirivongse Sanidh_Prayurasakdi
+		Tuam Traidos
+		Vajiravudh
+		Yod
+		Anurutha
+		Chantha
+		Manthaturath
+		Nanthasen
+		Ong
+		Phraya
+		Sakkarin
+		Setthathirath
+		Sisavang
+		Sukha
+		Unkeo
+		Unkham
+		Hkam
+		Hkun
+		Hmu
+		Hpa
+		Hpo
+		Hseng
+		Hswe
+		Hso
+		Lun
+		Natsu
+		Naw
+		Nga
+		Pe
+		Pyi
+		Shwe
+		Sun
+		Than
+		Be
+		Duc
+		Hoang
+		Le
+		Nong
+		Quoc
+		Quynh
+		The
+		Van
+	}
+	female_common_first_names = {
+		Akew
+		Jin
+		Jinhong
+		Junying
+		Qingtang
+		Sanniang
+		Shanziang
+		Shih
+		Taiqing
+		Xiefen
+		Xiugu
+		Xuanjiao
+		Yu
+		Yunmei
+		Adorndibyanibha Abbhantripaja
+		Bandhavanna Bismai
+		Chandra Chudharatana
+		Debsirindra
+		Javalit
+		Prabha Prabai Pun
+		Sirikit Sirabhorn
+		Thao
+		Valaya Vichitra
+		Yaovabha
+		Kham-Oun
+		Khampeng
+		Khampinh
+		Khamune
+		Pheng
+		Samathi
+		Thongsy
+		Charm
+		Hearn
+	}
+	noble_last_names = {
+		Chakri
+		Praya_Siri
+		Luang_Phrabang
+		Ong
+		Sao
+		Cui
+		Li
+		Nie
+		Zhang
+	}
+	common_last_names={
+		Cao
+		Chan
+		Den
+		Hau
+		Khanh
+		Manh
+		Phach
+		Phung
+		Thu
+		Trieu
+		Bunnag
+		Chichalerm
+		Devahastin
+		Hutasingha
+		Inswang
+		Kridakorn
+		Nitithada
+		Phonphayuhasena Phahonyothin Praband Polphantin
+		Rabibadhana
+		Saovabha Suriyawongse Sinhaseni Sumontame Silpikul
+		Thephatsadin
+		Yuktanandana
+		Anuvong
+		Bun
+		Intharavong
+		Kuman
+		Long
+		Supho
+		Som
+		Vong
+		Cheng
+		Hkawt
+		Hmu
+		Hpu
+		Hung
+		Kaw
+		Lek
+		Leng
+		Letya
+		Min
+		Mong
+		Nan
+		Pak
+		Thi
+		Ya
+	}
+	male_regal_first_names={
+		Rama
+	}
