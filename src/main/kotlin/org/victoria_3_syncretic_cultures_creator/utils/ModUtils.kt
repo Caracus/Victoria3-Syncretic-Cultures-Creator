@@ -23,6 +23,6 @@ fun createGitHubTableFromCulturesConfiguration(syncreticCultureList: List<Syncre
     println("| Syncretic Culture | Base Cultures | Optional Cultures |")
     println("| ----------------- | ------------- | ----------------- |")
     syncreticCultureList.forEach {
-        println("| ${it.localization} | ${it.baseCultures} | ${it.optionalCultures} |")
+        println("| ${it.localization} | ${printSetInHumanReadableForm(it.baseCultures)} | ${printSetInHumanReadableForm(it.optionalCultures)} |")
     }
 }

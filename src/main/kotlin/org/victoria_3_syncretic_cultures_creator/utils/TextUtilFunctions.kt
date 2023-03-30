@@ -13,10 +13,27 @@ fun format(indentations: Int, text: String, linebreaks: Int): String {
     return txt
 }
 
-fun convertSnakeCaseToLocalizedString(snakeString: String): String{
+fun convertSnakeCaseToLocalizedString(snakeString: String): String {
     var combinedString = ""
     snakeString.split("_").forEach {
-        combinedString+= it.capitalize() + " "
+        combinedString += it.capitalize() + " "
     }
     return combinedString.trimEnd()
+}
+
+fun printSetInHumanReadableForm(genericSet: Set<String>): String {
+    if(genericSet.isEmpty()){
+        return ""
+    }
+    if(genericSet.size == 1){
+        return convertSnakeCaseToLocalizedString(genericSet.first())
+    }
+
+    var combinedString = ""
+    combinedString += convertSnakeCaseToLocalizedString(genericSet.first())
+    genericSet.toList().drop(1).dropLast(1).forEach {
+        combinedString += ", ${convertSnakeCaseToLocalizedString(it)}"
+    }
+    combinedString += " and ${convertSnakeCaseToLocalizedString(genericSet.last())}"
+    return combinedString
 }

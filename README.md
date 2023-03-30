@@ -70,30 +70,38 @@ Otherwise let me know via Steam via comment.
 ### [Exhaustive list of featured default syncretic cultures] (#CultureList)
 | Syncretic Culture | Base Cultures | Optional Cultures |
 | ----------------- | ------------- | ----------------- |
-| Modern French | [french, occitan] | [wallonian, breton] |
-| Chinese | [min, han, yue, manchu, hakka] | [] |
-| Italian | [south_italian, maltese, north_italian] | [corsican] |
-| Rus | [ukrainian, russian, byelorussian] | [] |
-| Yugoslavian | [serb, slovene, croat, bulgarian, bosniak] | [] |
-| West Slavic | [sorb, slovak, polish, czech] | [] |
-| Arabian | [mashriqi, maghrebi, somali, yemenite, sudanese, bedouin, misri, berber] | [] |
-| Netherlandic | [dutch, boer, flemish] | [wallonian] |
-| Anglophone | [yankee, anglo_canadian, australian, british, scottish, dixie, welsh] | [afro_american, afro_caribbean] |
-| British | [british, scottish] | [irish, welsh] |
-| US American | [yankee, dixie] | [afro_american, cajun] |
-| Canadian | [anglo_canadian, franco_canadian] | [] |
-| Iberic | [spanish, catalan, brazilian, north_andean, platinean, caribeno, central_american, south_andean, portuguese, basque, mexican, galician] | [afro_caribeno, afro_brazilian] |
-| Hispanic | [spanish, north_andean, platinean, caribeno, central_american, south_andean, mexican] | [catalan, afro_caribeno, basque, galician] |
-| Latino | [north_andean, platinean, caribeno, central_american, south_andean, mexican] | [afro_caribeno] |
-| Iberian | [spanish, catalan, portuguese, basque, galician] | [] |
-| Modern Spanish | [spanish, catalan] | [basque, galician] |
-| Porto-Brazilian | [brazilian, portuguese, galician] | [afro_brazilian] |
-| Modern Portuguese | [portuguese, galician] | [] |
-| Modern Japanese | [ainu, japanese] | [korean] |
-| Scandinavian | [swedish, icelandic, danish, norwegian] | [finnish, sami] |
-| Finnic | [finnish, ugrian, estonian, sami] | [] |
-| Baltic | [estonian, lithuanian, latvian] | [] |
-| Turkic | [yakut, turkish, kirgiz, tatar, hazara, azerbaijani, uzbek, tuvan, uighur, turkmen, kazak] | [] |
-| German | [south_german, north_german] | [ashkenazi, slovene, swiss, czech] |
-| Germanic | [dutch, swedish, icelandic, danish, south_german, boer, north_german, swiss, flemish, norwegian] | [ashkenazi, british] |
-| Israeli | [sephardic, ashkenazi] | [] |
+| Modern French | French and Occitan | Wallonian and Breton |
+| Chinese | Min, Han, Yue and Hakka | Mongol, Vietnamese, Manchu, Korean and Tibetan |
+| Italian | South Italian, Maltese and North Italian | Corsican |
+| Rus | Ukrainian, Russian and Byelorussian |  |
+| Yugoslavian | Serb, Slovene, Croat, Bulgarian and Bosniak |  |
+| West Slavic | Sorb, Slovak, Polish and Czech |  |
+| Arabian | Mashriqi, Maghrebi, Somali, Yemenite, Sudanese, Bedouin, Misri and Berber |  |
+| Netherlandic | Dutch, Boer and Flemish | Wallonian |
+| Anglophone | Yankee, Anglo Canadian, Australian, British, Scottish, Dixie and Welsh | Afro American and Afro Caribbean |
+| British | British and Scottish | Irish and Welsh |
+| US American | Yankee and Dixie | Afro American and Cajun |
+| Canadian | Anglo Canadian and Franco Canadian |  |
+| Iberic | Spanish, Catalan, Brazilian, North Andean, Platinean, Caribeno, Central American, South Andean, Portuguese, Basque, Mexican and Galician | Afro Caribeno and Afro Brazilian |
+| Hispanic | Spanish, North Andean, Platinean, Caribeno, Central American, South Andean and Mexican | Catalan, Afro Caribeno, Basque and Galician |
+| Hispanic American | North Andean, Platinean, Caribeno, Central American, South Andean and Mexican | Afro Caribeno |
+| Iberian | Spanish, Catalan, Portuguese, Basque and Galician |  |
+| Modern Spanish | Spanish and Catalan | Basque and Galician |
+| Porto-Brazilian | Brazilian, Portuguese and Galician | Afro Brazilian |
+| Modern Portuguese | Portuguese and Galician |  |
+| Modern Japanese | Ainu and Japanese | Korean |
+| Scandinavian | Swedish, Icelandic, Danish and Norwegian | Finnish and Sami |
+| Finnic | Finnish, Ugrian, Estonian and Sami |  |
+| Baltic | Estonian, Lithuanian and Latvian |  |
+| Turkic | Yakut, Turkish, Kirgiz, Tatar, Hazara, Azerbaijani, Uzbek, Tuvan, Uighur, Turkmen and Kazak | Persian |
+| German | South German and North German | Ashkenazi, Slovene, Swiss and Czech |
+| Germanic | Dutch, Swedish, Icelandic, Danish, South German, Boer, North German, Swiss, Flemish and Norwegian | Ashkenazi and British |
+| Austro-Hungarian | South German and Hungarian | Ukrainian, Slovene, Serb, North German, Slovak, Croat, Polish, Romanian, North Italian, Czech and Bosniak |
+| Israeli | Sephardic and Ashkenazi |  |
+| Ethiopian | Amhara, Tigray, Sidama, Afar and Oromo | Somali |
+| Tai | Shan, Thai, Lao and Zhuang | Khmu, Khmer and Mon |
+| Modern Burmese | Karen, Burmese, Kachin and Zhuang |  |
+| Malayan | Balinese, Moluccan, Filipino, Dayak, Sumatran, Moro, Malay, Batak, Bornean and Javan | Aborigine and Melanesian |
+| Polynesian | Micronesian, Melanesian, Polynesian, Maori and Hawaiian | Aborigine |
+| Iranian | Pashtun, Kurdish, Baluchi, Persian and Tajik | Azerbaijani |
+| Caucasian | Armenian, Circassian, North Caucasian and Georgian | Azerbaijani |

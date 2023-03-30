@@ -1,49 +1,76 @@
 [
-    {
-      "syncreticCultureName": "modern_french",
-      "baseCultures": ["french", "occitan"],
-      "formabilityCriteria": "ANY",
-      "optionalCultures": ["breton", "wallonian"],
-      "mutuallyExclusiveWith": [],
-      "localization": "Modern French",
-      "color": "rgb{ 0 32 159 }",
-      "religion": "catholic",
-      "traits": "francophone european_heritage",
-      "obsessions": "wine",
-      "graphics": "european",
-      "ethnicity": "caucasian"
-    },
-    {
-      "syncreticCultureName": "chinese",
-      "baseCultures": ["han", "hakka", "yue", "min"],
-      "formabilityCriteria": "ANY",
-      "optionalCultures": ["manchu", "korean", "vietnamese", "tibetan", "mongol"],
-      "mutuallyExclusiveWith": [],
-      "localization": "Chinese",
-      "color": "rgb{ 255 178 0 } #Imperial yellow",
-      "religion": "mahayana",
-      "traits": "sinosphere han_chinese north_asian_heritage",
-      "obsessions": "",
-      "graphics": "asian",
-      "ethnicity": "asian"
-    },
-    {
-      "syncreticCultureName": "italian",
-      "baseCultures": ["north_italian", "south_italian", "maltese"],
-      "formabilityCriteria": "ANY",
-      "optionalCultures": ["corsican"],
-      "mutuallyExclusiveWith": [],
-      "localization": "Italian",
-      "color": "rgb{ 0 140 69 } #Italy flag green",
-      "religion": "catholic",
-      "traits": "italophone european_heritage",
-      "obsessions": "wine",
-      "graphics": "european",
-      "ethnicity": "caucasian"
+  {
+    "syncreticCultureName": "modern_french",
+    "baseCultures": [
+      "french",
+      "occitan"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "breton",
+      "wallonian"
+    ],
+    "mutuallyExclusiveWith": [],
+    "localization": "Modern French",
+    "color": "rgb{ 0 32 159 }",
+    "religion": "catholic",
+    "traits": "francophone european_heritage",
+    "obsessions": "wine",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
+  {
+    "syncreticCultureName": "chinese",
+    "baseCultures": [
+      "han",
+      "hakka",
+      "yue",
+      "min"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "manchu",
+      "korean",
+      "vietnamese",
+      "tibetan",
+      "mongol"
+    ],
+    "mutuallyExclusiveWith": [],
+    "localization": "Chinese",
+    "color": "rgb{ 255 178 0 } #Imperial yellow",
+    "religion": "mahayana",
+    "traits": "sinosphere han_chinese north_asian_heritage",
+    "obsessions": "",
+    "graphics": "asian",
+    "ethnicity": "asian"
+  },
+  {
+    "syncreticCultureName": "italian",
+    "baseCultures": [
+      "north_italian",
+      "south_italian",
+      "maltese"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "corsican"
+    ],
+    "mutuallyExclusiveWith": [],
+    "localization": "Italian",
+    "color": "rgb{ 0 140 69 } #Italy flag green",
+    "religion": "catholic",
+    "traits": "italophone european_heritage",
+    "obsessions": "wine",
+    "graphics": "european",
+    "ethnicity": "caucasian"
   },
   {
     "syncreticCultureName": "rus",
-    "baseCultures": ["russian", "byelorussian", "ukrainian"],
+    "baseCultures": [
+      "russian",
+      "byelorussian",
+      "ukrainian"
+    ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
@@ -57,7 +84,13 @@
   },
   {
     "syncreticCultureName": "yugoslavian",
-    "baseCultures": ["croat", "serb", "bosniak", "bulgarian", "slovene"],
+    "baseCultures": [
+      "croat",
+      "serb",
+      "bosniak",
+      "bulgarian",
+      "slovene"
+    ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
@@ -71,7 +104,12 @@
   },
   {
     "syncreticCultureName": "west_slavic_culture",
-    "baseCultures": ["polish", "czech", "sorb", "slovak"],
+    "baseCultures": [
+      "polish",
+      "czech",
+      "sorb",
+      "slovak"
+    ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
@@ -85,7 +123,16 @@
   },
   {
     "syncreticCultureName": "arabian",
-    "baseCultures": ["maghrebi", "misri", "mashriqi", "bedouin", "berber", "somali", "sudanese", "yemenite"],
+    "baseCultures": [
+      "maghrebi",
+      "misri",
+      "mashriqi",
+      "bedouin",
+      "berber",
+      "somali",
+      "sudanese",
+      "yemenite"
+    ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
@@ -99,9 +146,15 @@
   },
   {
     "syncreticCultureName": "netherlandic",
-    "baseCultures": ["dutch", "flemish", "boer"],
+    "baseCultures": [
+      "dutch",
+      "flemish",
+      "boer"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["wallonian"],
+    "optionalCultures": [
+      "wallonian"
+    ],
     "mutuallyExclusiveWith": [],
     "localization": "Netherlandic",
     "color": "rgb{ 196 115 71 } #brown orange",
@@ -113,10 +166,25 @@
   },
   {
     "syncreticCultureName": "anglosphere",
-    "baseCultures": ["british", "scottish", "welsh", "australian", "yankee", "dixie", "anglo_canadian"],
+    "baseCultures": [
+      "british",
+      "scottish",
+      "welsh",
+      "australian",
+      "yankee",
+      "dixie",
+      "anglo_canadian"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["afro_american", "afro_caribbean"],
-    "mutuallyExclusiveWith": ["canadian", "modern_british", "us_american"],
+    "optionalCultures": [
+      "afro_american",
+      "afro_caribbean"
+    ],
+    "mutuallyExclusiveWith": [
+      "canadian",
+      "modern_british",
+      "us_american"
+    ],
     "localization": "Anglophone",
     "color": "rgb{ 201 30 18 } #intense dark red",
     "religion": "protestant",
@@ -127,10 +195,18 @@
   },
   {
     "syncreticCultureName": "modern_british",
-    "baseCultures": ["british", "scottish"],
+    "baseCultures": [
+      "british",
+      "scottish"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["welsh", "irish"],
-    "mutuallyExclusiveWith": ["anglosphere"],
+    "optionalCultures": [
+      "welsh",
+      "irish"
+    ],
+    "mutuallyExclusiveWith": [
+      "anglosphere"
+    ],
     "localization": "British",
     "color": "rgb{ 200 16 46 } #british flag red",
     "religion": "protestant",
@@ -138,39 +214,77 @@
     "obsessions": "tea",
     "graphics": "european",
     "ethnicity": "caucasian"
-  },  {
-  "syncreticCultureName": "us_american",
-  "baseCultures": ["dixie", "yankee"],
-  "formabilityCriteria": "ALL",
-  "optionalCultures": ["afro_american", "cajun"],
-  "mutuallyExclusiveWith": ["anglosphere"],
-  "localization": "US American",
-  "color": "rgb{ 26 129 171 } #More bluish than yankee",
-  "religion": "protestant",
-  "traits": "anglophone european_heritage",
-  "obsessions": "",
-  "graphics": "european",
-  "ethnicity": "caucasian"
-}, {
-  "syncreticCultureName": "canadian",
-  "baseCultures": ["anglo_canadian", "franco_canadian"],
-  "formabilityCriteria": "ANY",
-  "optionalCultures": [],
-  "mutuallyExclusiveWith": ["anglosphere"],
-  "localization": "Canadian",
-  "color": "rgb{ 138 29 23 } #dark red",
-  "religion": "protestant",
-  "traits": "anglophone european_heritage",
-  "obsessions": "",
-  "graphics": "european",
-  "ethnicity": "caucasian"
-},
+  },
+  {
+    "syncreticCultureName": "us_american",
+    "baseCultures": [
+      "dixie",
+      "yankee"
+    ],
+    "formabilityCriteria": "ALL",
+    "optionalCultures": [
+      "afro_american",
+      "cajun"
+    ],
+    "mutuallyExclusiveWith": [
+      "anglosphere"
+    ],
+    "localization": "US American",
+    "color": "rgb{ 26 129 171 } #More bluish than yankee",
+    "religion": "protestant",
+    "traits": "anglophone european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
+  {
+    "syncreticCultureName": "canadian",
+    "baseCultures": [
+      "anglo_canadian",
+      "franco_canadian"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [],
+    "mutuallyExclusiveWith": [
+      "anglosphere"
+    ],
+    "localization": "Canadian",
+    "color": "rgb{ 138 29 23 } #dark red",
+    "religion": "protestant",
+    "traits": "anglophone european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
   {
     "syncreticCultureName": "iberic",
-    "baseCultures": ["spanish", "mexican", "central_american", "north_andean", "south_andean", "platinean", "caribeno", "portuguese", "galician", "brazilian", "catalan", "basque"],
+    "baseCultures": [
+      "spanish",
+      "mexican",
+      "central_american",
+      "north_andean",
+      "south_andean",
+      "platinean",
+      "caribeno",
+      "portuguese",
+      "galician",
+      "brazilian",
+      "catalan",
+      "basque"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["afro_brazilian", "afro_caribeno"],
-    "mutuallyExclusiveWith": ["hispanic", "latino" ,"iberian", "modern_spanish", "porto_brazilian", "modern_portuguese"],
+    "optionalCultures": [
+      "afro_brazilian",
+      "afro_caribeno"
+    ],
+    "mutuallyExclusiveWith": [
+      "hispanic",
+      "latino",
+      "iberian",
+      "modern_spanish",
+      "porto_brazilian",
+      "modern_portuguese"
+    ],
     "localization": "Iberic",
     "color": "rgb{ 189 204 129 } #mix between yellow and green",
     "religion": "catholic",
@@ -181,10 +295,28 @@
   },
   {
     "syncreticCultureName": "hispanic",
-    "baseCultures": ["spanish", "mexican", "central_american", "north_andean", "south_andean", "platinean", "caribeno"],
+    "baseCultures": [
+      "spanish",
+      "mexican",
+      "central_american",
+      "north_andean",
+      "south_andean",
+      "platinean",
+      "caribeno"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["catalan", "basque", "galician", "afro_caribeno"],
-    "mutuallyExclusiveWith": ["iberian", "modern_spanish", "latino", "iberic"],
+    "optionalCultures": [
+      "catalan",
+      "basque",
+      "galician",
+      "afro_caribeno"
+    ],
+    "mutuallyExclusiveWith": [
+      "iberian",
+      "modern_spanish",
+      "latino",
+      "iberic"
+    ],
     "localization": "Hispanic",
     "color": "rgb{ 156 149 22 } #dark yellow",
     "religion": "catholic",
@@ -195,10 +327,21 @@
   },
   {
     "syncreticCultureName": "latino",
-    "baseCultures": ["mexican", "central_american", "north_andean", "south_andean", "platinean", "caribeno"],
+    "baseCultures": [
+      "mexican",
+      "central_american",
+      "north_andean",
+      "south_andean",
+      "platinean",
+      "caribeno"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["afro_caribeno"],
-    "mutuallyExclusiveWith": ["hispanic"],
+    "optionalCultures": [
+      "afro_caribeno"
+    ],
+    "mutuallyExclusiveWith": [
+      "hispanic"
+    ],
     "localization": "Hispanic American",
     "color": "rgb{ 156 149 22 } #dark yellow",
     "religion": "catholic",
@@ -209,10 +352,22 @@
   },
   {
     "syncreticCultureName": "iberian",
-    "baseCultures": ["spanish", "catalan", "portuguese", "basque", "galician"],
+    "baseCultures": [
+      "spanish",
+      "catalan",
+      "portuguese",
+      "basque",
+      "galician"
+    ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
-    "mutuallyExclusiveWith": ["modern_spanish", "modern_portuguese", "porto_brazilian", "hispanic", "iberic"],
+    "mutuallyExclusiveWith": [
+      "modern_spanish",
+      "modern_portuguese",
+      "porto_brazilian",
+      "hispanic",
+      "iberic"
+    ],
     "localization": "Iberian",
     "color": "rgb{ 170 176 84 } #pale yellow",
     "religion": "catholic",
@@ -223,10 +378,20 @@
   },
   {
     "syncreticCultureName": "modern_spanish",
-    "baseCultures": ["spanish", "catalan"],
+    "baseCultures": [
+      "spanish",
+      "catalan"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["basque", "galician"],
-    "mutuallyExclusiveWith": ["iberian", "hispanic", "iberic"],
+    "optionalCultures": [
+      "basque",
+      "galician"
+    ],
+    "mutuallyExclusiveWith": [
+      "iberian",
+      "hispanic",
+      "iberic"
+    ],
     "localization": "Modern Spanish",
     "color": "rgb{ 250 189 0 }",
     "religion": "catholic",
@@ -237,10 +402,20 @@
   },
   {
     "syncreticCultureName": "porto_brazilian",
-    "baseCultures": ["portuguese", "galician", "brazilian"],
+    "baseCultures": [
+      "portuguese",
+      "galician",
+      "brazilian"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["afro_brazilian"],
-    "mutuallyExclusiveWith": ["modern_portuguese", "iberian", "iberic"],
+    "optionalCultures": [
+      "afro_brazilian"
+    ],
+    "mutuallyExclusiveWith": [
+      "modern_portuguese",
+      "iberian",
+      "iberic"
+    ],
     "localization": "Porto-Brazilian",
     "color": "rgb{ 70 143 89 } #Some darker green",
     "religion": "catholic",
@@ -251,10 +426,17 @@
   },
   {
     "syncreticCultureName": "modern_portuguese",
-    "baseCultures": ["portuguese", "galician"],
+    "baseCultures": [
+      "portuguese",
+      "galician"
+    ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
-    "mutuallyExclusiveWith": ["porto_brazilian", "iberian", "iberic"],
+    "mutuallyExclusiveWith": [
+      "porto_brazilian",
+      "iberian",
+      "iberic"
+    ],
     "localization": "Modern Portuguese",
     "color": "rgb{ 87 194 115 } #Some lighter green",
     "religion": "catholic",
@@ -265,9 +447,14 @@
   },
   {
     "syncreticCultureName": "modern_japanese",
-    "baseCultures": ["japanese", "ainu"],
+    "baseCultures": [
+      "japanese",
+      "ainu"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["korean"],
+    "optionalCultures": [
+      "korean"
+    ],
     "mutuallyExclusiveWith": [],
     "localization": "Modern Japanese",
     "color": "rgb{ 163 62 148 } #purple-pink",
@@ -279,10 +466,21 @@
   },
   {
     "syncreticCultureName": "scandinavian",
-    "baseCultures": ["swedish", "danish", "norwegian", "icelandic"],
+    "baseCultures": [
+      "swedish",
+      "danish",
+      "norwegian",
+      "icelandic"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["finnish", "sami"],
-    "mutuallyExclusiveWith": ["finnic_culture", "germanic"],
+    "optionalCultures": [
+      "finnish",
+      "sami"
+    ],
+    "mutuallyExclusiveWith": [
+      "finnic_culture",
+      "germanic"
+    ],
     "localization": "Scandinavian",
     "color": "rgb { 45 95 161 } #swedish flag blue",
     "religion": "protestant",
@@ -293,10 +491,18 @@
   },
   {
     "syncreticCultureName": "finnic_culture",
-    "baseCultures": ["finnish", "sami", "ugrian", "estonian"],
+    "baseCultures": [
+      "finnish",
+      "sami",
+      "ugrian",
+      "estonian"
+    ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
-    "mutuallyExclusiveWith": ["baltic", "scandinavian"],
+    "mutuallyExclusiveWith": [
+      "baltic",
+      "scandinavian"
+    ],
     "localization": "Finnic",
     "color": "rgb{ 87 194 115 } #Some lighter green",
     "religion": "protestant",
@@ -304,26 +510,49 @@
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
-  },  {
-  "syncreticCultureName": "baltic",
-  "baseCultures": ["lithuanian", "latvian", "estonian"],
-  "formabilityCriteria": "ANY",
-  "optionalCultures": [],
-  "mutuallyExclusiveWith": ["finnic_culture"],
-  "localization": "Baltic",
-  "color": "rgb{ 191 210 224 } #light blue",
-  "religion": "protestant",
-  "traits": "baltic_culture_group european_heritage",
-  "obsessions": "",
-  "graphics": "european",
-  "ethnicity": "caucasian"
-},
+  },
+  {
+    "syncreticCultureName": "baltic",
+    "baseCultures": [
+      "lithuanian",
+      "latvian",
+      "estonian"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [],
+    "mutuallyExclusiveWith": [
+      "finnic_culture"
+    ],
+    "localization": "Baltic",
+    "color": "rgb{ 191 210 224 } #light blue",
+    "religion": "protestant",
+    "traits": "baltic_culture_group european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
   {
     "syncreticCultureName": "turkic_culture",
-    "baseCultures": ["turkish", "azerbaijani", "tatar", "tuvan", "uzbek", "uighur", "kazak", "kirgiz", "yakut", "hazara", "turkmen"],
+    "baseCultures": [
+      "turkish",
+      "azerbaijani",
+      "tatar",
+      "tuvan",
+      "uzbek",
+      "uighur",
+      "kazak",
+      "kirgiz",
+      "yakut",
+      "hazara",
+      "turkmen"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["persian"],
-    "mutuallyExclusiveWith": ["iranian"],
+    "optionalCultures": [
+      "persian"
+    ],
+    "mutuallyExclusiveWith": [
+      "iranian"
+    ],
     "localization": "Turkic",
     "color": "rgb{ 140 21 73 } #burgundy",
     "religion": "sunni",
@@ -334,10 +563,21 @@
   },
   {
     "syncreticCultureName": "german",
-    "baseCultures": ["north_german", "south_german"],
+    "baseCultures": [
+      "north_german",
+      "south_german"
+    ],
     "formabilityCriteria": "ALL",
-    "optionalCultures": ["swiss", "ashkenazi", "czech", "slovene"],
-    "mutuallyExclusiveWith": ["austro_hungarian", "germanic"],
+    "optionalCultures": [
+      "swiss",
+      "ashkenazi",
+      "czech",
+      "slovene"
+    ],
+    "mutuallyExclusiveWith": [
+      "austro_hungarian",
+      "germanic"
+    ],
     "localization": "German",
     "color": "rgb{ 38 44 56 } #Darker black than north german",
     "religion": "protestant",
@@ -348,10 +588,28 @@
   },
   {
     "syncreticCultureName": "germanic",
-    "baseCultures": ["north_german", "south_german", "swiss", "dutch", "flemish", "boer", "swedish", "danish", "norwegian", "icelandic"],
+    "baseCultures": [
+      "north_german",
+      "south_german",
+      "swiss",
+      "dutch",
+      "flemish",
+      "boer",
+      "swedish",
+      "danish",
+      "norwegian",
+      "icelandic"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["british", "ashkenazi"],
-    "mutuallyExclusiveWith": ["scandinavian", "austro_hungarian", "german"],
+    "optionalCultures": [
+      "british",
+      "ashkenazi"
+    ],
+    "mutuallyExclusiveWith": [
+      "scandinavian",
+      "austro_hungarian",
+      "german"
+    ],
     "localization": "Germanic",
     "color": "rgb{ 54 101 120 } #Gray blue",
     "religion": "protestant",
@@ -362,10 +620,28 @@
   },
   {
     "syncreticCultureName": "austro_hungarian",
-    "baseCultures": ["south_german", "hungarian"],
+    "baseCultures": [
+      "south_german",
+      "hungarian"
+    ],
     "formabilityCriteria": "ALL",
-    "optionalCultures": ["north_italian", "slovene", "serb", "polish", "romanian", "czech", "ukrainian", "slovak", "croat", "bosniak", "north_german"],
-    "mutuallyExclusiveWith": ["german", "germanic"],
+    "optionalCultures": [
+      "north_italian",
+      "slovene",
+      "serb",
+      "polish",
+      "romanian",
+      "czech",
+      "ukrainian",
+      "slovak",
+      "croat",
+      "bosniak",
+      "north_german"
+    ],
+    "mutuallyExclusiveWith": [
+      "german",
+      "germanic"
+    ],
     "localization": "Austro-Hungarian",
     "color": "rgb{ 105 102 62 } #Brown with light green hue",
     "religion": "catholic",
@@ -376,7 +652,10 @@
   },
   {
     "syncreticCultureName": "israeli",
-    "baseCultures": ["ashkenazi", "sephardic"],
+    "baseCultures": [
+      "ashkenazi",
+      "sephardic"
+    ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
@@ -390,9 +669,17 @@
   },
   {
     "syncreticCultureName": "ethiopian_culture",
-    "baseCultures": ["amhara", "afar", "oromo", "tigray", "sidama"],
+    "baseCultures": [
+      "amhara",
+      "afar",
+      "oromo",
+      "tigray",
+      "sidama"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["somali"],
+    "optionalCultures": [
+      "somali"
+    ],
     "mutuallyExclusiveWith": [],
     "localization": "Ethiopian",
     "color": "rgb{ 0 154 68 } #ethiopian flag green",
@@ -404,9 +691,18 @@
   },
   {
     "syncreticCultureName": "tai_culture",
-    "baseCultures": ["thai", "lao", "shan", "zhuang"],
+    "baseCultures": [
+      "thai",
+      "lao",
+      "shan",
+      "zhuang"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["khmer", "mon", "khmu"],
+    "optionalCultures": [
+      "khmer",
+      "mon",
+      "khmu"
+    ],
     "mutuallyExclusiveWith": [],
     "localization": "Tai",
     "color": "rgb{ 0 36 125 } #thai flag blue",
@@ -418,7 +714,12 @@
   },
   {
     "syncreticCultureName": "modern_burmese",
-    "baseCultures": ["burmese", "karen", "kachin", "zhuang"],
+    "baseCultures": [
+      "burmese",
+      "karen",
+      "kachin",
+      "zhuang"
+    ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
@@ -432,9 +733,23 @@
   },
   {
     "syncreticCultureName": "malayan",
-    "baseCultures": ["malay", "bornean", "sumatran", "balinese", "batak", "filipino", "dayak","moro", "javan", "moluccan"],
+    "baseCultures": [
+      "malay",
+      "bornean",
+      "sumatran",
+      "balinese",
+      "batak",
+      "filipino",
+      "dayak",
+      "moro",
+      "javan",
+      "moluccan"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["melanesian", "aborigine"],
+    "optionalCultures": [
+      "melanesian",
+      "aborigine"
+    ],
     "mutuallyExclusiveWith": [],
     "localization": "Malayan",
     "color": "rgb{ 179 50 194 } #intense purple",
@@ -446,9 +761,17 @@
   },
   {
     "syncreticCultureName": "polynesian_culture",
-    "baseCultures": ["maori", "melanesian", "micronesian", "polynesian", "hawaiian"],
+    "baseCultures": [
+      "maori",
+      "melanesian",
+      "micronesian",
+      "polynesian",
+      "hawaiian"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["aborigine"],
+    "optionalCultures": [
+      "aborigine"
+    ],
     "mutuallyExclusiveWith": [],
     "localization": "Polynesian",
     "color": "rgb{ 1 33 105 } #NZ flag blue",
@@ -460,10 +783,20 @@
   },
   {
     "syncreticCultureName": "iranian",
-    "baseCultures": ["persian", "kurdish", "pashtun", "baluchi", "tajik"],
+    "baseCultures": [
+      "persian",
+      "kurdish",
+      "pashtun",
+      "baluchi",
+      "tajik"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["azerbaijani"],
-    "mutuallyExclusiveWith": ["turkic_culture"],
+    "optionalCultures": [
+      "azerbaijani"
+    ],
+    "mutuallyExclusiveWith": [
+      "turkic_culture"
+    ],
     "localization": "Iranian",
     "color": "rgb{ 35 159 64 } #Iranian flag green",
     "religion": "shiite",
@@ -474,9 +807,16 @@
   },
   {
     "syncreticCultureName": "caucasian_culture",
-    "baseCultures": ["georgian", "armenian", "circassian", "north_caucasian"],
+    "baseCultures": [
+      "georgian",
+      "armenian",
+      "circassian",
+      "north_caucasian"
+    ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": ["azerbaijani"],
+    "optionalCultures": [
+      "azerbaijani"
+    ],
     "mutuallyExclusiveWith": [],
     "localization": "Caucasian",
     "color": "rgb{ 0 181 226 } #azerbaijan flag blue",
