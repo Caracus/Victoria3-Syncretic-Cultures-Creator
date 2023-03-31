@@ -825,5 +825,161 @@
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "slavic"
+  },
+  {
+    "syncreticCultureName": "west_aryan",
+    "baseCultures": [
+      "marathi",
+      "rajput",
+      "gujarati",
+      "sindi"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+    ],
+    "mutuallyExclusiveWith": ["indo_aryan_culture", "indian"],
+    "localization": "West-Aryan",
+    "color": "rgb{ 39 100 179 } #blue",
+    "religion": "hindu",
+    "traits": "south_asian_heritage hindustani",
+    "obsessions": "",
+    "graphics": "mideast_indian",
+    "ethnicity": "indian"
+  },
+  {
+    "syncreticCultureName": "east_aryan",
+    "baseCultures": [
+      "oriya",
+      "bengali",
+      "bihari"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "manipuri",
+      "assamese",
+      "nepali",
+      "tibetan"
+    ],
+    "mutuallyExclusiveWith": ["indo_aryan_culture", "indian"],
+    "localization": "East-Aryan",
+    "color": "rgb{ 12 84 6 } #green",
+    "religion": "sunni",
+    "traits": "south_asian_heritage hindustani",
+    "obsessions": "",
+    "graphics": "asian",
+    "ethnicity": "asian"
+  },
+  {
+    "syncreticCultureName": "hindustani",
+    "baseCultures": [
+      "avadhi",
+      "panjabi",
+      "kashmiri",
+      "kanauji"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+    ],
+    "mutuallyExclusiveWith": ["indo_aryan_culture", "indian"],
+    "localization": "Hindustani",
+    "color": "rgb{ 125 104 21 } #dark yellow",
+    "religion": "sikh",
+    "traits": "south_asian_heritage hindustani",
+    "obsessions": "",
+    "graphics": "mideast_indian",
+    "ethnicity": "indian"
+  },
+  {
+    "syncreticCultureName": "indo_aryan_culture",
+    "baseCultures": [
+      "marathi",
+      "rajput",
+      "gujarati",
+      "sindi",
+      "oriya",
+      "bengali",
+      "bihari",
+      "nepali",
+      "avadhi",
+      "panjabi",
+      "kashmiri",
+      "kanauji",
+      "sinhala"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+    ],
+    "mutuallyExclusiveWith": ["west_aryan", "east_aryan" ,"hindustani", "indian"],
+    "localization": "Indo-Aryan",
+    "color": "rgb{ 158 163 132 } #gray yellow",
+    "religion": "hindu",
+    "traits": "south_asian_heritage hindustani",
+    "obsessions": "",
+    "graphics": "mideast_indian",
+    "ethnicity": "indian"
+  },
+  {
+    "syncreticCultureName": "indian",
+    "baseCultures": [
+      "marathi",
+      "rajput",
+      "gujarati",
+      "sindi",
+      "oriya",
+      "bengali",
+      "bihari",
+      "nepali",
+      "avadhi",
+      "panjabi",
+      "kashmiri",
+      "kanauji",
+      "sinhala",
+      "telegu",
+      "kannada",
+      "tamil",
+      "malayalam",
+      "manipuri",
+      "assamese"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "burmese",
+      "karen",
+      "kachin",
+      "zhuang",
+      "pashtun",
+      "baluchi",
+      "tibetan",
+      "shan"
+    ],
+    "mutuallyExclusiveWith": ["west_aryan", "east_aryan" ,"hindustani", "dravidian_culture","indo_aryan_culture"],
+    "localization": "Indian",
+    "color": "rgb{ 255 153 51 } #indian flag orange",
+    "religion": "hindu",
+    "traits": "south_asian_heritage hindustani dravidian",
+    "obsessions": "",
+    "graphics": "mideast_indian",
+    "ethnicity": "indian"
+  },
+  {
+    "syncreticCultureName": "dravidian_culture",
+    "baseCultures": [
+      "telegu",
+      "kannada",
+      "tamil",
+      "malayalam"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "sinhala"
+    ],
+    "mutuallyExclusiveWith": ["indian"],
+    "localization": "Dravidian",
+    "color": "rgb{ 29 66 23 } #moss green",
+    "religion": "sikh",
+    "traits": "south_asian_heritage dravidian",
+    "obsessions": "",
+    "graphics": "mideast_indian",
+    "ethnicity": "indian"
   }
 ]

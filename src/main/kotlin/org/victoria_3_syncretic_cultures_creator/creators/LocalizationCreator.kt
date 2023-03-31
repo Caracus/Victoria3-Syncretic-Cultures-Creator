@@ -18,7 +18,7 @@ fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
                         val cultureNameKey = it.syncreticCultureName
                         val cultureNameLocalization = it.localization
                         text += format(0," ${cultureNameKey}:0 \"${cultureNameLocalization}\"" ,1)
-                        text += format(0," standardize_${cultureNameKey}_decision_var_custom_tooltip:0 \"Has made the decision to unite the $cultureNameLocalization cultures\"" ,1)
+                        text += format(0," standardize_${cultureNameKey}_decision_var_custom_tooltip:0 \"Has made the decision to develop the $cultureNameLocalization culture\"" ,1)
                         text += format(0," standardize_${cultureNameKey}_decision_not_var_custom_tooltip:0 \"Has not yet made the decision to develop the $cultureNameLocalization culture\"" ,1)
                         text += format(0," standardize_${cultureNameKey}_decision:0 \"Develop the ${cultureNameLocalization} Culture\"" ,1)
                         text += format(0," standardize_${cultureNameKey}_decision_desc:0 \"Prepare plans to eventually manifest this culture.\"" ,1)
