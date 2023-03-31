@@ -1,2 +1,3 @@
 ﻿l_<localization_key>:
+ has_picked_a_syncretic_culture_custom_tooltip:0 "Has picked a Syncretic Culture for this country"
  country_var_equal:0 "Culture never truly stops changing (100 yearly ticks). There will the same event at 30 and 50 years, asking you to take further measures or none at all. Each yearly tick will also check your country for new potential homelands, aka if you conquered one of your old homelands it will trigger a new homeland event."

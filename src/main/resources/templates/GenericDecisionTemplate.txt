@@ -24,3 +24,30 @@ standardize_<syncretic_culture_name>_decision = {
 		base = 100
 	}
 }
+
+complete_<syncretic_culture_name>_decision = {
+	is_shown = {
+		country_has_primary_culture = cu:<syncretic_culture_name>
+		has_variable = has_picked_a_syncretic_culture_var
+		NOT = {has_variable = hide_<syncretic_culture_name>_debug_menu_var}
+	}
+
+	possible = {
+		country_has_primary_culture = cu:<syncretic_culture_name>
+
+		custom_tooltip = {
+		    text = has_picked_a_syncretic_culture_custom_tooltip
+			has_variable = has_picked_a_syncretic_culture_var
+		}
+
+		is_player = yes
+	}
+
+	when_taken = {
+		trigger_event = { id = standardize_<syncretic_culture_name>.6 }
+	}
+
+	ai_chance = {
+		base = 100
+	}
+}

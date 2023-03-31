@@ -241,9 +241,30 @@ standardize_<syncretic_culture_name>.5 = {
 	immediate = {
 
 		every_state = {
+			# apply 100% pop change to all owned states if the debug decision was taken
+			if = {
+				limit = {
+					ROOT = { has_variable = complete_<syncretic_culture_name>_decision_var }
+					owner = ROOT
+				}
+				every_scope_pop = {
+					limit = {
+						OR = {
+<base_culture_pop_check_block>
+<addon_culture_pop_check_block>
+						}
+					}
+					change_pop_culture = {
+						target = cu:<syncretic_culture_name>
+						value = change_entire_pop_value
+					}
+				}
+			}
+
 			# apply pop changes to old primary cultures living in newly marked homelands
 			if = {
 				limit = {
+                    ROOT = { NOT = {has_variable = complete_<syncretic_culture_name>_decision_var } }
 					cu:<syncretic_culture_name> = {
 						has_homeland = PREV
 					}
@@ -265,29 +286,95 @@ standardize_<syncretic_culture_name>.5 = {
 
 			# apply pop changes to old primary cultures that have moved around within your country
 			if = {
-					limit = {
-						NOT = {
-							cu:<syncretic_culture_name> = {
-								has_homeland = PREV
-							}
-						}
-						owner = ROOT
-					}
-					every_scope_pop = {
-						limit = {
-							OR = {
+                limit = {
+                    ROOT = { NOT = {has_variable = complete_<syncretic_culture_name>_decision_var } }
+                    NOT = {
+                        cu:<syncretic_culture_name> = {
+                            has_homeland = PREV
+                        }
+                    }
+                    owner = ROOT
+                }
+                every_scope_pop = {
+                    limit = {
+                        OR = {
 <base_culture_pop_check_block>
 <addon_culture_pop_check_block>
-							}
+                        }
 
-						}
-						change_pop_culture = {
-							target = cu:<syncretic_culture_name>
-							value = change_pop_value_non_homeland
-						}
-					}
+                    }
+                    change_pop_culture = {
+                        target = cu:<syncretic_culture_name>
+                        value = change_pop_value_non_homeland
+                    }
+                }
 			}
 		}
 
+	}
+}
+
+# Debug menu
+standardize_<syncretic_culture_name>.6 = {
+	type = country_event
+	placement = ROOT
+
+	title = standardize_<syncretic_culture_name>.6.t
+
+	flavor = standardize_<syncretic_culture_name>.6.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	duration = 1
+
+	trigger = {
+		# triggered by debug menu decision
+	}
+
+	#keep it around
+	option = {
+		name = standardize_<syncretic_culture_name>.6.a
+		default_option = yes
+	}
+	#hide it forever
+	option = {
+		name = standardize_<syncretic_culture_name>.6.b
+		default_option = no
+
+		custom_tooltip = {
+			text = hide_<syncretic_culture_name>_debug_menu_var_custom_tooltip
+			set_variable = hide_<syncretic_culture_name>_debug_menu_var
+		}
+	}
+	#trigger a yearly tick
+	option = {
+		name = standardize_<syncretic_culture_name>.6.c
+		default_option = no
+
+		trigger_event = { id = standardize_<syncretic_culture_name>.5 }
+	}
+	#trigger milestone event
+	option = {
+		name = standardize_<syncretic_culture_name>.6.d
+		default_option = no
+
+		trigger_event = { id = standardize_<syncretic_culture_name>.3 }
+	}
+	#set conversion to 100 percent
+	option = {
+		name = standardize_<syncretic_culture_name>.6.e
+		default_option = no
+
+		custom_tooltip = {
+			text = complete_<syncretic_culture_name>_decision_var_custom_tooltip
+			set_variable = complete_<syncretic_culture_name>_decision_var
+		}
+		trigger_event = { id = standardize_<syncretic_culture_name>.5 }
 	}
 }

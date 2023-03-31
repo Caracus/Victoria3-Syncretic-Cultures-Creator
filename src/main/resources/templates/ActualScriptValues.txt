@@ -141,3 +141,8 @@ change_pop_value_non_homeland = {
 	min = 0.0
 	max = 1.0
 }
+
+#used for the debugging events
+change_entire_pop_value = {
+	value = 1.0
+}

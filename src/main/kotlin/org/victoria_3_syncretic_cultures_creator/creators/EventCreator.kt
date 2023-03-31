@@ -19,8 +19,8 @@ fun createCultureEvents(syncreticCulture: SyncreticCulture) {
         text = text.replace("<remove_base_cultures_homelands_block>", createRemoveBaseCultureHomelandsBlock(3, syncreticCulture.baseCultures))
         text = text.replace("<remove_addon_cultures_homelands_block>", createRemoveAddonCultureHomelandsBlock(2, syncreticCulture.syncreticCultureName, syncreticCulture.optionalCultures))
 
-        text = text.replace("<base_culture_pop_check_block>", createBaseCulturePopCheckBlock(9, syncreticCulture.baseCultures))
-        text = text.replace("<addon_culture_pop_check_block>", createAddonCulturePopCheckBlock(9, syncreticCulture.syncreticCultureName, syncreticCulture.optionalCultures))
+        text = text.replace("<base_culture_pop_check_block>", createBaseCulturePopCheckBlock(7, syncreticCulture.baseCultures))
+        text = text.replace("<addon_culture_pop_check_block>", createAddonCulturePopCheckBlock(7, syncreticCulture.syncreticCultureName, syncreticCulture.optionalCultures))
 
         printFile("events/", "standardize_" + syncreticCulture.syncreticCultureName + ".txt", text)
 
