@@ -134,7 +134,11 @@
       "yemenite"
     ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": [],
+    "optionalCultures": [
+      "tuareg",
+      "maures",
+      "haratin"
+    ],
     "mutuallyExclusiveWith": [],
     "localization": "Arabian",
     "color": "rgb{ 116 132 153 } #Some grayish blue",
@@ -613,7 +617,7 @@
     "localization": "Germanic",
     "color": "rgb{ 54 101 120 } #Gray blue",
     "religion": "protestant",
-    "traits": "german_speaking european_heritage",
+    "traits": "german_speaking scandinavian_culture_group beneluxian_culture_group european_heritage",
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -666,28 +670,6 @@
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
-  },
-  {
-    "syncreticCultureName": "ethiopian_culture",
-    "baseCultures": [
-      "amhara",
-      "afar",
-      "oromo",
-      "tigray",
-      "sidama"
-    ],
-    "formabilityCriteria": "ANY",
-    "optionalCultures": [
-      "somali"
-    ],
-    "mutuallyExclusiveWith": [],
-    "localization": "Ethiopian",
-    "color": "rgb{ 0 154 68 } #ethiopian flag green",
-    "religion": "oriental_orthodox",
-    "traits": "ethiopian east_african_culture_group african_heritage",
-    "obsessions": "",
-    "graphics": "african",
-    "ethnicity": "african"
   },
   {
     "syncreticCultureName": "tai_culture",
@@ -837,7 +819,10 @@
     "formabilityCriteria": "ANY",
     "optionalCultures": [
     ],
-    "mutuallyExclusiveWith": ["indo_aryan_culture", "indian"],
+    "mutuallyExclusiveWith": [
+      "indo_aryan_culture",
+      "indian"
+    ],
     "localization": "West-Aryan",
     "color": "rgb{ 39 100 179 } #blue",
     "religion": "hindu",
@@ -860,7 +845,10 @@
       "nepali",
       "tibetan"
     ],
-    "mutuallyExclusiveWith": ["indo_aryan_culture", "indian"],
+    "mutuallyExclusiveWith": [
+      "indo_aryan_culture",
+      "indian"
+    ],
     "localization": "East-Aryan",
     "color": "rgb{ 12 84 6 } #green",
     "religion": "sunni",
@@ -870,7 +858,7 @@
     "ethnicity": "asian"
   },
   {
-    "syncreticCultureName": "hindustani",
+    "syncreticCultureName": "hindustani_culture",
     "baseCultures": [
       "avadhi",
       "panjabi",
@@ -880,7 +868,10 @@
     "formabilityCriteria": "ANY",
     "optionalCultures": [
     ],
-    "mutuallyExclusiveWith": ["indo_aryan_culture", "indian"],
+    "mutuallyExclusiveWith": [
+      "indo_aryan_culture",
+      "indian"
+    ],
     "localization": "Hindustani",
     "color": "rgb{ 125 104 21 } #dark yellow",
     "religion": "sikh",
@@ -909,7 +900,12 @@
     "formabilityCriteria": "ANY",
     "optionalCultures": [
     ],
-    "mutuallyExclusiveWith": ["west_aryan", "east_aryan" ,"hindustani", "indian"],
+    "mutuallyExclusiveWith": [
+      "west_aryan",
+      "east_aryan",
+      "hindustani_culture",
+      "indian"
+    ],
     "localization": "Indo-Aryan",
     "color": "rgb{ 158 163 132 } #gray yellow",
     "religion": "hindu",
@@ -952,7 +948,13 @@
       "tibetan",
       "shan"
     ],
-    "mutuallyExclusiveWith": ["west_aryan", "east_aryan" ,"hindustani", "dravidian_culture","indo_aryan_culture"],
+    "mutuallyExclusiveWith": [
+      "west_aryan",
+      "east_aryan",
+      "hindustani_culture",
+      "dravidian_culture",
+      "indo_aryan_culture"
+    ],
     "localization": "Indian",
     "color": "rgb{ 255 153 51 } #indian flag orange",
     "religion": "hindu",
@@ -973,7 +975,9 @@
     "optionalCultures": [
       "sinhala"
     ],
-    "mutuallyExclusiveWith": ["indian"],
+    "mutuallyExclusiveWith": [
+      "indian"
+    ],
     "localization": "Dravidian",
     "color": "rgb{ 29 66 23 } #moss green",
     "religion": "sikh",
@@ -981,5 +985,280 @@
     "obsessions": "",
     "graphics": "mideast_indian",
     "ethnicity": "indian"
+  },
+  {
+    "syncreticCultureName": "ethiopian_culture",
+    "baseCultures": [
+      "amhara",
+      "afar",
+      "oromo",
+      "tigray",
+      "sidama"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "somali"
+    ],
+    "mutuallyExclusiveWith": [
+      "sub_saharan_african",
+      "eastern_african_culture"
+    ],
+    "localization": "Ethiopian",
+    "color": "rgb{ 0 154 68 } #ethiopian flag green",
+    "religion": "oriental_orthodox",
+    "traits": "ethiopian east_african_culture_group african_heritage",
+    "obsessions": "",
+    "graphics": "african",
+    "ethnicity": "african"
+  },
+  {
+    "syncreticCultureName": "southern_african_culture",
+    "baseCultures": [
+      "chewa",
+      "herero",
+      "khoisan",
+      "lomwe",
+      "makua",
+      "nguni",
+      "ovimbundu",
+      "sena",
+      "shona",
+      "sotho",
+      "tonga",
+      "tswana",
+      "xhosa",
+      "yao",
+      "zulu",
+      "kavango_bantu"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+    ],
+    "mutuallyExclusiveWith": [
+      "sub_saharan_african"
+    ],
+    "localization": "Southern African",
+    "color": "rgb{ 199 100 217 } #faint purple",
+    "religion": "animist",
+    "traits": "southern_african_culture_group bantu african_heritage",
+    "obsessions": "",
+    "graphics": "african",
+    "ethnicity": "african"
+  },
+  {
+    "syncreticCultureName": "central_african_culture",
+    "baseCultures": [
+      "bakongo",
+      "baguirmi",
+      "fang",
+      "kanuri",
+      "luba",
+      "lunda",
+      "mongo",
+      "sara",
+      "teda",
+      "equatorial_bantu",
+      "fluvian_bantu"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+    ],
+    "mutuallyExclusiveWith": [
+      "sub_saharan_african"
+    ],
+    "localization": "Central African",
+    "color": "rgb{ 87 60 35 } #brown",
+    "religion": "animist",
+    "traits": "central_african_culture_group bantu african_heritage",
+    "obsessions": "",
+    "graphics": "african",
+    "ethnicity": "african"
+  },
+  {
+    "syncreticCultureName": "eastern_african_culture",
+    "baseCultures": [
+      "nilotic",
+      "amhara",
+      "afar",
+      "azande",
+      "baganda",
+      "beja",
+      "dinka",
+      "fur",
+      "kikuyu",
+      "luo",
+      "maasai",
+      "nuer",
+      "nuba",
+      "oromo",
+      "ruanda",
+      "rundi",
+      "sidama",
+      "somali",
+      "sudanese",
+      "sukuma",
+      "swahili",
+      "tigray",
+      "unyamwezi",
+      "lacustrine_bantu"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "malagasy"
+    ],
+    "mutuallyExclusiveWith": [
+      "sub_saharan_african",
+      "ethiopian_culture"
+    ],
+    "localization": "Eastern African",
+    "color": "rgb{ 84 196 204 } #light blue",
+    "religion": "animist",
+    "traits": "east_african_culture_group african_heritage",
+    "obsessions": "",
+    "graphics": "african",
+    "ethnicity": "african"
+  },
+  {
+    "syncreticCultureName": "western_african_culture",
+    "baseCultures": [
+      "ibo",
+      "akan",
+      "bambara",
+      "bassa",
+      "dyula",
+      "edo",
+      "ewe",
+      "fon",
+      "fulbe",
+      "haratin",
+      "hausa",
+      "ibibio",
+      "kissi",
+      "kru",
+      "mande",
+      "maures",
+      "mossi",
+      "senufo",
+      "songhai",
+      "tiv",
+      "tuareg",
+      "wolof",
+      "yoruba"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+    ],
+    "mutuallyExclusiveWith": [
+      "sub_saharan_african"
+    ],
+    "localization": "Western African",
+    "color": "rgb{ 150 179 136 } #pale green",
+    "religion": "sunni",
+    "traits": "west_african_culture_group african_heritage",
+    "obsessions": "",
+    "graphics": "african",
+    "ethnicity": "african"
+  },
+  {
+    "syncreticCultureName": "sub_saharan_african",
+    "baseCultures": [
+      "ibo",
+      "akan",
+      "bambara",
+      "bassa",
+      "dyula",
+      "edo",
+      "ewe",
+      "fon",
+      "fulbe",
+      "haratin",
+      "hausa",
+      "ibibio",
+      "kissi",
+      "kru",
+      "mande",
+      "maures",
+      "mossi",
+      "senufo",
+      "songhai",
+      "tiv",
+      "tuareg",
+      "wolof",
+      "yoruba",
+      "nilotic",
+      "amhara",
+      "afar",
+      "azande",
+      "baganda",
+      "beja",
+      "dinka",
+      "fur",
+      "kikuyu",
+      "luo",
+      "maasai",
+      "nuer",
+      "nuba",
+      "oromo",
+      "ruanda",
+      "rundi",
+      "sidama",
+      "somali",
+      "sudanese",
+      "sukuma",
+      "swahili",
+      "tigray",
+      "unyamwezi",
+      "lacustrine_bantu",
+      "chewa",
+      "herero",
+      "khoisan",
+      "lomwe",
+      "makua",
+      "nguni",
+      "ovimbundu",
+      "sena",
+      "shona",
+      "sotho",
+      "tonga",
+      "tswana",
+      "xhosa",
+      "yao",
+      "zulu",
+      "kavango_bantu",
+      "bakongo",
+      "baguirmi",
+      "fang",
+      "kanuri",
+      "luba",
+      "lunda",
+      "mongo",
+      "sara",
+      "teda",
+      "equatorial_bantu",
+      "fluvian_bantu",
+      "malagasy"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "afro_american",
+      "afro_antillean",
+      "afro_brazilian",
+      "afro_caribbean",
+      "afro_caribeno"
+    ],
+    "mutuallyExclusiveWith": [
+      "ethiopian_culture",
+      "western_african_culture",
+      "eastern_african_culture",
+      "southern_african_culture",
+      "central_african_culture"
+    ],
+    "localization": "Sub-Saharan African",
+    "color": "rgb{ 166 118 108 } #light red brown",
+    "religion": "animist",
+    "traits": "bantu african_heritage",
+    "obsessions": "",
+    "graphics": "african",
+    "ethnicity": "african"
   }
 ]
