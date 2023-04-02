@@ -42,6 +42,18 @@ fun createExclusiveWithCulturesBlock(indentations: Int, exclusiveCultures: Set<S
     return text
 }
 
+fun createValidWithGameRulesBlock(indentations: Int, validWithGameRules: Boolean) : String{
+    var text = ""
+
+    if(validWithGameRules){
+        text += format(indentations, "OR = { has_game_rule = immersive_syncretic_cultures_allowed is_player = yes }",1)
+    } else {
+        text += format(indentations, "is_player = yes",1)
+    }
+
+    return text
+}
+
 fun createBaseCulturesHomelandCheckBlock(indentations: Int, baseCultures: Set<String>) : String{
     var text = ""
     baseCultures.forEach { baseCulture ->

@@ -130,23 +130,35 @@ standardize_<syncretic_culture_name>.3 = {
 		# triggered by standardization JE end
 	}
 
+    #just remove primaries
 	option = {
 		name = standardize_<syncretic_culture_name>.3.a
 		default_option = no
+        ai_chance = {
+            base = 0
+        }
 
 <remove_primary_base_cultures_block>
 <remove_primary_addon_cultures_block>
 	}
 
+    #do nothing
 	option = {
 		name = standardize_<syncretic_culture_name>.3.b
 		default_option = no
+        ai_chance = {
+            base = 0
+        }
 
 	}
 
+    #remove all primary and homelands
 	option = {
 		name = standardize_<syncretic_culture_name>.3.c
 		default_option = yes
+        ai_chance = {
+            base = 100
+        }
 
 <remove_primary_base_cultures_block>
 <remove_primary_addon_cultures_block>

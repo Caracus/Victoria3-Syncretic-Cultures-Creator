@@ -5,6 +5,7 @@ data class SyncreticCulture(
     val baseCultures: Set<String>,
     val formabilityCriteria: FormabilityCriteria,
     val optionalCultures: Set<String>,
+    val defaultCulture: Boolean,
     val mutuallyExclusiveWith: Set<String>,
     val localization: String,
     val color: String,

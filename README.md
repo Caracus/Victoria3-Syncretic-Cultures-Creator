@@ -2,8 +2,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ### What does this do?
-## Automates the creation of syncretic cultures
-####aswell as the needed events, journal entries and decisions to make them appear organically like in the "Syncretic Cultures" mod on the steam workshop for Victoria
+## Automates the creation of Syncretic Cultures
+####aswell as the needed events, journal entries and decisions to make them appear organically like in the "Syncretic Cultures" mod on the steam workshop for Victoria 3
 
 
 ### Built With
@@ -25,6 +25,7 @@
         "formabilityCriteria": "ANY",
         "optionalCultures": ["afro_caribeno"],
         "mutuallyExclusiveWith": ["hispanic"],
+        "defaultCulture": false,
         "localization": "Latino",
         "color": "rgb{ 156 149 22 } #dark yellow",
         "religion": "catholic",
@@ -43,6 +44,7 @@
 - formabilityCriteria: "ALL" means all base base cultures are needed, "ANY" having any of the base cultures qualifies to form it
 - optionalCultures: here go all cultures that deserve a decision pop up ingame that asks the player whether they want to include it or not as these are additions can be controverse or simply unwanted
 - mutuallyExclusiveWith: those syncretic cultures you have created go here if they overlap with another created one as by design the player should only be able to form one syncretic culture over the span of the playthrough
+- defaultCulture: true if the AI should be able to form the syncretic culture if the game rule allows the AI to do so
 - localization: The string that will show up ingame for the culture, this may differ from the technical key the game uses
 - color to ethnicity are simply lines from the game, they are parsed 1:1 into the game files so other color formats like hsv will work here too
 5. If you are looking for the correct keys for these inputs I suggest looking up the game files
@@ -105,3 +107,18 @@ Otherwise let me know via Steam via comment.
 | Polynesian | Micronesian, Melanesian, Polynesian, Maori and Hawaiian | Aborigine |
 | Iranian | Pashtun, Kurdish, Baluchi, Persian and Tajik | Azerbaijani |
 | Caucasian | Armenian, Circassian, North Caucasian and Georgian | Azerbaijani |
+
+###Default Countries used if immersive cultures game rule was chosen: (Coming next update)
+| Syncretic Culture | Required | Cultures                              |
+| ----------------- | ---------------------- |--------------------------|
+| Modern French | ANY | French and Occitan                    |
+| Chinese | ANY | Min, Han, Yue and Hakka               |
+| Italian | ANY | South Italian, Maltese and North Italian |
+| Rus | ANY | Ukrainian, Russian and Byelorussian   |
+| British | ANY | English and Scottish                  |
+| US American | ALL | Yankee and Dixie                      |
+| Canadian | ANY | Anglo Canadian and Franco Canadian    |
+| Modern Spanish | ANY | Spanish and Catalan                   |
+| Modern Japanese | ANY | Ainu and Japanese                     |
+| Scandinavian | ALL | Swedish, Icelandic, Danish and Norwegian |
+| German | ALL | South German and North German         |

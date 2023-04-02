@@ -1,0 +1,9 @@
+syncretic_cultures = {
+	default = entirely_player_controlled
+
+	entirely_player_controlled = {
+	}
+
+	immersive_syncretic_cultures_allowed = {
+	}
+}

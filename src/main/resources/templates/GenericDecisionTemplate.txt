@@ -8,7 +8,7 @@ standardize_<syncretic_culture_name>_decision = {
 <possible_for_cultures>
 <exclusive_with_cultures_block>
 <exclude_this_decision_block>
-		is_player = yes
+<valid_with_game_rules_block>
 	}
 
 	when_taken = {

@@ -26,3 +26,14 @@ fun createGitHubTableFromCulturesConfiguration(syncreticCultureList: List<Syncre
         println("| ${it.localization} | ${printSetInHumanReadableForm(it.baseCultures)} | ${printSetInHumanReadableForm(it.optionalCultures)} |")
     }
 }
+
+fun createGitHubTableForGameRule(syncreticCultureList: List<SyncreticCulture>) {
+    println("| Syncretic Culture | Base Cultures Required | Base Cultures |")
+    println("| ----------------- | ---------------------- | ------------- |")
+    syncreticCultureList.forEach {
+        if(it.defaultCulture){
+            println("| ${it.localization} | ${it.formabilityCriteria} | ${printSetInHumanReadableForm(it.baseCultures)} |")
+        }
+
+    }
+}

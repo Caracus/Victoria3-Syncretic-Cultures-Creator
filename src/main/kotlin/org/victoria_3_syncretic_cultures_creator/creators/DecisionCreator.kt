@@ -14,6 +14,7 @@ fun createDecision(syncreticCulture: SyncreticCulture) {
         text = text.replace("<optional_addon_cultures_block>", createOptionalCulturesTriggerEventsBlock(2, syncreticCulture.syncreticCultureName ,syncreticCulture.optionalCultures))
         text = text.replace("<exclusive_with_cultures_block>", createExclusiveWithCulturesBlock(2, syncreticCulture.mutuallyExclusiveWith))
         text = text.replace("<exclude_this_decision_block>", createExclusiveWithCulturesBlock(2, setOf(syncreticCulture.syncreticCultureName)))
+        text = text.replace("<valid_with_game_rules_block>", createValidWithGameRulesBlock(2,syncreticCulture.defaultCulture))
 
         printFile("/common/decisions/", "standardize_" + syncreticCulture.syncreticCultureName + ".txt", text)
     }
