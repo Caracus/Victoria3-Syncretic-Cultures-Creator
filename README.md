@@ -74,11 +74,12 @@ Otherwise let me know via Steam via comment.
 | ----------------- | ------------- | ----------------- |
 | Modern French | French and Occitan | Wallonian and Breton |
 | Chinese | Min, Han, Yue and Hakka | Mongol, Vietnamese, Manchu, Korean and Tibetan |
-| Italian | South Italian, Maltese and North Italian | Corsican |
+| Italian | South Italian and North Italian | Corsican and Maltese |
+| Romance | Wallonian, Catalan, Spanish, Corsican, South Italian, Portuguese, Romanian, Galician, Maltese, French, North Italian and Occitan | Swiss |
 | Rus | Ukrainian, Russian and Byelorussian |  |
 | Yugoslavian | Serb, Slovene, Croat, Bulgarian and Bosniak |  |
 | West Slavic | Sorb, Slovak, Polish and Czech |  |
-| Arabian | Mashriqi, Maghrebi, Somali, Yemenite, Sudanese, Bedouin, Misri and Berber |  |
+| Arab | Mashriqi, Maghrebi, Somali, Yemenite, Sudanese, Bedouin, Misri and Berber | Maures, Haratin and Tuareg |
 | Netherlandic | Dutch, Boer and Flemish | Wallonian |
 | Anglophone | Yankee, Anglo Canadian, Australian, British, Scottish, Dixie and Welsh | Afro American and Afro Caribbean |
 | British | British and Scottish | Irish and Welsh |
@@ -100,25 +101,36 @@ Otherwise let me know via Steam via comment.
 | Germanic | Dutch, Swedish, Icelandic, Danish, South German, Boer, North German, Swiss, Flemish and Norwegian | Ashkenazi and British |
 | Austro-Hungarian | South German and Hungarian | Ukrainian, Slovene, Serb, North German, Slovak, Croat, Polish, Romanian, North Italian, Czech and Bosniak |
 | Israeli | Sephardic and Ashkenazi |  |
-| Ethiopian | Amhara, Tigray, Sidama, Afar and Oromo | Somali |
 | Tai | Shan, Thai, Lao and Zhuang | Khmu, Khmer and Mon |
 | Modern Burmese | Karen, Burmese, Kachin and Zhuang |  |
-| Malayan | Balinese, Moluccan, Filipino, Dayak, Sumatran, Moro, Malay, Batak, Bornean and Javan | Aborigine and Melanesian |
+| Malayan | Balinese, Moluccan, Filipino, Dayak, Sumatran, Moro, Malay, Batak, Bornean and Javan | Malagasy, Aborigine and Melanesian |
 | Polynesian | Micronesian, Melanesian, Polynesian, Maori and Hawaiian | Aborigine |
 | Iranian | Pashtun, Kurdish, Baluchi, Persian and Tajik | Azerbaijani |
 | Caucasian | Armenian, Circassian, North Caucasian and Georgian | Azerbaijani |
+| West-Aryan | Marathi, Rajput, Sindi and Gujarati |  |
+| East-Aryan | Bihari, Bengali and Oriya | Manipuri, Nepali, Tibetan and Assamese |
+| Hindustani | Panjabi, Kanauji, Kashmiri and Avadhi |  |
+| Indo-Aryan | Bihari, Panjabi, Rajput, Gujarati, Avadhi, Marathi, Kanauji, Sindi, Bengali, Kashmiri, Nepali, Sinhala and Oriya |  |
+| Indian | Bihari, Panjabi, Rajput, Manipuri, Gujarati, Kannada, Avadhi, Telegu, Assamese, Marathi, Tamil, Malayalam, Kanauji, Sindi, Bengali, Kashmiri, Nepali, Sinhala and Oriya | Pashtun, Karen, Shan, Burmese, Kachin, Zhuang, Baluchi and Tibetan |
+| Dravidian | Tamil, Malayalam, Kannada and Telegu | Sinhala |
+| Ethiopian | Amhara, Tigray, Sidama, Afar and Oromo | Somali |
+| Southern African | Ovimbundu, Tswana, Xhosa, Yao, Shona, Chewa, Khoisan, Nguni, Makua, Sena, Herero, Kavango Bantu, Sotho, Tonga, Zulu and Lomwe |  |
+| Central African | Mongo, Bakongo, Kanuri, Baguirmi, Fluvian Bantu, Sara, Teda, Luba, Lunda, Fang and Equatorial Bantu |  |
+| Eastern African | Sukuma, Somali, Amhara, Fur, Luo, Nuer, Sudanese, Maasai, Lacustrine Bantu, Ruanda, Azande, Dinka, Rundi, Nilotic, Tigray, Baganda, Beja, Kikuyu, Sidama, Nuba, Afar, Swahili, Unyamwezi and Oromo | Malagasy |
+| Western African | Tiv, Senufo, Fon, Tuareg, Bambara, Wolof, Dyula, Hausa, Songhai, Kru, Bassa, Edo, Maures, Ewe, Haratin, Mossi, Fulbe, Yoruba, Mande, Ibo, Akan, Ibibio and Kissi |  |
+| Sub-Saharan African | Sukuma, Fur, Tswana, Tuareg, Luo, Nuer, Khoisan, Lacustrine Bantu, Ruanda, Hausa, Makua, Nilotic, Maures, Herero, Mossi, Kavango Bantu, Yoruba, Beja, Sidama, Sotho, Teda, Fang, Equatorial Bantu, Tiv, Senufo, Amhara, Baguirmi, Fluvian Bantu, Malagasy, Sudanese, Nguni, Wolof, Dinka, Rundi, Sena, Edo, Tigray, Haratin, Kanuri, Luba, Afar, Zulu, Swahili, Unyamwezi, Lomwe, Mongo, Fon, Xhosa, Sara, Chewa, Dyula, Azande, Songhai, Bakongo, Fulbe, Ibibio, Oromo, Ovimbundu, Somali, Yao, Shona, Bambara, Maasai, Lunda, Kru, Bassa, Ewe, Baganda, Kikuyu, Nuba, Mande, Ibo, Akan, Tonga and Kissi | Afro American, Afro Caribbean, Afro Antillean, Afro Caribeno and Afro Brazilian |
 
-###Default Countries used if immersive cultures game rule was chosen: (Coming next update)
-| Syncretic Culture | Required | Cultures                              |
-| ----------------- | ---------------------- |--------------------------|
-| Modern French | ANY | French and Occitan                    |
-| Chinese | ANY | Min, Han, Yue and Hakka               |
-| Italian | ANY | South Italian, Maltese and North Italian |
-| Rus | ANY | Ukrainian, Russian and Byelorussian   |
-| British | ANY | English and Scottish                  |
-| US American | ALL | Yankee and Dixie                      |
-| Canadian | ANY | Anglo Canadian and Franco Canadian    |
-| Modern Spanish | ANY | Spanish and Catalan                   |
-| Modern Japanese | ANY | Ainu and Japanese                     |
+###Default Countries used if immersive cultures game rule was chosen:
+| Syncretic Culture | Required | Cultures                                 |
+| ----------------- | ---------------------- |------------------------------------------|
+| Modern French | ANY | French and Occitan                       |
+| Chinese | ANY | Min, Han, Yue and Hakka                  |
+| Italian | ALL | South Italian and North Italian          |
+| Rus | ANY | Ukrainian, Russian and Byelorussian      |
+| British | ANY | English and Scottish                     |
+| US American | ALL | Yankee and Dixie                         |
+| Canadian | ANY | Anglo Canadian and Franco Canadian       |
+| Modern Spanish | ANY | Spanish and Catalan                      |
+| Modern Japanese | ANY | Ainu and Japanese                        |
 | Scandinavian | ALL | Swedish, Icelandic, Danish and Norwegian |
-| German | ALL | South German and North German         |
+| German | ALL | South German and North German            |

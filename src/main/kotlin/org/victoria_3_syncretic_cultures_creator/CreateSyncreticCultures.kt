@@ -29,7 +29,7 @@ fun main(args: Array<String>) {
     //createSteamTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
     //Use this if you want a table representation for github / for example the radme table
-    //createGitHubTableFromCulturesConfiguration(syncreticCultureConfiguration)
+    createGitHubTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
     //Use this to print a table for the immersive culture game rule setting
     createGitHubTableForGameRule(syncreticCultureConfiguration)

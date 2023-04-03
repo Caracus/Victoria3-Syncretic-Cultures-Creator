@@ -1,0 +1,1030 @@
+	male_common_first_names={
+		Adrian
+		Alexandru
+		Andrei
+		Anton
+		Artur
+		Bogdan
+		Carol
+		Cezar
+		Constantin
+		Constin
+		Cosmin
+		Daniel
+		Dumitru
+		Emanuel
+		Eremia
+		Eugen
+		Ferdinand
+		Flaviu
+		Florea
+		Gheorghe
+		Grigore
+		Henric
+		Horatiu
+		Iacob
+		Ilie
+		Ioan
+		Ion
+		Ion_Emanuel
+		Iosif
+		Iulian
+		Iuliu
+		Laurentiu
+		Leontin
+		Luca
+		Lucian
+		Mihai
+		Mircea
+		Nicolae
+		Ovidiu
+		Petru
+		Radu
+		Sergiu
+		Silviu
+		Simion
+		Stefan
+		Valeriu
+		Vasile
+		Victor
+		Vintila
+		Vlad
+		Alessandro Alfonso Ambrogio Amedeo Andrea Angelo Antonio Agostino
+		Bernardino Bartolomeo Benedetto Bonaventura Bernardo
+		Camillo Carlo Cesare Costanzo Casimiro Cristoforo
+		Davide Domenico Damiano
+		Enrico Enzo Ettore Efisio Emiliano Ernesto
+		Fabrizio Faustino Federico Felice Ferdinando Fiorenzo Francesco Filippo Filiberto
+		Gaetano Gennaro Girolamo Giulio Giuseppe Guglielmo Giacomo Giorgio Gaspare Gaetano
+		Innocenzo Ignazio Ippolito Ilario
+		Leopoldo Luigi Luca Lorenzo
+		Marco Massimo Matteo Maurizio Massimo
+		Nicola
+		Oreste Ottavio
+		Paolo Pasquale Pietro Prospero
+		Raffaele Roberto Ruggiero Romualdo
+		Scipione Silvio Simone Serafino Secondo Sebastiano
+		Tancredi Tommaso
+		Ugo Umberto Urbano
+		Vincenzo Vittorio
+		Alessandro Armando Augusto Achille Antonio Agesilao
+		Bartolomeo Benedetto
+		Carlo Cesare Corrado Cesidio Corradino Cristoforo Carcano Carmine
+		Domenico Donato
+		Enrico Enzo Ettore Emanuele
+		Fabio Fabrizio Ferdinando Francesco Fausto
+		Gaetano Giacomo Giovanni Giulio Giuseppe Guglielmo GiosuE_ Goffredo Giorgio Giustino
+		Ignazio
+		Leopoldo Lorenzo Ludovico Luca Luigi Ludovico
+		Marcantonio Marino Mario Matteo Marco Monaldo Michele Melchiorre
+		Nicola
+		Orazio Oronzio
+		Pierfrancesco Paolo Pasquale Pietro Pellegrino
+		Raimondo Raffaele
+		Sigismondo Salvatore Sebastiano Saverio
+		Tommasso
+		Vincenzo
+		Agustin
+		Alberto
+		Alejandro
+		Alfonso
+		Antonio
+		Antonio_Maria
+		Arsenio
+		Augusto
+		Baldomero
+		Baltasar
+		Benito
+		Bernardino
+		Bernardo
+		Calixto
+		Carlos
+		Celestino
+		Claudio
+		Cristobal
+		Diego
+		Dionisio
+		Damaso
+		Eduardo
+		Emilio
+		Estanislao
+		Federico
+		Felipe
+		Fernando
+		Francisco
+		Francisco_Javier
+		Felix
+		Gabino
+		Gabriel
+		Gaspar
+		Genaro
+		Gonzalo
+		Ignacio
+		Isidro
+		Jacobo
+		Jaime
+		Joaquin
+		Jose
+		Jose_Antonio
+		Jose_Manuel
+		Jose_Maria
+		Juan
+		Juan_Bautista
+		Julio
+		Jorge
+		Leopoldo
+		Lorenzo
+		Luis
+		Manuel
+		Marcelo
+		Mariano
+		Mateo
+		Melchor
+		Miguel
+		Nicolas_2
+		Pablo
+		Pascual
+		Pedro
+		Rafael_2
+		Raimundo
+		Ramon
+		Ricardo
+		Santiago
+		Sebastian
+		Segismundo
+		Valeriano
+		Vicente
+		Alvaro
+		Albert
+		Alexandre
+		Alfons
+		Alfonso
+		Andreu
+		Andres
+		Antoni
+		Arcadi
+		Carles
+		Cassia
+		Dalmau
+		David
+		Eduard
+		Enric
+		Enrique
+		Federico
+		Felip
+		Fernando
+		Ferran
+		Francesc
+		Gaspar
+		Gerard
+		Isaac
+		Jacint
+		Jaume
+		Joan
+		Jordi
+		Josep
+		Jose
+		Juan
+		Llorenc
+		Lluis
+		Manel
+		Manuel
+		Marc
+		Melchor
+		Miquel
+		Narcis
+		Pasqual
+		Pau
+		Pedro
+		Pere
+		Pompeu
+		Rafael_2
+		Rafel
+		Ramon_2
+		Ricardo
+		Salvador
+		Sergi
+		Valnti
+		Victor
+		Xavier
+		Agustin
+		Aitor
+		Alberto
+		Ander
+		Andoni
+		Andres
+		Antonio
+		Arturo
+		Carlos
+		Ceferino
+		Cosme
+		Cristobal
+		Damian
+		Endika
+		Francisco_Javier
+		Ignacio
+		Imanol
+		Inaki
+		Jesus
+		Jon_2
+		Joseba
+		Josu
+		Jose_Antonio
+		Jose_Maria
+		Juan
+		Julen
+		Koldobika
+		Luis
+		Manuel
+		Marino
+		Miguel
+		Paulino
+		Pedro
+		Rafael_2
+		Ramiro
+		Ramon
+		Sabino
+		Tomas
+		Vicente
+		Angel
+		Abel
+		Adriano
+		Afonso
+		Alberto
+		Alexandre
+		Alfredo
+		Andre
+		Antonio_2
+		Aquilino
+		Artur
+		Augusto
+		Bartolomeu
+		Bernardo
+		Bruno
+		Caetano
+		Carlos
+		Christovao
+		Claudio_2
+		Candido
+		Damiao
+		Daniel
+		David
+		Dinis
+		Diogo
+		Duarte
+		Ernesto
+		Estevao
+		Eugenio
+		Fernando
+		Filipe
+		Francisco
+		Francisco_Xavier
+		Gastao
+		Hermenegildo
+		Ignacio_2
+		Jeronimo
+		Joaquim
+		Jorge
+		Jose
+		Joao
+		Julio_2
+		Leopoldo
+		Luis_2
+		Manuel
+		Miguel
+		Mario_2
+		Nicolau
+		Nuno
+		Orlando
+		Pascoal
+		Paulo
+		Pedro
+		Rafael_2
+		Raul
+		Roberto
+		Rodrigo
+		Rui
+		Santiago
+		Sebastiao
+		Teodoro
+		Teofilo
+		Tiago
+		Tome
+		Urbano
+		Vasco
+		Vicente
+		Vitorino
+		Vitorio
+		Alvaro
+		Oscar_2
+		Achille Adolphe Adrien Aimable Alphonse Amedee Antoine Armand Auguste Augustin Alcide Andre Alexandre Athanase Abel Ambroise Aristide AlbE_ric Archambaud
+		Bertrand Bernardin Bernard Barthelemy
+		Charles Constant Camille Claude CE_lestin Christophe Cyprien
+		Daniel Denis Donat Dominique
+		Elie Eugene Edouard E_tienne Emile Emmanuel E_vrard ElzE_ar
+		Fernand Francois Frederic Felicien Felix Firmin Ferdinand
+		Georges Guillaume Gustave Gaston Guy Germain
+		Henri Hippolyte Hubert Hugo Hercule Hugues
+		Jacques Jean Joseph Jules Julien Jeremie JE_rO_me Just
+		Lazare Louis Lucien Leopold_2 Leon Laurent Lazare LE_onide
+		Matthieu Michel Marcel Maximilien Maxime Maurice MoI_se
+		Napoleon Nicolas
+		Olivier Oscar Octave Odilon
+		Patrice Paul Philippe Pierre Prosper Pascal
+		Robert Roland Rodolphe Raymond Rene RE_my
+		Sebastien Simon
+		Thibaut Thierry Thomas Theophile Theodore ThE_obald
+		Vincent
+		Xavier
+		Yves
+		August Adrian Antonin Avit AristO_tel Andrieu Arnaut AnfO_s Alexandre Agustin AlE_xi Armand
+		Brut Bernat BerenguiE_r Beneset Bonifaci
+		Claudi Cesar Constantin Constanci Carles ClamenC_ Ciprian Cesari Crestian CailU_s
+		DA_vid
+		Emilian Edoard Enric EstE_ve EugE_ni
+		Fermin Felip FE_lix Frederic Folco FrancE_s
+		GregO_ri GuilhE_m Gaston Gui
+		Imbert Ipolit
+		Joan Joan_Luc Juli JosE_p Just Joan_Marc JO_rdi
+		Luc Leon LoI_s
+		Marc MatE_u Marcellin Maurici Martin Maximin MiquE_u
+		Norbert Nicolau
+		OnE_st OnO_ri Olimp
+		Pau PE_ire Plini Pascal
+		Raimon RogiE_r Roman
+		Sarnin Septimi Sicard SilvE_stre Severin Simmac SE_rgi
+		TomA_s TeodO_si TeodO_r Teofil
+		Victor
+		XaviE_r
+		Aimery
+		Alphonse
+		Amedee
+		Auguste_Hilarion
+		Auguste-Marie
+		Bruno
+		Constant
+		Edouard-Marie
+		Felicite_Pierre
+		Florian
+		Gontran
+		Guillaume
+		Henri
+		Jakou
+		Jean
+		Jean-Denis
+		Julien
+		Michel-Augustin
+		Mordiern
+		Nathan
+		Paul
+		Philippe
+		Prudence-Guillaume
+		Raoul
+		Thomas
+	}
+	female_common_first_names = {
+		Adela
+		Ana
+		Constanta
+		Daria
+		Dora
+		Ecaterina
+		Elena
+		Elisa
+		Elisabeta
+		Eugenia
+		Iulia
+		Iuliana
+		Lucretia
+		Maria
+		Maritica
+		Beatrice
+		Camilla Cassandra Cristina
+		Giovannella
+		Livia Lucrezia Luisa
+		Maddalena Maria Melania Metilde
+		Sofia
+		Teresa
+		Anna Amalia Antonia Alfonsa Alssandra Alssandrina Augusta
+		Beatrice Bianca Barbara Benedetta
+		Clotilde Carlotta Carolina Caterina Cristina Cecilia Cornelia Costanza
+		Enrichetta Eleonora Eulalia Elena Emanuela Elisabetta
+		Filippina Francesca
+		Giuseppina Giovanna Giulia Giustiniana
+		Isabella Ippolita
+		Luisa Luisa_Carlotta Lucrezia Laura Lucia Leonora
+		Maria Maria_Anna Maria_Luisa Maria_Enrichetta Mercedes Maria_Barbara Michela Margherita Marianna
+		Paolina
+		Sofia
+		Vittoria Violante
+		Adelaida
+		Alejandrina
+		Amalia
+		Antonia
+		Bonifacia
+		Carlota
+		Clotilde
+		Concepcion
+		Dolores
+		Emilia
+		Enriqueta
+		Eulalia
+		Faustina
+		Francisca
+		Guillermina
+		Herminia
+		Isabella
+		Joaquina
+		Manuela
+		Maria_2
+		Mariana
+		Martina
+		Robustiana
+		Rosa
+		Sabina
+		Teresa
+		Ana
+		Assumpcio
+		Carolina
+		Carme
+		Dolores
+		Ester
+		Josefina
+		Isabel
+		Lluisa
+		Maria
+		Rosa
+		Susana
+		Ana
+		Bizenta
+		Elbira
+		Ernestina
+		Luisa
+		Maria
+		Martina
+		Mikaela
+		Oneka
+		Adelgundes
+		Ana
+		Antonia_2
+		Avelina
+		Benedita
+		Bernardina
+		Carlota
+		Eulalia_2
+		Francisca
+		Gabriela
+		Isabel
+		Joana
+		Joaquina
+		Josefa
+		Leopoldina
+		Maria
+		Micaela
+		Rafaela
+		Rita
+		Rosa
+		Rosalia
+		Sofia
+		Teresa
+		Adelaide_2 Adele_2 Alexandrine Amelie_2 Angelique Anne Antoinette Athenais Augustine
+		Beatrice Blanche
+		Camille Caroline Catherine Charlotte Claire Clemence Clotilde
+		Delphine Diane
+		Eleonore_2 Ernestine Eugenie Eulalie
+		Francoise
+		Gabrielle
+		Henriette Hortense
+		Jeanne Julie Juliette Justine
+		LE_ontine Leopoldine Louise Louise-Victorine
+		Marcelle Marguerite Marie Marie-Anne Marie-Felix Marthe Mathilde Melanie
+		Pauline Paule
+		SE_raphine Sibylle Sophie Stephanie Suzanne
+		Therese_2
+		Victoire Victorine Virginie
+		AdelaI_da
+		Basilida
+		Clotilda Catarina Clara
+		ElisabE_t
+		FiladE_lfa
+		Jana Julia
+		EstE_la
+		Maria Marianna
+		Susana
+		TerE_sa
+		Urraca
+		Adelaide
+		Anne
+		Caroline
+		Catherine
+		Elisabeth_2
+		Henriette
+		Jeanne
+		Julie
+		Louise
+		Pauline
+		Sophie
+		Tiphaine
+	}
+	noble_last_names = {
+		Cantemir
+		Caradja
+		Conachi
+		de_Reuss-Mirza
+		de_Hohenzollern
+		Dinotto-Gusti
+		Dragos
+		Ghica
+		Hasdeu
+		Hurmuzachi
+		Kogalniceanu
+		Mocioni
+		Moruzi
+		Murgulet
+		Racovita
+		Sturdza
+		Vacarescu
+		Ionita
+		Avogadro_della_Motta d_Azeglio Annoni_di_Cerro Avogadro_di_Casanova d_Alberti_della_Briga d_Arcais
+		Borghese di_Boglio Baldassi Bon_Compagni_di_Mombello Bottone_di_San_Giuseppe Boyl_di_Putifigari Bronzini_Zapelloni De_Benedetti
+		Capodilista Carniani Colli_di_Felizzano Colonna di_Calabiana Costa_de_Beauregard Costa_della_Torre De_Castro De_Chambost
+		Ferrero_La_Marmora De_Ferrari de_Foresta Falqui_Pes Fecia_di_Cossato
+		Gebaix_de_Sonnaz Girod_De_Montfalcon
+		d_Ittiri_LedA_
+		de_Launay
+		Massimo De_Marchi de_Martinel Moffa_di_Lisio_Gribaldi
+		Odescalchi Orsini
+		Pallavicino Pacoret_de_Saint_Bon Pecori-Giraldi Pellion_di_Persano Pernati_di_Momo Petitti_Bagliani_di_Roreto Ponzo_di_San_Martino
+		Ricardi_di_Netro di_Robilant
+		Sacchetti di_Savoia di_Savoia-Aosta Solaro_della_Margarita di_Salmour Santa_Croce_Villahermosa Solaroli_di_Briona Somis_di_Chavrie
+		Toesca Torelli Thaon_di_Revel
+		Afan_de_Rivera Antici d_Albergo d_Ayala
+		Barracco Berlingieri Bufalari Baccarini Di_Brocchetti
+		Caetani CalA__Ulloa Caracciolo di_Cesare Ceccarini di_Crollalanza
+		Donnorso_di_Serracapriola
+		Ercolani d_Escamard
+		Filangieri
+		Galluppi Giannuzzi-Savelli della_Genga
+		Lanfranci Lucifero de_Liguori Leopardi de_Luca
+		Montani_da_Pesaro Marchesani
+		Ondedei Osmani
+		Piccolomini Pignatelli del_Pezzo
+		de_Riseis della_Rovere De_Renzi de_Rilliet del_Re
+		Sanfelice Spinello de_Samuele_Cagnazzi Sgariglia Smeducci Sammarruco di_Sangro
+		de_Thomasis
+		d_Urso
+		Visconti
+		Winspeare
+		Zurlo Zorniotti
+		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
+		Barrionuevo de_Bohorques de_Bernuy de_Bago
+		Cabrera Cagigal_de_la_Vega Colon de_Carvajal del_Carmen_Contreras
+		DI_ez_de_Rivera de_Domecq
+		Fernandez_de_Cordoba de_la_Fuente Fitz-James_Stuart de_Figueroa Flores_de_SeptiE_n FernA_ndez-Zapata FernA_ndez_de_CO_rdoba
+		Garcia_de_la_Noceda GirO_n de_GuzmA_n de_Godoy GonzA_lez_de_Cienfuegos Grimaldi
+		Hidalgo_de_Cisneros
+		JordA_n_de_UrrI_es
+		LO_pez_de_Haro de_Llorach
+		MessI_a de_Mercader de_Mora de_Medina del_Milagro_Quesada
+		Ortiz_de_la_Riva O_Donnell Osorio_de_Moscoso de_Orozco
+		Primo_de_Rivera PE_rez_de_Herrasti de_Palafox PE_rez_de_GuzmA_n PiN_eiro de_Pedro del_Pilar_Osorio
+		de_QuirO_s de_Quintanilla
+		RamI_rez_de_Saavedra del_Rosario_FalcO_ del_Rosario_Vereterra de_Rojas de_Riquer Ruiz_de_Arana
+		SuA_rez_de_ArgudI_n de_Silva de_SatrU_stegui SaI_nz_de_la_Maza de_Samaniego de_Sentmenat de_Salavert de_Santiago_Concha Sanchiz
+		de_Tineo
+		de_Urquijo de_Uzqueta
+		de_Valda del_Valle de_Villalonga de_la_Vera ValdE_s
+		de_ZufI_a
+		d_Areny-Plandolit
+		de_Llauder_i_Dalmases
+		de_Mas_i_Nadal
+		de_Suelves_i_de_Montagut
+		Ferrer
+		Folc_de_Cardona
+		Guell
+		Janer
+		Junyent
+		Lopez_i_Bru
+		Milans_del_Bosch
+		Arana
+		Arellano
+		Imatz
+		Irujo
+		Iturmendi
+		de_Lardizabal
+		Leizaola
+		de_Olazabal
+		Pradera
+		Correia_de_Sa
+		Costa
+		da_Cunna
+		da_Silva_Pereira
+		de_Almada
+		de_Braganza
+		de_Braganca-Coburgo
+		Carballo
+		de_Caula
+		de_Oliveira
+		de_Queiros
+		de_Sousa
+		de_Sousa_Coutinno
+		de_Vasconcelos
+		dos_Anxos
+		Rangel
+		Rebelo
+		Vilela
+		d_Aumont
+		Baraguey_d_Hilliers Bergeret de_Beauharnais de_Bussiere de_Broglie
+		de_Chastellux de_Chodron_de_Courcel de_CambacE_rE_s de_Croy
+		Decazes de_Durfort
+		d_Essling
+		Fesch
+		Gros de_Gramont de_Guerin de_Gueydon de_Goyon
+		Kellermann
+		Lagrange de_Lamartine de_La_Luzerne de_Leuchtenberg
+		Marbot de_MacMahon de_Montmorency-Laval Maret de_Morny MassE_na
+		de_Noailles
+		Oudinot
+		Pasquier de_Pourtales de_Polignac de_Persigny
+		de_La_Rochefoucauld de_Rochebouet de_Rohan-Chabot
+		Suchet de_Sabran de_Saulx de_SE_rent
+		de_Talleyrand-PE_rigord
+		Audren_de_Kerdrel
+		Berthois
+		d-Espinay
+		d-Oilliamson
+		de_Becdelievre
+		de_Boisgelin
+		de_Cintre
+		de_Cornulier
+		de_Botherel
+		de_Dieuleveult
+		de_Farcy
+		de_Goesbriand
+		de_Goulaine
+		de_Goyon
+		de_Gueheneuc
+		de_Kergariou
+		de_Keratry
+		de_Kergolay
+		de_Kersauson
+		de_Langle_de_Beaumanoir
+		de_Roujoux
+		des_Nos
+		du_Plusquellec
+		Espivent_de_La_Villesboisnet
+		Juchault
+		Lanjuinais
+		Magon
+	}
+	common_last_names={
+		Angelescu
+		Antonescu
+		Argetoianu
+		Averescu
+		Baldescu
+		Barozzi
+		Berindei
+		Cernat
+		Christecu
+		Cihoski
+		Ciuperca
+		Coanda
+		Crainiceanu
+		Critescu
+		Culcer
+		Cuza
+		Dona
+		Dragalina
+		Dumitrescu
+		Falcoianu
+		Flechtenmacher
+		Florescu
+		Froza
+		Gardescu
+		Grigorescu
+		Harjeu
+		Holban
+		Iancovescu
+		Iliasevici
+		Iliescu
+		Ionascu
+		Ionescu
+		Ionitiu
+		Koslinski
+		Lahovary
+		Lupescu
+		Mardarescu
+		Murgescu
+		Poenaru
+		Prezan
+		Salajan
+		Samsonovici
+		Schitiu
+		Scodrea
+		Slaniceanu
+		Steflea
+		Tatarascu
+		Tenescu
+		Vaitoianu
+		Zottu
+		Acton Albricci Agnes Airenti Amaretti Ara Arminjon Arnulfo Arrifo Asproni Astengo Avigdor Avondo
+		Badoglio Baldissera Baratieri Bava-Beccaris Baldassi Benci Baino Barbier BeldI_ Bellono Benintendi Berruti Bersezio Berti Bertini Bertoldi Bezzi Biancheri Bianchetti Bianchi Billiet Blanc Bo Bolmida Bona Borella Botta Bottero Brignone Brofferio Brunati Brunet Brunier Bruschetti Buffa Buraggi Buttini
+		Cadorna Cagni Canevaro Capello Caviglia Ceccherini Cialdini Cusani Cabella Caboni Cambieri Campana Canalis Cantara Capriolo Carquet Carta Casaretto Cassinis Castelli Cavalli Cavallini Chenal Chiaves ChiO_ Cobianchi Colli Cornero Correnti Corsi Costa Crosa Cugia
+		Dezza Demaria Depretis Durando Daziani Decandia Delfino Delitala
+		Emo
+		Fanti Fara Filomarino Fara Farina Farini Ferraciu Fescot
+		Garibaldi Giardino Govone Gallenga Gallisai Gallo Galvagno Gastinelli Genina Gerbore Germanetti Geymet Ghiglini Gianolio Gilardini Ginet Giovanola Graffigna Grixoni Guglianetti Guillet
+		Imperiali Isola
+		Lachenal Lanza Louaraz
+		Malan La_Marmora Mambretti Menabrea Mozzoni Mameli Mamiani Mantelli Marassi Mari Marongiu Martelli Martin Mathieu Mautino Mazza Melegari Mellana Menabrea Mezzena Michelini Miglietti Miglioretti Minoglio Moia Mongellaz Monticelli Mossi Musso
+		Naytana Niccolini Nino Notta
+		Orengo Oytana
+		Pelloux Perruchetti Pianelli Porro Presbitero Paleocapa Pallavicino Pallieri Pareto Pateri Pescatore Peyrone Pezzani Piacenzi Piane Picinelli Pistone Polleri Polto Porqueddu Pugioni
+		Quaglia
+		Ramorino Ricotti-Magnani Rattazzi Ravina Rezasco Riccardi Ricci Richetta Robecchi Roberti Rocci Rodini Rossi Rubin
+		Sacchi Saletta Sanna Solari Sanguineti Sanna_Denti Sanna_Sanna Sappa Saracco Sauli Scano Scapini Sella Serra Sineo Siotto_Pintor Solari Spano Spinola Sulis
+		Tecchio Tegas Tola Torelli Tuveri
+		Vaccari Valerio Valvassori Vicari
+		Zupelli Zirio
+		Anfora Avitabile Alianelli Antonelli Assanti Acclavio
+		Barberini-Colonna Bonaccorsi Benci Bozzelli Baldacchini Briganti Bausan Bianchini
+		Caraga Cattaneo Chigi Clary Cosenz Cianciulli Cuoco Costa Campagna Capocci Capasso Croce Carrascosa Colletta
+		Diaz Durini Delfico
+		Ferrari Filangieri Filioli Fergola Fardella Forteguerri Ferri Fortunato
+		Gironda Gravina Grifeo Garzia Gagliardo Galdi Guarini Genoino Gussone Gio Giannuzzi Galletti
+		Imbriani Intonti
+		Lanza Lombardo Lunardi Landi Lanza Longobardi
+		Molinelli Mezzacapo Milano Morelli
+		Nunziante Naselli
+		Orsini Ottaviani Oliva
+		Pironti Pepe Poerio Palmieri Persico Parisi PaternO_ Pianell Pignatelli Pionati Parisio
+		Quandel
+		Ritucci Ruggiero Romano Rosaroll Ricciardi Rosica
+		Scammacca Scovazzo Sansone Sannia Schipa Silvati Settimo Scialoja Statella Santangelo
+		Torlonia Turrisi Troya Tommasi Tenore Tafuri Torelli Tardio Troisi
+		Vernazza Valiante Vignale Vecchione
+		Zunica Zurlo
+		Acuna Aguirre Alcala-Zamora Allendesalazar Alonso Aranda Arguelles-Meres Asensio Aznar Alvarez Acedo Arabolaza Arrate Artola Aranzadi
+		Barradas Bugallal BotI_n Bonilla Belaunde Blanco
+		Cano Cervera Corsi Cuadrada Comamala
+		Diaz_2 DomI_nguez
+		Espartero Escoda EguiazA_bal
+		Fernandez Franco Fajardo
+		Garcia Gonzalez Gil Grasset Galatas
+		Heredia Hernandez Herrera Hevia
+		Izaguirre
+		Linares Lopez Lorenzana Landazabal LarraN_aga
+		Maroto Martinez-Campos Maura Menendez Miaja Millan-Astray Mina Mola Munoz Marquez MelE_ndez MedizA_bal Muguerza Moreira Mandiola Muguruza
+		Narvaez
+		Ortega Otero Onsalo OrdO_N_ez Olaso Ozores
+		Pavia Perez PajarO_n Pagaza Pattullo Pena
+		Queipo_de_Llano Quintana Quirante
+		Rodriguez Rojo Ruiz Reparez Ruete
+		Sanjurjo Serrano Silvestre Samitier Serrano Saprissa
+		Topete Tuduri Terradas Torralba
+		Valdes Varela Villapol Villar Vela Villota Vilalta Vallana VA_zquez
+		Weyler
+		Yague
+		Zamora Zabala
+		Albeniz
+		Alier
+		Almirall
+		Bacardi
+		Batet
+		Berenguer
+		Bonaplanta
+		Borrell
+		Borras
+		Cadafall
+		Carner
+		Casals
+		Casanova
+		Castello
+		Claramunt
+		Cucala
+		Cugat
+		Dalmau
+		Despujol
+		Domenech
+		Escotet
+		Escoda
+		Fabra
+		Fages
+		Gumera
+		Irla
+		Jevelli
+		Llauder
+		Macia
+		Maragall
+		Margall
+		Miro
+		Mompou
+		Montaner
+		Moragues
+		Moret
+		Nebot
+		Nin
+		Oller
+		Prat
+		Prim
+		Puig
+		Riba
+		Roig
+		Sala
+		Saliquet
+		Savalls
+		Serra
+		Sor
+		Tristany
+		Verdaguer
+		Vidal
+		Virigili
+		Vives
+		Aguirre
+		Ajuriaguerra
+		Aldecoa
+		Arana
+		Aranzadi
+		Arizmendiarrieta
+		Armendariz
+		Aznar
+		Balenciaga
+		Berasategui
+		Bilbao
+		Campion
+		Churruca
+		Echague
+		Echave
+		Echegaray
+		Echevarria
+		Elordi
+		Elorza
+		Gaztaneta
+		Ibarrola
+		Ibarruri
+		Irujo
+		Lazcano
+		Mendizabal
+		Moneo
+		Nardiz
+		Olano
+		Olave
+		Oyarzabal
+		Rotaeche
+		Uzcudun
+		Zamarraga
+		Zavala
+		Zumalacarregui
+		Zarate
+		de_Amesquita
+		de_Azpilicueta
+		de_Erauso
+		de_Renteria
+		de_Ubisztongo
+		Amaral
+		Barreto
+		Bleck
+		Braga
+		Cabral
+		Capelo
+		Carmona
+		Coelho
+		Correia
+		Coutinho
+		Dias
+		Fernandes
+		Ferreira
+		Figueira
+		Freire_de_Andrade
+		Gago
+		Gil
+		Gomes
+		Herculano
+		Ivens
+		Keil
+		Lopes
+		Machado
+		Magalhaes
+		Mendes
+		Moniz
+		Mouzinho
+		Nogueira
+		Nunes
+		Ortigao
+		Pereira
+		Pinheiro
+		Pinto
+		Pires
+		Pomar
+		Pulido
+		Queiroz
+		Quintanilha
+		Ribeiro
+		Rodrigues
+		Salazar
+		Sampaio
+		Silveira
+		Sergio_2
+		Tavares
+		Teixeira
+		Vidigal
+		Vieira
+		da_Silva
+		de_Almeida
+		de_Arriaga
+		de_Castro
+		de_Gusmao
+		de_Lacerda
+		de_Mesquita
+		de_Moura
+		de_Noronha
+		de_Paiva
+		dos_Reis
+		dos_Santos
+		Anthoine Archinard Augereau Aucouturier Alavoine
+		Baraguey Bazaine Billot Bosquet Boulanger Bourbaki Boue_de_Lapeyrere Bouet-Willaumez Bugeaud Beaugendre Bronchard Baudet Bodinier Bouillet BiE_re
+		Caillard Canrobert Courbet Cousin-Mountauban de_Castellane de_Castelnau Combes ClouE_ Cornet Colas Chauvet Carrere Chartier Combelles Chaude Colin Cruchon Cauvry ChaudE_ Collet Cottrel Charron Caudrelier Courcelles Cibiel
+		Davout Depre Dubail Dubois Duchene Dupetit-Thouars Desbordes DelcassE_ Dortignacq Dargassies Desgrange Daumain Decaup Dozol Duboc Darche Deloffre Dutiron Denizot Dufour Devilly Dhers Dartigue Degy Delpech Daime
+		Exelmans
+		Foch Forey Franchet_d_Esperey Freycinet Faidherbe Fily Fleury Forestier Figuet
+		Gallieni Gouraud Guillaumat de_Gaulle Gain Georget Gabory Guillarme Garrigou Genin GE_raud Godivier Germain Gardent Goujon
+		Hamelin Harispe Hoche Humbert d_Hilliers Habierre Herbelin Harquet
+		Jamais Jaures Joffre JaurE_guiberry Jousselin
+		Lebouef Lyautey de_Langle_de_Cary Leygoute Lignon Lallement Lacroix Lafourcade Le_Bars Lachaise Leman Lorillon Lecointe Langlade Leblanc Lagagner Leroy Lapize Lannelongue
+		Marmontel Murat de_Montaignac Mazel Maitron ME_nager Meili Mathonat
+		Ney_d_Elchingen Nivelle Nancy Neboux Nempon Nadaud
+		Oudin Ory
+		Petain Pellissier Pothier Pasquier Pautrat Payan Passerieu Paulmier Ponson PiE_trois Pardon
+		Quenon
+		Ringeval Roux Rabot Riviere Roche Riou Ricaux Roquebert Rottie Royannez
+		Saget de_Saint_Arnaud SouliE_
+		Trebutien Trousselier Tuvache
+		Vaillant Ventresque Villette Vivier Vaidis Vilette
+		Wattelier Winant
+		Ayrinhac AubanE_u Arnaudin d_AstrO_s
+		Brunet Bernard Blanc de_BordE_u Boya Barrera Benaset
+		de_Camelat
+		Devoluy DO_sque DadO_r Delseny Desporrins DaugE_r Dulau DuclO_s
+		Eyt
+		Fallen Four_Pome de_Fondevila
+		Giera Garcin GojA_s Gonzales de_GastellU_
+		Jouveau Jauverd
+		Lacor Lescar Lalanne Lafont
+		Mistral Matieu Manciet
+		NavarrO_t
+		Polinet Palay PlantE_ Peirotet
+		Romanilha Rostaing Renan
+		Sarran de_Salanovat
+		Tavan
+		VigE_r VerdiE_r Verlhac
+		Bedeau
+		Calvez
+		Dosser
+		Galand
+		Le_Bris
+		Le_Mouel
+		Quelfeter
+		Roper
+		Thoraval
+		Vallee
+		de_Saint-Andre
+	}
+	male_regal_first_names={
+		Alfonso Amadeo
+		Carlos
+		Felipe Fernando
+		Jose Juan_Carlos
+		Luis
+		Antoine
+		Charles
+		Ferdinand-Philippe Francois
+		Henri
+		Louis
+	}
+	female_regal_first_names={
+		Beatriz
+		Eulalia
+		Isabel
+		Luisa_Fernanda
+		Maria_2 MarI_a_Teresa
+		Anne
+		ClE_mentine
+		Francoise
+		HE_lE_ne
+		Isabelle
+		Louise
+		Marie Marie_ThE_rE_se
+	}
+	regal_last_names={
+		de_BorbO_n
+		de_BorbO_n_Anjou
+		de_BorbO_n_Parma
+		de_Habsburgo
+		de_Orleans
+		de_Saboya
+		de_Wittelsbach
+		d_Artois
+		Bonaparte de_Bourbon de_Bourbon-CondE_
+		d_Orleans
+	}

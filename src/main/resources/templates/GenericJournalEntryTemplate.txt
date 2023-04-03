@@ -10,7 +10,7 @@ je_standardize_<syncretic_culture_name> = {
 	}
 
 	possible = {
-		#has_technology_researched = pan-nationalism
+		has_technology_researched = pan-nationalism
 <possible_for_cultures>
 		custom_tooltip = {
 			text = standardize_<syncretic_culture_name>_decision_var_custom_tooltip
@@ -50,6 +50,13 @@ je_standardize_<syncretic_culture_name> = {
 				# option to remove primary cultures and homelands
 				trigger_event = { id = standardize_<syncretic_culture_name>.3 }
 			}
+            if = {
+                limit = {
+                    var:standardization_<syncretic_culture_name>_var = 70
+                }
+                # option to remove primary cultures and homelands
+                trigger_event = { id = standardize_<syncretic_culture_name>.3 }
+            }
 		}
 	}
 

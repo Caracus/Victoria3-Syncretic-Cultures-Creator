@@ -46,13 +46,13 @@ fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
                         text += format(0," standardize_${cultureNameKey}.6.a:0 \"Keep me around, just in case.\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.6.b:0 \"Hide this menu and decision forever.\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.6.c:0 \"Trigger an additional yearly conversion tick event.\"" ,1)
-                        text += format(0," standardize_${cultureNameKey}.6.d:0 \"Trigger the 30/50 year milestone event now.\"" ,1)
+                        text += format(0," standardize_${cultureNameKey}.6.d:0 \"Trigger the 30/50/70 year milestone event now.\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.6.e:0 \"Convert all eligible pops to \$${cultureNameKey}\$.\"" ,1)
                         text += format(0," complete_${cultureNameKey}_decision_not_var_custom_tooltip:0 \"Has not decided to set \$${cultureNameKey}\$ conversion to 100%\"" ,1)
                         text += format(0," complete_${cultureNameKey}_decision_var_custom_tooltip:0 \"Has decided to set \$${cultureNameKey}\$ conversion to 100%\"" ,1)
                         text += format(0," hide_${cultureNameKey}_debug_menu_var_custom_tooltip:0 \"Will remove the debug menu and decision to open it\"" ,1)
                         text += format(0," complete_${cultureNameKey}_decision:0 \"Open Performance Helper Menu\"" ,1)
-                        text += format(0," complete_${cultureNameKey}_decision_desc:0 \"If you have performance issues or want to fast track the 30/50 year milestone event.\"" ,1)
+                        text += format(0," complete_${cultureNameKey}_decision_desc:0 \"If you have performance issues or want to fast track the 30/50/70 year milestone event.\"" ,1)
 
                         it.optionalCultures.forEach { addonCulture ->
                                 text += format(0," standardize_${cultureNameKey}_addon_${addonCulture}.1.t:0 \"What about \$$addonCulture\$?\"" ,1)

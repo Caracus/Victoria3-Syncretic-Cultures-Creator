@@ -10,7 +10,9 @@
       "breton",
       "wallonian"
     ],
-    "mutuallyExclusiveWith": [],
+    "mutuallyExclusiveWith": [
+      "romance"
+    ],
     "defaultCulture": true,
     "localization": "Modern French",
     "color": "rgb{ 0 32 159 }",
@@ -57,12 +59,52 @@
       "corsican",
       "maltese"
     ],
-    "mutuallyExclusiveWith": [],
+    "mutuallyExclusiveWith": [
+      "romance"
+    ],
     "defaultCulture": true,
     "localization": "Italian",
     "color": "rgb{ 0 140 69 } #Italy flag green",
     "religion": "catholic",
     "traits": "italophone european_heritage",
+    "obsessions": "wine",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
+  {
+    "syncreticCultureName": "romance",
+    "baseCultures": [
+      "north_italian",
+      "south_italian",
+      "corsican",
+      "maltese",
+      "french",
+      "occitan",
+      "wallonian",
+      "romanian",
+      "portuguese",
+      "catalan",
+      "galician",
+      "spanish"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "swiss"
+    ],
+    "mutuallyExclusiveWith": [
+      "italian",
+      "modern_french",
+      "hispanic",
+      "iberian",
+      "iberic",
+      "modern_portuguese",
+      "porto_brazilian"
+    ],
+    "defaultCulture": false,
+    "localization": "Romance",
+    "color": "rgb{ 213 84 79 } #roman red (faint)",
+    "religion": "catholic",
+    "traits": "italophone hispanophone lusophone romanian_culture_group european_heritage",
     "obsessions": "wine",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -147,7 +189,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
-    "localization": "Arabian",
+    "localization": "Arab",
     "color": "rgb{ 116 132 153 } #Some grayish blue",
     "religion": "sunni",
     "traits": "arab_speaking middle_eastern_heritage",
@@ -299,7 +341,8 @@
       "iberian",
       "modern_spanish",
       "porto_brazilian",
-      "modern_portuguese"
+      "modern_portuguese",
+      "romance"
     ],
     "defaultCulture": false,
     "localization": "Iberic",
@@ -332,7 +375,8 @@
       "iberian",
       "modern_spanish",
       "latino",
-      "iberic"
+      "iberic",
+      "romance"
     ],
     "defaultCulture": false,
     "localization": "Hispanic",
@@ -385,7 +429,8 @@
       "modern_portuguese",
       "porto_brazilian",
       "hispanic",
-      "iberic"
+      "iberic",
+      "romance"
     ],
     "defaultCulture": false,
     "localization": "Iberian",
@@ -410,7 +455,8 @@
     "mutuallyExclusiveWith": [
       "iberian",
       "hispanic",
-      "iberic"
+      "iberic",
+      "romance"
     ],
     "defaultCulture": true,
     "localization": "Modern Spanish",
@@ -435,7 +481,8 @@
     "mutuallyExclusiveWith": [
       "modern_portuguese",
       "iberian",
-      "iberic"
+      "iberic",
+      "romance"
     ],
     "defaultCulture": false,
     "localization": "Porto-Brazilian",
@@ -457,7 +504,8 @@
     "mutuallyExclusiveWith": [
       "porto_brazilian",
       "iberian",
-      "iberic"
+      "iberic",
+      "romance"
     ],
     "defaultCulture": false,
     "localization": "Modern Portuguese",
