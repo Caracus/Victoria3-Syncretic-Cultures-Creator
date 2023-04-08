@@ -1,0 +1,37 @@
+Short Desc:
+Enables syncretic cultures to develop organically and gradually by merging together cultures selected by the player over the duration of a playthrough.
+
+Long Desc:
+Enables syncretic cultures to develop organically and gradually by merging together cultures selected by the player over the duration of a playthrough.
+
+
+
+How it works:
+Enables syncretic cultures to develop organically and gradually by merging together cultures selected by the player over the duration of a playthrough.
+
+
+
+How it works:
+    Choose which syncretic culture you want to see! Cultures you dont like/agree with wont appear.
+    Select opt-in cultures! Dont like Swiss merging with a syncretic German for example? Just select no in the pop-up.
+    Once you unlock pan-nationalism a journal entry will start ticking.
+    Every state that matches the base and optional cultures will be designated as a homeland of your syncretic culture.
+    Each year an event will run in the background that converts a dynamic amount of eligible pops to the syncretic culture.
+    The percentage of this conversion is based on literacy, discrimination, unlocked techs and importantly the pop type. (See table below for information in detail)
+    After 30, 50 and 70 years an event will fire with 3 options:
+    	Nothing changes
+    	Remove your old primary cultures.
+    	Remove the homelands of your old primary within your country and the primary cultures from your country.
+    Regardless of your previous [b]choice[/b] the yearly conversion tick will continue for the [b]entire[/b] duration of the game. You can speed it up or keep it rather immersive with your choice.
+
+
+Compatibility:
+This mod is highly compatible as all files are standalone and dont override anything. As long as the cultures targeted by this mod exist in vanilla it will work.
+
+
+
+Want more info?
+Regarding the mod
+List of Syncretic Cultures
+
+

@@ -1,0 +1,190 @@
+[b]Enables syncretic cultures to develop organically and gradually by merging together cultures selected by the player over the duration of a playthrough.[/b]
+
+[h2]How it works: [/h2]
+[olist]
+    [*]Choose which syncretic culture you [b]want[/b] to see! Cultures you dont like/agree with [b]wont[/b] appear.
+    [*]Select [b]opt-in[/b] cultures! Dont like Swiss merging with a syncretic German for example? Just [b]select[/b] no in the pop-up.
+    [*]Once you unlock pan-nationalism a journal entry will start ticking.
+    [*]Every state that matches the base and optional cultures will be designated as a homeland of your syncretic culture.
+    [*][b]Each year[/b] an event will run in the background that converts a dynamic amount of eligible pops to the syncretic culture.
+    [*]The percentage of this conversion is based on literacy, discrimination, unlocked techs and importantly the pop type. (See table below for information in detail)
+    [*]After 30, 50 and 70 years an event will fire with 3 [b]options[/b]:
+[list]
+    [*]Nothing changes
+    [*]Remove your old primary cultures.
+    [*]Remove the homelands of your old primary within your country and the primary cultures from your country.
+[/list]
+    [*]Regardless of your previous [b]choice[/b] the yearly conversion tick will continue for the [b]entire[/b] duration of the game. You can speed it up or keep it rather immersive with your choice.
+[/olist]
+
+[h2]What is the result? [/h2]
+    [*]Urban centers will show a much faster cultural change. Higher education and jobs that require a lot of communication will become a true catalyst. As a clerk is much more exposed to changes than a peasant taking care of the cows on his rural farm.
+    [*]As a result rural areas or areas without proper education will be strongholds of backward ideals and will cling to the old ways.
+    [*]Especially in the early stages your syncretic culture will feel a little bit posh as the early adopters all come from a better background and usually bring a higher SoL with them.
+    [*]Free access to education, better jobs or the invention of technologies like the radio, movies or mass propaganda are pretty much the only way to convince the old guard to adapt.
+    [*]The accumulation of beneficial circumstances results in faster adaption of your syncretic culture as the game goes on.
+    [*]The whip does not crack out of love! Enslaving or discriminating against cultures you made part of your plans will not yield great results.
+
+[h2]You want the AI to form a syncretic culture too? [/h2]
+    [*] Option A: Choose the immersive Syncretic Cultures game rule
+    [*] Option B: As the decisions can only be taken by human player it is as easy to switch country, take the decision, select the optional cultures you like and swap back. Then proceed to enjoy the changes on the cultural map. Keep in mind that an excessive amount of extra cultures will slow your game down so enjoy with moderation. Its not required but I recommend not enabling overlapping Syncretic Cultures like Spain going for Iberic while Portugal goes for Porto-Brazilian. (Can be used together with A)
+
+[h2]Featured Syncretic Cultures: [/h2]
+Almost all majorly played cultures are covered. If you miss one please let me know!
+For an exhaustive list please visit the [url=https://github.com/Caracus/Victoria3-Syncretic-Cultures-Creator#exhaustive-list-of-featured-default-syncretic-cultures-culturelist] GitHub page [/url]
+
+[h2]Modifiers and conversion calculation: [/h2]
+The conversion happens annually with decreasing effectivness as the original population shrinks as its converted. Leading to something like f(x) = (1-Conversion Base Rate*Multipliers)^Years for the unchanged pops.
+This is somewhat alleviated by better education and techs as the game goes on however.
+
+[table]
+    [tr]
+        [th]Job[/th]
+        [th]Conversion Base Rate[/th]
+    [/tr]
+    [tr]
+        [td]slaves[/td]
+        [td]0%[/td]
+    [/tr]
+    [tr]
+        [td]peasants[/td]
+        [td]0.5%[/td]
+    [/tr]
+    [tr]
+        [td]farmers[/td]
+        [td]1%[/td]
+    [/tr]
+    [tr]
+        [td]clergymen[/td]
+        [td]1%[/td]
+    [/tr]
+    [tr]
+        [td]laborers[/td]
+        [td]2%[/td]
+    [/tr]
+    [tr]
+        [td]machinists[/td]
+        [td]3%[/td]
+    [/tr]
+    [tr]
+        [td]soldiers[/td]
+        [td]4%[/td]
+    [/tr]
+    [tr]
+        [td]clerks[/td]
+        [td]5%[/td]
+    [/tr]
+    [tr]
+        [td]aristocrats[/td]
+        [td]5%[/td]
+    [/tr]
+    [tr]
+        [td]officers[/td]
+        [td]8%[/td]
+    [/tr]
+    [tr]
+        [td]shopkeepers[/td]
+        [td]8%[/td]
+    [/tr]
+    [tr]
+        [td]capitalists[/td]
+        [td]10%[/td]
+    [/tr]
+    [tr]
+        [td]bureaucrats[/td]
+        [td]10%[/td]
+    [/tr]
+    [tr]
+        [td]engineers[/td]
+        [td]12%[/td]
+    [/tr]
+    [tr]
+        [td]academics[/td]
+        [td]15%[/td]
+    [/tr]
+[/table]
+
+[table]
+    [tr]
+        [th]Literacy of the pop[/th]
+        [th]Multiplier[/th]
+    [/tr]
+    [tr]
+        [td]0-20%[/td]
+        [td]-90%[/td]
+    [/tr]
+    [tr]
+        [td]20%-40%[/td]
+        [td]-50%[/td]
+    [/tr]
+    [tr]
+        [td]40%-60%[/td]
+        [td]-25%[/td]
+    [/tr]
+    [tr]
+        [td]60%-80%[/td]
+        [td]+0%[/td]
+    [/tr]
+    [tr]
+        [td]>80%[/td]
+        [td]+25%[/td]
+    [/tr]
+[/table]
+
+[table]
+    [tr]
+        [th]Reason[/th]
+        [th]Multiplier[/th]
+    [/tr]
+    [tr]
+        [td]Discrimination[/td]
+        [td]-90%[/td]
+    [/tr]
+    [tr]
+        [td]Slavery[/td]
+        [td]-1000%[/td]
+    [/tr]
+[/table]
+
+[table]
+    [tr]
+        [th]Tech[/th]
+        [th]Multiplier[/th]
+    [/tr]
+    [tr]
+        [td]Film[/td]
+        [td]+20%[/td]
+    [/tr]
+    [tr]
+        [td]Radio[/td]
+        [td]+50%[/td]
+    [/tr]
+    [tr]
+        [td]Mass Propaganda[/td]
+        [td]+50%[/td]
+    [/tr]
+[/table]
+
+Achieving all positive modifiers will result in 3.5x the base value.
+
+[h2]GitHub:[/h2]
+[url=https://github.com/Caracus/Victoria3-Syncretic-Cultures-Creator] GitHub page [/url]
+All you need to add a new culture is a small config JSON and the programm will create all needed events, journal entries, decisions and cultures for you.
+
+[h2]FAQ:[/h2]
+First look at the the [b]Helper Menu[/b] under decisions which unlocks a neat menu which might have your answer already
+[list]
+    [*]I formed a new country and my Syncretic Primary is gone >> The yearly checks for this and re-adds the missing primary culture
+    [*]I can only form one Syncretic Culture in a playthrough >> That is by design to prevent pop fragmentation and undesired overlap
+    [*]I had a CTD I can trace to this mod >> There is a multithread issue in 1.2.7 that can happen if you are unlucky on the yearly conversion ticks but is very rare. I can do nothing about it as its an engine issue the game developers have to fix.
+    [*]My game runs slow with many Syncretic cultures >> Use the 30, 50 or 70 year tick event to remove homelands as that will speed up conversion. Also use any mod that helps against pop fragmentation like this one [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2903994974] Faster Assimilation and State Incorporation [/url]
+[/list]
+
+[h2]Feedback:[/h2]
+[list]
+    [*]If you dont like the name of a culture, the color ingame or its base/optional cultures please leave a comment and I will review the requested change.
+    [*]Miss a culture? Just tell me the name and which cultures should be contained and which optional.
+[/list]
+
+[h2]Compatibility:[/h2]
+This mod is highly compatible as all files are standalone and dont override anything. As long as the cultures targeted by this mod exist in vanilla it will work.
