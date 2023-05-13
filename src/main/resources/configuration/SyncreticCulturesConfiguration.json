@@ -159,11 +159,58 @@
     ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
-    "mutuallyExclusiveWith": [],
+    "mutuallyExclusiveWith": [
+      "czecho_slovak",
+      "polish_lithuanian"
+    ],
     "defaultCulture": false,
     "localization": "West Slavic",
     "color": "rgb{ 116 132 153 } #Some grayish blue",
     "religion": "catholic",
+    "traits": "west_slavic european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "slavic"
+  },
+  {
+    "syncreticCultureName": "polish_lithuanian",
+    "baseCultures": [
+      "polish",
+      "lithuanian"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "byelorussian",
+      "ukrainian",
+      "latvian"
+    ],
+    "mutuallyExclusiveWith": [
+      "west_slavic_culture"
+    ],
+    "defaultCulture": false,
+    "localization": "Polish-Lithuanian",
+    "color": "rgb{ 255 0 0 } #Pl flag red",
+    "religion": "catholic",
+    "traits": "west_slavic east_slavic baltic_culture_group european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "slavic"
+  },
+  {
+    "syncreticCultureName": "czecho_slovak",
+    "baseCultures": [
+      "czech",
+      "slovak"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [],
+    "mutuallyExclusiveWith": [
+      "west_slavic_culture"
+    ],
+    "defaultCulture": false,
+    "localization": "Czechoslovakian",
+    "color": "rgb{ 81 100 150 } #Some grayish blue",
+    "religion": "protestant",
     "traits": "west_slavic european_heritage",
     "obsessions": "",
     "graphics": "european",
@@ -235,6 +282,7 @@
       "afro_caribbean"
     ],
     "mutuallyExclusiveWith": [
+      "european_american",
       "canadian",
       "modern_british",
       "us_american"
@@ -303,6 +351,7 @@
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
     "mutuallyExclusiveWith": [
+      "european_american",
       "anglosphere"
     ],
     "defaultCulture": true,
@@ -336,13 +385,17 @@
       "afro_caribeno"
     ],
     "mutuallyExclusiveWith": [
+      "european_american",
       "hispanic",
       "latino",
       "iberian",
       "modern_spanish",
       "porto_brazilian",
       "modern_portuguese",
-      "romance"
+      "romance",
+      "modern_mexican",
+      "modern_brazilian",
+      "gran_colombian"
     ],
     "defaultCulture": false,
     "localization": "Iberic",
@@ -372,11 +425,14 @@
       "afro_caribeno"
     ],
     "mutuallyExclusiveWith": [
+      "european_american",
+      "modern_mexican",
       "iberian",
       "modern_spanish",
       "latino",
       "iberic",
-      "romance"
+      "romance",
+      "gran_colombian"
     ],
     "defaultCulture": false,
     "localization": "Hispanic",
@@ -402,7 +458,9 @@
       "afro_caribeno"
     ],
     "mutuallyExclusiveWith": [
-      "hispanic"
+      "european_american",
+      "hispanic",
+      "modern_mexican"
     ],
     "defaultCulture": false,
     "localization": "Hispanic American",
@@ -430,7 +488,8 @@
       "porto_brazilian",
       "hispanic",
       "iberic",
-      "romance"
+      "romance",
+      "modern_brazilian"
     ],
     "defaultCulture": false,
     "localization": "Iberian",
@@ -468,6 +527,69 @@
     "ethnicity": "caucasian"
   },
   {
+    "syncreticCultureName": "gran_colombian",
+    "baseCultures": [
+      "north_andean",
+      "central_american"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "afro_caribeno",
+      "amazonian",
+      "muisca",
+      "cariban",
+      "guajiro",
+      "miskito",
+      "quechua",
+      "south_andean"
+    ],
+    "mutuallyExclusiveWith": [
+      "hispanic",
+      "iberic",
+      "european_american"
+    ],
+    "defaultCulture": false,
+    "localization": "Gran-Colombian",
+    "color": "rgb{ 176 196 132 } #light hue yellow",
+    "religion": "catholic",
+    "traits": "hispanophone european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
+  {
+    "syncreticCultureName": "modern_mexican",
+    "baseCultures": [
+      "mexican",
+      "zapotec",
+      "mayan",
+      "mixtec",
+      "nahua",
+      "tarascan",
+      "oodham"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "miskito",
+      "central_american",
+      "afro_caribeno"
+    ],
+    "mutuallyExclusiveWith": [
+      "european_american",
+      "latino",
+      "hispanic",
+      "iberic"
+    ],
+    "defaultCulture": true,
+    "localization": "Modern Mexican",
+    "color": "rgb{ 0 99 65 }",
+    "religion": "catholic",
+    "traits": "hispanophone native_mesoamerican_culture_group european_heritage",
+    "obsessions": "wine",
+    "graphics": "generic",
+    "ethnicity": "south_american"
+  },
+  {
     "syncreticCultureName": "porto_brazilian",
     "baseCultures": [
       "portuguese",
@@ -479,16 +601,46 @@
       "afro_brazilian"
     ],
     "mutuallyExclusiveWith": [
+      "european_american",
       "modern_portuguese",
       "iberian",
       "iberic",
-      "romance"
+      "romance",
+      "modern_brazilian"
     ],
     "defaultCulture": false,
     "localization": "Porto-Brazilian",
     "color": "rgb{ 70 143 89 } #Some darker green",
     "religion": "catholic",
     "traits": "lusophone iberian_culture_group european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
+  {
+    "syncreticCultureName": "modern_brazilian",
+    "baseCultures": [
+      "brazilian",
+      "afro_brazilian",
+      "tupinamba",
+      "guarani",
+      "amazonian"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+    ],
+    "mutuallyExclusiveWith": [
+      "european_american",
+      "modern_portuguese",
+      "iberian",
+      "iberic",
+      "porto_brazilian"
+    ],
+    "defaultCulture": true,
+    "localization": "Modern Brazilian",
+    "color": "rgb{ 0 151 57 } #brazil flag green",
+    "religion": "catholic",
+    "traits": "lusophone european_heritage",
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -517,6 +669,103 @@
     "ethnicity": "caucasian"
   },
   {
+    "syncreticCultureName": "european_american",
+    "baseCultures": [
+      "mexican",
+      "central_american",
+      "north_andean",
+      "south_andean",
+      "platinean",
+      "caribeno",
+      "yankee",
+      "dixie",
+      "anglo_canadian",
+      "franco_canadian",
+      "cajun",
+      "brazilian"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "afro_caribeno",
+      "afro_antillean",
+      "afro_american",
+      "afro_brazilian"
+    ],
+    "mutuallyExclusiveWith": [
+      "anglosphere",
+      "canadian",
+      "gran_colombian",
+      "hispanic",
+      "iberic",
+      "latino",
+      "modern_brazilian",
+      "modern_mexican",
+      "porto_brazilian",
+      "us_american"
+    ],
+    "defaultCulture": false,
+    "localization": "European American",
+    "color": "rgb{ 0 20 137 } #eu flag blue",
+    "religion": "catholic",
+    "traits": "hispanophone lusophone anglophone francophone european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
+  {
+    "syncreticCultureName": "native_american",
+    "baseCultures": [
+      "zapotec",
+      "mayan",
+      "nahua",
+      "tarascan",
+      "quechua",
+      "guarani",
+      "aimara",
+      "amazonian",
+      "patagonian",
+      "guajiro",
+      "tupinamba",
+      "metis",
+      "dakota",
+      "cherokee",
+      "muskogean",
+      "pueblo",
+      "inuit",
+      "cree",
+      "navajo",
+      "athabaskan",
+      "salish",
+      "nez_perce",
+      "siouan",
+      "comanche",
+      "algonquian",
+      "iroquoian",
+      "caddoan",
+      "paiute",
+      "hokan",
+      "apache",
+      "oodham",
+      "mixtec",
+      "muisca",
+      "miskito",
+      "cariban"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+    ],
+    "mutuallyExclusiveWith": [
+    ],
+    "defaultCulture": false,
+    "localization": "Native American",
+    "color": "rgb{ 102 102 153 } #light blue gray",
+    "religion": "catholic",
+    "traits": "south_american_group native_mesoamerican_culture_group north_american_group indigenous_american_heritage",
+    "obsessions": "",
+    "graphics": "generic",
+    "ethnicity": "native_american"
+  },
+  {
     "syncreticCultureName": "modern_japanese",
     "baseCultures": [
       "japanese",
@@ -532,6 +781,24 @@
     "color": "rgb{ 163 62 148 } #purple-pink",
     "religion": "mahayana",
     "traits": "yamato east_asian_heritage",
+    "obsessions": "",
+    "graphics": "asian",
+    "ethnicity": "asian"
+  },
+  {
+    "syncreticCultureName": "modern_korean",
+    "baseCultures": [
+      "korean",
+      "manchu"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [],
+    "mutuallyExclusiveWith": [],
+    "defaultCulture": true,
+    "localization": "Modern Korean",
+    "color": "rgb{ 0 81 146 } #skorean flag blue",
+    "religion": "mahayana",
+    "traits": "korean_language east_asian_heritage",
     "obsessions": "",
     "graphics": "asian",
     "ethnicity": "asian"
@@ -626,7 +893,8 @@
       "persian"
     ],
     "mutuallyExclusiveWith": [
-      "iranian"
+      "iranian",
+      "byzantine"
     ],
     "defaultCulture": false,
     "localization": "Turkic",
@@ -636,6 +904,59 @@
     "obsessions": "tea",
     "graphics": "mideast_indian",
     "ethnicity": "arab"
+  },
+  {
+    "syncreticCultureName": "byzantine",
+    "baseCultures": [
+      "greek",
+      "turkish"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "tatar",
+      "armenian",
+      "albanian",
+      "bulgarian",
+      "serb",
+      "bosniak",
+      "croat",
+      "georgian",
+      "circassian",
+      "north_caucasian"
+    ],
+    "mutuallyExclusiveWith": [
+      "turkic"
+    ],
+    "defaultCulture": false,
+    "localization": "Byzantine",
+    "color": "rgb{ 189 51 164 } #byzantine",
+    "religion": "orthodox",
+    "traits": "greek_culture turkic caucasus_group european_heritage",
+    "obsessions": "wine tea",
+    "graphics": "european",
+    "ethnicity": "north_caucasian"
+  },
+  {
+    "syncreticCultureName": "afghan",
+    "baseCultures": [
+      "pashtun",
+      "tajik"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "hazara",
+      "baluchi"
+    ],
+    "mutuallyExclusiveWith": [
+    ],
+    "defaultCulture": false,
+    "localization": "Afghan",
+    "color": "rgb{ 130 42 181 } #dark purple",
+    "religion": "sunni",
+    "traits": "iranian_turanian_culture_group central_asian_heritage",
+    "obsessions": "",
+    "graphics": "mideast_indian",
+    "ethnicity": "indian"
   },
   {
     "syncreticCultureName": "german",

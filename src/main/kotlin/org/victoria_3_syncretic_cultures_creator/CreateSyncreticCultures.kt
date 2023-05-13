@@ -2,10 +2,9 @@ package org.victoria_3_syncretic_cultures_creator
 
 
 import org.victoria_3_syncretic_cultures_creator.creators.*
-import org.victoria_3_syncretic_cultures_creator.parsers.customFiles.getSyncreticCultureConfiguration
+import org.victoria_3_syncretic_cultures_creator.parsers.getSyncreticCultureConfiguration
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableForGameRule
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableFromCulturesConfiguration
-import org.victoria_3_syncretic_cultures_creator.utils.printSetInHumanReadableForm
 
 const val patchVersion = "1-2-7"
 

@@ -28,7 +28,7 @@ fun createGitHubTableFromCulturesConfiguration(syncreticCultureList: List<Syncre
 }
 
 fun createGitHubTableForGameRule(syncreticCultureList: List<SyncreticCulture>) {
-    println("| Syncretic Culture | Base Cultures Required | Base Cultures |")
+    println("| Syncretic Culture | Required | Cultures |")
     println("| ----------------- | ---------------------- | ------------- |")
     syncreticCultureList.forEach {
         if(it.defaultCulture){

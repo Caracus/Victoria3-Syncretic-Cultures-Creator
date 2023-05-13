@@ -1,4 +1,4 @@
-package org.victoria_3_syncretic_cultures_creator.parsers.customFiles
+package org.victoria_3_syncretic_cultures_creator.parsers
 
 import com.fasterxml.jackson.module.kotlin.jsonMapper
 import com.fasterxml.jackson.module.kotlin.kotlinModule
