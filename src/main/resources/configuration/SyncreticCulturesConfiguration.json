@@ -43,7 +43,7 @@
     "localization": "Chinese",
     "color": "rgb{ 255 178 0 } #Imperial yellow",
     "religion": "mahayana",
-    "traits": "sinosphere han_chinese north_asian_heritage",
+    "traits": "sinosphere han_chinese east_asian_heritage",
     "obsessions": "",
     "graphics": "asian",
     "ethnicity": "asian"
@@ -794,7 +794,7 @@
     "formabilityCriteria": "ANY",
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
-    "defaultCulture": true,
+    "defaultCulture": false,
     "localization": "Modern Korean",
     "color": "rgb{ 0 81 146 } #skorean flag blue",
     "religion": "mahayana",
