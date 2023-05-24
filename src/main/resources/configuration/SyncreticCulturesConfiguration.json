@@ -8,7 +8,8 @@
     "formabilityCriteria": "ANY",
     "optionalCultures": [
       "breton",
-      "wallonian"
+      "wallonian",
+      "francoprovencal"
     ],
     "mutuallyExclusiveWith": [
       "romance"
@@ -72,6 +73,27 @@
     "ethnicity": "caucasian"
   },
   {
+    "syncreticCultureName": "swiss_culture",
+    "baseCultures": [
+      "alemannic",
+      "francoprovencal"
+    ],
+    "formabilityCriteria": "ALL",
+    "optionalCultures": [
+      "north_italian"
+    ],
+    "mutuallyExclusiveWith": [
+    ],
+    "defaultCulture": false,
+    "localization": "Swiss",
+    "color": "rgb{ 255 64 0 } #Reddish",
+    "religion": "protestant",
+    "traits": "francophone italophone german_speaking swiss european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
+  {
     "syncreticCultureName": "romance",
     "baseCultures": [
       "north_italian",
@@ -85,11 +107,11 @@
       "portuguese",
       "catalan",
       "galician",
-      "spanish"
+      "spanish",
+      "francoprovencal"
     ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [
-      "swiss"
     ],
     "mutuallyExclusiveWith": [
       "italian",
@@ -231,7 +253,7 @@
     "formabilityCriteria": "ANY",
     "optionalCultures": [
       "tuareg",
-      "maures",
+      "bidan",
       "haratin"
     ],
     "mutuallyExclusiveWith": [],
@@ -795,7 +817,7 @@
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
-    "localization": "Modern Korean",
+    "localization": "Goryeo",
     "color": "rgb{ 0 81 146 } #skorean flag blue",
     "religion": "mahayana",
     "traits": "korean_language east_asian_heritage",
@@ -966,7 +988,7 @@
     ],
     "formabilityCriteria": "ALL",
     "optionalCultures": [
-      "swiss",
+      "alemannic",
       "ashkenazi",
       "czech",
       "slovene"
@@ -989,7 +1011,7 @@
     "baseCultures": [
       "north_german",
       "south_german",
-      "swiss",
+      "alemannic",
       "dutch",
       "flemish",
       "boer",
@@ -1549,7 +1571,7 @@
       "kissi",
       "kru",
       "mande",
-      "maures",
+      "bidan",
       "mossi",
       "senufo",
       "songhai",
@@ -1591,7 +1613,7 @@
       "kissi",
       "kru",
       "mande",
-      "maures",
+      "bidan",
       "mossi",
       "senufo",
       "songhai",

@@ -72,16 +72,17 @@ Otherwise let me know via Steam via comment.
 ### [Exhaustive list of featured default syncretic cultures] (#CultureList)
 | Syncretic Culture | Base Cultures | Optional Cultures |
 | ----------------- | ------------- | ----------------- |
-| Modern French | French and Occitan | Wallonian and Breton |
+| Modern French | French and Occitan | Wallonian, Francoprovencal and Breton |
 | Chinese | Min, Han, Yue and Hakka | Mongol, Vietnamese, Manchu, Korean and Tibetan |
 | Italian | South Italian and North Italian | Corsican and Maltese |
-| Romance | Wallonian, Catalan, Spanish, Corsican, South Italian, Portuguese, Romanian, Galician, Maltese, French, North Italian and Occitan | Swiss |
+| Swiss | Alemannic and Francoprovencal | North Italian |
+| Romance | Spanish, Corsican, Francoprovencal, Maltese, Occitan, Wallonian, Catalan, South Italian, Portuguese, Romanian, Galician, French and North Italian |  |
 | Rus | Ukrainian, Russian and Byelorussian |  |
 | Yugoslavian | Serb, Slovene, Croat, Bulgarian and Bosniak |  |
 | West Slavic | Sorb, Slovak, Polish and Czech |  |
 | Polish-Lithuanian | Lithuanian and Polish | Ukrainian, Byelorussian and Latvian |
 | Czechoslovakian | Slovak and Czech |  |
-| Arab | Mashriqi, Maghrebi, Somali, Yemenite, Sudanese, Bedouin, Misri and Berber | Maures, Haratin and Tuareg |
+| Arab | Mashriqi, Maghrebi, Somali, Yemenite, Sudanese, Bedouin, Misri and Berber | Haratin, Tuareg and Bidan |
 | Netherlandic | Dutch, Boer and Flemish | Wallonian |
 | Anglophone | Yankee, Anglo Canadian, Australian, British, Scottish, Dixie and Welsh | Afro American and Afro Caribbean |
 | British | British and Scottish | Irish and Welsh |
@@ -100,15 +101,15 @@ Otherwise let me know via Steam via comment.
 | European American | Yankee, Anglo Canadian, Brazilian, Cajun, North Andean, Platinean, Caribeno, Central American, Franco Canadian, South Andean, Mexican and Dixie | Afro American, Afro Antillean, Afro Caribeno and Afro Brazilian |
 | Native American | Tarascan, Comanche, Caddoan, Guarani, Patagonian, Miskito, Nez Perce, Siouan, Tupinamba, Muisca, Apache, Algonquian, Nahua, Amazonian, Pueblo, Hokan, Cariban, Inuit, Navajo, Cree, Dakota, Athabaskan, Oodham, Muskogean, Salish, Metis, Paiute, Aimara, Zapotec, Iroquoian, Mixtec, Quechua, Guajiro, Cherokee and Mayan |  |
 | Modern Japanese | Ainu and Japanese | Korean |
-| Modern Korean | Korean and Manchu |  |
+| Goryeo | Korean and Manchu |  |
 | Scandinavian | Swedish, Icelandic, Danish and Norwegian | Finnish and Sami |
 | Finnic | Finnish, Ugrian, Estonian and Sami |  |
 | Baltic | Estonian, Lithuanian and Latvian |  |
 | Turkic | Yakut, Turkish, Kirgiz, Tatar, Hazara, Azerbaijani, Uzbek, Tuvan, Uighur, Turkmen and Kazak | Persian |
 | Byzantine | Greek and Turkish | Serb, Tatar, Armenian, Albanian, Bulgarian, Croat, Circassian, North Caucasian, Bosniak and Georgian |
 | Afghan | Pashtun and Tajik | Hazara and Baluchi |
-| German | South German and North German | Ashkenazi, Slovene, Swiss and Czech |
-| Germanic | Dutch, Swedish, Icelandic, Danish, South German, Boer, North German, Swiss, Flemish and Norwegian | Ashkenazi and British |
+| German | South German and North German | Ashkenazi, Alemannic, Slovene and Czech |
+| Germanic | Dutch, Swedish, Icelandic, Danish, South German, Boer, Alemannic, North German, Flemish and Norwegian | Ashkenazi and British |
 | Austro-Hungarian | South German and Hungarian | Ukrainian, Slovene, Serb, North German, Slovak, Croat, Polish, Romanian, North Italian, Czech and Bosniak |
 | Israeli | Sephardic and Ashkenazi |  |
 | Tai | Shan, Thai, Lao and Zhuang | Khmu, Khmer and Mon |
@@ -127,8 +128,8 @@ Otherwise let me know via Steam via comment.
 | Southern African | Ovimbundu, Tswana, Xhosa, Yao, Shona, Chewa, Khoisan, Nguni, Makua, Sena, Herero, Kavango Bantu, Sotho, Tonga, Zulu and Lomwe |  |
 | Central African | Mongo, Bakongo, Kanuri, Baguirmi, Fluvian Bantu, Sara, Teda, Luba, Lunda, Fang and Equatorial Bantu |  |
 | Eastern African | Sukuma, Somali, Amhara, Fur, Luo, Nuer, Sudanese, Maasai, Lacustrine Bantu, Ruanda, Azande, Dinka, Rundi, Nilotic, Tigray, Baganda, Beja, Kikuyu, Sidama, Nuba, Afar, Swahili, Unyamwezi and Oromo | Malagasy |
-| Western African | Tiv, Senufo, Fon, Tuareg, Bambara, Wolof, Dyula, Hausa, Songhai, Kru, Bassa, Edo, Maures, Ewe, Haratin, Mossi, Fulbe, Yoruba, Mande, Ibo, Akan, Ibibio and Kissi |  |
-| Sub-Saharan African | Sukuma, Fur, Tswana, Tuareg, Luo, Nuer, Khoisan, Lacustrine Bantu, Ruanda, Hausa, Makua, Nilotic, Maures, Herero, Mossi, Kavango Bantu, Yoruba, Beja, Sidama, Sotho, Teda, Fang, Equatorial Bantu, Tiv, Senufo, Amhara, Baguirmi, Fluvian Bantu, Malagasy, Sudanese, Nguni, Wolof, Dinka, Rundi, Sena, Edo, Tigray, Haratin, Kanuri, Luba, Afar, Zulu, Swahili, Unyamwezi, Lomwe, Mongo, Fon, Xhosa, Sara, Chewa, Dyula, Azande, Songhai, Bakongo, Fulbe, Ibibio, Oromo, Ovimbundu, Somali, Yao, Shona, Bambara, Maasai, Lunda, Kru, Bassa, Ewe, Baganda, Kikuyu, Nuba, Mande, Ibo, Akan, Tonga and Kissi | Afro American, Afro Caribbean, Afro Antillean, Afro Caribeno and Afro Brazilian |
+| Western African | Tiv, Senufo, Fon, Tuareg, Bambara, Wolof, Dyula, Hausa, Songhai, Kru, Bassa, Edo, Ewe, Haratin, Mossi, Fulbe, Yoruba, Mande, Ibo, Akan, Ibibio, Bidan and Kissi |  |
+| Sub-Saharan African | Sukuma, Fur, Tswana, Tuareg, Luo, Nuer, Khoisan, Lacustrine Bantu, Ruanda, Hausa, Makua, Nilotic, Herero, Mossi, Kavango Bantu, Yoruba, Beja, Sidama, Sotho, Teda, Fang, Equatorial Bantu, Tiv, Senufo, Amhara, Baguirmi, Fluvian Bantu, Malagasy, Sudanese, Nguni, Wolof, Dinka, Rundi, Sena, Edo, Tigray, Haratin, Kanuri, Luba, Afar, Zulu, Swahili, Unyamwezi, Lomwe, Mongo, Fon, Xhosa, Sara, Chewa, Dyula, Azande, Songhai, Bakongo, Fulbe, Ibibio, Oromo, Ovimbundu, Somali, Yao, Shona, Bambara, Maasai, Lunda, Kru, Bassa, Ewe, Baganda, Kikuyu, Nuba, Mande, Ibo, Akan, Tonga, Bidan and Kissi | Afro American, Afro Caribbean, Afro Antillean, Afro Caribeno and Afro Brazilian |
 
 ###Default Countries used if immersive cultures game rule was chosen:
 | Syncretic Culture | Required | Cultures |
@@ -144,6 +145,5 @@ Otherwise let me know via Steam via comment.
 | Modern Mexican | ANY | Zapotec, Tarascan, Oodham, Mixtec, Nahua, Mexican and Mayan |
 | Modern Brazilian | ANY | Tupinamba, Brazilian, Guarani, Amazonian and Afro Brazilian |
 | Modern Japanese | ANY | Ainu and Japanese |
-| Modern Korean | ANY | Korean and Manchu |
 | Scandinavian | ALL | Swedish, Icelandic, Danish and Norwegian |
 | German | ALL | South German and North German |

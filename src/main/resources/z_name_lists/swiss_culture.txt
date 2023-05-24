@@ -1,0 +1,125 @@
+	male_common_first_names = {
+		AmE_dE_ AntouE_no Anjo Adrien Armand Andre
+		BarthE_lemy BernA_rd
+		ChA_rlo CE_sA_r
+		E_douard E_manuE_l Ercole Ernest E_tiE_no
+		Franc_E_s Felipo Fabien FE_rnand
+		GaspA_r GllO_do GuelyO_mo Gabriel Gaston
+		Henri Hildebrand Hugo Hiacinte
+		Jian Justo JosE_t JosE_t-Marie Jules JA_que JO_rjo Jian-E_tiE_no
+		Louis Laurence LE_O_
+		Martin Michel MO_ris Marc Marius
+		NicolA_s
+		O_gusto
+		PO_l Pierro
+		Roberto RenE_ Rogi_E_r
+		Simon Sandro
+		Tom_A_s
+		Victor VA_rtiE_r
+        Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
+        Benedicht
+        Carl Christoph Christian Constant CA_sar Carl-Friedrich
+        Dominik Damian
+        Eduard Ernst Eugen Emil Ernst_August
+        Friedrich Franz Florian Franz_Xaver
+        Gall Gabriel Gustav Gottfried Georg Gottlieb
+        Hermann Heinrich
+        Imbert
+        Johann Jakob Joseph Johann_Baptist Johann_Konrad Johann_Peter Jakob_Christoph
+        Kaspar Klemens Kajetan Konrad
+        Ludwig Leo
+        Manfred Martin Moritz
+        Nazar Nikolaus
+        Otto Oswald
+        Peter Placidus Philipp
+        Rudolf
+        Samuel Stephan Silvan Severin
+        Theodor
+        Ulrich
+        Wolfgang Walter Wilhelm
+        Xavier
+	}
+	female_common_first_names = {
+		Adelayida Ana
+		BE_atriz Bianca BE_rta
+		Cristina
+		Denise
+		FE_dE_rica FelibE_rta
+		GabriE_la GllO_dina Guila
+		JiA_na
+		Louise LE_onora LO_ra
+		Maria MargarE_ta
+		O_rE_lie
+		Sara
+		Yolanda
+		Anna
+		Barbara
+		Emilie
+		Gertrud
+		Germaine
+		Henriette
+		Isabelle
+		Johanna
+		Julie
+		Lydia
+		Maria
+		Rosalie
+	}
+	common_last_names = {
+		Ansermet Anthonioz Addor Aynard Ambuel Asperlin Agodino Auberjonois
+		Blavignac Berlioz Burdet Baud Balavoine Boissonnas Bret Beller Bornens Brand Bal Baizelon Berthoz Bornichet Buffat BiO_rd Blatter BurcA_rd
+		Chappuis Chappaz Combaz Choisy Christen Charvaz Catagnolaz Cattin Calliaz Chatagnat Cognac Colletaz Corchier Curtenaz Curial CO_rtecuisse Clerc Chaudet Comtesse
+		Dunant Deletraz Deruaz Ducroz Dupraz Darier Destraz Denkinger Duckert Dorz Decurninge Desgrande DiE_moz Demotz Dufour
+		Elzingre Epelly Esquillan Eigler
+		Fritz Fabri Fournier Ferrier Franchet Fumaz Fornerod Fogliardi
+		Girardin Gotteland Gaillard Goth Genequand Guillot Gonnet Gaydioz Godet Gustaz Grainez Gachet Gendre Goddet Gonod Guonoz GO_chat Guisan
+		Hugonnin Hirschgartner
+		Jaquet Jacottet Jacquier Josseron Journal Justiniani Jardinier Jost Jordan Jans Jeanjaquet Jolissaint
+		Keller
+		Lenoir Lucas Lacombe Laplace Laperiere Laravoire Lucendre LE_pine LiotA_rd
+		Morand Mugnier Martin Matossi Maystre Muller Mermillod Machard Maillet Messiez Metraz Michard Molaz Morel Mortmard Moyriaz ME_rmelyO_d
+		Nicoud Neyret
+		Ostervald
+		Pernoud Personnaz Poulin PagE_t Parenthoux Pellet Pernod Pochon
+		Quillot
+		Ronjat Riond Rivollet Roehrich Rochat Roten Ruffinen Rosand Roloz Ramuz Ruchet Ruchonnet
+		Saillet Samoens SursE_x SolA_r Sache Saunier Sermet Squilian Sonzhon
+		Thomas Tronchin Tissot Taninge Tasso Tappolet Truffier
+		Vittoz Vaucher Vulliet Vallette VeiniE_ Vincent Vionnet Viviant Voisin
+		Ador Anderwert Angehrn Altwegg Aepli
+		Brenner BA_chtold Bacher BlO_sch Barblan Balmer Bodenheimer Bitzius Burren Benzinger BU_eler Bachmann Bamert Bettschart Binzegger
+		Calonder Corrodi Castell Camenzind
+		Deucher DA_hler Dieth Dinkelmann DU_rrenmatt DU_ggelin Dumelin
+		Enderlin ElsA_sser Eggenschwyler Eggli Eberle Etter Egloff
+		Fornerod Funk Fassbind Freyenmuth
+		Haab Herzog Haller HU_gelberger Henggeler Hegglin
+		Iten
+		Jaggi
+		Knusel Kuoni Kurz KlA_y KO_nitzer KU_ndig KA_lin
+		Leinert Loosli Lindt Lienhard Lohner Litschi Loser Labhardt Leutenegger
+		Motta Munzinger Meyer Morel Marti Minder Morgenthaler Moser Mettler Moos Merz MO_rikofer
+		Naff Nussbaumer
+		Oethiker Ochsner
+		RA_z Ritschard Ruoss Rogenmoser Ruckstuhl Reutlinger Roth
+		Schneider de_Staeel Siegwart-Muller Stutz Streiff StA_mpfli Stockmar Schneider Schurer SchA_r Simonin Stutzer Steinegger Styger Sidler Schwerzmann Sulzberger Scherb
+		Tschudi Tschiemer Theiler Trinkler
+		Usteri
+		ValA_r Villiger
+		Wille Wyss Wynistorf Willi Winet Wiss
+		Zeni Zeerleder Ziltener ZU_rcher
+	}
+    noble_last_names = { # mostly patrician families of Bern
+        von_Bonstetten von_BU_ren von_Bergmann
+        von_Donatz
+        Effinger von_Erlach
+        von_Frisching
+        von_Graffenried
+        von_Hettlingen
+        Lentulus Lombach von_Ligerz
+        May von_Muelinen von_Muralt
+        von_Reding-Biberegg von_RU_pplin
+        von_Salis-Soglio von_Steiger von_Schorno von_Streng
+        von_Tavel von_Thurn
+        von_Wattenwyl von_Weber
+        Zehender
+    }
