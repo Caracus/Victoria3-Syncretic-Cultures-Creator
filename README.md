@@ -13,8 +13,8 @@
 
 ## How to use it
 1. Start under src/main/kotlin/./CreateSyncreticCultures.kt which orchestrates all the main functions
-2. Pressing the green icon or starting it will launch the programm an create the mod files under target/generated-mod-files
-3. If you just want to add a new culture you will have to adjust the config in the resources and add a namelist for the new culture
+2. Pressing the green icon or starting it will launch the program and create the mod files under target/generated-mod-files
+3. If you just want to add a new culture you will have to adjust the config in the resources and add a name list for the new culture
 
 4. Example for a new configuration as json: 
 ```
@@ -43,7 +43,7 @@
 - baseCultures: are the cultures that will always be part of the syncretic cultures
 - formabilityCriteria: "ALL" means all base base cultures are needed, "ANY" having any of the base cultures qualifies to form it
 - optionalCultures: here go all cultures that deserve a decision pop up ingame that asks the player whether they want to include it or not as these are additions can be controverse or simply unwanted
-- mutuallyExclusiveWith: those syncretic cultures you have created go here if they overlap with another created one as by design the player should only be able to form one syncretic culture over the span of the playthrough
+- mutuallyExclusiveWith: those syncretic cultures you have created go here if they overlap with another created one as by design the player should only be able to form one syncretic culture over the span of the playthrough, the baseline for exclusive cultures is calculated codewise, manual exclusions can be added here
 - defaultCulture: true if the AI should be able to form the syncretic culture if the game rule allows the AI to do so
 - localization: The string that will show up ingame for the culture, this may differ from the technical key the game uses
 - color to ethnicity are simply lines from the game, they are parsed 1:1 into the game files so other color formats like hsv will work here too

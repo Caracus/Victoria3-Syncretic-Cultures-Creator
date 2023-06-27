@@ -407,17 +407,7 @@
       "afro_caribeno"
     ],
     "mutuallyExclusiveWith": [
-      "european_american",
-      "hispanic",
-      "latino",
-      "iberian",
-      "modern_spanish",
-      "porto_brazilian",
-      "modern_portuguese",
-      "romance",
-      "modern_mexican",
-      "modern_brazilian",
-      "gran_colombian"
+
     ],
     "defaultCulture": false,
     "localization": "Iberic",

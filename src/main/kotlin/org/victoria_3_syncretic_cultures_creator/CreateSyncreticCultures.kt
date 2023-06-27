@@ -2,15 +2,16 @@ package org.victoria_3_syncretic_cultures_creator
 
 
 import org.victoria_3_syncretic_cultures_creator.creators.*
+import org.victoria_3_syncretic_cultures_creator.logic.createMutuallyExclusiveCulturesMap
 import org.victoria_3_syncretic_cultures_creator.parsers.getSyncreticCultureConfiguration
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableForGameRule
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableFromCulturesConfiguration
 
-const val patchVersion = "1-2-7"
-
 fun main(args: Array<String>) {
 
-    val syncreticCultureConfiguration = getSyncreticCultureConfiguration()
+    var syncreticCultureConfiguration = getSyncreticCultureConfiguration()
+
+    syncreticCultureConfiguration = createMutuallyExclusiveCulturesMap(syncreticCultureConfiguration)
 
     syncreticCultureConfiguration.forEach { syncreticCulture ->
         createCulture(syncreticCulture)
@@ -27,7 +28,7 @@ fun main(args: Array<String>) {
     //Use this if you want a table representation for steam
     //createSteamTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
-    //Use this if you want a table representation for github / for example the radme table
+    //Use this if you want a table representation for github / for example the readme table
     createGitHubTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
     //Use this to print a table for the immersive culture game rule setting
