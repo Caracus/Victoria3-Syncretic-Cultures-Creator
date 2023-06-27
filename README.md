@@ -72,7 +72,7 @@ Otherwise let me know via Steam via comment.
 ### [Exhaustive list of featured default syncretic cultures] (#CultureList)
 | Syncretic Culture | Base Cultures | Optional Cultures |
 | ----------------- | ------------- | ----------------- |
-| Modern French | French and Occitan | Wallonian, Francoprovencal and Breton |
+| Modern French | French and Occitan | Wallonian, Alemannic, Francoprovencal and Breton |
 | Chinese | Min, Han, Yue and Hakka | Mongol, Vietnamese, Manchu, Korean and Tibetan |
 | Italian | South Italian and North Italian | Corsican and Maltese |
 | Swiss | Alemannic and Francoprovencal | North Italian |
@@ -86,6 +86,7 @@ Otherwise let me know via Steam via comment.
 | Netherlandic | Dutch, Boer and Flemish | Wallonian |
 | Anglophone | Yankee, Anglo Canadian, Australian, British, Scottish, Dixie and Welsh | Afro American and Afro Caribbean |
 | British | British and Scottish | Irish and Welsh |
+| Celtic | Irish, Welsh and Breton | Scottish |
 | US American | Yankee and Dixie | Afro American and Cajun |
 | Canadian | Anglo Canadian and Franco Canadian |  |
 | Iberic | Spanish, Catalan, Brazilian, North Andean, Platinean, Caribeno, Central American, South Andean, Portuguese, Basque, Mexican and Galician | Afro Caribeno and Afro Brazilian |
@@ -101,21 +102,22 @@ Otherwise let me know via Steam via comment.
 | European American | Yankee, Anglo Canadian, Brazilian, Cajun, North Andean, Platinean, Caribeno, Central American, Franco Canadian, South Andean, Mexican and Dixie | Afro American, Afro Antillean, Afro Caribeno and Afro Brazilian |
 | Native American | Tarascan, Comanche, Caddoan, Guarani, Patagonian, Miskito, Nez Perce, Siouan, Tupinamba, Muisca, Apache, Algonquian, Nahua, Amazonian, Pueblo, Hokan, Cariban, Inuit, Navajo, Cree, Dakota, Athabaskan, Oodham, Muskogean, Salish, Metis, Paiute, Aimara, Zapotec, Iroquoian, Mixtec, Quechua, Guajiro, Cherokee and Mayan |  |
 | Modern Japanese | Ainu and Japanese | Korean |
-| Goryeo | Korean and Manchu |  |
+| Goryeo | Korean and Manchu | Japanese |
 | Scandinavian | Swedish, Icelandic, Danish and Norwegian | Finnish and Sami |
 | Finnic | Finnish, Ugrian, Estonian and Sami |  |
 | Baltic | Estonian, Lithuanian and Latvian |  |
 | Turkic | Yakut, Turkish, Kirgiz, Tatar, Hazara, Azerbaijani, Uzbek, Tuvan, Uighur, Turkmen and Kazak | Persian |
 | Byzantine | Greek and Turkish | Serb, Tatar, Armenian, Albanian, Bulgarian, Croat, Circassian, North Caucasian, Bosniak and Georgian |
 | Afghan | Pashtun and Tajik | Hazara and Baluchi |
-| German | South German and North German | Ashkenazi, Alemannic, Slovene and Czech |
+| German | South German and North German | Ashkenazi, Alemannic, Slovene, Sorb and Czech |
 | Germanic | Dutch, Swedish, Icelandic, Danish, South German, Boer, Alemannic, North German, Flemish and Norwegian | Ashkenazi and British |
-| Austro-Hungarian | South German and Hungarian | Ukrainian, Slovene, Serb, North German, Slovak, Croat, Polish, Romanian, North Italian, Czech and Bosniak |
+| Danubian | South German and Hungarian | Ukrainian, Slovene, Serb, North German, Slovak, Croat, Polish, Romanian, North Italian, Czech and Bosniak |
 | Israeli | Sephardic and Ashkenazi |  |
 | Tai | Shan, Thai, Lao and Zhuang | Khmu, Khmer and Mon |
-| Modern Burmese | Karen, Burmese, Kachin and Zhuang |  |
+| Modern Burmese | Karen, Burmese, Kachin and Zhuang | Shan |
 | Malayan | Balinese, Moluccan, Filipino, Dayak, Sumatran, Moro, Malay, Batak, Bornean and Javan | Malagasy, Aborigine and Melanesian |
 | Polynesian | Micronesian, Melanesian, Polynesian, Maori and Hawaiian | Aborigine |
+| Taiwanese | Yuanzhumin and Hakka |  |
 | Iranian | Pashtun, Kurdish, Baluchi, Persian and Tajik | Azerbaijani |
 | Caucasian | Armenian, Circassian, North Caucasian and Georgian | Azerbaijani |
 | West-Aryan | Marathi, Rajput, Sindi and Gujarati |  |
@@ -147,3 +149,10 @@ Otherwise let me know via Steam via comment.
 | Modern Japanese | ANY | Ainu and Japanese |
 | Scandinavian | ALL | Swedish, Icelandic, Danish and Norwegian |
 | German | ALL | South German and North German |
+
+###Pending suggestion dump
+Gaul or Gallia (Base: French/Breton/Occitan/Wallonian/Franco-Provençal/Alemanic, Optional: North Italian/Flemish)
+Occitano-Romance (Occitan/Catalan/Franco-Provençal)
+North Asian (Base: Siberian/Yakut/Ainu/Tuvan/Ugrian/Tatar, Optional: Mongol, Manchu, Inuit)
+Uralic (Finnish/Ugrian/Estonian/Sami/Hungarian)
+European culture

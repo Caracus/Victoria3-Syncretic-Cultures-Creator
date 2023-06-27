@@ -9,7 +9,8 @@
     "optionalCultures": [
       "breton",
       "wallonian",
-      "francoprovencal"
+      "francoprovencal",
+      "alemannic"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
@@ -311,6 +312,27 @@
     "religion": "protestant",
     "traits": "anglophone european_heritage",
     "obsessions": "tea",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
+  {
+    "syncreticCultureName": "celtic_culture",
+    "baseCultures": [
+      "irish",
+      "welsh",
+      "breton"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+      "scottish"
+    ],
+    "mutuallyExclusiveWith": [],
+    "defaultCulture": false,
+    "localization": "Celtic",
+    "color": "rgb{ 0 204 0 } #greenish",
+    "religion": "catholic",
+    "traits": "celtic_people european_heritage",
+    "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
   },
@@ -705,7 +727,7 @@
       "manchu"
     ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": [],
+    "optionalCultures": ["japanese"],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "localization": "Goryeo",
@@ -802,7 +824,7 @@
     "localization": "Turkic",
     "color": "rgb{ 140 21 73 } #burgundy",
     "religion": "sunni",
-    "traits": "turkic middle_eastern_heritage",
+    "traits": "turkic iranian_turanian_culture_group middle_eastern_heritage",
     "obsessions": "tea",
     "graphics": "mideast_indian",
     "ethnicity": "arab"
@@ -868,7 +890,8 @@
       "alemannic",
       "ashkenazi",
       "czech",
-      "slovene"
+      "slovene",
+      "sorb"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
@@ -931,7 +954,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
-    "localization": "Austro-Hungarian",
+    "localization": "Danubian",
     "color": "rgb{ 105 102 62 } #Brown with light green hue",
     "religion": "catholic",
     "traits": "german_speaking hungarian_culture_group european_heritage",
@@ -989,7 +1012,7 @@
       "zhuang"
     ],
     "formabilityCriteria": "ANY",
-    "optionalCultures": [],
+    "optionalCultures": ["shan"],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "localization": "Modern Burmese",
@@ -1052,6 +1075,25 @@
     "obsessions": "",
     "graphics": "generic",
     "ethnicity": "polynesian"
+  },
+  {
+    "syncreticCultureName": "taiwanese",
+    "baseCultures": [
+      "hakka",
+      "yuanzhumin"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [
+    ],
+    "mutuallyExclusiveWith": [],
+    "defaultCulture": false,
+    "localization": "Taiwanese",
+    "color": "rgb{ 102 204 0 } #light green",
+    "religion": "mahayana",
+    "traits": "han_chinese east_asian_heritage",
+    "obsessions": "",
+    "graphics": "asian",
+    "ethnicity": "asian"
   },
   {
     "syncreticCultureName": "iranian",

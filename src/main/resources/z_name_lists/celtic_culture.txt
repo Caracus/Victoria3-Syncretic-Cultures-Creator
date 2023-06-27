@@ -1,0 +1,292 @@
+	male_common_first_names={
+		Alexander
+		Arthur
+		Brian
+		Cathal
+		Christopher
+		Con
+		Daniel
+		Denis
+		Desmond
+		Edward
+		Ernes
+		Fionan
+		Frank
+		George
+		Harry
+		Jack
+		James
+		John
+		Joseph
+		Kevin
+		Liam
+		Michael
+		Murrough
+		Patrick
+		Peter
+		Richard
+		Robert
+		Sean
+		Thomas
+		William
+		Eamon
+        Aimery
+        Alphonse
+        Amedee
+        Auguste_Hilarion
+        Auguste-Marie
+        Bruno
+        Constant
+        Edouard-Marie
+        Felicite_Pierre
+        Florian
+        Gontran
+        Guillaume
+        Henri
+        Jakou
+        Jean
+        Jean-Denis
+        Julien
+        Michel-Augustin
+        Mordiern
+        Nathan
+        Paul
+        Philippe
+        Prudence-Guillaume
+        Raoul
+        Thomas
+		Abraham Abel Arthur
+		Brynmor
+		Christopher Charles Clement Caradoc
+		David Daniel
+		Edward Evan Erasmus Enoch Ebenezer Elizer Elijah
+		Francis
+		Griffith Gwilym Gomer Goronwy Garrod
+		Henry Hugh Howell
+		Ivor
+		John Josiah
+		Lewis
+		Morris Moses Michael Marmaduke Mordecai Martyn
+		Owen
+		Robert Roger Ronald Rowland Rowley
+		Shadrach Samuel
+		Thomas Theophilus
+		William Watkin Walter
+	}
+	female_common_first_names = {
+		Anne Amy Alice Angharad Augusta
+		Caroline Catharine Constance
+		Dilys Deborah Daisy Dorothy
+		Eliza Eluned Elen Emily Ethel Elizabeth Elinor Eva
+		Flora Fanny
+		Gwenllian
+		Hester Hilda
+		Isabella
+		Jane Jemima
+		Louisa Lucy
+		Mary Martha Margaret Matilda
+		Olive
+		Rhoda Rachel
+		Sarah Selina
+		Theresa
+		Adelaide
+		Anne
+		Caroline
+		Catherine
+		Elisabeth_2
+		Henriette
+		Jeanne
+		Julie
+		Louise
+		Pauline
+		Sophie
+		Tiphaine
+		Adela
+		Anne
+		Bithia
+		Bridget
+		Catherine
+		Charlotte
+		Clotilde
+		Edith
+		Ethel
+		Ellen
+		Ellice
+		Emily
+		Gertrude
+		Honora
+		Ida
+		Ismania
+		Isobel
+		Jane
+		Josephine
+		Laura
+		Letitia
+		Louisa
+		Margaret
+		Mary
+		Melesina
+		Mildred
+		Nora
+		Olivia
+		Rachel
+		Rose
+		Sarah
+		Sophie
+	}
+	noble_last_names = {
+		Audren_de_Kerdrel
+		Berthois
+		d-Espinay
+		d-Oilliamson
+		de_Becdelievre
+		de_Boisgelin
+		de_Cintre
+		de_Cornulier
+		de_Botherel
+		de_Dieuleveult
+		de_Farcy
+		de_Goesbriand
+		de_Goulaine
+		de_Goyon
+		de_Gueheneuc
+		de_Kergariou
+		de_Keratry
+		de_Kergolay
+		de_Kersauson
+		de_Langle_de_Beaumanoir
+		de_Roujoux
+		des_Nos
+		du_Plusquellec
+		Espivent_de_La_Villesboisnet
+		Juchault
+		Lanjuinais
+		Magon
+		Beresford
+		Browne
+		Castlereagh
+		Conyngham
+		FitzGerald
+		FitzMaurice
+		Glenavy
+		Hamilton
+		Hill
+		Lambart
+		Loftus
+		Mornington
+		O_Brien
+		Plunket
+		Prendergast
+		Talbot
+		Taylor
+		Templemore
+		Tyrrell
+		Vane-Tempest
+	}
+	common_last_names={
+		Allen Abadam Ace Alden
+		Burton Bevan Barrett Bufton Berry Bowen Breese Blackwell Bailey Brigstocke Bellis
+		Chamberlain Crawshay Cory
+		Davies Davis Davey Dillwyn Derfel Dodd Downman Day
+		Evans Edwards Ellis Eyton
+		Forster Franklyn
+		Gronow Griffiths Gifford Glynne Gwynne Gummow Glandwr Guest Gibbins Gruffydd
+		Hughes Harris Howell Hutchings Hall Herbert Hann Horler Haberson Hannan
+		Insole Ince
+		Jones Jenkins
+		Lewis Llwyd Lloyd Llewelyn Lang
+		Morgan Maddox
+		Nicholl Nevill
+		Owen
+		Price Parry Penson Prichard Pryse Pugh Petts Philips Prothero Pegge
+		Rees Richards Rowlands Rushbrook Rankin Rhys Rolls
+		Smith Skinner Saunders Squire Seager Seward
+		Thomas Trainer Tablot
+		Vaughan Vachell
+		Williams Wright Waring West Wells Welch Wightwick
+		Bedeau
+		Calvez
+		Dosser
+		Galand
+		Le_Bris
+		Le_Mouel
+		Quelfeter
+		Roper
+		Thoraval
+		Vallee
+		de_Saint-Andre
+		Aiken
+		Ashe
+		Boyle
+		Brady
+		Breen
+		Brennan
+		Brown
+		Brugha
+		Burke
+		Byrne
+		Campbell
+		Carroll
+		Clarke
+		Collins
+		Connolly
+		Connor
+		Cosgrave
+		Craig
+		Cust
+		Cowhig
+		Daly
+		Doherty
+		Donnelly
+		Doyle
+		Dryhurst
+		Duffy
+		Dunne
+		Farrell
+		Fitzgerald
+		Fitzpatrick
+		Flynn
+		Gallagher
+		Griffith
+		Hayes
+		Healy
+		Hughes
+		Hungerford
+		Johnston
+		Kelly
+		Kennedy
+		Larkin
+		Lynch
+		Maguire
+		Mallin
+		Martin
+		McCartan
+		McCarthy
+		McCullough
+		McGarry
+		McGuinness
+		Moore
+		Moran
+		Mulcahy
+		Murphy
+		Murray
+		Nolan
+		O_Connor
+		O_Doherty
+		O_Higgins
+		O_Leary
+		O_Mara
+		Pearse
+		Plunket
+		Power
+		Quinn
+		Reilly
+		Ryan
+		Smith
+		Smyth
+		Sullivan
+		Thompson
+		Walsh
+		White
+		Wilson
+	}
