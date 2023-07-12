@@ -1,11 +1,3 @@
-modern_korean={
-	color= rgb{ 0 81 146 } #skorean flag blue
-	religion = mahayana
-	traits = { korean_language east_asian_heritage }
-
-	obsessions = {
-
-	}
 
 	male_common_first_names={
 		Jeongseo Hyeonwoo
@@ -94,9 +86,3 @@ modern_korean={
 		Sim
 		Won
 	}
-
-	graphics = asian
-	ethnicities = {
-		1 = asian
-	}
-}
