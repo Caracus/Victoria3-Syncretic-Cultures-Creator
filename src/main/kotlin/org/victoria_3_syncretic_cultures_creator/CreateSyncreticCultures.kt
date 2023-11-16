@@ -6,6 +6,7 @@ import org.victoria_3_syncretic_cultures_creator.logic.createMutuallyExclusiveCu
 import org.victoria_3_syncretic_cultures_creator.parsers.getSyncreticCultureConfiguration
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableForGameRule
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableFromCulturesConfiguration
+import org.victoria_3_syncretic_cultures_creator.utils.createModifyHomelandsList
 
 fun main(args: Array<String>) {
 
@@ -29,10 +30,12 @@ fun main(args: Array<String>) {
     //createSteamTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
     //Use this if you want a table representation for github / for example the readme table
-    createGitHubTableFromCulturesConfiguration(syncreticCultureConfiguration)
+    //createGitHubTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
     //Use this to print a table for the immersive culture game rule setting
-    createGitHubTableForGameRule(syncreticCultureConfiguration)
+    //createGitHubTableForGameRule(syncreticCultureConfiguration)
+
+    createModifyHomelandsList(syncreticCultureConfiguration)
 
     println("Done")
 }

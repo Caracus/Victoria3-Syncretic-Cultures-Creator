@@ -45,7 +45,7 @@
     "religion": "mahayana",
     "traits": "sinosphere han_chinese east_asian_heritage",
     "obsessions": "",
-    "graphics": "asian",
+    "graphics": "east_asian",
     "ethnicity": "asian"
   },
   {
@@ -244,7 +244,7 @@
     "religion": "sunni",
     "traits": "arab_speaking middle_eastern_heritage",
     "obsessions": "coffee",
-    "graphics": "mideast_indian",
+    "graphics": "arabic",
     "ethnicity": "arab"
   },
   {
@@ -382,12 +382,23 @@
       "mexican",
       "central_american",
       "north_andean",
+      "ecuadorian",
+      "venezuelan",
+      "colombian",
+      "argentine",
+      "chilean",
+      "uruguayan",
+      "paraguayan",
       "south_andean",
       "platinean",
       "caribeno",
       "portuguese",
       "galician",
       "brazilian",
+      "paulista",
+      "sulista",
+      "nordestino",
+      "amazonic",
       "catalan",
       "basque"
     ],
@@ -413,6 +424,13 @@
       "mexican",
       "central_american",
       "north_andean",
+      "ecuadorian",
+      "venezuelan",
+      "colombian",
+      "argentine",
+      "chilean",
+      "uruguayan",
+      "paraguayan",
       "south_andean",
       "platinean",
       "caribeno"
@@ -440,6 +458,13 @@
       "mexican",
       "central_american",
       "north_andean",
+      "ecuadorian",
+      "venezuelan",
+      "colombian",
+      "argentine",
+      "chilean",
+      "uruguayan",
+      "paraguayan",
       "south_andean",
       "platinean",
       "caribeno"
@@ -504,6 +529,9 @@
     "syncreticCultureName": "gran_colombian",
     "baseCultures": [
       "north_andean",
+      "ecuadorian",
+      "venezuelan",
+      "colombian",
       "central_american"
     ],
     "formabilityCriteria": "ANY",
@@ -515,7 +543,11 @@
       "guajiro",
       "miskito",
       "quechua",
-      "south_andean"
+      "south_andean",
+      "argentine",
+      "chilean",
+      "uruguayan",
+      "paraguayan"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
@@ -551,7 +583,7 @@
     "religion": "catholic",
     "traits": "hispanophone native_mesoamerican_culture_group european_heritage",
     "obsessions": "wine",
-    "graphics": "generic",
+    "graphics": "european",
     "ethnicity": "south_american"
   },
   {
@@ -559,7 +591,11 @@
     "baseCultures": [
       "portuguese",
       "galician",
-      "brazilian"
+      "brazilian",
+      "paulista",
+      "sulista",
+      "nordestino",
+      "amazonic"
     ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [
@@ -579,6 +615,10 @@
     "syncreticCultureName": "modern_brazilian",
     "baseCultures": [
       "brazilian",
+      "paulista",
+      "sulista",
+      "nordestino",
+      "amazonic",
       "afro_brazilian",
       "tupinamba",
       "guarani",
@@ -621,6 +661,13 @@
       "mexican",
       "central_american",
       "north_andean",
+      "ecuadorian",
+      "venezuelan",
+      "colombian",
+      "argentine",
+      "chilean",
+      "uruguayan",
+      "paraguayan",
       "south_andean",
       "platinean",
       "caribeno",
@@ -629,7 +676,11 @@
       "anglo_canadian",
       "franco_canadian",
       "cajun",
-      "brazilian"
+      "brazilian",
+      "paulista",
+      "sulista",
+      "nordestino",
+      "amazonic"
     ],
     "formabilityCriteria": "ANY",
     "optionalCultures": [
@@ -697,7 +748,7 @@
     "religion": "catholic",
     "traits": "south_american_group native_mesoamerican_culture_group north_american_group indigenous_american_heritage",
     "obsessions": "",
-    "graphics": "generic",
+    "graphics": "decentralised_americas",
     "ethnicity": "native_american"
   },
   {
@@ -717,7 +768,7 @@
     "religion": "mahayana",
     "traits": "yamato east_asian_heritage",
     "obsessions": "",
-    "graphics": "asian",
+    "graphics": "east_asian",
     "ethnicity": "asian"
   },
   {
@@ -735,7 +786,7 @@
     "religion": "mahayana",
     "traits": "korean_language east_asian_heritage",
     "obsessions": "",
-    "graphics": "asian",
+    "graphics": "east_asian",
     "ethnicity": "asian"
   },
   {
@@ -826,7 +877,7 @@
     "religion": "sunni",
     "traits": "turkic iranian_turanian_culture_group middle_eastern_heritage",
     "obsessions": "tea",
-    "graphics": "mideast_indian",
+    "graphics": "arabic",
     "ethnicity": "arab"
   },
   {
@@ -876,7 +927,7 @@
     "religion": "sunni",
     "traits": "iranian_turanian_culture_group central_asian_heritage",
     "obsessions": "",
-    "graphics": "mideast_indian",
+    "graphics": "south_asian",
     "ethnicity": "indian"
   },
   {
@@ -1000,7 +1051,7 @@
     "religion": "theravada",
     "traits": "tai southeast_asian_heritage",
     "obsessions": "",
-    "graphics": "asian",
+    "graphics": "east_asian",
     "ethnicity": "asian"
   },
   {
@@ -1020,7 +1071,7 @@
     "religion": "theravada",
     "traits": "burmese_language southeast_asian_heritage",
     "obsessions": "",
-    "graphics": "asian",
+    "graphics": "east_asian",
     "ethnicity": "asian"
   },
   {
@@ -1050,7 +1101,7 @@
     "religion": "sunni",
     "traits": "southeast_asian_heritage malay_culture",
     "obsessions": "",
-    "graphics": "asian",
+    "graphics": "east_asian",
     "ethnicity": "asian"
   },
   {
@@ -1073,7 +1124,7 @@
     "religion": "protestant",
     "traits": "polynesian_group indigenous_oceanic_heritage",
     "obsessions": "",
-    "graphics": "generic",
+    "graphics": "decentralised_americas",
     "ethnicity": "polynesian"
   },
   {
@@ -1092,7 +1143,7 @@
     "religion": "mahayana",
     "traits": "han_chinese east_asian_heritage",
     "obsessions": "",
-    "graphics": "asian",
+    "graphics": "east_asian",
     "ethnicity": "asian"
   },
   {
@@ -1115,7 +1166,7 @@
     "religion": "shiite",
     "traits": "iranian_turanian_culture_group middle_eastern_heritage",
     "obsessions": "",
-    "graphics": "mideast_indian",
+    "graphics": "arabic",
     "ethnicity": "arab"
   },
   {
@@ -1158,7 +1209,7 @@
     "religion": "hindu",
     "traits": "south_asian_heritage hindustani",
     "obsessions": "",
-    "graphics": "mideast_indian",
+    "graphics": "south_asian",
     "ethnicity": "indian"
   },
   {
@@ -1182,7 +1233,7 @@
     "religion": "sunni",
     "traits": "south_asian_heritage hindustani",
     "obsessions": "",
-    "graphics": "asian",
+    "graphics": "east_asian",
     "ethnicity": "asian"
   },
   {
@@ -1203,7 +1254,7 @@
     "religion": "sikh",
     "traits": "south_asian_heritage hindustani",
     "obsessions": "",
-    "graphics": "mideast_indian",
+    "graphics": "south_asian",
     "ethnicity": "indian"
   },
   {
@@ -1233,7 +1284,7 @@
     "religion": "hindu",
     "traits": "south_asian_heritage hindustani",
     "obsessions": "",
-    "graphics": "mideast_indian",
+    "graphics": "south_asian",
     "ethnicity": "indian"
   },
   {
@@ -1277,7 +1328,7 @@
     "religion": "hindu",
     "traits": "south_asian_heritage hindustani dravidian",
     "obsessions": "",
-    "graphics": "mideast_indian",
+    "graphics": "south_asian",
     "ethnicity": "indian"
   },
   {
@@ -1299,7 +1350,7 @@
     "religion": "sikh",
     "traits": "south_asian_heritage dravidian",
     "obsessions": "",
-    "graphics": "mideast_indian",
+    "graphics": "south_asian",
     "ethnicity": "indian"
   },
   {

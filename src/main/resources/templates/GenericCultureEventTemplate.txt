@@ -44,7 +44,7 @@ standardize_<syncretic_culture_name>.1 = {
 					}
 				}
 			}
-			add_homeland = <syncretic_culture_name>
+			add_homeland = cu:<syncretic_culture_name>
 		}
 	}
 }
@@ -224,7 +224,7 @@ standardize_<syncretic_culture_name>.4 = {
 					}
 				}
 			}
-			add_homeland = <syncretic_culture_name>
+			add_homeland = cu:<syncretic_culture_name>
 		}
 	}
 }

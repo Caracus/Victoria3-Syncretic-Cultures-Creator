@@ -105,7 +105,7 @@ fun createRemovePrimaryAddonCulturesBlock(indentations: Int, syncreticCulture: S
 fun createRemoveBaseCultureHomelandsBlock(indentations: Int, baseCultures: Set<String>) : String{
     var text = ""
     baseCultures.forEach { baseCulture ->
-        text += format(indentations,"remove_homeland = $baseCulture" ,1)
+        text += format(indentations,"remove_homeland = cu:$baseCulture" ,1)
     }
     return text
 }
@@ -119,7 +119,7 @@ fun createRemoveAddonCultureHomelandsBlock(indentations: Int, syncreticCulture: 
         text += format(indentations+3,"has_variable = standardize_${syncreticCulture}_addon_${optionalCulture}_var" ,1)
         text += format(indentations+2,"}" ,1)
         text += format(indentations+1,"}" ,1)
-        text += format(indentations+1,"remove_homeland = $optionalCulture" ,1)
+        text += format(indentations+1,"remove_homeland = cu:$optionalCulture" ,1)
         text += format(indentations,"}" ,1)
     }
     return text

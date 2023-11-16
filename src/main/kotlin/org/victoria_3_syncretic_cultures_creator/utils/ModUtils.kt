@@ -37,3 +37,9 @@ fun createGitHubTableForGameRule(syncreticCultureList: List<SyncreticCulture>) {
 
     }
 }
+
+fun createModifyHomelandsList(syncreticCultureList: List<SyncreticCulture>) {
+    syncreticCultureList.forEach {
+        println("\"${it.syncreticCultureName}\",")
+    }
+}
