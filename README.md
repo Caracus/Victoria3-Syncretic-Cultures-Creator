@@ -89,17 +89,17 @@ Otherwise let me know via Steam via comment.
 | Celtic | Irish, Welsh and Breton | Scottish |
 | US American | Yankee and Dixie | Afro American and Cajun |
 | Canadian | Anglo Canadian and Franco Canadian |  |
-| Iberic | Spanish, Catalan, Brazilian, North Andean, Platinean, Caribeno, Central American, South Andean, Portuguese, Basque, Mexican and Galician | Afro Caribeno and Afro Brazilian |
-| Hispanic | Spanish, North Andean, Platinean, Caribeno, Central American, South Andean and Mexican | Catalan, Afro Caribeno, Basque and Galician |
-| Hispanic American | North Andean, Platinean, Caribeno, Central American, South Andean and Mexican | Afro Caribeno |
+| Iberic | Colombian, Paraguayan, Spanish, Nordestino, Platinean, Basque, Mexican, Uruguayan, Chilean, Catalan, Brazilian, Amazonic, Ecuadorian, Venezuelan, Paulista, Sulista, North Andean, Caribeno, Argentine, Central American, South Andean, Portuguese and Galician | Afro Caribeno and Afro Brazilian |
+| Hispanic | Colombian, Paraguayan, Spanish, Platinean, Mexican, Uruguayan, Chilean, Ecuadorian, Venezuelan, North Andean, Caribeno, Argentine, Central American and South Andean | Catalan, Afro Caribeno, Basque and Galician |
+| Hispanic American | Colombian, Paraguayan, Platinean, Mexican, Uruguayan, Chilean, Ecuadorian, Venezuelan, North Andean, Caribeno, Argentine, Central American and South Andean | Afro Caribeno |
 | Iberian | Spanish, Catalan, Portuguese, Basque and Galician |  |
 | Modern Spanish | Spanish and Catalan | Basque and Galician |
-| Gran-Colombian | North Andean and Central American | Muisca, Afro Caribeno, Quechua, Miskito, South Andean, Amazonian, Cariban and Guajiro |
+| Gran-Colombian | Colombian, Ecuadorian, Venezuelan, North Andean and Central American | Paraguayan, Chilean, Muisca, Afro Caribeno, Quechua, Argentine, Miskito, South Andean, Amazonian, Cariban, Uruguayan and Guajiro |
 | Modern Mexican | Zapotec, Tarascan, Oodham, Mixtec, Nahua, Mexican and Mayan | Afro Caribeno, Central American and Miskito |
-| Porto-Brazilian | Brazilian, Portuguese and Galician | Afro Brazilian |
-| Modern Brazilian | Tupinamba, Brazilian, Guarani, Amazonian and Afro Brazilian |  |
+| Porto-Brazilian | Nordestino, Brazilian, Amazonic, Paulista, Sulista, Portuguese and Galician | Afro Brazilian |
+| Modern Brazilian | Tupinamba, Nordestino, Brazilian, Amazonic, Paulista, Sulista, Guarani, Amazonian and Afro Brazilian |  |
 | Modern Portuguese | Portuguese and Galician |  |
-| European American | Yankee, Anglo Canadian, Brazilian, Cajun, North Andean, Platinean, Caribeno, Central American, Franco Canadian, South Andean, Mexican and Dixie | Afro American, Afro Antillean, Afro Caribeno and Afro Brazilian |
+| European American | Colombian, Paraguayan, Yankee, Nordestino, Cajun, Platinean, Mexican, Uruguayan, Chilean, Anglo Canadian, Brazilian, Amazonic, Ecuadorian, Venezuelan, Paulista, Sulista, North Andean, Caribeno, Argentine, Central American, Franco Canadian, South Andean and Dixie | Afro American, Afro Antillean, Afro Caribeno and Afro Brazilian |
 | Native American | Tarascan, Comanche, Caddoan, Guarani, Patagonian, Miskito, Nez Perce, Siouan, Tupinamba, Muisca, Apache, Algonquian, Nahua, Amazonian, Pueblo, Hokan, Cariban, Inuit, Navajo, Cree, Dakota, Athabaskan, Oodham, Muskogean, Salish, Metis, Paiute, Aimara, Zapotec, Iroquoian, Mixtec, Quechua, Guajiro, Cherokee and Mayan |  |
 | Modern Japanese | Ainu and Japanese | Korean |
 | Goryeo | Korean and Manchu | Japanese |
@@ -111,6 +111,7 @@ Otherwise let me know via Steam via comment.
 | Afghan | Pashtun and Tajik | Hazara and Baluchi |
 | German | South German and North German | Ashkenazi, Alemannic, Slovene, Sorb and Czech |
 | Germanic | Dutch, Swedish, Icelandic, Danish, South German, Boer, Alemannic, North German, Flemish and Norwegian | Ashkenazi and British |
+| Afrikaner | Boer and British |  |
 | Danubian | South German and Hungarian | Ukrainian, Slovene, Serb, North German, Slovak, Croat, Polish, Romanian, North Italian, Czech and Bosniak |
 | Israeli | Sephardic and Ashkenazi |  |
 | Tai | Shan, Thai, Lao and Zhuang | Khmu, Khmer and Mon |

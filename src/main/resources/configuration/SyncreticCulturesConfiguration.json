@@ -984,6 +984,24 @@
     "ethnicity": "caucasian"
   },
   {
+    "syncreticCultureName": "afrikaner",
+    "baseCultures": [
+      "boer",
+      "british"
+    ],
+    "formabilityCriteria": "ANY",
+    "optionalCultures": [],
+    "mutuallyExclusiveWith": [],
+    "defaultCulture": false,
+    "localization": "Afrikaner",
+    "color": "rgb{ 206 140 7 } #Dirt Orange",
+    "religion": "protestant",
+    "traits": "beneluxian_culture_group anglophone german_speaking francophone african_settler european_heritage",
+    "obsessions": "",
+    "graphics": "european",
+    "ethnicity": "caucasian"
+  },
+  {
     "syncreticCultureName": "austro_hungarian",
     "baseCultures": [
       "south_german",

@@ -35,7 +35,8 @@ fun main(args: Array<String>) {
     //Use this to print a table for the immersive culture game rule setting
     //createGitHubTableForGameRule(syncreticCultureConfiguration)
 
-    createModifyHomelandsList(syncreticCultureConfiguration)
+    //Use this to create a list for the syncretic cultures for the modify homelands mod
+    //createModifyHomelandsList(syncreticCultureConfiguration)
 
     println("Done")
 }
