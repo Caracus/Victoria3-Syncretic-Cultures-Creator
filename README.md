@@ -79,6 +79,7 @@ Otherwise let me know via Steam via comment.
 | Romance | Spanish, Corsican, Francoprovencal, Maltese, Occitan, Wallonian, Catalan, South Italian, Portuguese, Romanian, Galician, French and North Italian |  |
 | Rus | Ukrainian, Russian and Byelorussian |  |
 | Yugoslavian | Serb, Slovene, Croat, Bulgarian and Bosniak |  |
+| Slavic | Ukrainian, Russian, Serb, Slovene, Sorb, Slovak, Croat, Bulgarian, Polish, Byelorussian, Czech and Bosniak |  |
 | West Slavic | Sorb, Slovak, Polish and Czech |  |
 | Polish-Lithuanian | Lithuanian and Polish | Ukrainian, Byelorussian and Latvian |
 | Czechoslovakian | Slovak and Czech |  |
@@ -133,6 +134,8 @@ Otherwise let me know via Steam via comment.
 | Eastern African | Sukuma, Somali, Amhara, Fur, Luo, Nuer, Sudanese, Maasai, Lacustrine Bantu, Ruanda, Azande, Dinka, Rundi, Nilotic, Tigray, Baganda, Beja, Kikuyu, Sidama, Nuba, Afar, Swahili, Unyamwezi and Oromo | Malagasy |
 | Western African | Tiv, Senufo, Fon, Tuareg, Bambara, Wolof, Dyula, Hausa, Songhai, Kru, Bassa, Edo, Ewe, Haratin, Mossi, Fulbe, Yoruba, Mande, Ibo, Akan, Ibibio, Bidan and Kissi |  |
 | Sub-Saharan African | Sukuma, Fur, Tswana, Tuareg, Luo, Nuer, Khoisan, Lacustrine Bantu, Ruanda, Hausa, Makua, Nilotic, Herero, Mossi, Kavango Bantu, Yoruba, Beja, Sidama, Sotho, Teda, Fang, Equatorial Bantu, Tiv, Senufo, Amhara, Baguirmi, Fluvian Bantu, Malagasy, Sudanese, Nguni, Wolof, Dinka, Rundi, Sena, Edo, Tigray, Haratin, Kanuri, Luba, Afar, Zulu, Swahili, Unyamwezi, Lomwe, Mongo, Fon, Xhosa, Sara, Chewa, Dyula, Azande, Songhai, Bakongo, Fulbe, Ibibio, Oromo, Ovimbundu, Somali, Yao, Shona, Bambara, Maasai, Lunda, Kru, Bassa, Ewe, Baganda, Kikuyu, Nuba, Mande, Ibo, Akan, Tonga, Bidan and Kissi | Afro American, Afro Caribbean, Afro Antillean, Afro Caribeno and Afro Brazilian |
+| European | Ukrainian, Corsican, Ashkenazi, British, Mexican, Scottish, Norwegian, Welsh, Dutch, Boer, Caribeno, Argentine, Flemish, Romanian, French, Czech, Georgian, Swedish, Yankee, Russian, North German, Platinean, Armenian, Francoprovencal, Breton, Ugrian, Anglo Canadian, Brazilian, Venezuelan, Serb, Sorb, Franco Canadian, Croat, Bulgarian, Colombian, Paraguayan, Icelandic, South German, Nordestino, Alemannic, Cajun, Irish, Australian, Slovak, Hungarian, North Caucasian, Byelorussian, Occitan, Wallonian, Estonian, Amazonic, Ecuadorian, Paulista, Sulista, Slovene, Central American, Portuguese, Circassian, Dixie, Sami, Greek, Spanish, Danish, Basque, Lithuanian, Albanian, Uruguayan, Maltese, Finnish, Chilean, Catalan, Sephardic, North Andean, South Italian, South Andean, Polish, Galician, Bosniak, North Italian and Latvian |  |
+
 
 ###Default Countries used if immersive cultures game rule was chosen:
 | Syncretic Culture | Required | Cultures |

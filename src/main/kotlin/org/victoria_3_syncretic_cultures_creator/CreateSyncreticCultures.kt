@@ -26,6 +26,9 @@ fun main(args: Array<String>) {
 
     createLocalization(syncreticCultureConfiguration)
 
+
+    //optional section
+
     //Use this if you want a table representation for steam
     //createSteamTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
