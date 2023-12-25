@@ -264,6 +264,7 @@ standardize_<syncretic_culture_name>.5 = {
 						OR = {
 <base_culture_pop_check_block>
 <addon_culture_pop_check_block>
+<compatible_culture_pop_check_block>
 						}
 					}
 					change_pop_culture = {
@@ -287,6 +288,7 @@ standardize_<syncretic_culture_name>.5 = {
 						OR = {
 <base_culture_pop_check_block>
 <addon_culture_pop_check_block>
+<compatible_culture_pop_check_block>
 						}
 					}
 					change_pop_culture = {
@@ -312,6 +314,7 @@ standardize_<syncretic_culture_name>.5 = {
                         OR = {
 <base_culture_pop_check_block>
 <addon_culture_pop_check_block>
+<compatible_culture_pop_check_block>
                         }
 
                     }

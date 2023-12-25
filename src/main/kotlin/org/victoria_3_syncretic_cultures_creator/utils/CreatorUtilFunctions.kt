@@ -1,6 +1,7 @@
 package org.victoria_3_syncretic_cultures_creator.utils
 
 import org.victoria_3_syncretic_cultures_creator.models.FormabilityCriteria
+import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
 
 fun createHasPrimaryCulture(indentations: Int, baseCultures: Set<String>, logicalOperator: FormabilityCriteria): String {
     var text = ""
@@ -42,13 +43,13 @@ fun createExclusiveWithCulturesBlock(indentations: Int, exclusiveCultures: Set<S
     return text
 }
 
-fun createValidWithGameRulesBlock(indentations: Int, validWithGameRules: Boolean) : String{
+fun createValidWithGameRulesBlock(indentations: Int, validWithGameRules: Boolean, syncreticCulture: String) : String{
     var text = ""
 
     if(validWithGameRules){
-        text += format(indentations, "OR = { has_game_rule = immersive_syncretic_cultures_allowed is_player = yes }",1)
+        text += format(indentations, "OR = { has_game_rule = setting_sc_${syncreticCulture}_auto is_player = yes AND = { has_game_rule = immersive_syncretic_cultures_allowed NOT = { has_game_rule = setting_sc_${syncreticCulture}_never }} }",1)
     } else {
-        text += format(indentations, "is_player = yes",1)
+        text += format(indentations, "OR = { has_game_rule = setting_sc_${syncreticCulture}_auto is_player = yes }",1)
     }
 
     return text
@@ -145,5 +146,32 @@ fun createAddonCulturePopCheckBlock(indentations: Int, syncreticCulture: String,
     }
     return text
 }
+
+fun createCompatibleCulturesCheckBlock(indentations: Int, compatibleCultures: Set<String>) : String{
+    var text = ""
+    compatibleCultures.forEach { compatibleCulture ->
+        text += format(indentations,"has_pop_culture = $compatibleCulture" ,1)
+    }
+    return text
+}
+
+fun createGameRuleBlock(indentations: Int, syncreticCultures: List<SyncreticCulture>): String{
+    var text = ""
+    syncreticCultures.forEach { syncreticCulture ->
+        text += format(indentations,"sc_${syncreticCulture.syncreticCultureName} = {" ,1)
+        text += format(indentations+1,"default = sc_${syncreticCulture.syncreticCultureName}_manual" ,1)
+        text += format(indentations,"" ,1)
+
+        text += format(indentations+1,"sc_${syncreticCulture.syncreticCultureName}_never = {}" ,1)
+        text += format(indentations,"" ,1)
+        text += format(indentations+1,"sc_${syncreticCulture.syncreticCultureName}_manual = {}" ,1)
+        text += format(indentations,"" ,1)
+        text += format(indentations+1,"sc_${syncreticCulture.syncreticCultureName}_auto = {}" ,1)
+        text += format(indentations,"}" ,1)
+        text += format(indentations,"" ,1)
+    }
+    return text
+}
+
 
 

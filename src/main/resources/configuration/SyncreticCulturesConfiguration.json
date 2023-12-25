@@ -819,9 +819,9 @@
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "localization": "European American",
-    "color": "rgb{ 0 20 137 } #eu flag blue",
+    "color": "rgb{ 10 49 97 } #eu flag blue",
     "religion": "catholic",
-    "traits": "hispanophone lusophone anglophone francophone european_heritage",
+    "traits": "hispanophone lusophone anglophone german_speaking francophone european_heritage",
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"

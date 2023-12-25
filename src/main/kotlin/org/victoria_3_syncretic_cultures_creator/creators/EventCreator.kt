@@ -3,7 +3,7 @@ package org.victoria_3_syncretic_cultures_creator.creators
 import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
 import org.victoria_3_syncretic_cultures_creator.utils.*
 
-fun createCultureEvents(syncreticCulture: SyncreticCulture) {
+fun createCultureEvents(syncreticCulture: SyncreticCulture, compatibleCultures :Set<String>?) {
     val textOfFile = readFileAsText("src/main/resources/templates/GenericCultureEventTemplate.txt")
 
         var text = textOfFile
@@ -21,6 +21,10 @@ fun createCultureEvents(syncreticCulture: SyncreticCulture) {
 
         text = text.replace("<base_culture_pop_check_block>", createBaseCulturePopCheckBlock(7, syncreticCulture.baseCultures))
         text = text.replace("<addon_culture_pop_check_block>", createAddonCulturePopCheckBlock(7, syncreticCulture.syncreticCultureName, syncreticCulture.optionalCultures))
+
+        compatibleCultures?.let {
+            text = text.replace("<compatible_culture_pop_check_block>", createCompatibleCulturesCheckBlock(7, compatibleCultures))
+        }
 
         printFile("events/", "standardize_" + syncreticCulture.syncreticCultureName + ".txt", text)
 

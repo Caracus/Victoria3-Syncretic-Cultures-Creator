@@ -1,8 +1,8 @@
 ﻿l_<localization_key>:
  rule_syncretic_cultures:0 "Syncretic Cultures"
  setting_entirely_player_controlled:0 "Entirely Player Controlled"
- setting_entirely_player_controlled_desc:0 "Default - Only players can switch around countries to enable a chosen Syncretic Culture for a country."
- setting_immersive_syncretic_cultures_allowed:0 "Immersive Syncretic Cultures"
- setting_immersive_syncretic_cultures_allowed_desc:0 "A plausible subset of Syncretic Cultures without their optional cultures will be triggered by the AI at game start like German and Italian. If you want to fine control it, trigger the decisions yourself before unpausing and select desired optionals."
+ setting_entirely_player_controlled_desc:0 "Default - Only those chosen by the player via rules or ingame tag switching will occurr."
+ setting_immersive_syncretic_cultures_allowed:0 "Authors Choice"
+ setting_immersive_syncretic_cultures_allowed_desc:0 "A plausible subset of Syncretic Cultures will spawn. Its as if you enabled them culture by culture with the other rules. Having this and the same culture rule ticked again will work just fine. An exhaustive list of -immersive- syncretic cultures can be found on github."
  has_picked_a_syncretic_culture_custom_tooltip:0 "Has picked a Syncretic Culture for this country"
  country_var_equal:0 "Culture never truly stops changing (100 yearly ticks). There will the same event at 30, 50 and 70 years, asking you to take further measures or none at all. Each yearly tick will also check your country for new potential homelands, aka if you conquered one of your old homelands it will trigger a new homeland event."

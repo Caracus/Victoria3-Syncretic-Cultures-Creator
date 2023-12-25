@@ -54,6 +54,14 @@ fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
                         text += format(0," complete_${cultureNameKey}_decision:0 \"Open Performance Helper Menu\"" ,1)
                         text += format(0," complete_${cultureNameKey}_decision_desc:0 \"If you have performance issues or want to fast track the 30/50/70 year milestone event.\"" ,1)
 
+                        text += format(0," rule_sc_${cultureNameKey}:0 \"$cultureNameLocalization Occurrence\"" ,1)
+                        text += format(0," setting_sc_${cultureNameKey}_never:0 \"Never\"" ,1)
+                        text += format(0," setting_sc_${cultureNameKey}_never_desc:0 \"With this setting $cultureNameLocalization will not automatically spawn. It can still be triggered by tag switching however.\"" ,1)
+                        text += format(0," setting_sc_${cultureNameKey}_manual:0 \"Manual\"" ,1)
+                        text += format(0," setting_sc_${cultureNameKey}_manual_desc:0 \"With this setting $cultureNameLocalization will not automatically spawn unless its part of the authors choice setting and that setting is enabled. It can still be triggered by tag switching however.\"" ,1)
+                        text += format(0," setting_sc_${cultureNameKey}_auto:0 \"Automatic\"" ,1)
+                        text += format(0," setting_sc_${cultureNameKey}_auto_desc:0 \"With this setting $cultureNameLocalization will always happen if the requirements are met.\"" ,1)
+
                         it.optionalCultures.forEach { addonCulture ->
                                 text += format(0," standardize_${cultureNameKey}_addon_${addonCulture}.1.t:0 \"What about \$$addonCulture\$?\"" ,1)
                                 text += format(0," standardize_${cultureNameKey}_addon_${addonCulture}.1.f:0 \"Some of our advisors say that the \$$addonCulture\$ culture should not be made part of our plans, be it for historical, linguistic, cultural or other reasons.\" " ,1)
