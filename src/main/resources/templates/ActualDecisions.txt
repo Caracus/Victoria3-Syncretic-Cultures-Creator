@@ -1,0 +1,51 @@
+enable_global_conversion_decision = {
+ 	is_shown = {
+ 		NOT = { has_global_variable = global_conversion_active_var }
+ 		is_player = yes
+ 	}
+
+ 	possible = {
+ 		custom_tooltip = {
+ 			text = global_conversion_active_not_var_custom_tooltip
+ 			    NOT = {
+ 			        has_global_variable = global_conversion_active_var
+ 			    }
+ 		}
+ 	}
+
+ 	when_taken = {
+ 		custom_tooltip = {
+ 			text = global_conversion_active_var_custom_tooltip
+ 			set_global_variable = global_conversion_active_var
+ 		}
+ 	}
+
+ 	ai_chance = {
+ 		base = 0
+ 	}
+}
+
+disable_global_conversion_decision = {
+	is_shown = {
+		has_global_variable = global_conversion_active_var
+		is_player = yes
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = global_conversion_active_var_custom_tooltip
+                has_global_variable = global_conversion_active_var
+		}
+	}
+
+	when_taken = {
+		custom_tooltip = {
+			text = global_conversion_active_not_var_custom_tooltip
+			remove_global_variable = global_conversion_active_var
+		}
+	}
+
+	ai_chance = {
+		base = 0
+	}
+}

@@ -31,10 +31,18 @@ standardize_<syncretic_culture_name>_addon_<addon_culture_name>.1 = {
 			text = standardize_<syncretic_culture_name>_addon_<addon_culture_name>_var_custom_tooltip
 			set_variable = standardize_<syncretic_culture_name>_addon_<addon_culture_name>_var
 		}
+
+		ai_chance = {
+			base = <take_addon_culture_chance>
+		}
 	}
 
 	option = {
 		name = standardize_<syncretic_culture_name>_addon_<addon_culture_name>.1.b
 		default_option = yes
+
+        ai_chance = {
+            base =  <not_take_addon_culture_chance>
+        }
 	}
 }

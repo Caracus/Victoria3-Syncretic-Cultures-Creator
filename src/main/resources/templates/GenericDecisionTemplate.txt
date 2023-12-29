@@ -6,6 +6,7 @@ standardize_<syncretic_culture_name>_decision = {
 
 	possible = {
 <possible_for_cultures>
+<possible_for_tags>
 <exclusive_with_cultures_block>
 <exclude_this_decision_block>
 <valid_with_game_rules_block>

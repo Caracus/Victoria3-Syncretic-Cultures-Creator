@@ -47,9 +47,9 @@ fun createValidWithGameRulesBlock(indentations: Int, validWithGameRules: Boolean
     var text = ""
 
     if(validWithGameRules){
-        text += format(indentations, "OR = { has_game_rule = setting_sc_${syncreticCulture}_auto is_player = yes AND = { has_game_rule = immersive_syncretic_cultures_allowed NOT = { has_game_rule = setting_sc_${syncreticCulture}_never }} }",1)
+        text += format(indentations, "OR = { has_game_rule = sc_${syncreticCulture}_auto is_player = yes AND = { has_game_rule = immersive_syncretic_cultures_allowed NOT = { has_game_rule = sc_${syncreticCulture}_never }} }",1)
     } else {
-        text += format(indentations, "OR = { has_game_rule = setting_sc_${syncreticCulture}_auto is_player = yes }",1)
+        text += format(indentations, "OR = { has_game_rule = sc_${syncreticCulture}_auto is_player = yes }",1)
     }
 
     return text
@@ -153,6 +153,37 @@ fun createCompatibleCulturesCheckBlock(indentations: Int, compatibleCultures: Se
         text += format(indentations,"has_pop_culture = $compatibleCulture" ,1)
     }
     return text
+}
+
+fun createPossibleTagsBlock(indentations: Int, tags: Set<String>) : String{
+    var text = ""
+    if(tags.isNotEmpty()){
+        text += format(indentations,"OR = {" ,1)
+        tags.forEach { tag ->
+            text += format(indentations+1,"AND = {" ,1)
+            text += format(indentations+2,"exists = c:$tag" ,1)
+            text += format(indentations+2,"this = c:$tag" ,1)
+            text += format(indentations+1,"}" ,1)
+        }
+        text += format(indentations,"}" ,1)
+    }
+    return text
+}
+
+fun calculateAddonChanceTakeBlock(optionalCulture: String, syncreticCulture: SyncreticCulture): String {
+    return if(syncreticCulture.optionalsUsedByAi.contains(optionalCulture)){
+        "100"
+    } else {
+        "0"
+    }
+}
+
+fun calculateAddonChanceNotTakeBlock(optionalCulture: String, syncreticCulture: SyncreticCulture): String {
+    return if(syncreticCulture.optionalsUsedByAi.contains(optionalCulture)){
+        "0"
+    } else {
+        "100"
+    }
 }
 
 fun createGameRuleBlock(indentations: Int, syncreticCultures: List<SyncreticCulture>): String{

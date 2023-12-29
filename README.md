@@ -138,21 +138,24 @@ Otherwise let me know via Steam via comment.
 
 
 ###Default Countries used if immersive cultures game rule was chosen:
-| Syncretic Culture | Required | Cultures |
-| ----------------- | ---------------------- | ------------- |
-| Modern French | ANY | French and Occitan |
-| Chinese | ANY | Min, Han, Yue and Hakka |
-| Italian | ALL | South Italian and North Italian |
-| Rus | ANY | Ukrainian, Russian and Byelorussian |
-| British | ANY | British and Scottish |
-| US American | ALL | Yankee and Dixie |
-| Canadian | ANY | Anglo Canadian and Franco Canadian |
-| Modern Spanish | ANY | Spanish and Catalan |
-| Modern Mexican | ANY | Zapotec, Tarascan, Oodham, Mixtec, Nahua, Mexican and Mayan |
-| Modern Brazilian | ANY | Tupinamba, Brazilian, Guarani, Amazonian and Afro Brazilian |
-| Modern Japanese | ANY | Ainu and Japanese |
-| Scandinavian | ALL | Swedish, Icelandic, Danish and Norwegian |
-| German | ALL | South German and North German |
+| Syncretic Culture | Tag Limitation | Base Cultures | AI Allowed Addon Subset |
+| ----------------- | -------------- | ------------- | ----------------------- |
+| Canadian |  | Anglo Canadian, Franco Canadian and British |  |
+| Chinese | CHI, TPG | Min, Han, Yue and Hakka |  |
+| German | GER | South German, Ashkenazi, Alemannic and North German | Sorb |
+| Gran-Colombian |  | Colombian, Ecuadorian, Venezuelan, North Andean and Central American |  |
+| Italian | ITA | South Italian and North Italian | Corsican and Maltese |
+| Brazilian |  | Nordestino, Brazilian, Amazonic, Paulista and Sulista | Tupinamba, Guarani, Amazonian and Afro Brazilian |
+| British |  | British and Scottish |  |
+| Burmese |  | Karen, Burmese, Kachin and Zhuang |  |
+| French |  | Francoprovencal, French and Occitan | Wallonian and Breton |
+| Japanese |  | Ainu and Japanese |  |
+| Mexican |  | Zapotec, Tarascan, Oodham, Mixtec, Nahua, Mexican and Mayan |  |
+| Portuguese |  | Portuguese and Galician |  |
+| Spanish | SPA | Spanish and Catalan | Basque and Galician |
+| Rus | RUS | Ukrainian, Russian and Byelorussian |  |
+| Scandinavian | SCA | Swedish, Icelandic, Danish and Norwegian |  |
+| US American |  | Yankee and Dixie |  |
 
 ###Pending suggestion dump
 Gaul or Gallia (Base: French/Breton/Occitan/Wallonian/Franco-Provençal/Alemanic, Optional: North Italian/Flemish)

@@ -15,6 +15,12 @@ fun createDecision(syncreticCulture: SyncreticCulture) {
         text = text.replace("<exclusive_with_cultures_block>", createExclusiveWithCulturesBlock(2, syncreticCulture.mutuallyExclusiveWith))
         text = text.replace("<exclude_this_decision_block>", createExclusiveWithCulturesBlock(2, setOf(syncreticCulture.syncreticCultureName)))
         text = text.replace("<valid_with_game_rules_block>", createValidWithGameRulesBlock(2,syncreticCulture.defaultCulture, syncreticCulture.syncreticCultureName))
+        text = text.replace("<possible_for_tags>", createPossibleTagsBlock(2, syncreticCulture.tagLimits))
 
         printFile("/common/decisions/", "standardize_" + syncreticCulture.syncreticCultureName + ".txt", text)
     }
+
+fun copyStaticDecisions(){
+        val textOfFile = readFileAsText("src/main/resources/templates/ActualDecisions.txt")
+        printFile("/common/decisions/", "syncretic_cultures_base_decisions.txt", textOfFile)
+}

@@ -37,3 +37,7 @@ fun printSetInHumanReadableForm(genericSet: Set<String>): String {
     combinedString += " and ${convertSnakeCaseToLocalizedString(genericSet.last())}"
     return combinedString
 }
+
+fun printSetWithoutBrackets(genericSet: Set<String>): String {
+    return genericSet.toString().replace("[","").replace("]","").trim()
+}

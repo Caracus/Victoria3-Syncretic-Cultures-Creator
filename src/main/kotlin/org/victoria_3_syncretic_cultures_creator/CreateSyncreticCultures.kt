@@ -8,11 +8,11 @@ import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
 import org.victoria_3_syncretic_cultures_creator.parsers.getSyncreticCultureConfiguration
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableForGameRule
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableFromCulturesConfiguration
-import org.victoria_3_syncretic_cultures_creator.utils.createModifyHomelandsList
+import org.victoria_3_syncretic_cultures_creator.utils.sortAlphabetically
 
 fun main(args: Array<String>) {
 
-    var syncreticCultureConfiguration = getSyncreticCultureConfiguration()
+    var syncreticCultureConfiguration = sortAlphabetically(getSyncreticCultureConfiguration())
 
     syncreticCultureConfiguration = createMutuallyExclusiveCulturesMap(syncreticCultureConfiguration)
     val compatibleCulturesMap: Map<String, Set<String>> = calculateCompatibleCultures(syncreticCultureConfiguration)
@@ -30,6 +30,8 @@ fun main(args: Array<String>) {
     createScriptValues()
     createGameRules(syncreticCultureConfiguration)
     createLocalization(syncreticCultureConfiguration)
+    createOverwriteLocalization()
+    copyStaticDecisions()
 
 
     //optional section
@@ -41,7 +43,7 @@ fun main(args: Array<String>) {
     //createGitHubTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
     //Use this to print a table for the immersive culture game rule setting
-    //createGitHubTableForGameRule(syncreticCultureConfiguration)
+    createGitHubTableForGameRule(syncreticCultureConfiguration)
 
     //Use this to create a list for the syncretic cultures for the modify homelands mod
     //createModifyHomelandsList(syncreticCultureConfiguration)

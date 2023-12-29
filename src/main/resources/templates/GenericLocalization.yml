@@ -1,5 +1,11 @@
 ﻿l_<localization_key>:
  rule_syncretic_cultures:0 "Syncretic Cultures"
+ enable_global_conversion_decision:0 "Enable Max AI Syncretic Culture Conversion"
+ enable_global_conversion_decision_desc:0 "Set non-player syncretic culture conversions to 100%. Will start to affect the next yearly conversion events."
+ disable_global_conversion_decision:0 "Disable Max AI Syncretic Culture Conversion"
+ disable_global_conversion_decision_desc:0 "Set non-player syncretic culture conversions to default percentage. Will start to affect the next yearly conversion events"
+ global_conversion_active_var_custom_tooltip:0 "Non-player syncretic culture conversion set to 100%"
+ global_conversion_active_not_var_custom_tooltip:0 "Non-player syncretic culture conversion set to default percentages"
  setting_entirely_player_controlled:0 "Entirely Player Controlled"
  setting_entirely_player_controlled_desc:0 "Default - Only those chosen by the player via rules or ingame tag switching will occurr."
  setting_immersive_syncretic_cultures_allowed:0 "Authors Choice"

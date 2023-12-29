@@ -75,3 +75,16 @@ fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
                 printFileWithoutBom("/localization/$localization/", "syncretic_cultures_l_" + localization + ".yml", text)
         }
     }
+
+fun createOverwriteLocalization() {
+        val textOfFile = readFileAsText("src/main/resources/templates/LocalizationOverwrites.yml")
+
+        val localizations = listOf("braz_por", "english", "french", "german", "japanese", "korean", "polish", "russian", "simp_chinese", "spanish", "turkish")
+
+        localizations.forEach { localization ->
+                var text = textOfFile
+                text = text.replace("<localization_key>", localization)
+
+                printFileWithoutBom("/localization/replace/$localization/", "syncretic_cultures_replacements_l_" + localization + ".yml", text)
+        }
+}

@@ -256,7 +256,10 @@ standardize_<syncretic_culture_name>.5 = {
 			# apply 100% pop change to all owned states if the debug decision was taken
 			if = {
 				limit = {
-					ROOT = { has_variable = complete_<syncretic_culture_name>_decision_var }
+				    OR = {
+				        has_global_variable = global_conversion_active_var
+                        ROOT = { has_variable = complete_<syncretic_culture_name>_decision_var }
+				    }
 					owner = ROOT
 				}
 				every_scope_pop = {

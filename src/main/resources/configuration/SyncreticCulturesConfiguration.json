@@ -87,9 +87,11 @@
       "sephardic"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "European",
     "color": "rgb{ 0 20 137 } #eu blue",
     "religion": "catholic",
@@ -102,18 +104,23 @@
     "syncreticCultureName": "modern_french",
     "baseCultures": [
       "french",
-      "occitan"
+      "occitan",
+      "francoprovencal"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "breton",
       "wallonian",
-      "francoprovencal",
       "alemannic"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
-    "localization": "Modern French",
+    "optionalsUsedByAi": [
+      "breton",
+      "wallonian"
+    ],
+    "localization": "French",
     "color": "rgb{ 0 32 159 }",
     "religion": "catholic",
     "traits": "francophone european_heritage",
@@ -130,6 +137,7 @@
       "min"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": ["TPG", "CHI"],
     "optionalCultures": [
       "manchu",
       "korean",
@@ -139,6 +147,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
+    "optionalsUsedByAi": [],
     "localization": "Chinese",
     "color": "rgb{ 255 178 0 } #Imperial yellow",
     "religion": "mahayana",
@@ -153,13 +162,18 @@
       "north_italian",
       "south_italian"
     ],
-    "formabilityCriteria": "ALL",
+    "formabilityCriteria": "ANY",
+    "tagLimits": ["ITA"],
     "optionalCultures": [
       "corsican",
       "maltese"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
+    "optionalsUsedByAi": [
+      "corsican",
+      "maltese"
+    ],
     "localization": "Italian",
     "color": "rgb{ 0 140 69 } #Italy flag green",
     "religion": "catholic",
@@ -175,11 +189,13 @@
       "francoprovencal"
     ],
     "formabilityCriteria": "ALL",
+    "tagLimits": [],
     "optionalCultures": [
       "north_italian"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Swiss",
     "color": "rgb{ 255 64 0 } #Reddish",
     "religion": "protestant",
@@ -206,10 +222,12 @@
       "francoprovencal"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Romance",
     "color": "rgb{ 213 84 79 } #roman red (faint)",
     "religion": "catholic",
@@ -226,9 +244,11 @@
       "ukrainian"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": ["RUS"],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
+    "optionalsUsedByAi": [],
     "localization": "Rus",
     "color": "rgb{ 103 146 103 } #russian green",
     "religion": "orthodox",
@@ -247,9 +267,11 @@
       "slovene"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Yugoslavian",
     "color": "rgb{ 122 98 80 } #Some grayish brown",
     "religion": "orthodox",
@@ -275,9 +297,11 @@
       "slovene"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Slavic",
     "color": "rgb{ 0 53 148 } #slavic flag blue",
     "religion": "orthodox",
@@ -295,9 +319,11 @@
       "slovak"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "West Slavic",
     "color": "rgb{ 116 132 153 } #Some grayish blue",
     "religion": "catholic",
@@ -313,6 +339,7 @@
       "lithuanian"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "byelorussian",
       "ukrainian",
@@ -320,6 +347,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Polish-Lithuanian",
     "color": "rgb{ 255 0 0 } #Pl flag red",
     "religion": "catholic",
@@ -335,9 +363,11 @@
       "slovak"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Czechoslovakian",
     "color": "rgb{ 81 100 150 } #Some grayish blue",
     "religion": "protestant",
@@ -359,6 +389,7 @@
       "yemenite"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "tuareg",
       "bidan",
@@ -366,6 +397,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Arab",
     "color": "rgb{ 116 132 153 } #Some grayish blue",
     "religion": "sunni",
@@ -382,11 +414,13 @@
       "boer"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "wallonian"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Netherlandic",
     "color": "rgb{ 196 115 71 } #brown orange",
     "religion": "protestant",
@@ -407,12 +441,14 @@
       "anglo_canadian"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "afro_american",
       "afro_caribbean"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Anglophone",
     "color": "rgb{ 201 30 18 } #intense dark red",
     "religion": "protestant",
@@ -428,12 +464,14 @@
       "scottish"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "welsh",
       "irish"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
+    "optionalsUsedByAi": [],
     "localization": "British",
     "color": "rgb{ 200 16 46 } #british flag red",
     "religion": "protestant",
@@ -450,11 +488,13 @@
       "breton"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "scottish"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Celtic",
     "color": "rgb{ 0 204 0 } #greenish",
     "religion": "catholic",
@@ -470,12 +510,14 @@
       "yankee"
     ],
     "formabilityCriteria": "ALL",
+    "tagLimits": [],
     "optionalCultures": [
       "afro_american",
       "cajun"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
+    "optionalsUsedByAi": [],
     "localization": "US American",
     "color": "rgb{ 26 129 171 } #More bluish than yankee",
     "religion": "protestant",
@@ -488,12 +530,15 @@
     "syncreticCultureName": "canadian",
     "baseCultures": [
       "anglo_canadian",
-      "franco_canadian"
+      "franco_canadian",
+      "british"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
+    "optionalsUsedByAi": [],
     "localization": "Canadian",
     "color": "rgb{ 138 29 23 } #dark red",
     "religion": "protestant",
@@ -530,12 +575,14 @@
       "basque"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "afro_brazilian",
       "afro_caribeno"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Iberic",
     "color": "rgb{ 189 204 129 } #mix between yellow and green",
     "religion": "catholic",
@@ -563,6 +610,7 @@
       "caribeno"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "catalan",
       "basque",
@@ -571,6 +619,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Hispanic",
     "color": "rgb{ 156 149 22 } #dark yellow",
     "religion": "catholic",
@@ -597,11 +646,13 @@
       "caribeno"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "afro_caribeno"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Hispanic American",
     "color": "rgb{ 156 149 22 } #dark yellow",
     "religion": "catholic",
@@ -620,9 +671,11 @@
       "galician"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Iberian",
     "color": "rgb{ 170 176 84 } #pale yellow",
     "religion": "catholic",
@@ -638,13 +691,18 @@
       "catalan"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": ["SPA"],
     "optionalCultures": [
       "basque",
       "galician"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
-    "localization": "Modern Spanish",
+    "optionalsUsedByAi": [
+      "basque",
+      "galician"
+    ],
+    "localization": "Spanish",
     "color": "rgb{ 250 189 0 }",
     "religion": "catholic",
     "traits": "iberian_culture_group hispanophone european_heritage",
@@ -662,6 +720,7 @@
       "central_american"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "afro_caribeno",
       "amazonian",
@@ -677,7 +736,8 @@
       "paraguayan"
     ],
     "mutuallyExclusiveWith": [],
-    "defaultCulture": false,
+    "defaultCulture": true,
+    "optionalsUsedByAi": [],
     "localization": "Gran-Colombian",
     "color": "rgb{ 176 196 132 } #light hue yellow",
     "religion": "catholic",
@@ -698,6 +758,7 @@
       "oodham"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "miskito",
       "central_american",
@@ -705,7 +766,8 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
-    "localization": "Modern Mexican",
+    "optionalsUsedByAi": [],
+    "localization": "Mexican",
     "color": "rgb{ 0 99 65 }",
     "religion": "catholic",
     "traits": "hispanophone native_mesoamerican_culture_group european_heritage",
@@ -725,11 +787,13 @@
       "amazonic"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "afro_brazilian"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Porto-Brazilian",
     "color": "rgb{ 70 143 89 } #Some darker green",
     "religion": "catholic",
@@ -745,18 +809,25 @@
       "paulista",
       "sulista",
       "nordestino",
-      "amazonic",
+      "amazonic"
+    ],
+    "formabilityCriteria": "ANY",
+    "tagLimits": [],
+    "optionalCultures": [
       "afro_brazilian",
       "tupinamba",
       "guarani",
       "amazonian"
     ],
-    "formabilityCriteria": "ANY",
-    "optionalCultures": [
-    ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
-    "localization": "Modern Brazilian",
+    "optionalsUsedByAi": [
+      "afro_brazilian",
+      "tupinamba",
+      "guarani",
+      "amazonian"
+    ],
+    "localization": "Brazilian",
     "color": "rgb{ 0 151 57 } #brazil flag green",
     "religion": "catholic",
     "traits": "lusophone european_heritage",
@@ -771,10 +842,12 @@
       "galician"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
-    "defaultCulture": false,
-    "localization": "Modern Portuguese",
+    "defaultCulture": true,
+    "optionalsUsedByAi": [],
+    "localization": "Portuguese",
     "color": "rgb{ 87 194 115 } #Some lighter green",
     "religion": "catholic",
     "traits": "lusophone iberian_culture_group european_heritage",
@@ -810,6 +883,7 @@
       "amazonic"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "afro_caribeno",
       "afro_antillean",
@@ -818,6 +892,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "European American",
     "color": "rgb{ 10 49 97 } #eu flag blue",
     "religion": "catholic",
@@ -866,10 +941,12 @@
       "cariban"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Native American",
     "color": "rgb{ 102 102 153 } #light blue gray",
     "religion": "catholic",
@@ -885,12 +962,14 @@
       "ainu"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "korean"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
-    "localization": "Modern Japanese",
+    "optionalsUsedByAi": [],
+    "localization": "Japanese",
     "color": "rgb{ 163 62 148 } #purple-pink",
     "religion": "mahayana",
     "traits": "yamato east_asian_heritage",
@@ -905,9 +984,11 @@
       "manchu"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": ["japanese"],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Goryeo",
     "color": "rgb{ 0 81 146 } #skorean flag blue",
     "religion": "mahayana",
@@ -925,12 +1006,14 @@
       "icelandic"
     ],
     "formabilityCriteria": "ALL",
+    "tagLimits": ["SCA"],
     "optionalCultures": [
       "finnish",
       "sami"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
+    "optionalsUsedByAi": [],
     "localization": "Scandinavian",
     "color": "rgb { 45 95 161 } #swedish flag blue",
     "religion": "protestant",
@@ -948,9 +1031,11 @@
       "estonian"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Finnic",
     "color": "rgb{ 87 194 115 } #Some lighter green",
     "religion": "protestant",
@@ -967,9 +1052,11 @@
       "estonian"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Baltic",
     "color": "rgb{ 191 210 224 } #light blue",
     "religion": "protestant",
@@ -994,11 +1081,13 @@
       "turkmen"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "persian"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Turkic",
     "color": "rgb{ 140 21 73 } #burgundy",
     "religion": "sunni",
@@ -1014,6 +1103,7 @@
       "turkish"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "tatar",
       "armenian",
@@ -1028,6 +1118,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Byzantine",
     "color": "rgb{ 189 51 164 } #byzantine",
     "religion": "orthodox",
@@ -1043,12 +1134,14 @@
       "tajik"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "hazara",
       "baluchi"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Afghan",
     "color": "rgb{ 130 42 181 } #dark purple",
     "religion": "sunni",
@@ -1061,18 +1154,22 @@
     "syncreticCultureName": "german",
     "baseCultures": [
       "north_german",
-      "south_german"
-    ],
-    "formabilityCriteria": "ALL",
-    "optionalCultures": [
+      "south_german",
       "alemannic",
-      "ashkenazi",
+      "ashkenazi"
+    ],
+    "formabilityCriteria": "ANY",
+    "tagLimits": ["GER"],
+    "optionalCultures": [
+      "sorb",
       "czech",
-      "slovene",
-      "sorb"
+      "slovene"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
+    "optionalsUsedByAi": [
+      "sorb"
+    ],
     "localization": "German",
     "color": "rgb{ 38 44 56 } #Darker black than north german",
     "religion": "protestant",
@@ -1096,12 +1193,14 @@
       "icelandic"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "british",
       "ashkenazi"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Germanic",
     "color": "rgb{ 54 101 120 } #Gray blue",
     "religion": "protestant",
@@ -1117,9 +1216,11 @@
       "british"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Afrikaner",
     "color": "rgb{ 206 140 7 } #Dirt Orange",
     "religion": "protestant",
@@ -1135,6 +1236,7 @@
       "hungarian"
     ],
     "formabilityCriteria": "ALL",
+    "tagLimits": [],
     "optionalCultures": [
       "north_italian",
       "slovene",
@@ -1150,6 +1252,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Danubian",
     "color": "rgb{ 105 102 62 } #Brown with light green hue",
     "religion": "catholic",
@@ -1165,8 +1268,10 @@
       "sephardic"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
+    "optionalsUsedByAi": [],
     "localization": "Israeli",
     "color": "rgb{ 0 94 184 } #Israeli flag blue",
     "religion": "protestant",
@@ -1184,6 +1289,7 @@
       "zhuang"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "khmer",
       "mon",
@@ -1191,6 +1297,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Tai",
     "color": "rgb{ 0 36 125 } #thai flag blue",
     "religion": "theravada",
@@ -1208,10 +1315,12 @@
       "zhuang"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": ["shan"],
     "mutuallyExclusiveWith": [],
-    "defaultCulture": false,
-    "localization": "Modern Burmese",
+    "defaultCulture": true,
+    "optionalsUsedByAi": [],
+    "localization": "Burmese",
     "color": "rgb{ 255 205 0 } #myanmar flag yellow",
     "religion": "theravada",
     "traits": "burmese_language southeast_asian_heritage",
@@ -1234,6 +1343,7 @@
       "moluccan"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": ["IDN"],
     "optionalCultures": [
       "malagasy",
       "melanesian",
@@ -1241,6 +1351,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Malayan",
     "color": "rgb{ 179 50 194 } #intense purple",
     "religion": "sunni",
@@ -1259,11 +1370,13 @@
       "hawaiian"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "aborigine"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Polynesian",
     "color": "rgb{ 1 33 105 } #NZ flag blue",
     "religion": "protestant",
@@ -1279,10 +1392,12 @@
       "yuanzhumin"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Taiwanese",
     "color": "rgb{ 102 204 0 } #light green",
     "religion": "mahayana",
@@ -1301,11 +1416,13 @@
       "tajik"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "azerbaijani"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Iranian",
     "color": "rgb{ 35 159 64 } #Iranian flag green",
     "religion": "shiite",
@@ -1323,11 +1440,13 @@
       "north_caucasian"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "azerbaijani"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Caucasian",
     "color": "rgb{ 0 181 226 } #azerbaijan flag blue",
     "religion": "orthodox",
@@ -1345,10 +1464,12 @@
       "sindi"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": ["MUG", "HND"],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "West-Aryan",
     "color": "rgb{ 39 100 179 } #blue",
     "religion": "hindu",
@@ -1365,6 +1486,7 @@
       "bihari"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": ["MUG", "HND"],
     "optionalCultures": [
       "manipuri",
       "assamese",
@@ -1373,6 +1495,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "East-Aryan",
     "color": "rgb{ 12 84 6 } #green",
     "religion": "sunni",
@@ -1390,10 +1513,12 @@
       "kanauji"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": ["MUG", "HND"],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Hindustani",
     "color": "rgb{ 125 104 21 } #dark yellow",
     "religion": "sikh",
@@ -1420,10 +1545,12 @@
       "sinhala"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": ["MUG", "HND"],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Indo-Aryan",
     "color": "rgb{ 158 163 132 } #gray yellow",
     "religion": "hindu",
@@ -1456,6 +1583,7 @@
       "assamese"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": ["MUG", "HND"],
     "optionalCultures": [
       "burmese",
       "karen",
@@ -1468,6 +1596,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Indian",
     "color": "rgb{ 255 153 51 } #indian flag orange",
     "religion": "hindu",
@@ -1485,11 +1614,13 @@
       "malayalam"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "sinhala"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Dravidian",
     "color": "rgb{ 29 66 23 } #moss green",
     "religion": "sikh",
@@ -1508,11 +1639,13 @@
       "sidama"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "somali"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Ethiopian",
     "color": "rgb{ 0 154 68 } #ethiopian flag green",
     "religion": "oriental_orthodox",
@@ -1542,10 +1675,12 @@
       "kavango_bantu"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Southern African",
     "color": "rgb{ 199 100 217 } #faint purple",
     "religion": "animist",
@@ -1570,10 +1705,12 @@
       "fluvian_bantu"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Central African",
     "color": "rgb{ 87 60 35 } #brown",
     "religion": "animist",
@@ -1611,11 +1748,13 @@
       "lacustrine_bantu"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "malagasy"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Eastern African",
     "color": "rgb{ 84 196 204 } #light blue",
     "religion": "animist",
@@ -1652,10 +1791,12 @@
       "yoruba"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Western African",
     "color": "rgb{ 150 179 136 } #pale green",
     "religion": "sunni",
@@ -1744,6 +1885,7 @@
       "malagasy"
     ],
     "formabilityCriteria": "ANY",
+    "tagLimits": [],
     "optionalCultures": [
       "afro_american",
       "afro_antillean",
@@ -1753,6 +1895,7 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
+    "optionalsUsedByAi": [],
     "localization": "Sub-Saharan African",
     "color": "rgb{ 166 118 108 } #light red brown",
     "religion": "animist",

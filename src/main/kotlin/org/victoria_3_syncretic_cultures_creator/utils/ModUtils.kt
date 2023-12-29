@@ -28,11 +28,11 @@ fun createGitHubTableFromCulturesConfiguration(syncreticCultureList: List<Syncre
 }
 
 fun createGitHubTableForGameRule(syncreticCultureList: List<SyncreticCulture>) {
-    println("| Syncretic Culture | Required | Cultures |")
-    println("| ----------------- | ---------------------- | ------------- |")
+    println("| Syncretic Culture | Tag Limitation | Base Cultures | AI Allowed Addon Subset |")
+    println("| ----------------- | -------------- | ------------- | ----------------------- |")
     syncreticCultureList.forEach {
         if(it.defaultCulture){
-            println("| ${it.localization} | ${it.formabilityCriteria} | ${printSetInHumanReadableForm(it.baseCultures)} |")
+            println("| ${it.localization} | ${printSetWithoutBrackets(it.tagLimits)} | ${printSetInHumanReadableForm(it.baseCultures)} | ${printSetInHumanReadableForm(it.optionalsUsedByAi)} |")
         }
 
     }
@@ -42,4 +42,8 @@ fun createModifyHomelandsList(syncreticCultureList: List<SyncreticCulture>) {
     syncreticCultureList.forEach {
         println("\"${it.syncreticCultureName}\",")
     }
+}
+
+fun sortAlphabetically(syncreticCultureList: List<SyncreticCulture>): List<SyncreticCulture> {
+    return syncreticCultureList.sortedBy { it.syncreticCultureName }
 }
