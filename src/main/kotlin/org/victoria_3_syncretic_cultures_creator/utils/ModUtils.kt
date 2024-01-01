@@ -20,10 +20,10 @@ fun createSteamTableFromCulturesConfiguration(syncreticCultureList: List<Syncret
 }
 
 fun createGitHubTableFromCulturesConfiguration(syncreticCultureList: List<SyncreticCulture>) {
-    println("| Syncretic Culture | Base Cultures | Optional Cultures |")
-    println("| ----------------- | ------------- | ----------------- |")
+    println("| Syncretic Culture | Base Cultures | Optional Cultures | Tag Limitation |")
+    println("| ----------------- | ------------- | ----------------- | -------------- |")
     syncreticCultureList.forEach {
-        println("| ${it.localization} | ${printSetInHumanReadableForm(it.baseCultures)} | ${printSetInHumanReadableForm(it.optionalCultures)} |")
+        println("| ${it.localization} | ${printSetInHumanReadableForm(it.baseCultures)} | ${printSetInHumanReadableForm(it.optionalCultures)} | ${printSetWithoutBrackets(it.tagLimits)} |")
     }
 }
 

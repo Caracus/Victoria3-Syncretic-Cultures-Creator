@@ -147,7 +147,7 @@ standardize_<syncretic_culture_name>.3 = {
 		name = standardize_<syncretic_culture_name>.3.b
 		default_option = no
         ai_chance = {
-            base = 0
+            base = 100
         }
 
 	}
@@ -157,7 +157,7 @@ standardize_<syncretic_culture_name>.3 = {
 		name = standardize_<syncretic_culture_name>.3.c
 		default_option = yes
         ai_chance = {
-            base = 100
+            base = 0
         }
 
 <remove_primary_base_cultures_block>
@@ -257,8 +257,11 @@ standardize_<syncretic_culture_name>.5 = {
 			if = {
 				limit = {
 				    OR = {
-				        has_global_variable = global_conversion_active_var
-                        ROOT = { has_variable = complete_<syncretic_culture_name>_decision_var }
+				        ROOT = { has_variable = complete_<syncretic_culture_name>_decision_var }
+				        AND = {
+                            has_global_variable = global_conversion_active_var
+                            is_player = no
+				        }
 				    }
 					owner = ROOT
 				}

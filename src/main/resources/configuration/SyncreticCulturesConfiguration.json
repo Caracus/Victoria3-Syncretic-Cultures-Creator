@@ -108,7 +108,7 @@
       "francoprovencal"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": [],
+    "tagLimits": ["FRA"],
     "optionalCultures": [
       "breton",
       "wallonian",
@@ -471,7 +471,9 @@
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
-    "optionalsUsedByAi": [],
+    "optionalsUsedByAi": [
+      "welsh"
+    ],
     "localization": "British",
     "color": "rgb{ 200 16 46 } #british flag red",
     "religion": "protestant",
@@ -518,7 +520,7 @@
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
     "optionalsUsedByAi": [],
-    "localization": "US American",
+    "localization": "United Statian",
     "color": "rgb{ 26 129 171 } #More bluish than yankee",
     "religion": "protestant",
     "traits": "anglophone european_heritage",
@@ -534,7 +536,7 @@
       "british"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": [],
+    "tagLimits": ["CAN"],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
@@ -736,7 +738,7 @@
       "paraguayan"
     ],
     "mutuallyExclusiveWith": [],
-    "defaultCulture": true,
+    "defaultCulture": false,
     "optionalsUsedByAi": [],
     "localization": "Gran-Colombian",
     "color": "rgb{ 176 196 132 } #light hue yellow",
@@ -758,7 +760,7 @@
       "oodham"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": [],
+    "tagLimits": ["MEX"],
     "optionalCultures": [
       "miskito",
       "central_american",
@@ -812,7 +814,7 @@
       "amazonic"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": [],
+    "tagLimits": ["BRZ"],
     "optionalCultures": [
       "afro_brazilian",
       "tupinamba",
@@ -842,7 +844,7 @@
       "galician"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": [],
+    "tagLimits": ["POR"],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
@@ -962,7 +964,7 @@
       "ainu"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": [],
+    "tagLimits": ["JAP"],
     "optionalCultures": [
       "korean"
     ],
