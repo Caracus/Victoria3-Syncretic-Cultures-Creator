@@ -153,11 +153,8 @@ Otherwise let me know via Steam via comment.
 | Spanish | SPA | Spanish and Catalan | Basque and Galician |
 | Rus | RUS | Ukrainian, Russian and Byelorussian |  |
 | Scandinavian | SCA | Swedish, Icelandic, Danish and Norwegian |  |
-| United Statian |  | Yankee and Dixie |  |
+| US American |  | Yankee and Dixie |  |
 
 ###Pending suggestion dump
-Gaul or Gallia (Base: French/Breton/Occitan/Wallonian/Franco-Provençal/Alemanic, Optional: North Italian/Flemish)
 Occitano-Romance (Occitan/Catalan/Franco-Provençal)
-North Asian (Base: Siberian/Yakut/Ainu/Tuvan/Ugrian/Tatar, Optional: Mongol, Manchu, Inuit)
 Uralic (Finnish/Ugrian/Estonian/Sami/Hungarian)
-European culture

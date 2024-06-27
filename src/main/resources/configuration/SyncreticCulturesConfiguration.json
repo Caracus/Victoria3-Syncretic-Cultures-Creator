@@ -108,7 +108,9 @@
       "francoprovencal"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["FRA"],
+    "tagLimits": [
+      "FRA"
+    ],
     "optionalCultures": [
       "breton",
       "wallonian",
@@ -137,7 +139,10 @@
       "min"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["TPG", "CHI"],
+    "tagLimits": [
+      "TPG",
+      "CHI"
+    ],
     "optionalCultures": [
       "manchu",
       "korean",
@@ -150,7 +155,7 @@
     "optionalsUsedByAi": [],
     "localization": "Chinese",
     "color": "rgb{ 255 178 0 } #Imperial yellow",
-    "religion": "mahayana",
+    "religion": "confucian",
     "traits": "sinosphere han_chinese east_asian_heritage",
     "obsessions": "",
     "graphics": "east_asian",
@@ -163,7 +168,9 @@
       "south_italian"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["ITA"],
+    "tagLimits": [
+      "ITA"
+    ],
     "optionalCultures": [
       "corsican",
       "maltese"
@@ -244,7 +251,9 @@
       "ukrainian"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["RUS"],
+    "tagLimits": [
+      "RUS"
+    ],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
@@ -520,7 +529,7 @@
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
     "optionalsUsedByAi": [],
-    "localization": "United Statian",
+    "localization": "US American",
     "color": "rgb{ 26 129 171 } #More bluish than yankee",
     "religion": "protestant",
     "traits": "anglophone european_heritage",
@@ -536,7 +545,9 @@
       "british"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["CAN"],
+    "tagLimits": [
+      "CAN"
+    ],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
@@ -693,7 +704,9 @@
       "catalan"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["SPA"],
+    "tagLimits": [
+      "SPA"
+    ],
     "optionalCultures": [
       "basque",
       "galician"
@@ -760,7 +773,9 @@
       "oodham"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["MEX"],
+    "tagLimits": [
+      "MEX"
+    ],
     "optionalCultures": [
       "miskito",
       "central_american",
@@ -814,7 +829,9 @@
       "amazonic"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["BRZ"],
+    "tagLimits": [
+      "BRZ"
+    ],
     "optionalCultures": [
       "afro_brazilian",
       "tupinamba",
@@ -844,7 +861,9 @@
       "galician"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["POR"],
+    "tagLimits": [
+      "POR"
+    ],
     "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
@@ -964,7 +983,9 @@
       "ainu"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["JAP"],
+    "tagLimits": [
+      "JAP"
+    ],
     "optionalCultures": [
       "korean"
     ],
@@ -973,7 +994,7 @@
     "optionalsUsedByAi": [],
     "localization": "Japanese",
     "color": "rgb{ 163 62 148 } #purple-pink",
-    "religion": "mahayana",
+    "religion": "confucian",
     "traits": "yamato east_asian_heritage",
     "obsessions": "",
     "graphics": "east_asian",
@@ -987,7 +1008,9 @@
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
-    "optionalCultures": ["japanese"],
+    "optionalCultures": [
+      "japanese"
+    ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -1008,7 +1031,9 @@
       "icelandic"
     ],
     "formabilityCriteria": "ALL",
-    "tagLimits": ["SCA"],
+    "tagLimits": [
+      "SCA"
+    ],
     "optionalCultures": [
       "finnish",
       "sami"
@@ -1030,7 +1055,9 @@
       "finnish",
       "sami",
       "ugrian",
-      "estonian"
+      "estonian",
+      "mordvin",
+      "udmurt"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
@@ -1080,12 +1107,16 @@
       "kirgiz",
       "yakut",
       "hazara",
-      "turkmen"
+      "turkmen",
+      "bashkir",
+      "chuvash"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
     "optionalCultures": [
-      "persian"
+      "persian",
+      "mazanderani",
+      "luri"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
@@ -1161,7 +1192,9 @@
       "ashkenazi"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["GER"],
+    "tagLimits": [
+      "GER"
+    ],
     "optionalCultures": [
       "sorb",
       "czech",
@@ -1318,7 +1351,9 @@
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
-    "optionalCultures": ["shan"],
+    "optionalCultures": [
+      "shan"
+    ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": true,
     "optionalsUsedByAi": [],
@@ -1345,7 +1380,9 @@
       "moluccan"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["IDN"],
+    "tagLimits": [
+      "IDN"
+    ],
     "optionalCultures": [
       "malagasy",
       "melanesian",
@@ -1415,7 +1452,9 @@
       "kurdish",
       "pashtun",
       "baluchi",
-      "tajik"
+      "tajik",
+      "mazanderani",
+      "luri"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
@@ -1466,7 +1505,10 @@
       "sindi"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["MUG", "HND"],
+    "tagLimits": [
+      "MUG",
+      "HND"
+    ],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
@@ -1488,7 +1530,10 @@
       "bihari"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["MUG", "HND"],
+    "tagLimits": [
+      "MUG",
+      "HND"
+    ],
     "optionalCultures": [
       "manipuri",
       "assamese",
@@ -1512,10 +1557,14 @@
       "avadhi",
       "panjabi",
       "kashmiri",
-      "kanauji"
+      "kanauji",
+      "kho"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["MUG", "HND"],
+    "tagLimits": [
+      "MUG",
+      "HND"
+    ],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
@@ -1544,10 +1593,14 @@
       "panjabi",
       "kashmiri",
       "kanauji",
-      "sinhala"
+      "sinhala",
+      "kho"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["MUG", "HND"],
+    "tagLimits": [
+      "MUG",
+      "HND"
+    ],
     "optionalCultures": [
     ],
     "mutuallyExclusiveWith": [],
@@ -1582,10 +1635,15 @@
       "tamil",
       "malayalam",
       "manipuri",
-      "assamese"
+      "assamese",
+      "kho"
     ],
     "formabilityCriteria": "ANY",
-    "tagLimits": ["MUG", "HND"],
+    "tagLimits": [
+      "MUG",
+      "HND",
+      "BHT"
+    ],
     "optionalCultures": [
       "burmese",
       "karen",
@@ -1905,5 +1963,28 @@
     "obsessions": "",
     "graphics": "african",
     "ethnicity": "african"
+  },
+  {
+    "syncreticCultureName": "mongolian",
+    "baseCultures": [
+      "buryat",
+      "manul",
+      "tuvan",
+      "kalmyk",
+      "mongol"
+    ],
+    "formabilityCriteria": "ANY",
+    "tagLimits": [],
+    "optionalCultures": [],
+    "mutuallyExclusiveWith": [],
+    "defaultCulture": false,
+    "optionalsUsedByAi": [],
+    "localization": "Mongolian",
+    "color": "rgb{ 58 138 131 } #Darker light blue",
+    "religion": "gelugpa",
+    "traits": "north_asian_heritage mongol_language",
+    "obsessions": "",
+    "graphics": "east_asian",
+    "ethnicity": "central_asian"
   }
 ]

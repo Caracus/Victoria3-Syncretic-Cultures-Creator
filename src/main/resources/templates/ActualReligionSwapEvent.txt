@@ -1,0 +1,1429 @@
+namespace = religion_swap
+
+#overview
+religion_swap.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = religion_swap.1.t
+
+	flavor = religion_swap.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	duration = 1
+
+	trigger = {
+		#triggered by debug menu or initial selector
+	}
+
+	option = {
+		name = religion_swap.1.a
+		trigger_event = { id = religion_swap.2 popup = yes }
+	}
+	option = {
+		name = religion_swap.1.b
+		trigger_event = { id = religion_swap.3 popup = yes }
+	}
+	option = {
+		name = religion_swap.1.c
+		trigger_event = { id = religion_swap.4 popup = yes }
+	}
+	option = {
+		default_option = yes
+		name = religion_swap.1.d
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+#judeo-christian
+religion_swap.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = religion_swap.2.t
+
+	flavor = religion_swap.2.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	duration = 1
+
+	trigger = {
+		#triggered by debug menu or initial selector
+	}
+
+	option = {
+		name = religion_swap.2.a
+		set_state_religion = rel:catholic
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_catholic_church }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
+
+			add_ideology = ideology_papal_paternalistic
+        }
+	}
+	option = {
+		name = religion_swap.2.b
+		set_state_religion = rel:protestant
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_evangelical_church }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_work_ethic
+        }
+	}
+	option = {
+		name = religion_swap.2.c
+		set_state_religion = rel:orthodox
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_orthodox_church }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
+
+			add_ideology = ideology_orthodox_patriarch
+        }
+	}
+	option = {
+		name = religion_swap.2.d
+		set_state_religion = rel:oriental_orthodox
+
+		ig:ig_devout = {			if = {
+			limit = {
+				has_ideology = ideology:ideology_buddhist_moralist
+			}
+			remove_ideology = ideology_buddhist_moralist
+		}
+
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_buddhist_moralist
+			}
+			remove_ideology = ideology_buddhist_moralist
+		}
+
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_papal_paternalistic
+			}
+			remove_ideology = ideology_papal_paternalistic
+		}
+
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_papal_moralist
+			}
+			remove_ideology = ideology_papal_moralist
+		}
+
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_oriental_orthodox_patriarch
+			}
+			remove_ideology = ideology_oriental_orthodox_patriarch
+		}
+
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_orthodox_patriarch
+			}
+			remove_ideology = ideology_orthodox_patriarch
+		}
+
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_buddhist_moralist
+			}
+			remove_ideology = ideology_buddhist_moralist
+		}
+
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_hindu_moralist
+			}
+			remove_ideology = ideology_hindu_moralist
+		}
+
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_shinto_moralist
+			}
+			remove_ideology = ideology_shinto_moralist
+		}
+
+		if = {
+			limit = {
+				has_ideology = ideology:ideology_sikh_moralist
+			}
+			remove_ideology = ideology_sikh_moralist
+		}
+			hidden_effect = { set_interest_group_name = ig_oriental_church }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
+
+			add_ideology = ideology_oriental_orthodox_patriarch
+        }
+	}
+	option = {
+		name = religion_swap.2.e
+		set_state_religion = rel:jewish
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_rabbinical_council }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
+        }
+	}
+	option = {
+		name = religion_swap.back
+		trigger_event = { id = religion_swap.1 popup = yes }
+	}
+}
+
+#islam-atheist-animist
+religion_swap.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = religion_swap.3.t
+
+	flavor = religion_swap.3.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	duration = 1
+
+	trigger = {
+		#triggered by debug menu or initial selector
+	}
+
+	option = {
+		name = religion_swap.3.a
+		set_state_religion = rel:shiite
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_shia_madrasahs }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_sharia
+			set_ig_trait = ig_trait:ig_trait_da_wat
+        }
+	}
+	option = {
+		name = religion_swap.3.b
+		set_state_religion = rel:sunni
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_sunni_madrasahs }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_mecelle
+			set_ig_trait = ig_trait:ig_trait_da_wat
+        }
+	}
+	option = {
+		name = religion_swap.3.c
+		set_state_religion = rel:atheist
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_atheists }
+			set_ig_trait = ig_trait:ig_trait_traditsye
+			set_ig_trait = ig_trait:ig_trait_work_ethic
+			set_ig_trait = ig_trait:ig_trait_divine_right
+        }
+	}
+	option = {
+		name = religion_swap.3.d
+		set_state_religion = rel:animist
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
+		}
+	}
+	option = {
+		name = religion_swap.back
+		trigger_event = { id = religion_swap.1 popup = yes }
+	}
+}
+
+#asian
+religion_swap.4 = {
+	type = country_event
+	placement = ROOT
+
+	title = religion_swap.4.t
+
+	flavor = religion_swap.4.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	duration = 1
+
+	trigger = {
+		#triggered by debug menu or initial selector
+	}
+
+	option = {
+		name = religion_swap.4.a
+		set_state_religion = rel:mahayana
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_mahayana_monks }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_asceticism
+
+			add_ideology = ideology_buddhist_moralist
+        }
+	}
+	option = {
+		name = religion_swap.4.b
+		set_state_religion = rel:gelugpa
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_devout }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_asceticism
+
+			add_ideology = ideology_buddhist_moralist
+        }
+	}
+	option = {
+		name = religion_swap.4.c
+		set_state_religion = rel:theravada
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_theravada_monks }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_asceticism
+
+			add_ideology = ideology_buddhist_moralist
+        }
+	}
+	option = {
+		name = religion_swap.4.d
+		set_state_religion = rel:hindu
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_hindu_priesthood }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_asceticism
+
+			add_ideology = ideology_hindu_moralist
+        }
+	}
+	option = {
+		name = religion_swap.4.e
+		set_state_religion = rel:shinto
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_shinto_monks }
+			set_ig_trait = ig_trait:ig_trait_haibutsu_kishaku
+			set_ig_trait = ig_trait:ig_trait_secular_shrine_theory
+			set_ig_trait = ig_trait:ig_trait_heavenly_sovereign
+
+			add_ideology = ideology_shinto_moralist
+        }
+	}
+	option = {
+		name = religion_swap.4.g
+		set_state_religion = rel:sikh
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_sikh_priesthood }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_khalsa
+			set_ig_trait = ig_trait:ig_trait_kar_seva
+
+			add_ideology = ideology_sikh_moralist
+        }
+	}
+	option = {
+		name = religion_swap.4.h
+		set_state_religion = rel:confucian
+
+		ig:ig_devout = {
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_paternalistic
+				}
+				remove_ideology = ideology_papal_paternalistic
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_papal_moralist
+				}
+				remove_ideology = ideology_papal_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_oriental_orthodox_patriarch
+				}
+				remove_ideology = ideology_oriental_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_orthodox_patriarch
+				}
+				remove_ideology = ideology_orthodox_patriarch
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_buddhist_moralist
+				}
+				remove_ideology = ideology_buddhist_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_hindu_moralist
+				}
+				remove_ideology = ideology_hindu_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_shinto_moralist
+				}
+				remove_ideology = ideology_shinto_moralist
+			}
+
+			if = {
+				limit = {
+					has_ideology = ideology:ideology_sikh_moralist
+				}
+				remove_ideology = ideology_sikh_moralist
+			}
+			hidden_effect = { set_interest_group_name = ig_confucian }
+			set_ig_trait = ig_trait:ig_trait_pious_fiction
+			set_ig_trait = ig_trait:ig_trait_divine_right
+			set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
+        }
+	}
+	option = {
+		name = religion_swap.back
+		trigger_event = { id = religion_swap.1 popup = yes }
+	}
+}

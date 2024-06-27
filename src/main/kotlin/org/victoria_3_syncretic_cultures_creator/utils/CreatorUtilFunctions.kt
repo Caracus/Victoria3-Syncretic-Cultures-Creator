@@ -25,7 +25,7 @@ fun createHasPrimaryCulture(indentations: Int, baseCultures: Set<String>, logica
 fun createOptionalCulturesTriggerEventsBlock(indentations: Int, syncreticCulture: String, optionalCultures: Set<String>) : String{
     var text = ""
     optionalCultures.forEach {
-        text += format(indentations,"trigger_event = { id = standardize_${syncreticCulture}_addon_$it.1 }" ,1)
+        text += format(indentations,"trigger_event = { id = standardize_${syncreticCulture}_addon_$it.1 popup = yes }" ,1)
     }
     return text
 }

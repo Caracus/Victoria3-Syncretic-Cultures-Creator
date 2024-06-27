@@ -19,6 +19,7 @@ standardize_<syncretic_culture_name>_decision = {
 			set_variable = has_picked_a_syncretic_culture_var
 		}
 <optional_addon_cultures_block>
+    trigger_event = { id = religion_swap.1 }
 	}
 
 	ai_chance = {
@@ -45,7 +46,7 @@ complete_<syncretic_culture_name>_decision = {
 	}
 
 	when_taken = {
-		trigger_event = { id = standardize_<syncretic_culture_name>.6 }
+		trigger_event = { id = standardize_<syncretic_culture_name>.6 popup = yes }
 	}
 
 	ai_chance = {

@@ -29,3 +29,8 @@ fun createCultureEvents(syncreticCulture: SyncreticCulture, compatibleCultures :
         printFile("events/", "standardize_" + syncreticCulture.syncreticCultureName + ".txt", text)
 
 }
+
+fun copyStaticEvents(){
+    val textOfFile = readFileAsText("src/main/resources/templates/ActualReligionSwapEvent.txt")
+    printFile("events/", "religion_swap.txt", textOfFile)
+}

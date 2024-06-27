@@ -1,6 +1,5 @@
 package org.victoria_3_syncretic_cultures_creator
 
-
 import org.victoria_3_syncretic_cultures_creator.creators.*
 import org.victoria_3_syncretic_cultures_creator.logic.calculateCompatibleCultures
 import org.victoria_3_syncretic_cultures_creator.logic.createMutuallyExclusiveCulturesMap
@@ -32,6 +31,7 @@ fun main(args: Array<String>) {
     createLocalization(syncreticCultureConfiguration)
     createOverwriteLocalization()
     copyStaticDecisions()
+    copyStaticEvents()
 
 
     //optional section
@@ -40,7 +40,7 @@ fun main(args: Array<String>) {
     //createSteamTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
     //Use this if you want a table representation for github / for example the readme table
-    //createGitHubTableFromCulturesConfiguration(syncreticCultureConfiguration)
+    createGitHubTableFromCulturesConfiguration(syncreticCultureConfiguration)
 
     //Use this to print a table for the immersive culture game rule setting
     createGitHubTableForGameRule(syncreticCultureConfiguration)

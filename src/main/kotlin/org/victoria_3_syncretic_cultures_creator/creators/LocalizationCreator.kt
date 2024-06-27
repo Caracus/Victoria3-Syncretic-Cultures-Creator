@@ -48,6 +48,7 @@ fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
                         text += format(0," standardize_${cultureNameKey}.6.c:0 \"Trigger an additional yearly conversion tick right now.\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.6.d:0 \"Trigger the 30/50/70 year milestone event now.\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.6.e:0 \"Convert all eligible pops to \$${cultureNameKey}\$.\"" ,1)
+                        text += format(0," standardize_${cultureNameKey}.6.g:0 \"Change state religion.\"" ,1)
                         text += format(0," complete_${cultureNameKey}_decision_not_var_custom_tooltip:0 \"Has not decided to set \$${cultureNameKey}\$ conversion to 100%\"" ,1)
                         text += format(0," complete_${cultureNameKey}_decision_var_custom_tooltip:0 \"Has decided to set \$${cultureNameKey}\$ conversion to 100%\"" ,1)
                         text += format(0," hide_${cultureNameKey}_debug_menu_var_custom_tooltip:0 \"Will remove the debug menu and decision to open it\"" ,1)

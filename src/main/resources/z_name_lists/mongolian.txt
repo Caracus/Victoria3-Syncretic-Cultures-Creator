@@ -1,0 +1,63 @@
+	male_common_first_names={
+		Badamdorj
+		Balingiin
+		Batbayar
+		Baterdene
+		Chingis
+		Dambyan
+		Damdin
+		Dogsomyn
+		Gonchigjalzangiin
+		Gonchigtseren
+		Injinash
+		Khorloogiin
+		Kubilai
+		Otgonbayar
+		Peljidiin
+		Sodnomyn
+        Agvan Apollon Ardan
+        Bidia Bavasan Bulat Bazar Barady Batamunkhe Batozhargal Buyanto
+        Damba Dashirabdan
+        Gunga
+        Khosta
+        Namzhal
+        Rinchendorj
+        Serenzhab Solbon Shemed-Dorzho
+        Tsokto Tseden
+        Zhamso
+	}
+	female_common_first_names = {
+		Bayartsetseg
+		Dondogdulam
+		Ider
+		Khajidsuren
+		Oyuungerel
+		Sonomyn
+		Tuyaa
+	}
+	noble_last_names = {
+		Gonchigjalzangiin
+		Togs-Ochiryn
+	}
+	common_last_names={
+		Amar
+		Bodoo
+		Chagdarjav
+		Choibalsan
+		Damdinbazar
+		Genden
+		Jamyan
+		Murdorj
+		Sukhbaatar
+		Tomorbaatar
+		Tserendorj
+		Vanchinbalyn
+        Abiduev
+        Bimbayev Batozhabay Baldano Baradiin
+        Dorzhiev Dandaron Danshinimaev Dondubon Dondogoy
+        Inkizhinov
+        Purbyn
+        Shagzhin
+        Tsydenov
+        Zhamtsarano Zhigzhitov
+	}

@@ -100,7 +100,7 @@ standardize_<syncretic_culture_name>.2 = {
 				}
 			}
 			# trigger homeland expansion event
-			trigger_event = { id = standardize_<syncretic_culture_name>.4 }
+			trigger_event = { id = standardize_<syncretic_culture_name>.4 popup = yes }
 		}
 
 		# trigger actual pop change event with delay to account for eventual new homelands
@@ -260,7 +260,7 @@ standardize_<syncretic_culture_name>.5 = {
 				        ROOT = { has_variable = complete_<syncretic_culture_name>_decision_var }
 				        AND = {
                             has_global_variable = global_conversion_active_var
-                            is_player = no
+                            ROOT = { is_player = no }
 				        }
 				    }
 					owner = ROOT
@@ -385,7 +385,7 @@ standardize_<syncretic_culture_name>.6 = {
 		name = standardize_<syncretic_culture_name>.6.d
 		default_option = no
 
-		trigger_event = { id = standardize_<syncretic_culture_name>.3 }
+		trigger_event = { id = standardize_<syncretic_culture_name>.3 popup = yes }
 	}
 	#set conversion to 100 percent
 	option = {
@@ -398,4 +398,11 @@ standardize_<syncretic_culture_name>.6 = {
 		}
 		trigger_event = { id = standardize_<syncretic_culture_name>.5 }
 	}
+    #religion change
+    option = {
+        name = standardize_<syncretic_culture_name>.6.g
+        default_option = no
+
+        trigger_event = { id = religion_swap.1 popup = yes }
+    }
 }
