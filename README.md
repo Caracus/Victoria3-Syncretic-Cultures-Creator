@@ -79,7 +79,7 @@ Otherwise let me know via Steam via comment.
 | Danubian | South German and Hungarian | Ukrainian, Slovene, Serb, North German, Slovak, Croat, Polish, Romanian, North Italian, Czech and Bosniak |  |
 | Baltic | Estonian, Lithuanian and Latvian |  |  |
 | Byzantine | Greek and Turkish | Serb, Tatar, Armenian, Albanian, Bulgarian, Croat, Circassian, North Caucasian, Bosniak and Georgian |  |
-| Canadian | Anglo Canadian, Franco Canadian and British |  |  |
+| Canadian | Anglo Canadian, Franco Canadian and British |  | CAN |
 | Caucasian | Armenian, Circassian, North Caucasian and Georgian | Azerbaijani |  |
 | Celtic | Irish, Welsh and Breton | Scottish |  |
 | Central African | Mongo, Bakongo, Kanuri, Baguirmi, Fluvian Bantu, Sara, Teda, Luba, Lunda, Fang and Equatorial Bantu |  |  |
@@ -91,30 +91,31 @@ Otherwise let me know via Steam via comment.
 | Ethiopian | Amhara, Tigray, Sidama, Afar and Oromo | Somali |  |
 | European American | Colombian, Paraguayan, Yankee, Nordestino, Cajun, Platinean, Mexican, Uruguayan, Chilean, Anglo Canadian, Brazilian, Amazonic, Ecuadorian, Venezuelan, Paulista, Sulista, North Andean, Caribeno, Argentine, Central American, Franco Canadian, South Andean and Dixie | Afro American, Afro Antillean, Afro Caribeno and Afro Brazilian |  |
 | European | Ukrainian, Corsican, Ashkenazi, British, Mexican, Scottish, Norwegian, Welsh, Dutch, Boer, Caribeno, Argentine, Flemish, Romanian, French, Czech, Georgian, Swedish, Yankee, Russian, North German, Platinean, Armenian, Francoprovencal, Breton, Ugrian, Anglo Canadian, Brazilian, Venezuelan, Serb, Sorb, Franco Canadian, Croat, Bulgarian, Colombian, Paraguayan, Icelandic, South German, Nordestino, Alemannic, Cajun, Irish, Australian, Slovak, Hungarian, North Caucasian, Byelorussian, Occitan, Wallonian, Estonian, Amazonic, Ecuadorian, Paulista, Sulista, Slovene, Central American, Portuguese, Circassian, Dixie, Sami, Greek, Spanish, Danish, Basque, Lithuanian, Albanian, Uruguayan, Maltese, Finnish, Chilean, Catalan, Sephardic, North Andean, South Italian, South Andean, Polish, Galician, Bosniak, North Italian and Latvian |  |  |
-| Finnic | Finnish, Ugrian, Estonian and Sami |  |  |
+| Finnic | Finnish, Ugrian, Mordvin, Udmurt, Estonian and Sami |  |  |
 | German | South German, Ashkenazi, Alemannic and North German | Slovene, Sorb and Czech | GER |
 | Germanic | Dutch, Swedish, Icelandic, Danish, South German, Boer, Alemannic, North German, Flemish and Norwegian | Ashkenazi and British |  |
 | Gran-Colombian | Colombian, Ecuadorian, Venezuelan, North Andean and Central American | Paraguayan, Chilean, Muisca, Afro Caribeno, Quechua, Argentine, Miskito, South Andean, Amazonian, Cariban, Uruguayan and Guajiro |  |
-| Hindustani | Panjabi, Kanauji, Kashmiri and Avadhi |  | MUG, HND |
+| Hindustani | Kho, Panjabi, Kanauji, Kashmiri and Avadhi |  | MUG, HND |
 | Hispanic | Colombian, Paraguayan, Spanish, Platinean, Mexican, Uruguayan, Chilean, Ecuadorian, Venezuelan, North Andean, Caribeno, Argentine, Central American and South Andean | Catalan, Afro Caribeno, Basque and Galician |  |
 | Iberian | Spanish, Catalan, Portuguese, Basque and Galician |  |  |
 | Iberic | Colombian, Paraguayan, Spanish, Nordestino, Platinean, Basque, Mexican, Uruguayan, Chilean, Catalan, Brazilian, Amazonic, Ecuadorian, Venezuelan, Paulista, Sulista, North Andean, Caribeno, Argentine, Central American, South Andean, Portuguese and Galician | Afro Caribeno and Afro Brazilian |  |
-| Indian | Bihari, Panjabi, Rajput, Manipuri, Gujarati, Kannada, Avadhi, Telegu, Assamese, Marathi, Tamil, Malayalam, Kanauji, Sindi, Bengali, Kashmiri, Nepali, Sinhala and Oriya | Pashtun, Karen, Shan, Burmese, Kachin, Zhuang, Baluchi and Tibetan | MUG, HND |
-| Indo-Aryan | Bihari, Panjabi, Rajput, Gujarati, Avadhi, Marathi, Kanauji, Sindi, Bengali, Kashmiri, Nepali, Sinhala and Oriya |  | MUG, HND |
-| Iranian | Pashtun, Kurdish, Baluchi, Persian and Tajik | Azerbaijani |  |
+| Indian | Bihari, Panjabi, Rajput, Manipuri, Gujarati, Kannada, Avadhi, Telegu, Assamese, Marathi, Tamil, Kho, Malayalam, Kanauji, Sindi, Bengali, Kashmiri, Nepali, Sinhala and Oriya | Pashtun, Karen, Shan, Burmese, Kachin, Zhuang, Baluchi and Tibetan | MUG, HND, BHT |
+| Indo-Aryan | Bihari, Panjabi, Rajput, Gujarati, Avadhi, Marathi, Kho, Kanauji, Sindi, Bengali, Kashmiri, Nepali, Sinhala and Oriya |  | MUG, HND |
+| Iranian | Pashtun, Luri, Kurdish, Mazanderani, Baluchi, Persian and Tajik | Azerbaijani |  |
 | Israeli | Sephardic and Ashkenazi |  |  |
 | Italian | South Italian and North Italian | Corsican and Maltese | ITA |
 | Hispanic American | Colombian, Paraguayan, Platinean, Mexican, Uruguayan, Chilean, Ecuadorian, Venezuelan, North Andean, Caribeno, Argentine, Central American and South Andean | Afro Caribeno |  |
-| Malayan | Balinese, Moluccan, Filipino, Dayak, Sumatran, Moro, Malay, Batak, Bornean and Javan | Malagasy, Aborigine and Melanesian | IDN |
-| Brazilian | Nordestino, Brazilian, Amazonic, Paulista and Sulista | Tupinamba, Guarani, Amazonian and Afro Brazilian |  |
+| Malayan | Balinese, Moluccan, Filipino, Dayak, Sumatran, Moro, Malay, Batak, Bornean and Javan | Malagasy, Aborigine and Melanesian | PHI, IDN |
+| Brazilian | Nordestino, Brazilian, Amazonic, Paulista and Sulista | Tupinamba, Guarani, Amazonian and Afro Brazilian | BRZ |
 | British | British and Scottish | Irish and Welsh |  |
 | Burmese | Karen, Burmese, Kachin and Zhuang | Shan |  |
-| French | Francoprovencal, French and Occitan | Wallonian, Alemannic and Breton |  |
+| French | Francoprovencal, French and Occitan | Wallonian, Alemannic and Breton | FRA |
 | Japanese | Ainu and Japanese | Korean | JAP |
 | Goryeo | Korean and Manchu | Japanese |  |
-| Mexican | Zapotec, Tarascan, Oodham, Mixtec, Nahua, Mexican and Mayan | Afro Caribeno, Central American and Miskito |  |
-| Portuguese | Portuguese and Galician |  |  |
+| Mexican | Zapotec, Tarascan, Oodham, Mixtec, Nahua, Mexican and Mayan | Afro Caribeno, Central American and Miskito | MEX |
+| Portuguese | Portuguese and Galician |  | POR |
 | Spanish | Spanish and Catalan | Basque and Galician | SPA |
+| Mongolian | Mongol, Kalmyk, Tuvan and Buryat |  |  |
 | Native American | Tarascan, Comanche, Caddoan, Guarani, Patagonian, Miskito, Nez Perce, Siouan, Tupinamba, Muisca, Apache, Algonquian, Nahua, Amazonian, Pueblo, Hokan, Cariban, Inuit, Navajo, Cree, Dakota, Athabaskan, Oodham, Muskogean, Salish, Metis, Paiute, Aimara, Zapotec, Iroquoian, Mixtec, Quechua, Guajiro, Cherokee and Mayan |  |  |
 | Netherlandic | Dutch, Boer and Flemish | Wallonian |  |
 | Slavic | Ukrainian, Russian, Serb, Slovene, Sorb, Slovak, Croat, Bulgarian, Polish, Byelorussian, Czech and Bosniak |  |  |
@@ -129,7 +130,7 @@ Otherwise let me know via Steam via comment.
 | Swiss | Alemannic and Francoprovencal | North Italian |  |
 | Tai | Shan, Thai, Lao and Zhuang | Khmu, Khmer and Mon |  |
 | Taiwanese | Yuanzhumin and Hakka |  |  |
-| Turkic | Yakut, Turkish, Kirgiz, Tatar, Hazara, Azerbaijani, Uzbek, Tuvan, Uighur, Turkmen and Kazak | Persian |  |
+| Turkic | Tatar, Hazara, Uzbek, Uighur, Turkmen, Bashkir, Yakut, Turkish, Kirgiz, Chuvash, Azerbaijani, Tuvan and Kazak | Luri, Mazanderani and Persian |  |
 | US American | Yankee and Dixie | Afro American and Cajun |  |
 | West-Aryan | Marathi, Rajput, Sindi and Gujarati |  | MUG, HND |
 | West Slavic | Sorb, Slovak, Polish and Czech |  |  |

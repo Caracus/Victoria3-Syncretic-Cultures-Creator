@@ -1381,7 +1381,8 @@
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [
-      "IDN"
+      "IDN",
+      "PHI"
     ],
     "optionalCultures": [
       "malagasy",
@@ -1968,7 +1969,6 @@
     "syncreticCultureName": "mongolian",
     "baseCultures": [
       "buryat",
-      "manul",
       "tuvan",
       "kalmyk",
       "mongol"
