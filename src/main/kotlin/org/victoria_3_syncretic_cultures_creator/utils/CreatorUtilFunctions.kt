@@ -55,6 +55,8 @@ fun createValidWithGameRulesBlock(indentations: Int, validWithGameRules: Boolean
     return text
 }
 
+fun createDecisionCheckOverwriteBlock(indentations: Int, overwriteString: String) : String = format(indentations, overwriteString, 1)
+
 fun createBaseCulturesHomelandCheckBlock(indentations: Int, baseCultures: Set<String>) : String{
     var text = ""
     baseCultures.forEach { baseCulture ->

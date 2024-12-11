@@ -7,6 +7,7 @@ import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
 import org.victoria_3_syncretic_cultures_creator.parsers.getSyncreticCultureConfiguration
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableForGameRule
 import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableFromCulturesConfiguration
+import org.victoria_3_syncretic_cultures_creator.utils.createModifyHomelandsList
 import org.victoria_3_syncretic_cultures_creator.utils.sortAlphabetically
 
 fun main(args: Array<String>) {
@@ -46,7 +47,7 @@ fun main(args: Array<String>) {
     createGitHubTableForGameRule(syncreticCultureConfiguration)
 
     //Use this to create a list for the syncretic cultures for the modify homelands mod
-    //createModifyHomelandsList(syncreticCultureConfiguration)
+    createModifyHomelandsList(syncreticCultureConfiguration)
 
     println("Done")
 }

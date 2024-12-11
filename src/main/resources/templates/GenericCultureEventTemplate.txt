@@ -29,22 +29,22 @@ standardize_<syncretic_culture_name>.1 = {
 
 		add_primary_culture = cu:<syncretic_culture_name>
 
-		every_state_region = {
-			limit = {
-				any_scope_state = {
-					owner = ROOT
+
+		every_scope_state = {
+            limit = {
 					NOT = {
 						cu:<syncretic_culture_name> =  {
 							has_homeland = PREV
 						}
 					}
 					OR = {
-<base_cultures_homeland_check_block>
-<optional_cultures_homeland_check_block>
+                        <base_cultures_homeland_check_block>
+                        <optional_cultures_homeland_check_block>
 					}
-				}
-			}
-			add_homeland = cu:<syncretic_culture_name>
+            }
+            state_region = {
+                add_homeland = cu:<syncretic_culture_name>
+            }
 		}
 	}
 }
@@ -82,25 +82,20 @@ standardize_<syncretic_culture_name>.2 = {
         }
 
 		# check for newcomer states
-		if = {
-			limit = {
-				any_state_region = {
-					any_scope_state = {
-						owner = ROOT
-						NOT = {
-							cu:<syncretic_culture_name> =  {
-								has_homeland = PREV
-							}
-						}
-						OR = {
-<base_cultures_homeland_check_block>
-<optional_cultures_homeland_check_block>
-						}
-					}
-				}
-			}
-			# trigger homeland expansion event
-			trigger_event = { id = standardize_<syncretic_culture_name>.4 popup = yes }
+		any_scope_state = {
+            limit = {
+                NOT = {
+                    cu:<syncretic_culture_name> =  {
+                        has_homeland = PREV
+                    }
+                }
+                OR = {
+                    <base_cultures_homeland_check_block>
+                    <optional_cultures_homeland_check_block>
+                }
+            }
+            # trigger homeland expansion event
+            trigger_event = { id = standardize_<syncretic_culture_name>.4 popup = yes }
 		}
 
 		# trigger actual pop change event with delay to account for eventual new homelands
@@ -138,8 +133,8 @@ standardize_<syncretic_culture_name>.3 = {
             base = 0
         }
 
-<remove_primary_base_cultures_block>
-<remove_primary_addon_cultures_block>
+        <remove_primary_base_cultures_block>
+        <remove_primary_addon_cultures_block>
 	}
 
     #do nothing
@@ -160,25 +155,24 @@ standardize_<syncretic_culture_name>.3 = {
             base = 0
         }
 
-<remove_primary_base_cultures_block>
-<remove_primary_addon_cultures_block>
+        <remove_primary_base_cultures_block>
+        <remove_primary_addon_cultures_block>
 
-		every_state_region = {
-			limit = {
-				any_scope_state = {
-					owner = ROOT
-					cu:<syncretic_culture_name> =  {
-						has_homeland = PREV
-					}
-					OR = {
-<base_cultures_homeland_check_block>
-<optional_cultures_homeland_check_block>
-					}
-				}
-			}
-<remove_base_cultures_homelands_block>
-<remove_addon_cultures_homelands_block>
-		}
+        every_scope_state = {
+            limit = {
+                cu:<syncretic_culture_name> =  {
+                    has_homeland = PREV
+                }
+                OR = {
+                    <base_cultures_homeland_check_block>
+                    <optional_cultures_homeland_check_block>
+                }
+            }
+            state_region = {
+                <remove_base_cultures_homelands_block>
+                <remove_addon_cultures_homelands_block>
+            }
+        }
 	}
 }
 
@@ -209,22 +203,21 @@ standardize_<syncretic_culture_name>.4 = {
 		name = standardize_<syncretic_culture_name>.4.a
 		default_option = yes
 
-		every_state_region = {
-			limit = {
-				any_scope_state = {
-					owner = ROOT
-					NOT = {
-						cu:<syncretic_culture_name> =  {
-							has_homeland = PREV
-						}
-					}
-					OR = {
-<base_cultures_homeland_check_block>
-<optional_cultures_homeland_check_block>
-					}
-				}
-			}
-			add_homeland = cu:<syncretic_culture_name>
+		every_scope_state = {
+		    limit = {
+                NOT = {
+                    cu:<syncretic_culture_name> =  {
+                        has_homeland = PREV
+                    }
+                }
+                OR = {
+                    <base_cultures_homeland_check_block>
+                    <optional_cultures_homeland_check_block>
+                }
+		    }
+		    state_region = {
+                add_homeland = cu:<syncretic_culture_name>
+		    }
 		}
 	}
 }
@@ -252,60 +245,58 @@ standardize_<syncretic_culture_name>.5 = {
 	hidden = yes
 	immediate = {
 
-		every_state = {
-			# apply 100% pop change to all owned states if the debug decision was taken
-			if = {
-				limit = {
-				    OR = {
-				        ROOT = { has_variable = complete_<syncretic_culture_name>_decision_var }
-				        AND = {
+        every_scope_state = {
+            if = {
+                limit = {
+                    OR = {
+                        ROOT = { has_variable = complete_<syncretic_culture_name>_decision_var }
+                        AND = {
                             has_global_variable = global_conversion_active_var
                             ROOT = { is_player = no }
-				        }
-				    }
-					owner = ROOT
-				}
-				every_scope_pop = {
-					limit = {
-						OR = {
-<base_culture_pop_check_block>
-<addon_culture_pop_check_block>
-<compatible_culture_pop_check_block>
-						}
-					}
-					change_pop_culture = {
-						target = cu:<syncretic_culture_name>
-						value = change_entire_pop_value
-					}
-				}
-			}
+                        }
+                    }
+                }
+                every_scope_pop = {
+                    limit = {
+                        OR = {
+                            <base_culture_pop_check_block>
+                            <addon_culture_pop_check_block>
+                            <compatible_culture_pop_check_block>
+                        }
+                    }
+                    change_pop_culture = {
+                        target = cu:<syncretic_culture_name>
+                        value = change_entire_pop_value
+                    }
+                }
+            }
 
-			# apply pop changes to old primary cultures living in newly marked homelands
-			if = {
-				limit = {
+            # apply pop changes to old primary cultures living in newly marked homelands
+            if = {
+                limit = {
                     ROOT = { NOT = {has_variable = complete_<syncretic_culture_name>_decision_var } }
-					cu:<syncretic_culture_name> = {
-						has_homeland = PREV
-					}
-					owner = ROOT
-				}
-				every_scope_pop = {
-					limit = {
-						OR = {
-<base_culture_pop_check_block>
-<addon_culture_pop_check_block>
-<compatible_culture_pop_check_block>
-						}
-					}
-					change_pop_culture = {
-						target = cu:<syncretic_culture_name>
-						value = change_pop_value
-					}
-				}
-			}
+                    cu:<syncretic_culture_name> = {
+                        has_homeland = PREV
+                    }
+                    owner = ROOT
+                }
+                every_scope_pop = {
+                    limit = {
+                        OR = {
+                            <base_culture_pop_check_block>
+                            <addon_culture_pop_check_block>
+                            <compatible_culture_pop_check_block>
+                        }
+                    }
+                    change_pop_culture = {
+                        target = cu:<syncretic_culture_name>
+                        value = change_pop_value
+                    }
+                }
+            }
 
-			# apply pop changes to old primary cultures that have moved around within your country
-			if = {
+            # apply pop changes to old primary cultures that have moved around within your country
+            if = {
                 limit = {
                     ROOT = { NOT = {has_variable = complete_<syncretic_culture_name>_decision_var } }
                     NOT = {
@@ -318,20 +309,18 @@ standardize_<syncretic_culture_name>.5 = {
                 every_scope_pop = {
                     limit = {
                         OR = {
-<base_culture_pop_check_block>
-<addon_culture_pop_check_block>
-<compatible_culture_pop_check_block>
+                            <base_culture_pop_check_block>
+                            <addon_culture_pop_check_block>
+                            <compatible_culture_pop_check_block>
                         }
-
                     }
                     change_pop_culture = {
                         target = cu:<syncretic_culture_name>
                         value = change_pop_value_non_homeland
                     }
                 }
-			}
-		}
-
+            }
+        }
 	}
 }
 

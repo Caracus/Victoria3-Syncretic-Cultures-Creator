@@ -15,7 +15,8 @@ data class SyncreticCulture(
     val traits: String,
     val obsessions: String,
     val graphics: String,
-    val ethnicity: String
+    val ethnicity: String,
+    val journalCheckOverwrite: String?
 )
 
 enum class FormabilityCriteria{

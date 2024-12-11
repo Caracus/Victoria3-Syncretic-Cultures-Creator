@@ -34,6 +34,7 @@
       "ugrian",
       "estonian",
       "hungarian",
+      "szekely",
       "romanian",
       "north_italian",
       "south_italian",
@@ -98,7 +99,8 @@
     "traits": "caucasus_group albanian_language greek_culture baltic_culture_group hispanophone lusophone anglophone celtic_people italophone romanian_culture_group hungarian_culture_group finnic german_speaking scandinavian_culture_group beneluxian_culture_group francophone west_slavic east_slavic jugoslav jewish_group european_heritage",
     "obsessions": "",
     "graphics": "european",
-    "ethnicity": "caucasian"
+    "ethnicity": "caucasian",
+    "journalCheckOverwrite": "any_primary_culture = { has_discrimination_trait = european_heritage }"
   },
   {
     "syncreticCultureName": "modern_french",
@@ -555,7 +557,7 @@
     "localization": "Canadian",
     "color": "rgb{ 138 29 23 } #dark red",
     "religion": "protestant",
-    "traits": "anglophone european_heritage",
+    "traits": "anglophone francophone european_heritage",
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -994,7 +996,7 @@
     "optionalsUsedByAi": [],
     "localization": "Japanese",
     "color": "rgb{ 163 62 148 } #purple-pink",
-    "religion": "confucian",
+    "religion": "shinto",
     "traits": "yamato east_asian_heritage",
     "obsessions": "",
     "graphics": "east_asian",
@@ -1164,7 +1166,8 @@
     "syncreticCultureName": "afghan",
     "baseCultures": [
       "pashtun",
-      "tajik"
+      "tajik",
+      "pathan"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
@@ -1283,7 +1286,8 @@
       "slovak",
       "croat",
       "bosniak",
-      "north_german"
+      "north_german",
+      "szekely"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
@@ -1347,7 +1351,9 @@
       "burmese",
       "karen",
       "kachin",
-      "zhuang"
+      "zhuang",
+      "lushai",
+      "naga"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
@@ -1455,7 +1461,8 @@
       "baluchi",
       "tajik",
       "mazanderani",
-      "luri"
+      "luri",
+      "pathan"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
@@ -1518,7 +1525,7 @@
     "localization": "West-Aryan",
     "color": "rgb{ 39 100 179 } #blue",
     "religion": "hindu",
-    "traits": "south_asian_heritage hindustani",
+    "traits": "south_asian_heritage indo_aryan_language",
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1547,7 +1554,7 @@
     "localization": "East-Aryan",
     "color": "rgb{ 12 84 6 } #green",
     "religion": "sunni",
-    "traits": "south_asian_heritage hindustani",
+    "traits": "south_asian_heritage indo_aryan_language",
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "asian"
@@ -1558,8 +1565,13 @@
       "avadhi",
       "panjabi",
       "kashmiri",
-      "kanauji",
-      "kho"
+      "kho",
+      "hindustani",
+      "bundeli",
+      "pahari",
+      "bageli",
+      "chhattisgarhi",
+      "deccani"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [
@@ -1571,10 +1583,10 @@
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
-    "localization": "Hindustani",
+    "localization": "Vaidika",
     "color": "rgb{ 125 104 21 } #dark yellow",
-    "religion": "sikh",
-    "traits": "south_asian_heritage hindustani",
+    "religion": "hindu",
+    "traits": "south_asian_heritage indo_aryan_language",
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1593,9 +1605,15 @@
       "avadhi",
       "panjabi",
       "kashmiri",
-      "kanauji",
       "sinhala",
-      "kho"
+      "kho",
+      "hindustani",
+      "bundeli",
+      "pahari",
+      "bageli",
+      "chhattisgarhi",
+      "deccani",
+      "pathan"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [
@@ -1610,7 +1628,7 @@
     "localization": "Indo-Aryan",
     "color": "rgb{ 158 163 132 } #gray yellow",
     "religion": "hindu",
-    "traits": "south_asian_heritage hindustani",
+    "traits": "south_asian_heritage indo_aryan_language",
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1629,7 +1647,6 @@
       "avadhi",
       "panjabi",
       "kashmiri",
-      "kanauji",
       "sinhala",
       "telegu",
       "kannada",
@@ -1637,7 +1654,14 @@
       "malayalam",
       "manipuri",
       "assamese",
-      "kho"
+      "kho",
+      "hindustani",
+      "bundeli",
+      "pahari",
+      "gondi",
+      "bageli",
+      "chhattisgarhi",
+      "deccani"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [
@@ -1653,7 +1677,10 @@
       "pashtun",
       "baluchi",
       "tibetan",
-      "shan"
+      "shan",
+      "lushai",
+      "naga",
+      "pathan"
     ],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
@@ -1661,7 +1688,7 @@
     "localization": "Indian",
     "color": "rgb{ 255 153 51 } #indian flag orange",
     "religion": "hindu",
-    "traits": "south_asian_heritage hindustani dravidian",
+    "traits": "south_asian_heritage indo_aryan_language dravidian",
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1672,7 +1699,8 @@
       "telegu",
       "kannada",
       "tamil",
-      "malayalam"
+      "malayalam",
+      "gondi"
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
@@ -1963,7 +1991,8 @@
     "traits": "bantu african_heritage",
     "obsessions": "",
     "graphics": "african",
-    "ethnicity": "african"
+    "ethnicity": "african",
+    "journalCheckOverwrite": "any_primary_culture = { has_discrimination_trait = african_heritage }"
   },
   {
     "syncreticCultureName": "mongolian",

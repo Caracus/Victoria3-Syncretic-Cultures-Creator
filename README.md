@@ -72,7 +72,7 @@ Otherwise let me know via Steam via comment.
 ### [Exhaustive list of featured default syncretic cultures] (#CultureList)
 | Syncretic Culture | Base Cultures | Optional Cultures | Tag Limitation |
 | ----------------- | ------------- | ----------------- | -------------- |
-| Afghan | Pashtun and Tajik | Hazara and Baluchi |  |
+| Afghan | Pashtun, Pathan and Tajik | Hazara and Baluchi |  |
 | Afrikaner | Boer and British |  |  |
 | Anglophone | Yankee, Anglo Canadian, Australian, British, Scottish, Dixie and Welsh | Afro American and Afro Caribbean |  |
 | Arab | Mashriqi, Maghrebi, Somali, Yemenite, Sudanese, Bedouin, Misri and Berber | Haratin, Tuareg and Bidan |  |
@@ -85,7 +85,7 @@ Otherwise let me know via Steam via comment.
 | Central African | Mongo, Bakongo, Kanuri, Baguirmi, Fluvian Bantu, Sara, Teda, Luba, Lunda, Fang and Equatorial Bantu |  |  |
 | Chinese | Min, Han, Yue and Hakka | Mongol, Vietnamese, Manchu, Korean and Tibetan | CHI, TPG |
 | Czechoslovakian | Slovak and Czech |  |  |
-| Dravidian | Tamil, Malayalam, Kannada and Telegu | Sinhala |  |
+| Dravidian | Tamil, Malayalam, Gondi, Kannada and Telegu | Sinhala |  |
 | East-Aryan | Bihari, Bengali and Oriya | Manipuri, Nepali, Tibetan and Assamese | MUG, HND |
 | Eastern African | Sukuma, Somali, Amhara, Fur, Luo, Nuer, Sudanese, Maasai, Lacustrine Bantu, Ruanda, Azande, Dinka, Rundi, Nilotic, Tigray, Baganda, Beja, Kikuyu, Sidama, Nuba, Afar, Swahili, Unyamwezi and Oromo | Malagasy |  |
 | Ethiopian | Amhara, Tigray, Sidama, Afar and Oromo | Somali |  |
@@ -95,20 +95,20 @@ Otherwise let me know via Steam via comment.
 | German | South German, Ashkenazi, Alemannic and North German | Slovene, Sorb and Czech | GER |
 | Germanic | Dutch, Swedish, Icelandic, Danish, South German, Boer, Alemannic, North German, Flemish and Norwegian | Ashkenazi and British |  |
 | Gran-Colombian | Colombian, Ecuadorian, Venezuelan, North Andean and Central American | Paraguayan, Chilean, Muisca, Afro Caribeno, Quechua, Argentine, Miskito, South Andean, Amazonian, Cariban, Uruguayan and Guajiro |  |
-| Hindustani | Kho, Panjabi, Kanauji, Kashmiri and Avadhi |  | MUG, HND |
+| Hindu | Deccani, Kho, Chhattisgarhi, Panjabi, Hindustani, Pahari, Bageli, Kashmiri, Avadhi and Bundeli |  | MUG, HND |
 | Hispanic | Colombian, Paraguayan, Spanish, Platinean, Mexican, Uruguayan, Chilean, Ecuadorian, Venezuelan, North Andean, Caribeno, Argentine, Central American and South Andean | Catalan, Afro Caribeno, Basque and Galician |  |
 | Iberian | Spanish, Catalan, Portuguese, Basque and Galician |  |  |
 | Iberic | Colombian, Paraguayan, Spanish, Nordestino, Platinean, Basque, Mexican, Uruguayan, Chilean, Catalan, Brazilian, Amazonic, Ecuadorian, Venezuelan, Paulista, Sulista, North Andean, Caribeno, Argentine, Central American, South Andean, Portuguese and Galician | Afro Caribeno and Afro Brazilian |  |
-| Indian | Bihari, Panjabi, Rajput, Manipuri, Gujarati, Kannada, Avadhi, Telegu, Assamese, Marathi, Tamil, Kho, Malayalam, Kanauji, Sindi, Bengali, Kashmiri, Nepali, Sinhala and Oriya | Pashtun, Karen, Shan, Burmese, Kachin, Zhuang, Baluchi and Tibetan | MUG, HND, BHT |
-| Indo-Aryan | Bihari, Panjabi, Rajput, Gujarati, Avadhi, Marathi, Kho, Kanauji, Sindi, Bengali, Kashmiri, Nepali, Sinhala and Oriya |  | MUG, HND |
-| Iranian | Pashtun, Luri, Kurdish, Mazanderani, Baluchi, Persian and Tajik | Azerbaijani |  |
+| Indian | Bihari, Rajput, Manipuri, Pahari, Gujarati, Kannada, Marathi, Tamil, Malayalam, Gondi, Sindi, Bengali, Bageli, Nepali, Sinhala, Panjabi, Avadhi, Telegu, Assamese, Deccani, Kho, Chhattisgarhi, Hindustani, Kashmiri, Oriya and Bundeli | Pashtun, Karen, Shan, Lushai, Pathan, Burmese, Kachin, Zhuang, Baluchi, Tibetan and Naga | MUG, HND, BHT |
+| Indo-Aryan | Bihari, Panjabi, Rajput, Pahari, Gujarati, Avadhi, Deccani, Marathi, Kho, Chhattisgarhi, Hindustani, Sindi, Bengali, Bageli, Pathan, Kashmiri, Nepali, Sinhala, Oriya and Bundeli |  | MUG, HND |
+| Iranian | Pashtun, Luri, Kurdish, Mazanderani, Pathan, Baluchi, Persian and Tajik | Azerbaijani |  |
 | Israeli | Sephardic and Ashkenazi |  |  |
 | Italian | South Italian and North Italian | Corsican and Maltese | ITA |
 | Hispanic American | Colombian, Paraguayan, Platinean, Mexican, Uruguayan, Chilean, Ecuadorian, Venezuelan, North Andean, Caribeno, Argentine, Central American and South Andean | Afro Caribeno |  |
 | Malayan | Balinese, Moluccan, Filipino, Dayak, Sumatran, Moro, Malay, Batak, Bornean and Javan | Malagasy, Aborigine and Melanesian | PHI, IDN |
 | Brazilian | Nordestino, Brazilian, Amazonic, Paulista and Sulista | Tupinamba, Guarani, Amazonian and Afro Brazilian | BRZ |
 | British | British and Scottish | Irish and Welsh |  |
-| Burmese | Karen, Burmese, Kachin and Zhuang | Shan |  |
+| Burmese | Karen, Lushai, Burmese, Kachin, Zhuang and Naga | Shan |  |
 | French | Francoprovencal, French and Occitan | Wallonian, Alemannic and Breton | FRA |
 | Japanese | Ainu and Japanese | Korean | JAP |
 | Goryeo | Korean and Manchu | Japanese |  |
