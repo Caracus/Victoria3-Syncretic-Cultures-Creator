@@ -82,21 +82,23 @@ standardize_<syncretic_culture_name>.2 = {
         }
 
 		# check for newcomer states
-		any_scope_state = {
+        if = {
             limit = {
-                NOT = {
-                    cu:<syncretic_culture_name> =  {
-                        has_homeland = PREV
-                    }
-                }
-                OR = {
-                    <base_cultures_homeland_check_block>
-                    <optional_cultures_homeland_check_block>
+                any_scope_state = {
+                        NOT = {
+                            cu:<syncretic_culture_name> =  {
+                                has_homeland = PREV
+                            }
+                        }
+                        OR = {
+                            <base_cultures_homeland_check_block>
+                            <optional_cultures_homeland_check_block>
+                        }
                 }
             }
             # trigger homeland expansion event
             trigger_event = { id = standardize_<syncretic_culture_name>.4 popup = yes }
-		}
+        }
 
 		# trigger actual pop change event with delay to account for eventual new homelands
 		trigger_event = { id = standardize_<syncretic_culture_name>.5 days = 45}

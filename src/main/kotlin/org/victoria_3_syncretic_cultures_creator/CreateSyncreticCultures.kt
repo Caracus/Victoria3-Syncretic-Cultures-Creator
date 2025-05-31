@@ -10,7 +10,7 @@ import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableFromCult
 import org.victoria_3_syncretic_cultures_creator.utils.createModifyHomelandsList
 import org.victoria_3_syncretic_cultures_creator.utils.sortAlphabetically
 
-fun main(args: Array<String>) {
+fun main() {
 
     var syncreticCultureConfiguration = sortAlphabetically(getSyncreticCultureConfiguration())
 
@@ -31,6 +31,8 @@ fun main(args: Array<String>) {
     createGameRules(syncreticCultureConfiguration)
     createLocalization(syncreticCultureConfiguration)
     createOverwriteLocalization()
+    //currently chinese has a custom so this serves as an override
+    copyManualLocalization()
     copyStaticDecisions()
     copyStaticEvents()
 

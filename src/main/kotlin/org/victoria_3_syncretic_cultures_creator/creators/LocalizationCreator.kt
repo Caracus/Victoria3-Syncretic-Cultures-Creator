@@ -1,6 +1,7 @@
 package org.victoria_3_syncretic_cultures_creator.creators
 
 import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
+import org.victoria_3_syncretic_cultures_creator.utils.copyFile
 import org.victoria_3_syncretic_cultures_creator.utils.format
 import org.victoria_3_syncretic_cultures_creator.utils.printFileWithoutBom
 import org.victoria_3_syncretic_cultures_creator.utils.readFileAsText
@@ -80,7 +81,7 @@ fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
 fun createOverwriteLocalization() {
         val textOfFile = readFileAsText("src/main/resources/templates/LocalizationOverwrites.yml")
 
-        val localizations = listOf("braz_por", "english", "french", "german", "japanese", "korean", "polish", "russian", "simp_chinese", "spanish", "turkish")
+        val localizations = listOf("braz_por", "english", "french", "german", "japanese", "korean", "simp_chinese", "polish", "russian", "spanish", "turkish")
 
         localizations.forEach { localization ->
                 var text = textOfFile
@@ -88,4 +89,8 @@ fun createOverwriteLocalization() {
 
                 printFileWithoutBom("/localization/replace/$localization/", "syncretic_cultures_replacements_l_" + localization + ".yml", text)
         }
+}
+
+fun copyManualLocalization() {
+        copyFile("src/main/resources/localization/syncretic_cultures_l_simp_chinese.yml", "target/generated-mod-files/localization/simp_chinese/syncretic_cultures_l_simp_chinese.yml")
 }
