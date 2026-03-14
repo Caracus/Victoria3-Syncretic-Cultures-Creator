@@ -14,87 +14,87 @@ fun createDiasporaCultures() {
         parseLanguageGroupList(readAndRemoveComments("gameFiles/common/discrimination_trait_groups/01_language_groups.txt"))
 
     val generalPlaceholders = listOf(
-        Placeholder("<diaspora_color>", "rgb{ 233 207 84 }"),
+        Placeholder("diaspora_color", "rgb{ 233 207 84 }"),
     )
 
     val configuration = listOf(
         DiasporaCultureConfiguration(
             cultureTemplate = "african",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         ),
         DiasporaCultureConfiguration(
             cultureTemplate = "central_asian",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         ),
         DiasporaCultureConfiguration(
             cultureTemplate = "east_asian",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         ),
         DiasporaCultureConfiguration(
             cultureTemplate = "european",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         ),
         DiasporaCultureConfiguration(
             cultureTemplate = "indigenous_american",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         ),
         DiasporaCultureConfiguration(
             cultureTemplate = "indigenous_oceanic",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         ),
         DiasporaCultureConfiguration(
             cultureTemplate = "middle_eastern",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         ),
         DiasporaCultureConfiguration(
             cultureTemplate = "north_asian",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         ),
         DiasporaCultureConfiguration(
             cultureTemplate = "south_asian",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         ),
         DiasporaCultureConfiguration(
             cultureTemplate = "southeast_asian",
             placeholders = listOf(
-                Placeholder("<diaspora_obsession>", ""),
-                Placeholder("<diaspora_traditions>", ""),
+                Placeholder("diaspora_obsession", ""),
+                Placeholder("diaspora_traditions", ""),
                 Placeholder("diaspora_religion", "catholic")
             )
         )
@@ -121,7 +121,7 @@ fun createDiasporaCultures() {
         configuration.forEach { configuration ->
             // we are distilling top level heritage down into sub groups
             // vanilla has heritage as prefix so this should be fine for compatibility
-            val heritageTraitKey = "${configuration.cultureTemplate}}_heritage"
+            val heritageTraitKey = "${configuration.cultureTemplate}_heritage"
             // traitGroupKey must match vanilla highest level group
             val heritageTrait =
                 createTraitEntry(
@@ -131,12 +131,12 @@ fun createDiasporaCultures() {
                 )
             heritageTraits.add(heritageTrait)
 
-            val diasporaCultureKey = heritageTraitKey + " " + languageTraitKey
+            val diasporaCultureKey = heritageTraitKey + "_" + languageTraitKey
 
             val specificPlaceholders = listOf(
-                Placeholder("<diaspora_language_group_heritage_group_key>", diasporaCultureKey),
-                Placeholder("<diaspora_heritage>", heritageTraitKey),
-                Placeholder("<diaspora_language>", languageTraitKey),
+                Placeholder("diaspora_language_group_heritage_group_key", diasporaCultureKey),
+                Placeholder("diaspora_heritage", heritageTraitKey),
+                Placeholder("diaspora_language", languageTraitKey),
             )
 
             addLocalization(key = diasporaCultureKey, value = "diasporaCultureKey".normalize())
