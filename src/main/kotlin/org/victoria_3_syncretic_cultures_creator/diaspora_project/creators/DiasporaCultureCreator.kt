@@ -1,14 +1,16 @@
 package org.victoria_3_syncretic_cultures_creator.diaspora_project.creators
 
+import org.victoria_3_syncretic_cultures_creator._parser_project.util.LocalizationCreator
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.Placeholder
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.ResourceReader.readAndRemoveComments
-import org.victoria_3_syncretic_cultures_creator._parser_project.util.addLocalization
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.normalize
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.resolvePlaceholders
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.writeFile
 import org.victoria_3_syncretic_cultures_creator.diaspora_project.parsers.parseLanguageGroupList
 
 fun createDiasporaCultures() {
+
+    val localizationCreator = LocalizationCreator()
 
     val languageGroups =
         parseLanguageGroupList(readAndRemoveComments("gameFiles/common/discrimination_trait_groups/01_language_groups.txt"))
@@ -104,14 +106,12 @@ fun createDiasporaCultures() {
     val languageTraits = mutableListOf<String>()
     val heritageTraits = mutableSetOf<String>()
 
-    try {
-
-
     languageGroups.forEach { languageGroup ->
         // we are distilling top level language down into sub groups
         // vanilla has language as prefix so we should be fine, language_group_ prefix is cut
         val languageTraitKey = "${languageGroup.languageGroupKey.replace("language_group_", "")}_language_family"
         val languageTrait = createTraitEntry(
+            localizationCreator,
             type = "language",
             traitKey = languageTraitKey,
             traitGroupKey = languageGroup.languageGroupKey
@@ -125,13 +125,15 @@ fun createDiasporaCultures() {
             // traitGroupKey must match vanilla highest level group
             val heritageTrait =
                 createTraitEntry(
+                    localizationCreator,
                     type = "heritage",
                     traitKey = heritageTraitKey,
                     traitGroupKey = "heritage_group_${configuration.cultureTemplate}"
                 )
             heritageTraits.add(heritageTrait)
 
-            val diasporaCultureKey = heritageTraitKey + "_" + languageTraitKey
+            val diasporaCultureKey = "${heritageTraitKey}_$languageTraitKey"
+            val diasporaCultureName = "${languageTraitKey}_${heritageTraitKey}_diaspora".replace("_heritage", "").replace("_language_family", "")
 
             val specificPlaceholders = listOf(
                 Placeholder("diaspora_language_group_heritage_group_key", diasporaCultureKey),
@@ -139,7 +141,7 @@ fun createDiasporaCultures() {
                 Placeholder("diaspora_language", languageTraitKey),
             )
 
-            addLocalization(key = diasporaCultureKey, value = "diasporaCultureKey".normalize())
+            localizationCreator.pushLocalization(key = diasporaCultureKey, value = diasporaCultureName.normalize())
 
             val combinedPlaceholders = generalPlaceholders + specificPlaceholders + configuration.placeholders
             val template = readAndRemoveComments("templates/diaspora_cultures/${configuration.cultureTemplate}.txt")
@@ -147,10 +149,6 @@ fun createDiasporaCultures() {
             val culture = template.resolvePlaceholders(template, combinedPlaceholders)
             cultures.add(culture)
         }
-    }
-    }
-    catch (e: Exception) {
-        print("")
     }
 
     writeFile("common/cultures/99_diaspora_cultures.txt", cultures.joinToString("\n\n"))
@@ -162,6 +160,8 @@ fun createDiasporaCultures() {
         "common/discrimination_trait_groups/99_diaspora_heritage_discrimination.txt",
         heritageTraits.joinToString("\n\n")
     )
+
+    localizationCreator.createLocalizationFiles()
 }
 
 data class DiasporaCultureConfiguration(

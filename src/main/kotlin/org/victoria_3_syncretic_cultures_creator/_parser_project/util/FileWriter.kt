@@ -8,5 +8,5 @@ fun writeFile(filePath: String, content: String) {
     val file = File(TARGET_FOLDER + filePath)
     file.parentFile.mkdirs()
     file.writeText(content, Charsets.UTF_8)
-    println("Created file under $filePath")
+    println("Created file under $TARGET_FOLDER$filePath")
 }

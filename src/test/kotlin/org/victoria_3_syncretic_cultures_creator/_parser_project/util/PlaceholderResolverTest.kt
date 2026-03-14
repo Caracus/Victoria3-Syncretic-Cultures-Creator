@@ -20,7 +20,7 @@ class PlaceholderResolverTest {
             done
         """.trimIndent()
 
-        val result = resolvePlaceholders(
+        val result = inputText.resolvePlaceholders(
             inputText,
             listOf(
                 Placeholder("some_key", someValue),

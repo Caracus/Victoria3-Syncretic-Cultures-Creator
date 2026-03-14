@@ -1,11 +1,11 @@
 package org.victoria_3_syncretic_cultures_creator.diaspora_project.creators
 
-import org.victoria_3_syncretic_cultures_creator._parser_project.util.addLocalization
+import org.victoria_3_syncretic_cultures_creator._parser_project.util.LocalizationCreator
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.normalize
 
-fun createTraitEntry(type: String, traitKey: String, traitGroupKey: String): String {
+fun createTraitEntry(localizationCreator: LocalizationCreator, type: String, traitKey: String, traitGroupKey: String): String {
 
-    addLocalization(key = "$traitKey.name", value = traitKey.normalize())
+    localizationCreator.pushLocalization(key = "$traitKey", value = traitKey.normalize())
 
     return """
         $traitKey = {

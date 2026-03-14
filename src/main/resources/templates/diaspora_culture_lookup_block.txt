@@ -1,0 +1,80 @@
+#get heritage group via dummy heritage trait
+#african
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_african
+    }
+    <languageGroupCheck>
+}
+
+#central asian
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_central_asian
+    }
+    <languageGroupCheck>
+}
+
+#east asian
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_east_asian
+    }
+    <languageGroupCheck>
+}
+
+#european
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_european
+    }
+    <languageGroupCheck>
+}
+
+#indigenous american
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_indigenous_american
+    }
+    <languageGroupCheck>
+}
+
+#indigenous oceanic
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_indigenous_oceanic
+    }
+    <languageGroupCheck>
+}
+
+#middle eastern
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_middle_eastern
+    }
+    <languageGroupCheck>
+}
+
+#north asian
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_north_asian
+    }
+    <languageGroupCheck>
+}
+
+#south asian
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_south_asian
+    }
+    <languageGroupCheck>
+}
+
+#southeast asian
+if = {
+    limit = {
+        shares_heritage_trait_group_with_culture = cu:heritage_group_southeast_asian
+    }
+    <languageGroupCheck>
+}
