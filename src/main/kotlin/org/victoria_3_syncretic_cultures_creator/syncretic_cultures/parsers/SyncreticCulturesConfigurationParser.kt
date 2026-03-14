@@ -1,9 +1,9 @@
-package org.victoria_3_syncretic_cultures_creator.parsers
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.parsers
 
 import com.fasterxml.jackson.module.kotlin.jsonMapper
 import com.fasterxml.jackson.module.kotlin.kotlinModule
 import com.fasterxml.jackson.module.kotlin.readValue
-import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
 import java.io.File
 
 fun getSyncreticCultureConfiguration(): List<SyncreticCulture> {

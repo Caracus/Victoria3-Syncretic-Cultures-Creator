@@ -1,10 +1,10 @@
-package org.victoria_3_syncretic_cultures_creator.creators
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators
 
-import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
-import org.victoria_3_syncretic_cultures_creator.utils.copyFile
-import org.victoria_3_syncretic_cultures_creator.utils.format
-import org.victoria_3_syncretic_cultures_creator.utils.printFileWithoutBom
-import org.victoria_3_syncretic_cultures_creator.utils.readFileAsText
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.copyFile
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.format
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.printFileWithoutBom
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.readFileAsText
 
 fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
         val textOfFile = readFileAsText("src/main/resources/templates/GenericLocalization.yml")

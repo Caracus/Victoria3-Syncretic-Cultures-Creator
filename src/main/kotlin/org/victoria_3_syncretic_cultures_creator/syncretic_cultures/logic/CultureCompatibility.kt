@@ -1,6 +1,6 @@
-package org.victoria_3_syncretic_cultures_creator.logic
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.logic
 
-import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
 
 fun calculateCompatibleCultures(syncreticCultures: List<SyncreticCulture>): MutableMap<String, MutableSet<String>> {
 

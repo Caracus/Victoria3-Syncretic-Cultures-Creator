@@ -1,4 +1,4 @@
-package org.victoria_3_syncretic_cultures_creator.utils
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils
 
 //even tho the game engine does not need formatting it is here to prevent eye cancer
 fun format(indentations: Int, text: String, linebreaks: Int): String {

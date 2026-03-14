@@ -1,6 +1,7 @@
-package org.victoria_3_syncretic_cultures_creator.logic
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.logic
 
-import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
+import kotlin.collections.iterator
 
 fun createMutuallyExclusiveCulturesMap(syncreticCultureList: List<SyncreticCulture>): List<SyncreticCulture> {
     val cultureToSyncreticCultureMap: MutableMap<String, MutableSet<String>> = mutableMapOf()

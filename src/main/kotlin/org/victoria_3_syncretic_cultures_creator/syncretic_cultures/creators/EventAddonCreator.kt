@@ -1,10 +1,10 @@
-package org.victoria_3_syncretic_cultures_creator.creators
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators
 
-import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
-import org.victoria_3_syncretic_cultures_creator.utils.calculateAddonChanceNotTakeBlock
-import org.victoria_3_syncretic_cultures_creator.utils.calculateAddonChanceTakeBlock
-import org.victoria_3_syncretic_cultures_creator.utils.printFile
-import org.victoria_3_syncretic_cultures_creator.utils.readFileAsText
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.calculateAddonChanceNotTakeBlock
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.calculateAddonChanceTakeBlock
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.printFile
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.readFileAsText
 
     fun createAddonCultureEvents(syncreticCulture: SyncreticCulture) {
         val textOfFile = readFileAsText("src/main/resources/templates/GenericCultureAddonEventTemplate.txt")

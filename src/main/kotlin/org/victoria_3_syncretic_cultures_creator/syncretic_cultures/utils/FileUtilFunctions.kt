@@ -1,4 +1,4 @@
-package org.victoria_3_syncretic_cultures_creator.utils
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils
 
 import java.io.File
 import java.nio.file.Files

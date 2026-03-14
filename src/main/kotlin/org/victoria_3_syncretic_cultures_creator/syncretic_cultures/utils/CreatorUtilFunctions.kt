@@ -1,7 +1,7 @@
-package org.victoria_3_syncretic_cultures_creator.utils
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils
 
-import org.victoria_3_syncretic_cultures_creator.models.FormabilityCriteria
-import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.FormabilityCriteria
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
 
 fun createHasPrimaryCulture(indentations: Int, baseCultures: Set<String>, logicalOperator: FormabilityCriteria): String {
     var text = ""

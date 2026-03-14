@@ -1,10 +1,10 @@
-package org.victoria_3_syncretic_cultures_creator.creators
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators
 
-import org.victoria_3_syncretic_cultures_creator.models.FormabilityCriteria
-import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
-import org.victoria_3_syncretic_cultures_creator.utils.createHasPrimaryCulture
-import org.victoria_3_syncretic_cultures_creator.utils.printFile
-import org.victoria_3_syncretic_cultures_creator.utils.readFileAsText
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.FormabilityCriteria
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.createHasPrimaryCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.printFile
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.readFileAsText
 
     fun createJournalEntry(syncreticCulture: SyncreticCulture) {
         val textOfFile = readFileAsText("src/main/resources/templates/GenericJournalEntryTemplate.txt")

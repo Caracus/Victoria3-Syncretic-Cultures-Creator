@@ -97,6 +97,75 @@
     "color": "rgb{ 0 20 137 } #eu blue",
     "religion": "catholic",
     "traits": "caucasus_group albanian_language greek_culture baltic_culture_group hispanophone lusophone anglophone celtic_people italophone romanian_culture_group hungarian_culture_group finnic german_speaking scandinavian_culture_group beneluxian_culture_group francophone west_slavic east_slavic jugoslav jewish_group european_heritage",
+    "heritage": [
+      "heritage_east_slavic",
+      "heritage_west_slavic",
+      "heritage_south_slavic",
+      "heritage_gallic",
+      "heritage_netherlandish",
+      "heritage_germanic",
+      "heritage_african_settler",
+      "heritage_nordic",
+      "heritage_sami",
+      "heritage_siberian",
+      "heritage_baltic",
+      "heritage_magyar",
+      "heritage_romanian",
+      "heritage_italic",
+      "heritage_british",
+      "heritage_north_american_settler",
+      "heritage_iberian",
+      "heritage_latin_american_settler",
+      "heritage_albanian",
+      "heritage_greek",
+      "heritage_georgian",
+      "heritage_north_caucasian",
+      "heritage_armenian",
+      "heritage_ashkenazi",
+      "heritage_sephardic"
+    ],
+    "language": [
+      "language_east_slavic",
+      "language_west_slavic",
+      "language_south_slavic",
+      "language_bulgarian",
+      "language_slovene",
+      "language_francophone",
+      "language_occitano_romance",
+      "language_brythonic",
+      "language_arpitan",
+      "language_germanophone",
+      "language_dutch",
+      "language_scandinavian",
+      "language_finnic",
+      "language_sami",
+      "language_ugric",
+      "language_hungarian",
+      "language_eastern_romance",
+      "language_italian",
+      "language_arabic",
+      "language_gaelic",
+      "language_anglophone",
+      "language_hispanophone",
+      "language_lusophone",
+      "language_basque",
+      "language_baltic",
+      "language_albanian",
+      "language_greek",
+      "language_georgian",
+      "language_adyghe",
+      "language_avaric",
+      "language_armenian",
+      "language_yiddish",
+      "language_ladino"
+    ],
+    "traditions": [
+      "tradition_russosphere",
+      "tradition_rumelian",
+      "tradition_helvetic",
+      "tradition_caucasian",
+      "tradition_israelite"
+    ],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian",
@@ -128,6 +197,21 @@
     "color": "rgb{ 0 32 159 }",
     "religion": "catholic",
     "traits": "francophone european_heritage",
+    "heritage": [
+      "heritage_gallic",
+      "heritage_netherlandish",
+      "heritage_germanic"
+    ],
+    "language": [
+      "language_francophone",
+      "language_occitano_romance",
+      "language_arpitan",
+      "language_brythonic",
+      "language_germanophone"
+    ],
+    "traditions": [
+      "tradition_helvetic"
+    ],
     "obsessions": "wine",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -159,6 +243,29 @@
     "color": "rgb{ 255 178 0 } #Imperial yellow",
     "religion": "confucian",
     "traits": "sinosphere han_chinese east_asian_heritage",
+    "heritage": [
+      "heritage_han",
+      "heritage_manchu",
+      "heritage_korean",
+      "heritage_vietnamese",
+      "heritage_tibetan",
+      "heritage_mongolian"
+    ],
+    "language": [
+      "language_mandarin",
+      "language_hakka",
+      "language_yue",
+      "language_min",
+      "language_jurchenic",
+      "language_korean",
+      "language_vietic",
+      "language_tibetan",
+      "language_mongolian"
+    ],
+    "traditions": [
+      "tradition_sinosphere",
+      "tradition_himalayan"
+    ],
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "asian"
@@ -187,6 +294,14 @@
     "color": "rgb{ 0 140 69 } #Italy flag green",
     "religion": "catholic",
     "traits": "italophone european_heritage",
+    "heritage": [
+      "heritage_italic"
+    ],
+    "language": [
+      "language_italian",
+      "language_arabic"
+    ],
+    "traditions": [],
     "obsessions": "wine",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -209,6 +324,19 @@
     "color": "rgb{ 255 64 0 } #Reddish",
     "religion": "protestant",
     "traits": "francophone italophone german_speaking swiss european_heritage",
+    "heritage": [
+      "heritage_germanic",
+      "heritage_gallic",
+      "heritage_italic"
+    ],
+    "language": [
+      "language_germanophone",
+      "language_arpitan",
+      "language_italian"
+    ],
+    "traditions": [
+      "tradition_helvetic"
+    ],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -232,8 +360,7 @@
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
-    "optionalCultures": [
-    ],
+    "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -241,6 +368,26 @@
     "color": "rgb{ 213 84 79 } #roman red (faint)",
     "religion": "catholic",
     "traits": "italophone hispanophone lusophone francophone romanian_culture_group european_heritage",
+    "heritage": [
+      "heritage_italic",
+      "heritage_gallic",
+      "heritage_netherlandish",
+      "heritage_romanian",
+      "heritage_iberian"
+    ],
+    "language": [
+      "language_italian",
+      "language_arabic",
+      "language_francophone",
+      "language_occitano_romance",
+      "language_eastern_romance",
+      "language_lusophone",
+      "language_hispanophone",
+      "language_arpitan"
+    ],
+    "traditions": [
+      "tradition_helvetic"
+    ],
     "obsessions": "wine",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -264,6 +411,15 @@
     "color": "rgb{ 103 146 103 } #russian green",
     "religion": "orthodox",
     "traits": "east_slavic european_heritage",
+    "heritage": [
+      "heritage_east_slavic"
+    ],
+    "language": [
+      "language_east_slavic"
+    ],
+    "traditions": [
+      "tradition_russosphere"
+    ],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "slavic"
@@ -287,6 +443,17 @@
     "color": "rgb{ 122 98 80 } #Some grayish brown",
     "religion": "orthodox",
     "traits": "jugoslav european_heritage",
+    "heritage": [
+      "heritage_south_slavic"
+    ],
+    "language": [
+      "language_south_slavic",
+      "language_bulgarian",
+      "language_slovene"
+    ],
+    "traditions": [
+      "tradition_rumelian"
+    ],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "slavic"
@@ -317,6 +484,22 @@
     "color": "rgb{ 0 53 148 } #slavic flag blue",
     "religion": "orthodox",
     "traits": "west_slavic east_slavic jugoslav european_heritage",
+    "heritage": [
+      "heritage_east_slavic",
+      "heritage_west_slavic",
+      "heritage_south_slavic"
+    ],
+    "language": [
+      "language_east_slavic",
+      "language_west_slavic",
+      "language_south_slavic",
+      "language_bulgarian",
+      "language_slovene"
+    ],
+    "traditions": [
+      "tradition_russosphere",
+      "tradition_rumelian"
+    ],
     "obsessions": "liquor",
     "graphics": "european",
     "ethnicity": "slavic"
@@ -339,6 +522,13 @@
     "color": "rgb{ 116 132 153 } #Some grayish blue",
     "religion": "catholic",
     "traits": "west_slavic european_heritage",
+    "heritage": [
+      "heritage_west_slavic"
+    ],
+    "language": [
+      "language_west_slavic"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "slavic"
@@ -363,6 +553,17 @@
     "color": "rgb{ 255 0 0 } #Pl flag red",
     "religion": "catholic",
     "traits": "west_slavic east_slavic baltic_culture_group european_heritage",
+    "heritage": [
+      "heritage_west_slavic",
+      "heritage_baltic",
+      "heritage_east_slavic"
+    ],
+    "language": [
+      "language_west_slavic",
+      "language_baltic",
+      "language_east_slavic"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "slavic"
@@ -383,6 +584,13 @@
     "color": "rgb{ 81 100 150 } #Some grayish blue",
     "religion": "protestant",
     "traits": "west_slavic european_heritage",
+    "heritage": [
+      "heritage_west_slavic"
+    ],
+    "language": [
+      "language_west_slavic"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "slavic"
@@ -413,6 +621,18 @@
     "color": "rgb{ 116 132 153 } #Some grayish blue",
     "religion": "sunni",
     "traits": "arab_speaking middle_eastern_heritage",
+    "heritage": [
+      "heritage_arab",
+      "heritage_berber",
+      "heritage_somali",
+      "heritage_afro_arab"
+    ],
+    "language": [
+      "language_arabic",
+      "language_berber",
+      "language_somali"
+    ],
+    "traditions": [],
     "obsessions": "coffee",
     "graphics": "arabic",
     "ethnicity": "arab"
@@ -436,6 +656,15 @@
     "color": "rgb{ 196 115 71 } #brown orange",
     "religion": "protestant",
     "traits": "beneluxian_culture_group european_heritage",
+    "heritage": [
+      "heritage_netherlandish",
+      "heritage_african_settler"
+    ],
+    "language": [
+      "language_dutch",
+      "language_francophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -464,6 +693,17 @@
     "color": "rgb{ 201 30 18 } #intense dark red",
     "religion": "protestant",
     "traits": "anglophone european_heritage",
+    "heritage": [
+      "heritage_british",
+      "heritage_north_american_settler",
+      "heritage_african_diaspora"
+    ],
+    "language": [
+      "language_anglophone",
+      "language_brythonic",
+      "language_patois"
+    ],
+    "traditions": [],
     "obsessions": "tea",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -489,6 +729,15 @@
     "color": "rgb{ 200 16 46 } #british flag red",
     "religion": "protestant",
     "traits": "anglophone european_heritage",
+    "heritage": [
+      "heritage_british"
+    ],
+    "language": [
+      "language_anglophone",
+      "language_brythonic",
+      "language_gaelic"
+    ],
+    "traditions": [],
     "obsessions": "tea",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -512,6 +761,16 @@
     "color": "rgb{ 0 204 0 } #greenish",
     "religion": "catholic",
     "traits": "celtic_people european_heritage",
+    "heritage": [
+      "heritage_british",
+      "heritage_gallic"
+    ],
+    "language": [
+      "language_gaelic",
+      "language_brythonic",
+      "language_anglophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -535,6 +794,15 @@
     "color": "rgb{ 26 129 171 } #More bluish than yankee",
     "religion": "protestant",
     "traits": "anglophone european_heritage",
+    "heritage": [
+      "heritage_north_american_settler",
+      "heritage_african_diaspora"
+    ],
+    "language": [
+      "language_anglophone",
+      "language_francophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -558,6 +826,15 @@
     "color": "rgb{ 138 29 23 } #dark red",
     "religion": "protestant",
     "traits": "anglophone francophone european_heritage",
+    "heritage": [
+      "heritage_north_american_settler",
+      "heritage_british"
+    ],
+    "language": [
+      "language_anglophone",
+      "language_francophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -602,6 +879,18 @@
     "color": "rgb{ 189 204 129 } #mix between yellow and green",
     "religion": "catholic",
     "traits": "iberian_culture_group hispanophone lusophone european_heritage",
+    "heritage": [
+      "heritage_iberian",
+      "heritage_latin_american_settler",
+      "heritage_african_diaspora"
+    ],
+    "language": [
+      "language_hispanophone",
+      "language_lusophone",
+      "language_occitano_romance",
+      "language_basque"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -639,6 +928,18 @@
     "color": "rgb{ 156 149 22 } #dark yellow",
     "religion": "catholic",
     "traits": "hispanophone european_heritage",
+    "heritage": [
+      "heritage_iberian",
+      "heritage_latin_american_settler",
+      "heritage_african_diaspora"
+    ],
+    "language": [
+      "language_hispanophone",
+      "language_occitano_romance",
+      "language_basque",
+      "language_lusophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -672,6 +973,14 @@
     "color": "rgb{ 156 149 22 } #dark yellow",
     "religion": "catholic",
     "traits": "hispanophone european_heritage",
+    "heritage": [
+      "heritage_latin_american_settler",
+      "heritage_african_diaspora"
+    ],
+    "language": [
+      "language_hispanophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -695,6 +1004,16 @@
     "color": "rgb{ 170 176 84 } #pale yellow",
     "religion": "catholic",
     "traits": "iberian_culture_group hispanophone lusophone european_heritage",
+    "heritage": [
+      "heritage_iberian"
+    ],
+    "language": [
+      "language_hispanophone",
+      "language_occitano_romance",
+      "language_lusophone",
+      "language_basque"
+    ],
+    "traditions": [],
     "obsessions": "wine",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -723,6 +1042,16 @@
     "color": "rgb{ 250 189 0 }",
     "religion": "catholic",
     "traits": "iberian_culture_group hispanophone european_heritage",
+    "heritage": [
+      "heritage_iberian"
+    ],
+    "language": [
+      "language_hispanophone",
+      "language_occitano_romance",
+      "language_basque",
+      "language_lusophone"
+    ],
+    "traditions": [],
     "obsessions": "wine",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -759,6 +1088,23 @@
     "color": "rgb{ 176 196 132 } #light hue yellow",
     "religion": "catholic",
     "traits": "hispanophone european_heritage",
+    "heritage": [
+      "heritage_latin_american_settler",
+      "heritage_african_diaspora",
+      "heritage_amazonian",
+      "heritage_andean",
+      "heritage_caribbean"
+    ],
+    "language": [
+      "language_hispanophone",
+      "language_amazonian",
+      "language_muiscan",
+      "language_cariban",
+      "language_guajiro",
+      "language_miskito",
+      "language_quechuan"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -790,6 +1136,24 @@
     "color": "rgb{ 0 99 65 }",
     "religion": "catholic",
     "traits": "hispanophone native_mesoamerican_culture_group european_heritage",
+    "heritage": [
+      "heritage_latin_american_settler",
+      "heritage_mesoamerican",
+      "heritage_eastern_woodlands_indian",
+      "heritage_caribbean",
+      "heritage_african_diaspora"
+    ],
+    "language": [
+      "language_hispanophone",
+      "language_zapotecan",
+      "language_mayan",
+      "language_mixtecan",
+      "language_nahuan",
+      "language_tarascan",
+      "language_piman",
+      "language_miskito"
+    ],
+    "traditions": [],
     "obsessions": "wine",
     "graphics": "european",
     "ethnicity": "south_american"
@@ -817,6 +1181,15 @@
     "color": "rgb{ 70 143 89 } #Some darker green",
     "religion": "catholic",
     "traits": "lusophone iberian_culture_group european_heritage",
+    "heritage": [
+      "heritage_iberian",
+      "heritage_latin_american_settler",
+      "heritage_african_diaspora"
+    ],
+    "language": [
+      "language_lusophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -852,6 +1225,20 @@
     "color": "rgb{ 0 151 57 } #brazil flag green",
     "religion": "catholic",
     "traits": "lusophone european_heritage",
+    "heritage": [
+      "heritage_latin_american_settler",
+      "heritage_african_diaspora",
+      "heritage_atlantic",
+      "heritage_guarani",
+      "heritage_amazonian"
+    ],
+    "language": [
+      "language_lusophone",
+      "language_tupi",
+      "language_guarani",
+      "language_amazonian"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -874,6 +1261,13 @@
     "color": "rgb{ 87 194 115 } #Some lighter green",
     "religion": "catholic",
     "traits": "lusophone iberian_culture_group european_heritage",
+    "heritage": [
+      "heritage_iberian"
+    ],
+    "language": [
+      "language_lusophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -920,6 +1314,19 @@
     "color": "rgb{ 10 49 97 } #eu flag blue",
     "religion": "catholic",
     "traits": "hispanophone lusophone anglophone german_speaking francophone european_heritage",
+    "heritage": [
+      "heritage_latin_american_settler",
+      "heritage_north_american_settler",
+      "heritage_african_diaspora"
+    ],
+    "language": [
+      "language_hispanophone",
+      "language_anglophone",
+      "language_francophone",
+      "language_lusophone",
+      "language_creole"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -965,8 +1372,7 @@
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
-    "optionalCultures": [
-    ],
+    "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -974,6 +1380,59 @@
     "color": "rgb{ 102 102 153 } #light blue gray",
     "religion": "catholic",
     "traits": "south_american_group native_mesoamerican_culture_group north_american_group indigenous_american_heritage",
+    "heritage": [
+      "heritage_mesoamerican",
+      "heritage_andean",
+      "heritage_guarani",
+      "heritage_amazonian",
+      "heritage_patagonian",
+      "heritage_caribbean",
+      "heritage_atlantic",
+      "heritage_subarctic_indian",
+      "heritage_southwest_indian",
+      "heritage_circumpolar",
+      "heritage_northwest_coast_indian",
+      "heritage_plateau_indian",
+      "heritage_plains_indian",
+      "heritage_eastern_woodlands_indian",
+      "heritage_great_basin_indian",
+      "heritage_californian_indian"
+    ],
+    "language": [
+      "language_zapotecan",
+      "language_mayan",
+      "language_nahuan",
+      "language_tarascan",
+      "language_quechuan",
+      "language_guarani",
+      "language_aymaran",
+      "language_amazonian",
+      "language_chonan",
+      "language_guajiro",
+      "language_tupi",
+      "language_metis",
+      "language_siouan",
+      "language_cherokee",
+      "language_creek",
+      "language_hopi",
+      "language_eskimoan",
+      "language_cree",
+      "language_apachean",
+      "language_athabaskan",
+      "language_salish",
+      "language_sahaptian",
+      "language_numic",
+      "language_algonquian",
+      "language_iroquoian",
+      "language_caddoan",
+      "language_hokan",
+      "language_piman",
+      "language_mixtecan",
+      "language_muiscan",
+      "language_miskito",
+      "language_cariban"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "decentralised_americas",
     "ethnicity": "native_american"
@@ -998,6 +1457,19 @@
     "color": "rgb{ 163 62 148 } #purple-pink",
     "religion": "shinto",
     "traits": "yamato east_asian_heritage",
+    "heritage": [
+      "heritage_japanese",
+      "heritage_ainu",
+      "heritage_korean"
+    ],
+    "language": [
+      "language_japanese",
+      "language_ainu",
+      "language_korean"
+    ],
+    "traditions": [
+      "tradition_sinosphere"
+    ],
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "asian"
@@ -1020,6 +1492,19 @@
     "color": "rgb{ 0 81 146 } #skorean flag blue",
     "religion": "mahayana",
     "traits": "korean_language east_asian_heritage",
+    "heritage": [
+      "heritage_korean",
+      "heritage_manchu",
+      "heritage_japanese"
+    ],
+    "language": [
+      "language_korean",
+      "language_jurchenic",
+      "language_japanese"
+    ],
+    "traditions": [
+      "tradition_sinosphere"
+    ],
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "asian"
@@ -1047,6 +1532,16 @@
     "color": "rgb { 45 95 161 } #swedish flag blue",
     "religion": "protestant",
     "traits": "scandinavian_culture_group european_heritage",
+    "heritage": [
+      "heritage_nordic",
+      "heritage_sami"
+    ],
+    "language": [
+      "language_scandinavian",
+      "language_finnic",
+      "language_sami"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -1071,6 +1566,21 @@
     "color": "rgb{ 87 194 115 } #Some lighter green",
     "religion": "protestant",
     "traits": "finnic scandinavian_culture_group european_heritage",
+    "heritage": [
+      "heritage_nordic",
+      "heritage_sami",
+      "heritage_siberian",
+      "heritage_baltic",
+      "heritage_volga_uralic"
+    ],
+    "language": [
+      "language_finnic",
+      "language_sami",
+      "language_ugric",
+      "language_mordvinic",
+      "language_permic"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -1092,6 +1602,14 @@
     "color": "rgb{ 191 210 224 } #light blue",
     "religion": "protestant",
     "traits": "baltic_culture_group european_heritage",
+    "heritage": [
+      "heritage_baltic"
+    ],
+    "language": [
+      "language_baltic",
+      "language_finnic"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -1127,6 +1645,32 @@
     "color": "rgb{ 140 21 73 } #burgundy",
     "religion": "sunni",
     "traits": "turkic iranian_turanian_culture_group middle_eastern_heritage",
+    "heritage": [
+      "heritage_anatolian",
+      "heritage_tatar",
+      "heritage_siberian",
+      "heritage_uzbek",
+      "heritage_uighur",
+      "heritage_kipchak",
+      "heritage_hazaran",
+      "heritage_turkmen",
+      "heritage_iranian"
+    ],
+    "language": [
+      "language_oghuz",
+      "language_kipchak",
+      "language_siberian",
+      "language_karluk",
+      "language_persian",
+      "language_oghuric",
+      "language_tabari"
+    ],
+    "traditions": [
+      "tradition_rumelian",
+      "tradition_caucasian",
+      "tradition_persianate",
+      "tradition_russosphere"
+    ],
     "obsessions": "tea",
     "graphics": "arabic",
     "ethnicity": "arab"
@@ -1158,6 +1702,33 @@
     "color": "rgb{ 189 51 164 } #byzantine",
     "religion": "orthodox",
     "traits": "greek_culture turkic caucasus_group european_heritage",
+    "heritage": [
+      "heritage_greek",
+      "heritage_anatolian",
+      "heritage_tatar",
+      "heritage_armenian",
+      "heritage_albanian",
+      "heritage_south_slavic",
+      "heritage_georgian",
+      "heritage_north_caucasian"
+    ],
+    "language": [
+      "language_greek",
+      "language_oghuz",
+      "language_kipchak",
+      "language_armenian",
+      "language_albanian",
+      "language_bulgarian",
+      "language_south_slavic",
+      "language_georgian",
+      "language_adyghe",
+      "language_avaric"
+    ],
+    "traditions": [
+      "tradition_rumelian",
+      "tradition_russosphere",
+      "tradition_caucasian"
+    ],
     "obsessions": "wine tea",
     "graphics": "european",
     "ethnicity": "north_caucasian"
@@ -1182,6 +1753,19 @@
     "color": "rgb{ 130 42 181 } #dark purple",
     "religion": "sunni",
     "traits": "iranian_turanian_culture_group central_asian_heritage",
+    "heritage": [
+      "heritage_iranian",
+      "heritage_hazaran"
+    ],
+    "language": [
+      "language_pashto",
+      "language_persian",
+      "language_hindustani",
+      "language_baluchi"
+    ],
+    "traditions": [
+      "tradition_persianate"
+    ],
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1212,6 +1796,22 @@
     "color": "rgb{ 38 44 56 } #Darker black than north german",
     "religion": "protestant",
     "traits": "german_speaking european_heritage",
+    "heritage": [
+      "heritage_germanic",
+      "heritage_ashkenazi",
+      "heritage_west_slavic",
+      "heritage_south_slavic"
+    ],
+    "language": [
+      "language_germanophone",
+      "language_yiddish",
+      "language_west_slavic",
+      "language_slovene"
+    ],
+    "traditions": [
+      "tradition_helvetic",
+      "tradition_israelite"
+    ],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -1243,6 +1843,25 @@
     "color": "rgb{ 54 101 120 } #Gray blue",
     "religion": "protestant",
     "traits": "german_speaking scandinavian_culture_group beneluxian_culture_group european_heritage",
+    "heritage": [
+      "heritage_germanic",
+      "heritage_netherlandish",
+      "heritage_african_settler",
+      "heritage_nordic",
+      "heritage_british",
+      "heritage_ashkenazi"
+    ],
+    "language": [
+      "language_germanophone",
+      "language_dutch",
+      "language_scandinavian",
+      "language_anglophone",
+      "language_yiddish"
+    ],
+    "traditions": [
+      "tradition_helvetic",
+      "tradition_israelite"
+    ],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -1263,6 +1882,15 @@
     "color": "rgb{ 206 140 7 } #Dirt Orange",
     "religion": "protestant",
     "traits": "beneluxian_culture_group anglophone german_speaking francophone african_settler european_heritage",
+    "heritage": [
+      "heritage_african_settler",
+      "heritage_british"
+    ],
+    "language": [
+      "language_dutch",
+      "language_anglophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -1296,6 +1924,28 @@
     "color": "rgb{ 105 102 62 } #Brown with light green hue",
     "religion": "catholic",
     "traits": "german_speaking hungarian_culture_group european_heritage",
+    "heritage": [
+      "heritage_germanic",
+      "heritage_magyar",
+      "heritage_italic",
+      "heritage_south_slavic",
+      "heritage_west_slavic",
+      "heritage_romanian",
+      "heritage_east_slavic"
+    ],
+    "language": [
+      "language_germanophone",
+      "language_hungarian",
+      "language_italian",
+      "language_slovene",
+      "language_south_slavic",
+      "language_west_slavic",
+      "language_eastern_romance",
+      "language_east_slavic"
+    ],
+    "traditions": [
+      "tradition_rumelian"
+    ],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -1315,6 +1965,18 @@
     "color": "rgb{ 0 94 184 } #Israeli flag blue",
     "religion": "protestant",
     "traits": "jewish_group european_heritage",
+    "heritage": [
+      "heritage_ashkenazi",
+      "heritage_sephardic"
+    ],
+    "language": [
+      "language_yiddish",
+      "language_ladino"
+    ],
+    "traditions": [
+      "tradition_israelite",
+      "tradition_rumelian"
+    ],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "caucasian"
@@ -1341,6 +2003,24 @@
     "color": "rgb{ 0 36 125 } #thai flag blue",
     "religion": "theravada",
     "traits": "tai southeast_asian_heritage",
+    "heritage": [
+      "heritage_tai",
+      "heritage_cambodian",
+      "heritage_burmese",
+      "heritage_khmu"
+    ],
+    "language": [
+      "language_siamese",
+      "language_laotian",
+      "language_shan",
+      "language_zhuang",
+      "language_khmeric",
+      "language_monic",
+      "language_khmuic"
+    ],
+    "traditions": [
+      "tradition_sinosphere"
+    ],
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "asian"
@@ -1367,6 +2047,23 @@
     "color": "rgb{ 255 205 0 } #myanmar flag yellow",
     "religion": "theravada",
     "traits": "burmese_language southeast_asian_heritage",
+    "heritage": [
+      "heritage_burmese",
+      "heritage_tai",
+      "heritage_eastern_highlands"
+    ],
+    "language": [
+      "language_burmic",
+      "language_karenic",
+      "language_kachinic",
+      "language_zhuang",
+      "language_mizo",
+      "language_naga",
+      "language_shan"
+    ],
+    "traditions": [
+      "tradition_sinosphere"
+    ],
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "asian"
@@ -1402,6 +2099,23 @@
     "color": "rgb{ 179 50 194 } #intense purple",
     "religion": "sunni",
     "traits": "southeast_asian_heritage malay_culture",
+    "heritage": [
+      "heritage_insulindian",
+      "heritage_east_african",
+      "heritage_melanesian",
+      "heritage_australian"
+    ],
+    "language": [
+      "language_malay",
+      "language_batak",
+      "language_philippinic",
+      "language_dayak",
+      "language_moluccan",
+      "language_malagasy",
+      "language_melanesian",
+      "language_aboriginal"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "asian"
@@ -1427,6 +2141,19 @@
     "color": "rgb{ 1 33 105 } #NZ flag blue",
     "religion": "protestant",
     "traits": "polynesian_group indigenous_oceanic_heritage",
+    "heritage": [
+      "heritage_polynesian",
+      "heritage_melanesian",
+      "heritage_micronesian",
+      "heritage_australian"
+    ],
+    "language": [
+      "language_polynesian",
+      "language_melanesian",
+      "language_micronesian",
+      "language_aboriginal"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "decentralised_americas",
     "ethnicity": "polynesian"
@@ -1439,8 +2166,7 @@
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
-    "optionalCultures": [
-    ],
+    "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -1448,6 +2174,17 @@
     "color": "rgb{ 102 204 0 } #light green",
     "religion": "mahayana",
     "traits": "han_chinese east_asian_heritage",
+    "heritage": [
+      "heritage_han",
+      "heritage_formosan"
+    ],
+    "language": [
+      "language_hakka",
+      "language_formosan"
+    ],
+    "traditions": [
+      "tradition_sinosphere"
+    ],
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "asian"
@@ -1476,6 +2213,23 @@
     "color": "rgb{ 35 159 64 } #Iranian flag green",
     "religion": "shiite",
     "traits": "iranian_turanian_culture_group middle_eastern_heritage",
+    "heritage": [
+      "heritage_iranian",
+      "heritage_anatolian"
+    ],
+    "language": [
+      "language_persian",
+      "language_kurdish",
+      "language_pashto",
+      "language_baluchi",
+      "language_tabari",
+      "language_hindustani",
+      "language_oghuz"
+    ],
+    "traditions": [
+      "tradition_persianate",
+      "tradition_caucasian"
+    ],
     "obsessions": "",
     "graphics": "arabic",
     "ethnicity": "arab"
@@ -1500,6 +2254,23 @@
     "color": "rgb{ 0 181 226 } #azerbaijan flag blue",
     "religion": "orthodox",
     "traits": "caucasus_group european_heritage",
+    "heritage": [
+      "heritage_georgian",
+      "heritage_armenian",
+      "heritage_north_caucasian",
+      "heritage_anatolian"
+    ],
+    "language": [
+      "language_georgian",
+      "language_armenian",
+      "language_adyghe",
+      "language_avaric",
+      "language_oghuz"
+    ],
+    "traditions": [
+      "tradition_caucasian",
+      "tradition_persianate"
+    ],
     "obsessions": "",
     "graphics": "european",
     "ethnicity": "slavic"
@@ -1517,8 +2288,7 @@
       "MUG",
       "HND"
     ],
-    "optionalCultures": [
-    ],
+    "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -1526,6 +2296,18 @@
     "color": "rgb{ 39 100 179 } #blue",
     "religion": "hindu",
     "traits": "south_asian_heritage indo_aryan_language",
+    "heritage": [
+      "heritage_deccani",
+      "heritage_rajasthani",
+      "heritage_gujarati",
+      "heritage_indusine"
+    ],
+    "language": [
+      "language_southern_indic",
+      "language_western_indic",
+      "language_northwestern_indic"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1555,6 +2337,23 @@
     "color": "rgb{ 12 84 6 } #green",
     "religion": "sunni",
     "traits": "south_asian_heritage indo_aryan_language",
+    "heritage": [
+      "heritage_gangetic",
+      "heritage_eastern_highlands",
+      "heritage_assamese",
+      "heritage_himalayan",
+      "heritage_tibetan"
+    ],
+    "language": [
+      "language_magadhan",
+      "language_meitei",
+      "language_eastern_hindi",
+      "language_pahari",
+      "language_tibetan"
+    ],
+    "traditions": [
+      "tradition_himalayan"
+    ],
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "asian"
@@ -1578,8 +2377,7 @@
       "MUG",
       "HND"
     ],
-    "optionalCultures": [
-    ],
+    "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -1587,6 +2385,21 @@
     "color": "rgb{ 125 104 21 } #dark yellow",
     "religion": "hindu",
     "traits": "south_asian_heritage indo_aryan_language",
+    "heritage": [
+      "heritage_gangetic",
+      "heritage_indusine",
+      "heritage_kashmiri",
+      "heritage_central",
+      "heritage_himalayan",
+      "heritage_deccani"
+    ],
+    "language": [
+      "language_hindustani",
+      "language_northwestern_indic",
+      "language_dardic",
+      "language_pahari"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1620,8 +2433,7 @@
       "MUG",
       "HND"
     ],
-    "optionalCultures": [
-    ],
+    "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -1629,6 +2441,31 @@
     "color": "rgb{ 158 163 132 } #gray yellow",
     "religion": "hindu",
     "traits": "south_asian_heritage indo_aryan_language",
+    "heritage": [
+      "heritage_deccani",
+      "heritage_rajasthani",
+      "heritage_gujarati",
+      "heritage_indusine",
+      "heritage_gangetic",
+      "heritage_himalayan",
+      "heritage_kashmiri",
+      "heritage_insular",
+      "heritage_central",
+      "heritage_iranian"
+    ],
+    "language": [
+      "language_southern_indic",
+      "language_western_indic",
+      "language_northwestern_indic",
+      "language_magadhan",
+      "language_pahari",
+      "language_hindustani",
+      "language_dardic"
+    ],
+    "traditions": [
+      "tradition_himalayan",
+      "tradition_persianate"
+    ],
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1689,6 +2526,52 @@
     "color": "rgb{ 255 153 51 } #indian flag orange",
     "religion": "hindu",
     "traits": "south_asian_heritage indo_aryan_language dravidian",
+    "heritage": [
+      "heritage_deccani",
+      "heritage_rajasthani",
+      "heritage_gujarati",
+      "heritage_indusine",
+      "heritage_gangetic",
+      "heritage_himalayan",
+      "heritage_kashmiri",
+      "heritage_insular",
+      "heritage_carnatic",
+      "heritage_eastern_highlands",
+      "heritage_assamese",
+      "heritage_central",
+      "heritage_burmese",
+      "heritage_tai",
+      "heritage_iranian",
+      "heritage_tibetan"
+    ],
+    "language": [
+      "language_southern_indic",
+      "language_western_indic",
+      "language_northwestern_indic",
+      "language_magadhan",
+      "language_pahari",
+      "language_hindustani",
+      "language_dardic",
+      "language_south_central",
+      "language_tamil_tulu",
+      "language_meitei",
+      "language_eastern_hindi",
+      "language_burmic",
+      "language_karenic",
+      "language_kachinic",
+      "language_zhuang",
+      "language_pashto",
+      "language_baluchi",
+      "language_tibetan",
+      "language_shan",
+      "language_mizo",
+      "language_naga"
+    ],
+    "traditions": [
+      "tradition_himalayan",
+      "tradition_sinosphere",
+      "tradition_persianate"
+    ],
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1714,6 +2597,18 @@
     "color": "rgb{ 29 66 23 } #moss green",
     "religion": "sikh",
     "traits": "south_asian_heritage dravidian",
+    "heritage": [
+      "heritage_deccani",
+      "heritage_carnatic",
+      "heritage_central",
+      "heritage_insular"
+    ],
+    "language": [
+      "language_south_central",
+      "language_tamil_tulu",
+      "language_southern_indic"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "south_asian",
     "ethnicity": "indian"
@@ -1739,6 +2634,19 @@
     "color": "rgb{ 0 154 68 } #ethiopian flag green",
     "religion": "oriental_orthodox",
     "traits": "ethiopian east_african_culture_group african_heritage",
+    "heritage": [
+      "heritage_abyssinian",
+      "heritage_somali"
+    ],
+    "language": [
+      "language_amharic",
+      "language_afar",
+      "language_galla",
+      "language_tigrinya",
+      "language_sidama",
+      "language_somali"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "african",
     "ethnicity": "african"
@@ -1765,8 +2673,7 @@
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
-    "optionalCultures": [
-    ],
+    "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -1774,6 +2681,25 @@
     "color": "rgb{ 199 100 217 } #faint purple",
     "religion": "animist",
     "traits": "southern_african_culture_group bantu african_heritage",
+    "heritage": [
+      "heritage_eastern_bantu",
+      "heritage_southwest_bantu",
+      "heritage_khoisan",
+      "heritage_southern_bantu"
+    ],
+    "language": [
+      "language_nyasa",
+      "language_kavango",
+      "language_khoisan",
+      "language_makua",
+      "language_nguni",
+      "language_umbundu",
+      "language_shona",
+      "language_sotho",
+      "language_tonga",
+      "language_yao"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "african",
     "ethnicity": "african"
@@ -1795,8 +2721,7 @@
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
-    "optionalCultures": [
-    ],
+    "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -1804,6 +2729,25 @@
     "color": "rgb{ 87 60 35 } #brown",
     "religion": "animist",
     "traits": "central_african_culture_group bantu african_heritage",
+    "heritage": [
+      "heritage_congolese",
+      "heritage_sahelian",
+      "heritage_guinean"
+    ],
+    "language": [
+      "language_kongo",
+      "language_bagirmi",
+      "language_beti",
+      "language_kanuri",
+      "language_luba",
+      "language_lunda",
+      "language_mongo",
+      "language_sara",
+      "language_tebu",
+      "language_equatorial_bantu",
+      "language_fluvial_bantu"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "african",
     "ethnicity": "african"
@@ -1848,6 +2792,41 @@
     "color": "rgb{ 84 196 204 } #light blue",
     "religion": "animist",
     "traits": "east_african_culture_group african_heritage",
+    "heritage": [
+      "heritage_nilotic",
+      "heritage_abyssinian",
+      "heritage_congolese",
+      "heritage_eastern_bantu",
+      "heritage_darfurian",
+      "heritage_kordofanian",
+      "heritage_somali",
+      "heritage_afro_arab",
+      "heritage_east_african"
+    ],
+    "language": [
+      "language_nilotic",
+      "language_amharic",
+      "language_afar",
+      "language_zande",
+      "language_lacustrine_bantu",
+      "language_beja",
+      "language_dinka",
+      "language_fur",
+      "language_kikuyu",
+      "language_luo",
+      "language_maa",
+      "language_nuer",
+      "language_kordofanian",
+      "language_galla",
+      "language_sidama",
+      "language_somali",
+      "language_arabic",
+      "language_takama",
+      "language_swahili",
+      "language_tigrinya",
+      "language_malagasy"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "african",
     "ethnicity": "african"
@@ -1881,8 +2860,7 @@
     ],
     "formabilityCriteria": "ANY",
     "tagLimits": [],
-    "optionalCultures": [
-    ],
+    "optionalCultures": [],
     "mutuallyExclusiveWith": [],
     "defaultCulture": false,
     "optionalsUsedByAi": [],
@@ -1890,6 +2868,34 @@
     "color": "rgb{ 150 179 136 } #pale green",
     "religion": "sunni",
     "traits": "west_african_culture_group african_heritage",
+    "heritage": [
+      "heritage_guinean",
+      "heritage_sahelian",
+      "heritage_afro_arab",
+      "heritage_berber"
+    ],
+    "language": [
+      "language_igbo",
+      "language_akan",
+      "language_manding",
+      "language_kru",
+      "language_edo",
+      "language_gbe",
+      "language_fulani",
+      "language_arabic",
+      "language_hausa",
+      "language_ibibio",
+      "language_kissi",
+      "language_mande",
+      "language_mossi",
+      "language_senufo",
+      "language_songhai",
+      "language_tiv",
+      "language_berber",
+      "language_wolof",
+      "language_yoruba"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "african",
     "ethnicity": "african"
@@ -1989,6 +2995,92 @@
     "color": "rgb{ 166 118 108 } #light red brown",
     "religion": "animist",
     "traits": "bantu african_heritage",
+    "heritage": [
+      "heritage_guinean",
+      "heritage_sahelian",
+      "heritage_afro_arab",
+      "heritage_berber",
+      "heritage_nilotic",
+      "heritage_abyssinian",
+      "heritage_congolese",
+      "heritage_eastern_bantu",
+      "heritage_darfurian",
+      "heritage_kordofanian",
+      "heritage_somali",
+      "heritage_southwest_bantu",
+      "heritage_khoisan",
+      "heritage_southern_bantu",
+      "heritage_east_african",
+      "heritage_african_diaspora"
+    ],
+    "language": [
+      "language_igbo",
+      "language_akan",
+      "language_manding",
+      "language_kru",
+      "language_edo",
+      "language_gbe",
+      "language_fulani",
+      "language_arabic",
+      "language_hausa",
+      "language_ibibio",
+      "language_kissi",
+      "language_mande",
+      "language_mossi",
+      "language_senufo",
+      "language_songhai",
+      "language_tiv",
+      "language_berber",
+      "language_wolof",
+      "language_yoruba",
+      "language_nilotic",
+      "language_amharic",
+      "language_afar",
+      "language_zande",
+      "language_lacustrine_bantu",
+      "language_beja",
+      "language_dinka",
+      "language_fur",
+      "language_kikuyu",
+      "language_luo",
+      "language_maa",
+      "language_nuer",
+      "language_kordofanian",
+      "language_galla",
+      "language_sidama",
+      "language_somali",
+      "language_takama",
+      "language_swahili",
+      "language_tigrinya",
+      "language_nyasa",
+      "language_kavango",
+      "language_khoisan",
+      "language_makua",
+      "language_nguni",
+      "language_umbundu",
+      "language_shona",
+      "language_sotho",
+      "language_tonga",
+      "language_yao",
+      "language_kongo",
+      "language_bagirmi",
+      "language_beti",
+      "language_kanuri",
+      "language_luba",
+      "language_lunda",
+      "language_mongo",
+      "language_sara",
+      "language_tebu",
+      "language_equatorial_bantu",
+      "language_fluvial_bantu",
+      "language_malagasy",
+      "language_anglophone",
+      "language_creole",
+      "language_lusophone",
+      "language_patois",
+      "language_hispanophone"
+    ],
+    "traditions": [],
     "obsessions": "",
     "graphics": "african",
     "ethnicity": "african",
@@ -2012,6 +3104,18 @@
     "color": "rgb{ 58 138 131 } #Darker light blue",
     "religion": "gelugpa",
     "traits": "north_asian_heritage mongol_language",
+    "heritage": [
+      "heritage_mongolian",
+      "heritage_siberian"
+    ],
+    "language": [
+      "language_buryat",
+      "language_siberian",
+      "language_mongolian"
+    ],
+    "traditions": [
+      "tradition_russosphere"
+    ],
     "obsessions": "",
     "graphics": "east_asian",
     "ethnicity": "central_asian"
