@@ -102,23 +102,39 @@ fun createDiasporaCultures() {
 
     val cultures = mutableListOf<String>()
     val languageTraits = mutableListOf<String>()
-    val heritageTraits = mutableListOf<String>()
+    val heritageTraits = mutableSetOf<String>()
+
+    try {
+
 
     languageGroups.forEach { languageGroup ->
-        val languageTraitKey = "${languageGroup.languageGroupKey}_family_trait"
-        val languageTrait = createTraitEntry("language", languageTraitKey, languageGroup.languageGroupKey)
+        // we are distilling top level language down into sub groups
+        // vanilla has language as prefix so we should be fine, language_group_ prefix is cut
+        val languageTraitKey = "${languageGroup.languageGroupKey.replace("language_group_", "")}_language_family"
+        val languageTrait = createTraitEntry(
+            type = "language",
+            traitKey = languageTraitKey,
+            traitGroupKey = languageGroup.languageGroupKey
+        )
         languageTraits.add(languageTrait)
 
         configuration.forEach { configuration ->
-            val heritageTraitKey = "${languageGroup.languageGroupKey}_diaspora"
+            // we are distilling top level heritage down into sub groups
+            // vanilla has heritage as prefix so this should be fine for compatibility
+            val heritageTraitKey = "${configuration.cultureTemplate}}_heritage"
+            // traitGroupKey must match vanilla highest level group
             val heritageTrait =
-                createTraitEntry("heritage", "${languageGroup.languageGroupKey}_diaspora", configuration.cultureTemplate)
+                createTraitEntry(
+                    type = "heritage",
+                    traitKey = heritageTraitKey,
+                    traitGroupKey = "heritage_group_${configuration.cultureTemplate}"
+                )
             heritageTraits.add(heritageTrait)
 
             val diasporaCultureKey = heritageTraitKey + " " + languageTraitKey
 
             val specificPlaceholders = listOf(
-                Placeholder("<<diaspora_language_group_heritage_group_key>={>", diasporaCultureKey),
+                Placeholder("<diaspora_language_group_heritage_group_key>", diasporaCultureKey),
                 Placeholder("<diaspora_heritage>", heritageTraitKey),
                 Placeholder("<diaspora_language>", languageTraitKey),
             )
@@ -132,10 +148,20 @@ fun createDiasporaCultures() {
             cultures.add(culture)
         }
     }
+    }
+    catch (e: Exception) {
+        print("")
+    }
 
     writeFile("common/cultures/99_diaspora_cultures.txt", cultures.joinToString("\n\n"))
-    writeFile("common/discrimination_trait_groups/99_diaspora_language_discrimination.txt", languageTraits.joinToString("\n\n"))
-    writeFile("common/discrimination_trait_groups/99_diaspora_heritage_discrimination.txt", heritageTraits.joinToString("\n\n"))
+    writeFile(
+        "common/discrimination_trait_groups/99_diaspora_language_discrimination.txt",
+        languageTraits.joinToString("\n\n")
+    )
+    writeFile(
+        "common/discrimination_trait_groups/99_diaspora_heritage_discrimination.txt",
+        heritageTraits.joinToString("\n\n")
+    )
 }
 
 data class DiasporaCultureConfiguration(

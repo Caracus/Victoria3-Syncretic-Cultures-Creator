@@ -4,6 +4,7 @@ object ResourceReader {
     fun readAndRemoveComments(filePath: String): String {
         val resourcePath = "/$filePath"
         val content = ResourceReader::class.java.getResourceAsStream(resourcePath)?.bufferedReader()?.readText()
+            ?.removePrefix("\uFEFF")
             ?: error("Resource not found: $resourcePath")
         return removeComments(content)
     }

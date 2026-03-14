@@ -27,10 +27,10 @@ import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.sortAl
 fun main() {
 
     createDiasporaCultures()
+    throw Exception("Some BS")
+    print("This shouldnt be printed, but it is.")
 
     var syncreticCultureConfiguration = sortAlphabetically(getSyncreticCultureConfiguration())
-
-    Exception("Some BS")
 
     syncreticCultureConfiguration = createMutuallyExclusiveCulturesMap(syncreticCultureConfiguration)
     val compatibleCulturesMap: Map<String, Set<String>> = calculateCompatibleCultures(syncreticCultureConfiguration)
