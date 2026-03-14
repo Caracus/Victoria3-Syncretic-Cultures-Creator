@@ -1,0 +1,64 @@
+﻿<diaspora_language_group_heritage_group_key>={
+	color= <diaspora_color>
+	religion = <diaspora_religion>
+	heritage = <diaspora_heritage>
+	language = <diaspora_language>
+
+	obsessions = {
+	    <diaspora_obsession>
+	}
+
+	traditions = { <diaspora_traditions> }
+
+	male_common_first_names={
+		Adolf Albrecht Alexander Alfons Alois Anton Arthur Albert Arnulf
+		Bernhard Benignus
+		Christian
+		Edmund Eduard Engelbert Ernst Erwin Emil Eugen Emanuel
+		Ferdinand Franz Friedrich Felix
+	}
+	female_common_first_names = {
+		Angela Alice Amalie
+		Berta
+		Emma Elsa
+		Johanna
+	}
+	noble_last_names = {
+        Herwarth_von_Bittenfeld
+        Vogel_von_Falkenstein
+        von_Falkenstein
+        von_Alten von_Anhalt von_Arentschildt von_Arens
+        von_Bismarck-Bohlen von_Bittenfeld von_Blomberg von_Blumenthal von_Borries von_Boyen von_Braunschweig von_Breitenbach von_Bulow von_Boyneburg-Lengsfeld von_Breidbach-BUrresheim
+	}
+	common_last_names={
+		Auerbach Aldinger
+		Bachmann Beck-Rzikowsky Blos Barchet Bantlin Bech Bassermann Baum Bissing Bleidorn Beckmund Bedall
+		Christmann CarovE_ Correck Cella
+		Dankl Dauer Dollmann Depre Doll Deusch Dennig Deuringer Denzler Deppert
+		Eisner Eppelsheimer Exter Eppelsheim Eisenmann Edel Ermarth Ehrensberger Eder
+		Foerderreuther Frauendorfer Friedel Frommknecht Federer Fetzer Frueth Fallenstein Frech Fasbender
+		Geiss Gerber Goering Gollwitzer Graff Groeschel Groth Grohe Gervinus GA_tschenberger Gloss_ Gruny
+		Hainisch Haus Held Hellpach Helmerich Hoffmann Homberger Hummel Hepp HA_gelin Hagen HA_usser Hecker Helbing Helmreich Hoff HO_genstaller Horadam Hinzler Hitzen Hopffer Hebberling
+		Ipfelkofer
+		Junghannss
+	}
+
+	male_regal_first_names = {
+		Adalbert
+		Friedrich Friedrich_Wilhelm
+		Georg
+		Heinrich
+		Joachim
+	}
+	female_regal_first_names = {
+		Augusta
+		Charlotte
+		Elisabeth
+		Luise
+	}
+
+	graphics = asian
+	ethnicities = {
+		1 = south_east_asian
+	}
+}

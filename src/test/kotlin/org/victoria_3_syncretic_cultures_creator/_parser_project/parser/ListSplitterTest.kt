@@ -1,6 +1,6 @@
-package org.victoria_3_syncretic_cultures_creator.parser_project.parser
+package org.victoria_3_syncretic_cultures_creator._parser_project.parser
 
-import org.junit.Test
+import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
 class ListSplitterTest {
@@ -8,7 +8,6 @@ class ListSplitterTest {
     @Test
     fun `split well formed list`() {
         // Arrange
-        val listSplitter = ListSplitter()
 
         val inputText = """
             language_group_algic = {
@@ -25,7 +24,7 @@ class ListSplitterTest {
         """.trimIndent()
 
         // Act
-        val result = listSplitter.splitList(inputText)
+        val result = splitList(inputText)
 
         // Assert
         assertEquals(3, result.size)
@@ -58,7 +57,6 @@ class ListSplitterTest {
     @Test
     fun `split chaotic list`() {
         // Arrange
-        val listSplitter = ListSplitter()
 
         val inputText = """
             language_group_algic = {
@@ -73,7 +71,7 @@ class ListSplitterTest {
         """.trimIndent()
 
         // Act
-        val result = listSplitter.splitList(inputText)
+        val result = splitList(inputText)
 
         // Assert
         assertEquals(3, result.size)
@@ -105,7 +103,6 @@ class ListSplitterTest {
     @Test
     fun `nested list`() {
         // Arrange
-        val listSplitter = ListSplitter()
 
         val inputText = """
             someKey = {
@@ -122,7 +119,7 @@ class ListSplitterTest {
         """.trimIndent()
 
         // Act
-        val result = listSplitter.splitList(inputText)
+        val result = splitList(inputText)
 
         // Assert
         assertEquals(2, result.size)

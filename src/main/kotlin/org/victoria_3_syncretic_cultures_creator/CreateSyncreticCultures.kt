@@ -1,5 +1,7 @@
 package org.victoria_3_syncretic_cultures_creator
 
+import org.victoria_3_syncretic_cultures_creator._parser_project.util.ResourceReader.readAndRemoveComments
+import org.victoria_3_syncretic_cultures_creator.diaspora_project.creators.createDiasporaCultures
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyManualLocalization
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyStaticDecisions
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyStaticEvents
@@ -12,6 +14,7 @@ import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.cre
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createLocalization
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createOverwriteLocalization
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createScriptValues
+import org.victoria_3_syncretic_cultures_creator.diaspora_project.parsers.parseLanguageGroupList
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.logic.calculateCompatibleCultures
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.logic.createMutuallyExclusiveCulturesMap
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
@@ -23,7 +26,11 @@ import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.sortAl
 
 fun main() {
 
+    createDiasporaCultures()
+
     var syncreticCultureConfiguration = sortAlphabetically(getSyncreticCultureConfiguration())
+
+    Exception("Some BS")
 
     syncreticCultureConfiguration = createMutuallyExclusiveCulturesMap(syncreticCultureConfiguration)
     val compatibleCulturesMap: Map<String, Set<String>> = calculateCompatibleCultures(syncreticCultureConfiguration)
