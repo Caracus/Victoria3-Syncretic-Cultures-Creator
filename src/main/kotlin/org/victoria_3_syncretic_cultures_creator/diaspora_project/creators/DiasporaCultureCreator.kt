@@ -136,7 +136,7 @@ fun createDiasporaCultures() {
             heritageTraits.add(heritageTrait)
 
             val diasporaCultureKey = "${heritageTraitKey}_$languageTraitKey"
-            val diasporaCultureName = "${languageTraitKey}_${heritageTraitKey}_diaspora".replace("_heritage", "")
+            val diasporaCultureName = "${heritageTraitKey}_diaspora".replace("_heritage", "")
                 .replace("_language_family", "")
 
             val specificPlaceholders = listOf(
@@ -177,6 +177,22 @@ fun createDiasporaCultures() {
         heritageTraits.joinToString("\n\n")
     )
 
+    localizationCreator.pushLocalization("rule_diaspora_cultures", "Diaspora Change Rate")
+    localizationCreator.pushLocalization("setting_diaspora_rate_full", "100%")
+    localizationCreator.pushLocalization(
+        "setting_diaspora_rate_full_desc",
+        "With this setting ALL eligible pops will be converted to Diaspora cultures. This will speed up your game compared to vanilla. They will retain their heritage but adapt to the language family of the primary culture of the country they are in. Any rule will ignore pops in homelands or primary culture pops."
+    )
+    localizationCreator.pushLocalization("setting_diaspora_rate_medium", "25%")
+    localizationCreator.pushLocalization(
+        "setting_diaspora_rate_medium_desc",
+        "Less than 100% may slow down your game compared to vanilla but is also more immersive. Cultural communities will also stick around as long as in vanilla this way as the yearly reset will affect em fully."
+    )
+    localizationCreator.pushLocalization("setting_diaspora_rate_low", "5%")
+    localizationCreator.pushLocalization(
+        "setting_diaspora_rate_low_desc",
+        "Less than 100% may slow down your game compared to vanilla but is also more immersive. Cultural communities will also stick around as long as in vanilla this way as the yearly reset will not affect em fully."
+    )
     localizationCreator.createLocalizationFiles()
 }
 

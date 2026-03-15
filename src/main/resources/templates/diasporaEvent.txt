@@ -61,7 +61,24 @@ diaspora_events.1 = {
 <target_culture_block>
                         }
 
-                        change_pop_culture = { target = scope:target_diaspora_culture value = 1 }
+                        if = {
+                            limit = {
+                                has_game_rule = diaspora_rate_full
+                            }
+                            change_pop_culture = { target = scope:target_diaspora_culture value = 1 }
+                        } else_if = {
+                            limit = {
+                                has_game_rule = diaspora_rate_medium
+                            }
+                            change_pop_culture = { target = scope:target_diaspora_culture value = 0.25 }
+                        } else_if = {
+                            limit = {
+                                has_game_rule = diaspora_rate_low
+                            }
+                            change_pop_culture = { target = scope:target_diaspora_culture value = 0.05 }
+                        } else = {
+                            change_pop_culture = { target = scope:target_diaspora_culture value = 1 }
+                        }
                     }
                 }
             }

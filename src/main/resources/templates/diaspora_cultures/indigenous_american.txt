@@ -11,50 +11,199 @@
 	traditions = { <diaspora_traditions> }
 
 	male_common_first_names={
-		Adolf Albrecht Alexander Alfons Alois Anton Arthur Albert Arnulf
-		Bernhard Benignus
-		Christian
-		Edmund Eduard Engelbert Ernst Erwin Emil Eugen Emanuel
-		Ferdinand Franz Friedrich Felix
+		Agustin
+		Antonio
+		Aquiles
+		Arturo
+		Aucan
+		Aurelio
+		Bernardo
+		Carlos
+		Claudio
+		Diego
+		Facundo
+		Fernando
+		Francisco
+		Felix
+		Gerardo
+		Gregorio
+		Hugo
+		Ignacio
+		Jose
+		Juan
+		Luis
+		Manuel
+		Marcos
+		Martin_2
+		Melchor
+		Maximo
+		Pedro
+		Ramon
+		Raul_2
+		Santiago
+		Victor_2
+		Agustin
+		Akbal
+		Alejandro
+		Andres
+		Antonio
+		Anibal
+		Armando
+		Bernardo
+		Carlos
+		Crescencio
+		Cristobal_2
+		Cuautehmoc
+		Diego
+		Felipe
+		Gaspar
+		Hernando
+		Hilario
+		Humberto
+		Ignacio
+		Jacinto
+		Jesus
+		Luis
+		Marcial
+		Martin_2
+		Miguel
+		Ramiro
+		Rodolfo
+		Rolando
+		Santiago
+		Yumil
+		Hehaka
+		Inkpaduta
+		Istahba
+		Mahpiya
+		Monkaushka
+		Sinte
+		Tamaha
+		Thahca
+		Thasunke
+		Thathanka
+		Thaoyate_Duta
+		Wanbdisapa
+		Wanata
 	}
 	female_common_first_names = {
-		Angela Alice Amalie
-		Berta
-		Emma Elsa
-		Johanna
+		Emilia
+		Janequeo
+		Juana
+		Maria
+		Rosario
+		Ximena
+		Azayamankawin
+		Topahhdewin
+		Wakanmaniwin
+		Wakantakawin
+		Wakhan_Inazin_Win
+		Ana
+		Catarina
+		Concepcion
+		Cristina
+		Elvia
+		Felipa
+		Maria
+		Paula
+		Ramona
+		Rigoberta
+		Rosalina
+		Thelma
 	}
 	noble_last_names = {
-        Herwarth_von_Bittenfeld
-        Vogel_von_Falkenstein
-        von_Falkenstein
-        von_Alten von_Anhalt von_Arentschildt von_Arens
-        von_Bismarck-Bohlen von_Bittenfeld von_Blomberg von_Blumenthal von_Borries von_Boyen von_Braunschweig von_Breitenbach von_Bulow von_Boyneburg-Lengsfeld von_Breidbach-BUrresheim
+		Calfucura
+		Colipi
+		Conoepan
+		Melin
+		Namuncura
+		Paillalef
+		Quilapan
+		Hakadah
+		Ohiya_S-a
+		Tamaha
+		Wakinyanduta
+		Wowinape
+		Ay
+		Ceel
+		Chan
+		Chi
+		Pat
+		Pec
+		Poot
 	}
 	common_last_names={
-		Auerbach Aldinger
-		Bachmann Beck-Rzikowsky Blos Barchet Bantlin Bech Bassermann Baum Bissing Bleidorn Beckmund Bedall
-		Christmann CarovE_ Correck Cella
-		Dankl Dauer Dollmann Depre Doll Deusch Dennig Deuringer Denzler Deppert
-		Eisner Eppelsheimer Exter Eppelsheim Eisenmann Edel Ermarth Ehrensberger Eder
-		Foerderreuther Frauendorfer Friedel Frommknecht Federer Fetzer Frueth Fallenstein Frech Fasbender
-		Geiss Gerber Goering Gollwitzer Graff Groeschel Groth Grohe Gervinus GA_tschenberger Gloss_ Gruny
-		Hainisch Haus Held Hellpach Helmerich Hoffmann Homberger Hummel Hepp HA_gelin Hagen HA_usser Hecker Helbing Helmreich Hoff HO_genstaller Horadam Hinzler Hitzen Hopffer Hebberling
-		Ipfelkofer
-		Junghannss
-	}
-
-	male_regal_first_names = {
-		Adalbert
-		Friedrich Friedrich_Wilhelm
-		Georg
-		Heinrich
-		Joachim
-	}
-	female_regal_first_names = {
-		Augusta
-		Charlotte
-		Elisabeth
-		Luise
+		Aliwen
+		Amuylifko
+		Aukan
+		Ayllapan
+		Bravo
+		Chiguay
+		Cumin
+		Curumilla
+		Epulewfu
+		Foyelkay
+		Guaiquil
+		Huichaman
+		Ilwen
+		Kayupi
+		Kumlafken
+		Kvlapi
+		Levinanco
+		Lincoman
+		Marifil
+		Melifilu
+		Millakoyam
+		Millapani
+		Nahuel
+		Paillacar
+		Pillancar
+		Quelin
+		Remultray
+		Unquen
+		Waikimill
+		Yankvleufu
+		Nanku
+		Duta
+		Gleska
+		Huste
+		Iyotake
+		Kohkophapi
+		Kramarae
+		Luta
+		Pecan_Wakpa
+		Sapa
+		Thankja
+		Witko
+		Ak_ab_al
+		Cal
+		Canek
+		Canul
+		Carrillo
+		Ceh
+		Chee
+		Choc
+		Coc
+		Curruchic
+		Ixquiac
+		Kan
+		Lopez
+		Manzanero
+		Mas
+		Menchu
+		Mes
+		Merida
+		Osorio
+		Pek
+		Pop
+		Puk
+		Shal
+		Sho
+		Tecu
+		Teul
+		Tuyuc
+		Xicara
+		Xiloj
 	}
 
 	graphics = decentralised_americas
