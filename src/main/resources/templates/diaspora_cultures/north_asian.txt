@@ -1,5 +1,5 @@
 ﻿<diaspora_language_group_heritage_group_key>={
-	color= <diaspora_color>
+    color = rgb{ 102 153 204 }     # Steppe sky blue — the vast open skies of the Mongolian steppe, also in the Mongolian flag
 	religion = <diaspora_religion>
 	heritage = <diaspora_heritage>
 	language = <diaspora_language>

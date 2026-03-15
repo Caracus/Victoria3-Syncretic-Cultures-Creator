@@ -1,5 +1,5 @@
 ﻿<diaspora_language_group_heritage_group_key>={
-	color= <diaspora_color>
+    color = rgb{ 0 119 190 }# Ocean blue — reflects the Pacific/Indian Ocean seafaring heritage of Polynesian, Melanesian and Micronesian peoples
 	religion = <diaspora_religion>
 	heritage = <diaspora_heritage>
 	language = <diaspora_language>

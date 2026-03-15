@@ -1,5 +1,5 @@
 ﻿<diaspora_language_group_heritage_group_key>={
-	color= <diaspora_color>
+    color = rgb{ 255 153 0 }# Saffron — the sacred colour of Hinduism and Buddhism, prominent across India and Sri Lanka
 	religion = <diaspora_religion>
 	heritage = <diaspora_heritage>
 	language = <diaspora_language>

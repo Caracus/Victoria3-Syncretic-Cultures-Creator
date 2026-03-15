@@ -7,7 +7,7 @@ fun cultureLookUpBlock(cultureLookUpInformation: List<CultureLookUpInformation>)
 
     val heritageBaseBlock = """
 #<heritage>
-if = {
+<keyword> = {
     limit = {
         shares_heritage_trait_group_with_culture = cu:<culture>
     }
@@ -16,9 +16,11 @@ if = {
     """.trimIndent()
 
     val languageBaseBlock = """
-if = {
+<keyword> = {
     limit = {
-        shares_language_trait_group_with_culture = cu:<culture>
+        cu:<culture> = {
+            shares_language_trait_group_with_culture = scope:primary_culture
+        }
     }
     cu:<culture> = {
         save_scope_as = target_diaspora_culture
@@ -30,18 +32,21 @@ if = {
 
     val heritageBlocks = mutableListOf<String>()
 
-    byHeritage.values.forEach { heritageSection ->
+    byHeritage.values.forEachIndexed { heritageIndex, heritageSection ->
 
         val languageBlocks = mutableListOf<String>()
 
-        heritageSection.forEach {
+        heritageSection.forEachIndexed { langIndex, info ->
 
-            val cultureName = it.cultureName
+            val cultureName = info.cultureName
 
             languageBlocks.add(
                 languageBaseBlock.resolvePlaceholders(
                     languageBaseBlock,
-                    listOf(Placeholder("culture", cultureName))
+                    listOf(
+                        Placeholder("keyword", if (langIndex == 0) "if" else "else_if"),
+                        Placeholder("culture", cultureName)
+                    )
                 )
             )
         }
@@ -53,6 +58,7 @@ if = {
         val heritageBlock = heritageBaseBlock.resolvePlaceholders(
             heritageBaseBlock,
             listOf(
+                Placeholder("keyword", if (heritageIndex == 0) "if" else "else_if"),
                 Placeholder("heritage", heritageSection.first().heritageTrait),
                 Placeholder("culture", heritageSection.first().cultureName),
                 Placeholder("languageCheckBlock", languageCheckBlock)

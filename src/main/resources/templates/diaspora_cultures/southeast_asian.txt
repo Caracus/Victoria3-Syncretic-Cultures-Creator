@@ -1,5 +1,5 @@
 ﻿<diaspora_language_group_heritage_group_key>={
-	color= <diaspora_color>
+    color = rgb{ 0 102 51 }# Tropical forest green — reflects the lush rainforests and also the green in many SEA flags
 	religion = <diaspora_religion>
 	heritage = <diaspora_heritage>
 	language = <diaspora_language>

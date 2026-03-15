@@ -1,5 +1,5 @@
 ﻿<diaspora_language_group_heritage_group_key>={
-	color= <diaspora_color>
+	color = rgb{ 0 51 153 } #EU blue
 	religion = <diaspora_religion>
 	heritage = <diaspora_heritage>
 	language = <diaspora_language>

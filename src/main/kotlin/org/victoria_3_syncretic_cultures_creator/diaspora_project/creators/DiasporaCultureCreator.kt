@@ -169,11 +169,11 @@ fun createDiasporaCultures() {
 
     writeFile("common/cultures/99_diaspora_cultures.txt", cultures.joinToString("\n\n"))
     writeFile(
-        "common/discrimination_trait_groups/99_diaspora_language_discrimination.txt",
+        "common/discrimination_traits/99_diaspora_language_discrimination.txt",
         languageTraits.joinToString("\n\n")
     )
     writeFile(
-        "common/discrimination_trait_groups/99_diaspora_heritage_discrimination.txt",
+        "common/discrimination_traits/99_diaspora_heritage_discrimination.txt",
         heritageTraits.joinToString("\n\n")
     )
 

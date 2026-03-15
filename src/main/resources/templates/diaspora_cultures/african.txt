@@ -1,5 +1,5 @@
 ﻿<diaspora_language_group_heritage_group_key>={
-	color= <diaspora_color>
+    color = rgb{ 204 51 0 }# Terracotta red — echoes African clay pottery and the Mali/Ashanti earth tones
 	religion = <diaspora_religion>
 	heritage = <diaspora_heritage>
 	language = <diaspora_language>

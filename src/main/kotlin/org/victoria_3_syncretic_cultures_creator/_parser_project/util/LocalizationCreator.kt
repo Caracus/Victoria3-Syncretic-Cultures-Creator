@@ -15,7 +15,7 @@ class LocalizationCreator {
         languages.forEach { language ->
             val beginningLine = "l_$language:\n"
             val localization = mutableList.joinToString("\n")
-            writeFile("localization/$language/diaspora_system_l_$language.yml", beginningLine + localization)
+            writeFile("localization/$language/diaspora_system_l_$language.yml", beginningLine + localization, utf8Bom = true)
         }
         println("Created localization files")
     }

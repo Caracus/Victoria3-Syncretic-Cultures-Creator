@@ -10,7 +10,7 @@ class CultureLookUpBlockCreatorTest {
         val information = listOf(
             CultureLookUpInformation("african", "german", "african_german"),
             CultureLookUpInformation("african", "french", "african_french"),
-            CultureLookUpInformation("asian", "german", "african_german"),
+            CultureLookUpInformation("asian", "german", "asian_german"),
         )
 
         val expectedResult = """
@@ -21,32 +21,38 @@ if = {
     }
     if = {
         limit = {
-            shares_language_trait_with_culture = cu:african_german
+            cu:african_german = {
+                shares_language_trait_group_with_culture = scope:primary_culture
+            }
         }
         cu:african_german = {
-            save_scope_as = scope:target_diaspora_culture
+            save_scope_as = target_diaspora_culture
         }
     }
-    if = {
+    else_if = {
         limit = {
-            shares_language_trait_with_culture = cu:african_french
+            cu:african_french = {
+                shares_language_trait_group_with_culture = scope:primary_culture
+            }
         }
         cu:african_french = {
-            save_scope_as = scope:target_diaspora_culture
+            save_scope_as = target_diaspora_culture
         }
     }
 }
 #asian
-if = {
+else_if = {
     limit = {
-        shares_heritage_trait_group_with_culture = cu:african_german
+        shares_heritage_trait_group_with_culture = cu:asian_german
     }
     if = {
         limit = {
-            shares_language_trait_with_culture = cu:african_german
+            cu:asian_german = {
+                shares_language_trait_group_with_culture = scope:primary_culture
+            }
         }
-        cu:african_german = {
-            save_scope_as = scope:target_diaspora_culture
+        cu:asian_german = {
+            save_scope_as = target_diaspora_culture
         }
     }
 }
