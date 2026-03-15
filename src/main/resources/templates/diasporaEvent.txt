@@ -1,0 +1,69 @@
+namespace = diaspora_events
+
+diaspora_events.1 = {
+	type = country_event
+	placement = ROOT
+	hidden = yes
+
+	title = diaspora_events.1.t
+
+	flavor = diaspora_events.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_ruler_speaking_to_people.bk2"
+	}
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/leader_speaking_to_a_group_of_people"
+
+	trigger = {
+
+	}
+
+	immediate = {
+        if = {
+            #so temporary uprising dont just consolidate immigrants
+            limit = {
+                is_secessionist = no
+            }
+
+            ordered_primary_culture = {
+                position = 0
+                save_scope_as = primary_culture
+            }
+
+            #we need to determine the target diaspora culture dynamically :(
+
+            scope:primary_culture = {
+                #get heritage group via dummy heritage trait
+<target_culture_block>
+            }
+            every_state = {
+                limit = {
+                    owner = root
+                }
+
+                this = {
+                    save_scope_as = executing_state
+                }
+
+                every_scope_pop = {
+                    if = {
+                        limit = {
+                            this.culture = {
+                                NOT = {
+                                    is_primary_culture_of = root
+                                }
+                                NOT = {
+                                    has_homeland = scope:executing_state
+                                }
+                            }
+                        }
+                        change_pop_culture = { target = scope:target_diaspora_culture value = 1 }
+                    }
+                }
+            }
+        }
+    }
+}

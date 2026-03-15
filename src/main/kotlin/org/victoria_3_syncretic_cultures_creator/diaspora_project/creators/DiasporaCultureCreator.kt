@@ -2,6 +2,7 @@ package org.victoria_3_syncretic_cultures_creator.diaspora_project.creators
 
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.LocalizationCreator
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.Placeholder
+import org.victoria_3_syncretic_cultures_creator._parser_project.util.ResourceReader.justRead
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.ResourceReader.readAndRemoveComments
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.normalize
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.resolvePlaceholders
@@ -106,6 +107,8 @@ fun createDiasporaCultures() {
     val languageTraits = mutableListOf<String>()
     val heritageTraits = mutableSetOf<String>()
 
+    val mutableCultureLookUpInformationSet = mutableSetOf<CultureLookUpInformation>()
+
     languageGroups.forEach { languageGroup ->
         // we are distilling top level language down into sub groups
         // vanilla has language as prefix so we should be fine, language_group_ prefix is cut
@@ -133,7 +136,8 @@ fun createDiasporaCultures() {
             heritageTraits.add(heritageTrait)
 
             val diasporaCultureKey = "${heritageTraitKey}_$languageTraitKey"
-            val diasporaCultureName = "${languageTraitKey}_${heritageTraitKey}_diaspora".replace("_heritage", "").replace("_language_family", "")
+            val diasporaCultureName = "${languageTraitKey}_${heritageTraitKey}_diaspora".replace("_heritage", "")
+                .replace("_language_family", "")
 
             val specificPlaceholders = listOf(
                 Placeholder("diaspora_language_group_heritage_group_key", diasporaCultureKey),
@@ -148,8 +152,20 @@ fun createDiasporaCultures() {
 
             val culture = template.resolvePlaceholders(template, combinedPlaceholders)
             cultures.add(culture)
+
+            mutableCultureLookUpInformationSet.add(
+                CultureLookUpInformation(heritageTraitKey, languageTraitKey, diasporaCultureKey)
+            )
         }
     }
+
+    val diasporaCultureEventTemplate = justRead("templates/diasporaEvent.txt")
+    val diasporaCultureEventCultureSelectionBlock = cultureLookUpBlock(mutableCultureLookUpInformationSet.toList())
+    val diasporaCultureEventText = diasporaCultureEventTemplate.resolvePlaceholders(
+        diasporaCultureEventTemplate,
+        listOf(Placeholder("target_culture_block", diasporaCultureEventCultureSelectionBlock))
+    )
+    writeFile("events/diaspora_culture_selection.txt", diasporaCultureEventText)
 
     writeFile("common/cultures/99_diaspora_cultures.txt", cultures.joinToString("\n\n"))
     writeFile(
