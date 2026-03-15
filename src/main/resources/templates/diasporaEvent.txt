@@ -33,12 +33,6 @@ diaspora_events.1 = {
                 save_scope_as = primary_culture
             }
 
-            #we need to determine the target diaspora culture dynamically :(
-
-            scope:primary_culture = {
-                #get heritage group via dummy heritage trait
-<target_culture_block>
-            }
             every_state = {
                 limit = {
                     owner = root
@@ -60,6 +54,13 @@ diaspora_events.1 = {
                                 }
                             }
                         }
+
+                        #we need to determine the target diaspora culture dynamically :(
+
+                        this.culture = {
+<target_culture_block>
+                        }
+
                         change_pop_culture = { target = scope:target_diaspora_culture value = 1 }
                     }
                 }
