@@ -4,7 +4,7 @@ import org.victoria_3_syncretic_cultures_creator._parser_project.util.Placeholde
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.resolvePlaceholders
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.writeFile
 
-fun cultureLookUpBlock(cultureLookUpInformation: List<CultureLookUpInformation>) {
+fun cultureLookUpBlock(cultureLookUpInformation: List<CultureLookUpInformation>) : String {
 
     val heritageBaseBlock = """
 #<heritage>
@@ -12,9 +12,7 @@ if = {
     limit = {
         shares_heritage_trait_group_with_culture = cu:<culture>
     }
-    if = {
-        <languageCheckBlock>
-    }
+    <languageCheckBlock>
 }
     """.trimIndent()
 
@@ -33,11 +31,11 @@ if = {
 
     val heritageBlocks = mutableListOf<String>()
 
-    byHeritage.forEach { heritage ->
+    byHeritage.values.forEach { heritageSection ->
 
         val languageBlocks = mutableListOf<String>()
 
-        heritage.value.forEach {
+        heritageSection.forEach {
 
             val cultureName = it.cultureName
 
@@ -50,19 +48,21 @@ if = {
         }
         val languageCheckBlock = languageBlocks.joinToString("\n")
 
+        // as all entries should have the same heritage here we can just take that
         val heritageBlock = heritageBaseBlock.resolvePlaceholders(
             heritageBaseBlock,
             listOf(
-                Placeholder("heritage", heritage.value[thisIteration].heritageTrait),
-                Placeholder("culture", heritage.value[thisIteration].cultureName)),
-                Placeholder("languageCheckBlock", languageCheckBlock),
+                Placeholder("heritage", heritageSection.first().heritageTrait),
+                Placeholder("culture", heritageSection.first().cultureName),
+                Placeholder("languageCheckBlock", languageCheckBlock)
             )
         )
+        heritageBlocks.add(heritageBlock)
     }
 
     val finishedBlock = heritageBlocks.joinToString("\n")
 
-    writeFile("test.txt", finishedBlock)
+    return finishedBlock
 }
 
 
