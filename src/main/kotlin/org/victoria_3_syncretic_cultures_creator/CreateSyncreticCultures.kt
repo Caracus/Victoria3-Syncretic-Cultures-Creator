@@ -1,6 +1,7 @@
 package org.victoria_3_syncretic_cultures_creator
 
 import org.victoria_3_syncretic_cultures_creator._parser_project.util.ResourceReader.readAndRemoveComments
+import org.victoria_3_syncretic_cultures_creator.colonial_administration_project.creators.createColonialAdmins
 import org.victoria_3_syncretic_cultures_creator.diaspora_project.creators.createDiasporaCultures
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyManualLocalization
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyStaticDecisions
@@ -26,7 +27,10 @@ import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.sortAl
 
 fun main() {
 
-    createDiasporaCultures()
+    //createDiasporaCultures()
+
+    createColonialAdmins()
+
     throw Exception("Some BS")
     print("This shouldnt be printed, but it is.")
 

@@ -11,7 +11,7 @@ import org.victoria_3_syncretic_cultures_creator.diaspora_project.parsers.parseL
 
 fun createDiasporaCultures() {
 
-    val localizationCreator = LocalizationCreator()
+    val localizationCreator = LocalizationCreator("diasporaCultures")
 
     val languageGroups =
         parseLanguageGroupList(readAndRemoveComments("gameFiles/common/discrimination_trait_groups/01_language_groups.txt"))
@@ -193,7 +193,7 @@ fun createDiasporaCultures() {
         "setting_diaspora_rate_low_desc",
         "Less than 100% may slow down your game compared to vanilla but is also more immersive. Cultural communities will also stick around as long as in vanilla this way as the yearly reset will not affect em fully."
     )
-    localizationCreator.createLocalizationFiles()
+    localizationCreator.createLocalizationFiles("diaspora_system")
 }
 
 data class DiasporaCultureConfiguration(
