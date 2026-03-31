@@ -15,9 +15,11 @@ fun createCulture(syncreticCulture: SyncreticCulture) {
     text = text.replace("<obsessions>", syncreticCulture.obsessions)
     text = text.replace("<graphics>", syncreticCulture.graphics)
     text = text.replace("<ethnicity>", syncreticCulture.ethnicity)
+    text = text.replace("<heritage>", syncreticCulture.heritage ?: "${syncreticCulture.heritageGroup}_heritage")
+    text = text.replace("<language>", syncreticCulture.language ?: "${syncreticCulture.syncreticCultureName}_syncretic_language")
+    text = text.replace("<traditions>", syncreticCulture.traditions.joinToString(" "))
 
     text = text.replace("<name_lists>", readFileAsText("src/main/resources/z_name_lists/${syncreticCulture.syncreticCultureName}.txt"))
 
     printFile("common/cultures/", "" + syncreticCulture.syncreticCultureName + ".txt", text)
 }
-

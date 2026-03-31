@@ -1,8 +1,5 @@
 package org.victoria_3_syncretic_cultures_creator
 
-import org.victoria_3_syncretic_cultures_creator._parser_project.util.ResourceReader.readAndRemoveComments
-import org.victoria_3_syncretic_cultures_creator.colonial_administration_project.creators.createColonialAdmins
-import org.victoria_3_syncretic_cultures_creator.diaspora_project.creators.createDiasporaCultures
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyManualLocalization
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyStaticDecisions
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyStaticEvents
@@ -15,7 +12,6 @@ import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.cre
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createLocalization
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createOverwriteLocalization
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createScriptValues
-import org.victoria_3_syncretic_cultures_creator.diaspora_project.parsers.parseLanguageGroupList
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.logic.calculateCompatibleCultures
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.logic.createMutuallyExclusiveCulturesMap
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
@@ -24,17 +20,16 @@ import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.create
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.createGitHubTableFromCulturesConfiguration
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.createModifyHomelandsList
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.sortAlphabetically
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures_project.checker.checkCultureConflicts
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures_project.creator.createSyncreticCultureTraits
 
 fun main() {
 
     //createDiasporaCultures()
-
-    createColonialAdmins()
-
-    throw Exception("Some BS")
-    print("This shouldnt be printed, but it is.")
+    //createColonialAdmins()
 
     var syncreticCultureConfiguration = sortAlphabetically(getSyncreticCultureConfiguration())
+    createSyncreticCultureTraits(syncreticCultureConfiguration)
 
     syncreticCultureConfiguration = createMutuallyExclusiveCulturesMap(syncreticCultureConfiguration)
     val compatibleCulturesMap: Map<String, Set<String>> = calculateCompatibleCultures(syncreticCultureConfiguration)
@@ -72,6 +67,9 @@ fun main() {
 
     //Use this to create a list for the syncretic cultures for the modify homelands mod
     createModifyHomelandsList(syncreticCultureConfiguration)
+
+    println("Checking for culture conflicts:")
+    checkCultureConflicts(syncreticCultureConfiguration)
 
     println("Done")
 }

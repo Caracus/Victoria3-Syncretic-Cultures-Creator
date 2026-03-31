@@ -1,5 +1,6 @@
 package org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators
 
+import org.victoria_3_syncretic_cultures_creator._parser_project.util.normalize
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.copyFile
 import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.format
@@ -33,9 +34,8 @@ fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
                         text += format(0," standardize_${cultureNameKey}.2.a:0 \"Nice.\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.3.t:0 \"A Noticeable Cultural Change\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.3.f:0 \"It has been many years since we have started a process that still continues in our hearts and minds. This process has changed the way we perceive ourselves and others. Each day we define ourselves less with our region and more with our great fatherland. Even better, this development has ushered in a new leading culture, a shining light, that burns especially bright in the cities.\"" ,1)
-                        text += format(0," standardize_${cultureNameKey}.3.a:0 \"A sign of progress.\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.3.b:0 \"Perhaps we should hold onto the old ways a little while longer.\"" ,1)
-                        text += format(0," standardize_${cultureNameKey}.3.c:0 \"We should push harder!\"" ,1)
+                        text += format(0," standardize_${cultureNameKey}.3.c:0 \"The old ways have already vanished!\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.4.t:0 \"Welcome To The Fold\"" ,1)
                         text += format(0," standardize_${cultureNameKey}.4.f:0 \"Although these regions have not been part of our transformative process from the start, now that they are part of it, we are eager to offer them the same prosperous future!\" " ,1)
                         text += format(0," standardize_${cultureNameKey}.4.a:0 \"All I see is family!\"" ,1)
@@ -72,6 +72,12 @@ fun createLocalization(syncreticCultures: List<SyncreticCulture>) {
                                 text += format(0," standardize_${cultureNameKey}_addon_${addonCulture}_var_custom_tooltip:0 \"Has decided to include the \$$addonCulture\$.\"" ,1)
                                 text += format(0," standardize_${cultureNameKey}_addon_${addonCulture}_not_var_custom_tooltip:0 \"Has not yet decided to include the \$$addonCulture\$ culture.\"" ,1)
                         }
+                }
+
+                //static heritage trait groups
+                syncreticCultures.map { it.heritageGroup }.distinct().forEach { heritageGroup ->
+                        val localization = "${heritageGroup}_heritage".normalize()
+                        text += format(0," ${heritageGroup}_heritage:0 \"$localization\"" ,1)
                 }
 
                 printFileWithoutBom("/localization/$localization/", "syncretic_cultures_l_" + localization + ".yml", text)

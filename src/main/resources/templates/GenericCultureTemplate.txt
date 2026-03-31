@@ -1,7 +1,11 @@
 <syncretic_culture_name>={
 	color= <color>
 	religion = <religion>
-	traits = { <traits> }
+
+    heritage = <heritage>
+    language = <language>
+
+    traditions = { <traditions> }
 
 	obsessions = {
 		<obsessions>
