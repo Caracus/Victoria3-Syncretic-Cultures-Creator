@@ -1,0 +1,36 @@
+je_colonial_administration_mod_<geographic_region> = {
+	icon = "gfx/interface/icons/invention_icons/colonization.dds"
+
+	group = je_group_foreign_affairs
+
+	is_shown_when_inactive = {
+		NOT = { is_country_type = unrecognized }
+		is_not_in_geographic_region = geographic_region_<geographic_region>
+		OR = {
+			<interest_marker_in_region_block>
+		}
+	}
+
+	possible = {
+		NOT = { is_country_type = unrecognized }
+		is_subject = no
+		any_scope_state = {
+			is_in_geographic_region = geographic_region_<geographic_region>
+		}
+		has_technology_researched = civilizing_mission
+	}
+
+	immediate = {
+	    <state_region_scoping_block>
+	}
+
+	# Establish Colonial Administration
+	<found_button_block>
+
+	# Expand Colonial Administration
+	<expand_button_block>
+
+	weight = 100
+
+	should_be_pinned_by_default = yes
+}

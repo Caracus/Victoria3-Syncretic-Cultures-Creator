@@ -1,0 +1,19 @@
+package org.victoria_3_syncretic_cultures_creator._parser_project.util
+
+import java.io.File
+
+private const val TARGET_FOLDER = "target/generated-mod-files/"
+
+fun writeFile(filePath: String, content: String, utf8Bom: Boolean = true) {
+    val file = File(TARGET_FOLDER + filePath)
+    file.parentFile.mkdirs()
+    if (utf8Bom) {
+        file.outputStream().use { out ->
+            out.write(byteArrayOf(0xEF.toByte(), 0xBB.toByte(), 0xBF.toByte()))
+            out.write(content.toByteArray(Charsets.UTF_8))
+        }
+    } else {
+        file.writeText(content, Charsets.UTF_8)
+    }
+    println("Created file under $TARGET_FOLDER$filePath")
+}

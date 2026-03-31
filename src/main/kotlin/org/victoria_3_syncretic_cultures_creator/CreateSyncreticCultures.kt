@@ -1,18 +1,35 @@
 package org.victoria_3_syncretic_cultures_creator
 
-import org.victoria_3_syncretic_cultures_creator.creators.*
-import org.victoria_3_syncretic_cultures_creator.logic.calculateCompatibleCultures
-import org.victoria_3_syncretic_cultures_creator.logic.createMutuallyExclusiveCulturesMap
-import org.victoria_3_syncretic_cultures_creator.models.SyncreticCulture
-import org.victoria_3_syncretic_cultures_creator.parsers.getSyncreticCultureConfiguration
-import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableForGameRule
-import org.victoria_3_syncretic_cultures_creator.utils.createGitHubTableFromCulturesConfiguration
-import org.victoria_3_syncretic_cultures_creator.utils.createModifyHomelandsList
-import org.victoria_3_syncretic_cultures_creator.utils.sortAlphabetically
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyManualLocalization
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyStaticDecisions
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.copyStaticEvents
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createAddonCultureEvents
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createCultureEvents
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createDecision
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createGameRules
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createJournalEntry
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createLocalization
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createOverwriteLocalization
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.creators.createScriptValues
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.logic.calculateCompatibleCultures
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.logic.createMutuallyExclusiveCulturesMap
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.models.SyncreticCulture
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.parsers.getSyncreticCultureConfiguration
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.createGitHubTableForGameRule
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.createGitHubTableFromCulturesConfiguration
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.createModifyHomelandsList
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures.utils.sortAlphabetically
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures_project.checker.checkCultureConflicts
+import org.victoria_3_syncretic_cultures_creator.syncretic_cultures_project.creator.createSyncreticCultureTraits
 
 fun main() {
 
+    //createDiasporaCultures()
+    //createColonialAdmins()
+
     var syncreticCultureConfiguration = sortAlphabetically(getSyncreticCultureConfiguration())
+    createSyncreticCultureTraits(syncreticCultureConfiguration)
 
     syncreticCultureConfiguration = createMutuallyExclusiveCulturesMap(syncreticCultureConfiguration)
     val compatibleCulturesMap: Map<String, Set<String>> = calculateCompatibleCultures(syncreticCultureConfiguration)
@@ -50,6 +67,9 @@ fun main() {
 
     //Use this to create a list for the syncretic cultures for the modify homelands mod
     createModifyHomelandsList(syncreticCultureConfiguration)
+
+    println("Checking for culture conflicts:")
+    checkCultureConflicts(syncreticCultureConfiguration)
 
     println("Done")
 }

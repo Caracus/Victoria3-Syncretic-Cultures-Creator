@@ -1,0 +1,155 @@
+﻿<diaspora_language_group_heritage_group_key>={
+    color = rgb{ 204 51 0 }# Terracotta red — echoes African clay pottery and the Mali/Ashanti earth tones
+	religion = <diaspora_religion>
+	heritage = <diaspora_heritage>
+	language = <diaspora_language>
+
+	obsessions = {
+	    <diaspora_obsession>
+	}
+
+	traditions = { <diaspora_traditions> }
+
+	male_common_first_names={
+		Amare
+		Amha
+		Bekele
+		Berhanu
+		Berihun
+		Demissie
+		Desta
+		Geteye
+		Girma
+		Haile
+		Kelile
+		Negasi
+		Saleh
+		Alimirah
+		Amda
+		Baeda
+		Hanfere
+		Kadhafo
+		Kedafu
+		Mahammad
+		Sabraddin
+		Umar
+		Abraha
+		Abune
+		Alula
+		Atsbaha
+		Gebru
+		Gidey
+		Isaias_2
+		Meles
+		Mesfin
+		Miruts
+		Mitslal_Muz
+		Petros
+		Ras
+		Siye
+		Zenabu
+		Zeresenay
+		Amadi
+		Andikan
+		Aren
+		Averey
+		Bahari
+		Bakari
+		Bash
+		Bayode
+		Bitalo
+		Chane
+		Chata
+		Dakarai
+		Davu
+		Dume
+		Fabunni
+		Gamba
+		Genet
+		Guban
+		Hajari
+		Haruni
+		Ife
+		Ilo
+		Issay
+		Jabari
+		Jabilo
+		Jaguan
+		Kabili
+		Kamwimbile
+		Kasim
+		Kenyi
+		Khairi
+		Makalo
+		Mansa
+		Morathi
+		Musawenkosi
+		Raimi
+		Razi
+		Reth
+	}
+	female_common_first_names = {
+		Jokate
+		Kajala
+		Khalila
+		Wema
+		Yobnesh
+		Menen_Asfaw
+		Belaynesh
+		Sehin_Mikael
+		Tsehai
+		Zenebework
+		Fatimah
+		Medina
+		Balgada
+		Silass
+	}
+	noble_last_names = {
+		Kasanda
+		Watuta
+		Zwagendaba
+		Ali_Aba_Deyas
+		Cherecha
+		Makonnen
+		Selassie
+		Solomon
+		Jasa
+		Kadafo
+		Yayyo
+		Agame
+		Engida
+		Woldu
+	}
+	common_last_names={
+		Bulungute
+		Mirambo
+		Mkasiwa
+		Mnywasele
+		Msemwa
+		Mudimbe
+		Hagos
+		Mengesha
+		Sehul
+		Seyoum
+		Teklehaymanot
+		Woldetinsae
+		Yessous
+		Yohannes
+		Aydahis
+		Hanfadhe
+		Maryam
+		Seyon
+		Yayyo
+		Mariam
+		Melekot
+		Mikael
+		Petros
+		Seged
+		Wossen
+	}
+
+	graphics = african
+	ethnicities = {
+		1 = african
+	}
+}

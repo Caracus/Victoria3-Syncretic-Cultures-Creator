@@ -1,0 +1,3 @@
+package org.victoria_3_syncretic_cultures_creator.syncretic_cultures_project
+
+const val SYNCRETIC_CULTURES_MOD_FOLDER = "syncreticCultures"
